@@ -1,15 +1,16 @@
 # -*- coding: utf-8 -*-
 
 import threading
-import os
-import glob
 import time
 import json
+from datetime import datetime
+import sys
 from socket import *
 
 
 class ProxyServer(threading.Thread):
     cache = {}
+    GMT_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
 
     def __init__(self, conn, address):
         super().__init__()
@@ -21,14 +22,28 @@ class ProxyServer(threading.Thread):
         data = request_raw.decode().split('\r\n')
         host = data[1].split(' ')[1]
         req_type = data[0].split(' ')[0]
-        print(host, 'request type: ', req_type)
-        print(request_raw.decode().split('\r\n'))
         if host in ProxyServer.cache.keys() and req_type in ProxyServer.cache[host]:
             print('Read From Cache')
-            with open('./{}.txt'.format(ProxyServer.cache[host]), 'r', encoding='utf-8') as file:
-                send_back = file.read()
-            # send_back = send_back[send_back.index('<!'):]
-            self.conn.send(send_back.encode())
+            with open('./proxy_cache.json', 'r', encoding='utf-8') as file:
+                send_back = json.load(file)[host][req_type]
+            if req_type == 'GET' or req_type == 'HEAD':
+                sock = socket()
+                sock.connect((host, 80))
+                sock.send(request_raw.decode()[:-2].encode() + (b'If-Modified-Since: %b\r\n\r\n' % send_back[1].encode()))
+                response_raw = receive_all(sock)
+                sock.close()
+                status = response_raw.decode().split('\r\n')[0].split(' ')[1]
+                if status == '200':
+                    self.conn.send(response_raw)
+                    with open('./proxy_cache.json', 'r', encoding='utf-8') as file:
+                        data = json.load(file)
+                    data[host][req_type] = (response_raw.decode(), datetime.utcnow().strftime(ProxyServer.GMT_FORMAT))
+                    with open('./proxy_cache.json', 'w', encoding='utf-8') as file:
+                        json.dump(data, file)
+                elif status == '304':
+                    self.conn.send(send_back[0].encode())
+            else:
+                self.conn.send(send_back[0].encode())
         else:
             sock = socket()
             sock.connect((host, 80))
@@ -36,15 +51,19 @@ class ProxyServer(threading.Thread):
             response_raw = receive_all(sock)
             sock.close()
             self.conn.send(response_raw)
+            try:
+                with open('./proxy_cache.json', 'r', encoding='utf-8') as file:
+                    data = json.load(file)
+            except FileNotFoundError:
+                data = {}
             if host not in ProxyServer.cache.keys():
                 ProxyServer.cache[host] = [req_type]
+                data[host] = {req_type: (response_raw.decode(), datetime.utcnow().strftime(ProxyServer.GMT_FORMAT))}
             elif req_type not in ProxyServer.cache[host]:
                 ProxyServer.cache[host].append(req_type)
-        # if host not in ProxyServer.cache.keys() or req_type not in ProxyServer.cache[host]:
-        #
-        #     # with open('./{}.txt'.format(cache_name), 'w', encoding='utf-8') as file:
-        #     #     file.write(response_raw.decode().replace('\r\n', '\n'))
-        # else:
+                data[host][req_type] = (response_raw.decode(), datetime.utcnow().strftime(ProxyServer.GMT_FORMAT))
+            with open('./proxy_cache.json', 'w', encoding='utf-8') as file:
+                json.dump(data, file)
         self.conn.close()
 
 
@@ -70,9 +89,13 @@ def receive_all(the_socket, time_limit=1):
 
 
 def start_proxy(ip='127.0.0.1', port=8080):
-    print(ip, ':', port)
-    for file in glob.glob(os.path.join('.', '*.txt')):
-        os.remove(file)
+    try:
+        with open('./proxy_cache.json', 'r', encoding='utf-8') as file:
+            load_dict = json.load(file)
+            for key in load_dict.keys():
+                ProxyServer.cache[key] = list(load_dict[key].keys())
+    except FileNotFoundError:
+        pass
     # Create a server socket, bind it to a port and start listening
     tcp_ser_sock = socket(AF_INET, SOCK_STREAM)
     # Fill in start.
@@ -89,7 +112,15 @@ def start_proxy(ip='127.0.0.1', port=8080):
 
 
 if __name__ == "__main__":
+    ip = '127.0.0.1'
+    port = 8080
+    args = sys.argv[1:]
+    for arg in args:
+        if '.' in arg:
+            ip = arg
+        else:
+            port = int(arg)
     try:
-        start_proxy()
+        start_proxy(ip, port)
     except KeyboardInterrupt:
         pass
