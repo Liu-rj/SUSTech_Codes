@@ -11,6 +11,7 @@ from socket import *
 class ProxyServer(threading.Thread):
     cache = {}
     GMT_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
+    shared_lock = threading.Lock()
 
     def __init__(self, conn, address):
         super().__init__()
@@ -24,8 +25,9 @@ class ProxyServer(threading.Thread):
         req_type = data[0].split(' ')[0]
         if host in ProxyServer.cache.keys() and req_type in ProxyServer.cache[host]:
             print('Read From Cache')
-            with open('./proxy_cache.json', 'r', encoding='utf-8') as file:
-                send_back = json.load(file)[host][req_type]
+            with ProxyServer.shared_lock:
+                with open('./proxy_cache.json', 'r', encoding='utf-8') as file:
+                    send_back = json.load(file)[host][req_type]
             if req_type == 'GET' or req_type == 'HEAD':
                 sock = socket()
                 sock.connect((host, 80))
@@ -35,11 +37,13 @@ class ProxyServer(threading.Thread):
                 status = response_raw.decode().split('\r\n')[0].split(' ')[1]
                 if status == '200':
                     self.conn.send(response_raw)
-                    with open('./proxy_cache.json', 'r', encoding='utf-8') as file:
-                        data = json.load(file)
+                    with ProxyServer.shared_lock:
+                        with open('./proxy_cache.json', 'r', encoding='utf-8') as file:
+                            data = json.load(file)
                     data[host][req_type] = (response_raw.decode(), datetime.utcnow().strftime(ProxyServer.GMT_FORMAT))
-                    with open('./proxy_cache.json', 'w', encoding='utf-8') as file:
-                        json.dump(data, file)
+                    with ProxyServer.shared_lock:
+                        with open('./proxy_cache.json', 'w', encoding='utf-8') as file:
+                            json.dump(data, file)
                 elif status == '304':
                     self.conn.send(send_back[0].encode())
             else:
@@ -51,19 +55,21 @@ class ProxyServer(threading.Thread):
             response_raw = receive_all(sock)
             sock.close()
             self.conn.send(response_raw)
-            try:
-                with open('./proxy_cache.json', 'r', encoding='utf-8') as file:
-                    data = json.load(file)
-            except FileNotFoundError:
-                data = {}
+            with ProxyServer.shared_lock:
+                try:
+                    with open('./proxy_cache.json', 'r', encoding='utf-8') as file:
+                        data = json.load(file)
+                except FileNotFoundError:
+                    data = {}
             if host not in ProxyServer.cache.keys():
                 ProxyServer.cache[host] = [req_type]
                 data[host] = {req_type: (response_raw.decode(), datetime.utcnow().strftime(ProxyServer.GMT_FORMAT))}
             elif req_type not in ProxyServer.cache[host]:
                 ProxyServer.cache[host].append(req_type)
                 data[host][req_type] = (response_raw.decode(), datetime.utcnow().strftime(ProxyServer.GMT_FORMAT))
-            with open('./proxy_cache.json', 'w', encoding='utf-8') as file:
-                json.dump(data, file)
+            with ProxyServer.shared_lock:
+                with open('./proxy_cache.json', 'w', encoding='utf-8') as file:
+                    json.dump(data, file)
         self.conn.close()
 
 
