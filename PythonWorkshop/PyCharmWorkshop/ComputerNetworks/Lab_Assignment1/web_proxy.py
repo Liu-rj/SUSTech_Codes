@@ -4,6 +4,7 @@ import threading
 import os
 import glob
 import time
+import json
 from socket import *
 
 
@@ -22,23 +23,28 @@ class ProxyServer(threading.Thread):
         req_type = data[0].split(' ')[0]
         print(host, 'request type: ', req_type)
         print(request_raw.decode().split('\r\n'))
-        if host not in ProxyServer.cache.keys():
+        if host in ProxyServer.cache.keys() and req_type in ProxyServer.cache[host]:
+            print('Read From Cache')
+            with open('./{}.txt'.format(ProxyServer.cache[host]), 'r', encoding='utf-8') as file:
+                send_back = file.read()
+            # send_back = send_back[send_back.index('<!'):]
+            self.conn.send(send_back.encode())
+        else:
             sock = socket()
             sock.connect((host, 80))
             sock.send(request_raw)
             response_raw = receive_all(sock)
             sock.close()
             self.conn.send(response_raw)
-            cache_name = host[host.index('.') + 1:host.rindex('.')]
-            ProxyServer.cache[host] = cache_name
-            with open('./{}.txt'.format(cache_name), 'w', encoding='utf-8') as file:
-                file.write(response_raw.decode().replace('\r\n', '\n'))
-        else:
-            print('Read From Cache')
-            with open('./{}.txt'.format(ProxyServer.cache[host]), 'r', encoding='utf-8') as file:
-                send_back = file.read()
-            # send_back = send_back[send_back.index('<!'):]
-            self.conn.send(send_back.encode())
+            if host not in ProxyServer.cache.keys():
+                ProxyServer.cache[host] = [req_type]
+            elif req_type not in ProxyServer.cache[host]:
+                ProxyServer.cache[host].append(req_type)
+        # if host not in ProxyServer.cache.keys() or req_type not in ProxyServer.cache[host]:
+        #
+        #     # with open('./{}.txt'.format(cache_name), 'w', encoding='utf-8') as file:
+        #     #     file.write(response_raw.decode().replace('\r\n', '\n'))
+        # else:
         self.conn.close()
 
 
