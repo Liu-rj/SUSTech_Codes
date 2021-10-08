@@ -1,0 +1,10 @@
+20:38:09 **** Incremental Build of configuration Release for project GPIO_2021FALL ****
+make -j8 all 
+arm-none-eabi-size   GPIO_2021FALL.elf 
+   text	   data	    bss	    dec	    hex	filename
+   3272	     20	   1572	   4864	   1300	GPIO_2021FALL.elf
+Finished building: default.size.stdout
+ 
+
+20:38:10 Build Finished. 0 errors, 0 warnings. (took 1s.221ms)
+
