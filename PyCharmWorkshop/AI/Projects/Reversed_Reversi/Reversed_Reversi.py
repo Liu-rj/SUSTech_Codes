@@ -1,15 +1,14 @@
 import numpy as np
-import random
 import time
 
 COLOR_BLACK = -1
 COLOR_WHITE = 1
 COLOR_NONE = 0
-random.seed(0)
 
 
-# don't change the class name
 class AI(object):
+    dirs = ((-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1))
+
     # chessboard_size, color, time_out passed from agent
     def __init__(self, chessboard_size, color, time_out):
         self.chessboard_size = chessboard_size
@@ -26,16 +25,50 @@ class AI(object):
         # Clear candidate_list, must do this step
         self.candidate_list.clear()
         # ==================================================================
-        # Write your algorithm here
-        # Here is the simplest sample:Random decision
-        idx = np.where(chessboard == COLOR_NONE)
-        idx = list(zip(idx[0], idx[1]))
+        self._get_valid_pos(chessboard)
         # ==============Find new pos========================================
-        # Make sure that the position of your decision in chess board is empty.
-        # If not, the system will return error.
-        # Add your decision into candidate_list, Records the chess board
-        # You need add all the positions which is valid
-        # candidate_list example: [(3,3),(4,4)]37 38 39 40
-        # You need append your decision at the end of the candidate_list,
-        # we will choice the last element of the candidate_list as the position you choose
-        # If there is no valid position, you must return an empty list.
+
+    def _get_valid_pos(self, chessboard):
+        for i in range(self.chessboard_size):
+            for j in range(self.chessboard_size):
+                if chessboard[i][j] == self.color:
+                    for dir in self.dirs:
+                        x, y = i + dir[0], j + dir[1]
+                        while self._on_board((x, y)) and chessboard[x][y] == -self.color:
+                            x, y = x + dir[0], y + dir[1]
+                        if x - dir[0] == i and y - dir[1] == j:
+                            continue
+                        elif self._on_board((x, y)) and chessboard[x][y] == COLOR_NONE and (x, y) not in self.candidate_list:
+                            self.candidate_list.append((x, y))
+
+    def _on_board(self, pos):
+        if 0 < pos[0] < self.chessboard_size and 0 < pos[1] < self.chessboard_size:
+            return True
+        else:
+            return False
+
+# import unittest
+# ini_board = np.zeros([8, 8], dtype=np.int8)
+# board1 = np.zeros([8, 8], dtype=np.int8)
+#
+# ini_board[3][3], ini_board[4][4], ini_board[3][4], ini_board[4][3] = 1, 1, -1, -1
+# board1[-1][0], board1[0][-1], board1[6][6], board1[0][0], board1[5][5] = 1, 1, -1, -1, 1
+#
+# test1_ans = [(2, 4), (3, 5), (4, 2), (5, 3)]
+# test2_ans = [(7, 7)]
+#
+#
+# class MyTestCase(unittest.TestCase):
+#     def test1(self):
+#         ai = AI(8, 1, 5)
+#         ai.go(ini_board)
+#         self.assertEqual(test1_ans, ai.candidate_list)
+#
+#     def test2(self):
+#         ai = AI(8, 1, 5)
+#         ai.go(board1)
+#         self.assertEqual(test2_ans, ai.candidate_list)
+#
+#
+# if __name__ == '__main__':
+#     unittest.main()
