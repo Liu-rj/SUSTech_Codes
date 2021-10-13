@@ -1,10 +1,19 @@
-12:16:23 **** Incremental Build of configuration Debug for project Lab3 ****
+11:30:20 **** Build of configuration Debug for project Lab3 ****
 make -j8 all 
+arm-none-eabi-gcc -o "Lab3.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\SUSTech_Codes\CS301\STM32CubeIDE\workspace\Lab3\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab3.elf
+ 
 arm-none-eabi-size   Lab3.elf 
+arm-none-eabi-objdump -h -S  Lab3.elf  > "Lab3.list"
+arm-none-eabi-objcopy  -O binary  Lab3.elf  "Lab3.bin"
    text	   data	    bss	    dec	    hex	filename
    5688	     20	   1572	   7280	   1c70	Lab3.elf
 Finished building: default.size.stdout
  
+Finished building: Lab3.list
+ 
+Finished building: Lab3.bin
+ 
 
-12:16:23 Build Finished. 0 errors, 0 warnings. (took 372ms)
+11:30:22 Build Finished. 0 errors, 0 warnings. (took 2s.591ms)
 

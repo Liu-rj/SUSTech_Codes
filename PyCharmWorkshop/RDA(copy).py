@@ -31,7 +31,8 @@ def RecvData(socket, requestedSize):
     while len(returnStream) < requestedSize:
         databytes = socket.recv(requestedSize - len(returnStream))
         if databytes == '':
-            raise RuntimeError, "connection broken"
+            pass
+            # raise RuntimeError, "connection broken"
         returnStream += databytes
  
     return returnStream   
@@ -171,7 +172,7 @@ while not finish:
         # Print markers, if there are some in actual block
         if markerCount > 0:
             for m in range(markerCount):
-                print "Marker" + markers[m].description + "of type" + markers[m].type
+                print("Marker" + markers[m].description + "of type" + markers[m].type)
 # Put data at the end of actual buffer
         data1s.extend(data)  # 将每一帧中32个通道的数据依次放入data1s里面，数组元素无单位，代表多少个电压分辨率
 

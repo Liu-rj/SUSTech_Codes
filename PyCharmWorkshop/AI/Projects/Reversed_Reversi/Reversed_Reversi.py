@@ -25,50 +25,84 @@ class AI(object):
         # Clear candidate_list, must do this step
         self.candidate_list.clear()
         # ==================================================================
-        self._get_valid_pos(chessboard)
+        self.candidate_list = self._get_valid_pos(chessboard, self.color)
         # ==============Find new pos========================================
+        if len(self.candidate_list) > 0:
+            self._choose_next(chessboard)
 
-    def _get_valid_pos(self, chessboard):
+    def _get_valid_pos(self, chessboard, color):
+        candidates = []
         for i in range(self.chessboard_size):
             for j in range(self.chessboard_size):
-                if chessboard[i][j] == self.color:
-                    for dir in self.dirs:
-                        x, y = i + dir[0], j + dir[1]
-                        while self._on_board((x, y)) and chessboard[x][y] == -self.color:
-                            x, y = x + dir[0], y + dir[1]
-                        if x - dir[0] == i and y - dir[1] == j:
+                if chessboard[i][j] == color:
+                    for dire in self.dirs:
+                        x, y = i + dire[0], j + dire[1]
+                        while self._on_board((x, y)) and chessboard[x][y] == -color:
+                            x, y = x + dire[0], y + dire[1]
+                        if x - dire[0] == i and y - dire[1] == j:
                             continue
-                        elif self._on_board((x, y)) and chessboard[x][y] == COLOR_NONE and (x, y) not in self.candidate_list:
-                            self.candidate_list.append((x, y))
+                        elif self._on_board((x, y)) and chessboard[x][y] == COLOR_NONE and (x, y) not in candidates:
+                            candidates.append((x, y))
+        return candidates
 
     def _on_board(self, pos):
-        if 0 < pos[0] < self.chessboard_size and 0 < pos[1] < self.chessboard_size:
+        if 0 <= pos[0] < self.chessboard_size and 0 <= pos[1] < self.chessboard_size:
             return True
         else:
             return False
 
-# import unittest
-# ini_board = np.zeros([8, 8], dtype=np.int8)
-# board1 = np.zeros([8, 8], dtype=np.int8)
-#
-# ini_board[3][3], ini_board[4][4], ini_board[3][4], ini_board[4][3] = 1, 1, -1, -1
-# board1[-1][0], board1[0][-1], board1[6][6], board1[0][0], board1[5][5] = 1, 1, -1, -1, 1
-#
-# test1_ans = [(2, 4), (3, 5), (4, 2), (5, 3)]
-# test2_ans = [(7, 7)]
-#
-#
-# class MyTestCase(unittest.TestCase):
-#     def test1(self):
-#         ai = AI(8, 1, 5)
-#         ai.go(ini_board)
-#         self.assertEqual(test1_ans, ai.candidate_list)
-#
-#     def test2(self):
-#         ai = AI(8, 1, 5)
-#         ai.go(board1)
-#         self.assertEqual(test2_ans, ai.candidate_list)
-#
+    def _is_edge(self, pos):
+        if pos[0] == 0 or pos[0] == self.chessboard_size - 1:
+            return True
+        elif pos[1] == 0 or pos[1] == self.chessboard_size - 1:
+            return True
+        else:
+            return False
+
+    def _place_piece(self, pos, chessboard, color):
+        new_board = chessboard.copy()
+        new_board[pos[0]][pos[1]] = color
+        count = 0
+        for dire in self.dirs:
+            dire_count = 0
+            x, y = pos[0] + dire[0], pos[1] + dire[1]
+            while self._on_board((x, y)) and new_board[x][y] == -color:
+                dire_count += 1
+                x, y = x + dire[0], y + dire[1]
+            if self._on_board((x, y)) and new_board[x][y] == color:
+                count += dire_count
+                for i in range(dire_count):
+                    x, y = x - dire[0], y - dire[1]
+                    new_board[x][y] = color
+        return count, new_board
+
+    def _minmax(self, chessboard, pos):
+
+        own, new_board = self._place_piece(pos, chessboard, self.color)
+        opp_candidates = self._get_valid_pos(new_board, -self.color)
+        opp_min = 64
+        for opp_pos in opp_candidates:
+            opp, _ = self._place_piece(opp_pos, new_board, -self.color)
+            self._minmax(chessboard, opp_pos)
+            opp_min = min(opp_min, opp)
+        # the minimum opponent can reverse - I can reverse = the pure minimum of the opp, which should be maximized
+        score = opp_min - own
+        return score
+
+    def _choose_next(self, chessboard):
+        scores = {}
+        for pos in self.candidate_list:
+            score = self._minmax(chessboard, pos)
+            if score in scores.keys() and self._is_edge(pos):
+                continue
+            scores[score] = pos
+        self.candidate_list.append(scores[max(scores.keys())])
+
+
+# board = [[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, -1, 0, 0, 0],
+#          [0, 0, 0, 1, -1, -1, 0, 0], [0, 0, 0, 1, 1, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]]
 #
 # if __name__ == '__main__':
-#     unittest.main()
+#     ai = AI(8, -1, 5)
+#     ai.go(board)
+#     print(ai.candidate_list)

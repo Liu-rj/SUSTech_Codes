@@ -35,6 +35,7 @@ class ProxyServer(threading.Thread):
                 response_raw = receive_all(sock)
                 sock.close()
                 status = response_raw.decode().split('\r\n')[0].split(' ')[1]
+                print(response_raw)
                 if status == '200':
                     self.conn.send(response_raw)
                     with ProxyServer.shared_lock:
