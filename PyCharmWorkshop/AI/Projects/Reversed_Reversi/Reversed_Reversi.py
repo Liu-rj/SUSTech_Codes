@@ -1,5 +1,4 @@
-import numpy as np
-import time
+import copy
 
 COLOR_BLACK = -1
 COLOR_WHITE = 1
@@ -60,7 +59,7 @@ class AI(object):
             return False
 
     def _place_piece(self, pos, chessboard, color):
-        new_board = chessboard.copy()
+        new_board = copy.deepcopy(chessboard)
         new_board[pos[0]][pos[1]] = color
         count = 0
         for dire in self.dirs:
@@ -76,31 +75,58 @@ class AI(object):
                     new_board[x][y] = color
         return count, new_board
 
-    def _minmax(self, chessboard, pos):
-
-        own, new_board = self._place_piece(pos, chessboard, self.color)
-        opp_candidates = self._get_valid_pos(new_board, -self.color)
-        opp_min = 64
-        for opp_pos in opp_candidates:
-            opp, _ = self._place_piece(opp_pos, new_board, -self.color)
-            self._minmax(chessboard, opp_pos)
-            opp_min = min(opp_min, opp)
-        # the minimum opponent can reverse - I can reverse = the pure minimum of the opp, which should be maximized
-        score = opp_min - own
-        return score
+    # TODO: 在深度为0的节点处返回当前棋盘，对于最终最高分数相同的节点从当前棋盘继续开始往下搜索几层（做缓存）
+    def _minimax_ab(self, chessboard, pos, color, score, level, alpha, beta):
+        reverse, new_board = self._place_piece(pos, chessboard, color)
+        candidates = self._get_valid_pos(new_board, -color)
+        if len(candidates) == 0 or level == 0:
+            if color == self.color:
+                return score - reverse
+            else:
+                return score + reverse
+        # we maximize the number we lose
+        if color == self.color:
+            score -= reverse
+            cur_score = float('-inf')
+            for next_pos in candidates:
+                cur_score = max(self._minimax_ab(new_board, next_pos, -color, score, level - 1, alpha, beta), cur_score)
+                if cur_score >= beta:
+                    break
+                alpha = max(alpha, cur_score)
+        # opp minimize the number we lose
+        else:
+            score += reverse
+            cur_score = float('inf')
+            for next_pos in candidates:
+                cur_score = min(self._minimax_ab(new_board, next_pos, -color, score, level - 1, alpha, beta), cur_score)
+                if cur_score <= alpha:
+                    break
+                beta = min(beta, cur_score)
+        return cur_score
 
     def _choose_next(self, chessboard):
         scores = {}
         for pos in self.candidate_list:
-            score = self._minmax(chessboard, pos)
+            if self.color == COLOR_BLACK:
+                score = self._minimax_ab(chessboard, pos, self.color, 0, 5, float('-inf'), float('inf'))
+            else:
+                score = self._minimax_ab(chessboard, pos, self.color, 0, 5, float('-inf'), float('inf'))
+            # print(pos, ':', score)
             if score in scores.keys() and self._is_edge(pos):
                 continue
             scores[score] = pos
+        # the score of pure reverse by opp should be maximized
         self.candidate_list.append(scores[max(scores.keys())])
 
 
-# board = [[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 1, -1, 0, 0, 0],
-#          [0, 0, 0, 1, -1, -1, 0, 0], [0, 0, 0, 1, 1, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]]
+# board = [[0, 0, 0, 0, 0, 0, 0, 0],
+#          [0, 0, 0, 0, 0, 0, 0, 0],
+#          [0, 0, 0, 0, 0, 0, 0, 0],
+#          [0, 0, 0, 1, -1, 0, 0, 0],
+#          [0, 0, 0, 1, -1, -1, 0, 0],
+#          [0, 0, 0, 1, 1, 1, 0, 0],
+#          [0, 0, 0, 0, 0, 0, 0, 0],
+#          [0, 0, 0, 0, 0, 0, 0, 0]]
 #
 # if __name__ == '__main__':
 #     ai = AI(8, -1, 5)

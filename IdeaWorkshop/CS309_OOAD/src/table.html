@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="table.css"/>
+    <script type="text/javascript" src="table.js"></script>
+    <meta charset="UTF-8"/>
+    <title>Hotel list</title>
+</head>
+<body onload="initial()">
+<table>
+    <caption id="a"><h2>Hotel List</h2></caption>
+    <tr>
+        <th>Hotel Name</th>
+        <th>City</th>
+        <th>District</th>
+        <th>Date</th>
+        <th>Earliest check-in time</th>
+        <th>price</th>
+        <th>Room Type</th>
+        <th>Operation</th>
+    </tr>
+    <tbody id="tbody" style="display: none">
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>
+            <input type="button" value="Delete" onclick="del(this)">
+        </td>
+    </tr>
+    </tbody>
+    <tbody id="tbody">
+    <tr>
+        <td>Sheraton</td>
+        <td>SHEN ZHEN</td>
+        <td>FU TIAN</td>
+        <td>2021-10-01</td>
+        <td>14:00</td>
+        <td>953</td>
+        <td>Standard Room</td>
+        <td>
+            <input type="button" value="Delete" onclick="del(this)">
+        </td>
+    </tr>
+    </tbody>
+    <tbody id="tbody">
+    <tr>
+        <td>Intercontinental</td>
+        <td>SHEN ZHEN</td>
+        <td>YIAN TIAN</td>
+        <td>2021-10-02</td>
+        <td>13:00</td>
+        <td>3940</td>
+        <td>King Bed Room</td>
+        <td>
+            <input type="button" value="Delete" onclick="del(this)">
+        </td>
+    </tr>
+    </tbody>
+</table>
+<div id="form_div" style="display: none">
+    <form name="form1">
+        Hotel Name:
+        <label>
+            <input type="text" name="hotel-name"/>
+        </label>
+        <br/> City:
+        <label>
+            <input type="radio" id="gz" name="city" value="GUANG ZHOU" onclick="clickCity()">GUANG ZHOU
+            <input type="radio" id="sz" name="city" value="SHEN ZHEN" onclick="clickCity()">SHEN ZHEN
+        </label>
+        <br/> District:
+        <label>
+            <select id="district"></select>district
+        </label>
+        <br/> Date:
+        <input type="date" id="Date" name="Date" onfocus="min=getNowDate()"/>
+        <br/> Earliest check-in Time:
+        <input type="time" id="check-in"/>
+        <br/> Price:
+        <label>
+            <input type="text" name="price"/>
+        </label>
+        <br/>Room Type:
+        <select id="room type">
+            <option value="Standard Room">Standard Room</option>
+            <option value="King Bed Room">King Bed Room</option>
+            <option value="Family Room">Family Room</option>
+            <option value="Presidential Suite">Presidential Suite</option>
+        </select>
+        <br>
+        <input type="button" value="OK" onclick="onClickAddHotel()">
+        <input type="button" value="cancel" onclick="cancel()">
+        <br/>
+    </form>
+</div>
+<div id="add_button" style="display: block">
+    <input type="button" value="Add Hotel" onclick="showForm()"><br>
+    <br/>
+</div>
+</body>
+</html>
