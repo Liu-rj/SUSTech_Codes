@@ -8,14 +8,14 @@ COLOR_NONE = 0
 
 class AI(object):
     dirs = ((-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1))
-    weight_map = np.array([[-500, 25, -10, -5, -5, -10, 25, -500],
-                           [25, 45, -1, -1, -1, -1, 45, 25],
+    weight_map = np.array([[-500, 50, -10, -5, -5, -10, 50, -500],
+                           [50, 60, -1, -1, -1, -1, 60, 50],
                            [-10, -1, -3, -2, -2, -3, -1, -10],
                            [-5, -1, -2, -1, -1, -2, -1, -5],
                            [-5, -1, -2, -1, -1, -2, -1, -5],
                            [-10, -1, -3, -2, -2, -3, -1, -10],
-                           [25, 45, -1, -1, -1, -1, 45, 25],
-                           [-500, 25, -10, -5, -5, -10, 25, -500]])
+                           [50, 60, -1, -1, -1, -1, 60, 50],
+                           [-500, 50, -10, -5, -5, -10, 50, -500]])
 
     # chessboard_size, color, time_out passed from agent
     def __init__(self, chessboard_size, color, time_out):
@@ -33,14 +33,14 @@ class AI(object):
     # The input is current chessboard.
     def go(self, chessboard):
         board = np.array(chessboard)
-        start_time = time.time()
+        start = time.time()
         # Clear candidate_list, must do this step
         self.candidate_list.clear()
         # ==================================================================
         self.candidate_list = self._get_valid_pos(board, self.color)
         # ==============Find new pos========================================
         if len(self.candidate_list) > 0:
-            self._choose_next(board, start_time)
+            self._choose_next(board, start)
 
     def _get_valid_pos(self, chessboard, color):
         candidates = []
@@ -159,16 +159,36 @@ class AI(object):
         score -= 5 * np.sum(chessboard) * color
         return score
 
-    def _minimax_ab(self, chessboard, color, alpha, beta, level):
+    def _minimax_ab(self, chessboard, color, alpha, beta, level, start):
         candidates = self._get_valid_pos(chessboard, color)
-        if len(candidates) == 0 or level == 0:
+        end = time.time()
+        if len(candidates) == 0 or level == 0 or end - start > 4.95:
+            # if end - start > 4.9:
+            #     print('early return!')
             return self._heuristic_score(chessboard, color, candidates), None
+        # alpha-beta pre-search
+        if level > 3:
+            sorted_candidates = []
+            for pos in candidates:
+                new_board, _ = self._place_piece(pos, chessboard, color)
+                score, _ = self._minimax_ab(new_board, -color, alpha, beta, 2, start)
+                sorted_candidates.append((score, pos))
+            if color == self.color:
+                sorted_candidates.sort(key=lambda x: x[0])
+            else:
+                sorted_candidates.sort(key=lambda x: x[0], reverse=True)
+            candidates = []
+            for i in range(len(sorted_candidates)):
+                if i > 4:
+                    break
+                else:
+                    candidates.append(sorted_candidates[i][1])
         # we maximize the number we lose
         if color == self.color:
             cur_score, move = float('-inf'), None
             for pos in candidates:
                 new_board, _ = self._place_piece(pos, chessboard, color)
-                score, _ = self._minimax_ab(new_board, -color, alpha, beta, level - 1)
+                score, _ = self._minimax_ab(new_board, -color, alpha, beta, level - 1, start)
                 if score > cur_score:
                     cur_score, move = score, pos
                     alpha = max(alpha, cur_score)
@@ -179,7 +199,7 @@ class AI(object):
             cur_score, move = float('inf'), None
             for pos in candidates:
                 new_board, _ = self._place_piece(pos, chessboard, color)
-                score, _ = self._minimax_ab(new_board, -color, alpha, beta, level - 1)
+                score, _ = self._minimax_ab(new_board, -color, alpha, beta, level - 1, start)
                 if score < cur_score:
                     cur_score, move = score, pos
                     beta = min(beta, cur_score)
@@ -187,9 +207,15 @@ class AI(object):
                     return cur_score, move
         return cur_score, move
 
-    def _choose_next(self, chessboard, start_time):
+    def _get_depth(self):
+        if len(self.candidate_list) > 9:
+            return 4
+        else:
+            return 5
+
+    def _choose_next(self, chessboard, start):
         self.count += 1
-        _, move = self._minimax_ab(chessboard, self.color, float('-inf'), float('inf'), 4)
+        _, move = self._minimax_ab(chessboard, self.color, float('-inf'), float('inf'), self._get_depth(), start)
         self.candidate_list.append(move)
 
 
