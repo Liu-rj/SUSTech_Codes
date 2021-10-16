@@ -281,10 +281,10 @@ export default {
       if (this.judge_from_json()) {
         alert("Add successfully!");
       } else if (!this.judge_from_json()) {
-        alert("This infomation has been added!");
+        alert("Couldn't add a duplicated room!");
         this.tableData.splice(-1, 1);
       } else {
-        alert("There is some infomation empty!");
+        alert("Please fill out the whole form!");
       }
     },
 
@@ -299,21 +299,13 @@ export default {
       var reg = /^[ \d.]*$/;
       if (!reg.test(this.formInline.Price)) {
         this.formInline.Price = "";
-        alert("Price can only be a validate number!");
+        alert("Price can only be a valid number!");
       }
     },
     judge_from_json: function () {
       let len = this.tableData.length;
       for (let i = 0; i < len - 1; i++) {
         for (let j = i + 1; j < len; j++) {
-          console.log(this.tableData[i].hotelName);
-          console.log(this.tableData[j].hotelName);
-          console.log(this.tableData[i].City);
-          console.log(this.tableData[j].City);
-          console.log(this.tableData[i].District);
-          console.log(this.tableData[j].District);
-          console.log(this.tableData[i].RoomType);
-          console.log(this.tableData[j].RoomType);
           if (
             this.tableData[i].hotelName == this.tableData[j].hotelName &&
             this.tableData[i].City == this.tableData[j].City &&

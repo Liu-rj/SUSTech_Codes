@@ -1,4 +1,5 @@
-import copy
+import time
+import numpy as np
 
 COLOR_BLACK = -1
 COLOR_WHITE = 1
@@ -7,6 +8,14 @@ COLOR_NONE = 0
 
 class AI(object):
     dirs = ((-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1))
+    weight_map = np.array([[-500, 25, -10, -5, -5, -10, 25, -500],
+                           [25, 45, -1, -1, -1, -1, 45, 25],
+                           [-10, -1, -3, -2, -2, -3, -1, -10],
+                           [-5, -1, -2, -1, -1, -2, -1, -5],
+                           [-5, -1, -2, -1, -1, -2, -1, -5],
+                           [-10, -1, -3, -2, -2, -3, -1, -10],
+                           [25, 45, -1, -1, -1, -1, 45, 25],
+                           [-500, 25, -10, -5, -5, -10, 25, -500]])
 
     # chessboard_size, color, time_out passed from agent
     def __init__(self, chessboard_size, color, time_out):
@@ -18,16 +27,20 @@ class AI(object):
         # You need add your decision into your candidate_list.
         # System will get the end of your candidate_list as your decision.
         self.candidate_list = []
+        # how many steps affects the depth of search
+        self.count = 0
 
     # The input is current chessboard.
     def go(self, chessboard):
+        board = np.array(chessboard)
+        start_time = time.time()
         # Clear candidate_list, must do this step
         self.candidate_list.clear()
         # ==================================================================
-        self.candidate_list = self._get_valid_pos(chessboard, self.color)
+        self.candidate_list = self._get_valid_pos(board, self.color)
         # ==============Find new pos========================================
         if len(self.candidate_list) > 0:
-            self._choose_next(chessboard)
+            self._choose_next(board, start_time)
 
     def _get_valid_pos(self, chessboard, color):
         candidates = []
@@ -59,7 +72,7 @@ class AI(object):
             return False
 
     def _place_piece(self, pos, chessboard, color):
-        new_board = copy.deepcopy(chessboard)
+        new_board = chessboard.copy()
         new_board[pos[0]][pos[1]] = color
         count = 0
         for dire in self.dirs:
@@ -73,62 +86,123 @@ class AI(object):
                 for i in range(dire_count):
                     x, y = x - dire[0], y - dire[1]
                     new_board[x][y] = color
-        return count, new_board
+        return new_board, count
 
-    # TODO: 在深度为0的节点处返回当前棋盘，对于最终最高分数相同的节点从当前棋盘继续开始往下搜索几层（做缓存）
-    def _minimax_ab(self, chessboard, pos, color, score, level, alpha, beta):
-        reverse, new_board = self._place_piece(pos, chessboard, color)
-        candidates = self._get_valid_pos(new_board, -color)
-        if len(candidates) == 0 or level == 0:
-            if color == self.color:
-                return score - reverse
+    def _stable_eval(self, board, color):
+        stable = [0, 0, 0]
+        # 角, 边, 八个方向都无空格
+        cind1 = [0, 0, 7, 7]
+        cind2 = [0, 7, 7, 0]
+        inc1 = [0, 1, 0, -1]
+        inc2 = [1, 0, -1, 0]
+        stop = [0, 0, 0, 0]
+        for i in range(4):
+            if board[cind1[i]][cind2[i]] == color:
+                stop[i] = 1
+                stable[0] += 1
+                for j in range(1, 7):
+                    if board[cind1[i] + inc1[i] * j][cind2[i] + inc2[i] * j] != color:
+                        break
+                    else:
+                        stop[i] = j + 1
+                        stable[1] += 1
+        for i in range(4):
+            if board[cind1[i]][cind2[i]] == color:
+                for j in range(1, 7 - stop[i - 1]):
+                    if board[cind1[i] - inc1[i - 1] * j][cind2[i] - inc2[i - 1] * j] != color:
+                        break
+                    else:
+                        stable[1] += 1
+        colfull = np.zeros((8, 8), dtype=int)
+        colfull[:, np.sum(abs(board), axis=0) == 8] = True
+        rowfull = np.zeros((8, 8), dtype=int)
+        rowfull[np.sum(abs(board), axis=1) == 8, :] = True
+        diag1full = np.zeros((8, 8), dtype=int)
+        for i in range(15):
+            diagsum = 0
+            if i <= 7:
+                sind1 = i
+                sind2 = 0
+                jrange = i + 1
             else:
-                return score + reverse
+                sind1 = 7
+                sind2 = i - 7
+                jrange = 15 - i
+            for j in range(jrange):
+                diagsum += abs(board[sind1 - j][sind2 + j])
+                if diagsum == jrange:
+                    for k in range(jrange):
+                        diag1full[sind1 - j][sind2 + j] = True
+        diag2full = np.zeros((8, 8), dtype=int)
+        for i in range(15):
+            diagsum = 0
+            if i <= 7:
+                sind1 = i
+                sind2 = 7
+                jrange = i + 1
+            else:
+                sind1 = 7
+                sind2 = 14 - i
+                jrange = 15 - i
+            for j in range(jrange):
+                diagsum += abs(board[sind1 - j][sind2 - j])
+                if diagsum == jrange:
+                    for k in range(jrange):
+                        diag2full[sind1 - j][sind2 - j] = True
+        stable[2] = sum(sum(np.logical_and(np.logical_and(np.logical_and(colfull, rowfull), diag1full), diag2full)))
+        return sum(stable)
+
+    def _heuristic_score(self, chessboard, color, candidates):
+        score = np.sum(chessboard * self.weight_map) * color
+        score += 15 * (len(candidates) - len(self._get_valid_pos(chessboard, -color)))
+        score -= 10 * self._stable_eval(chessboard, color)
+        score -= 5 * np.sum(chessboard) * color
+        return score
+
+    def _minimax_ab(self, chessboard, color, alpha, beta, level):
+        candidates = self._get_valid_pos(chessboard, color)
+        if len(candidates) == 0 or level == 0:
+            return self._heuristic_score(chessboard, color, candidates), None
         # we maximize the number we lose
         if color == self.color:
-            score -= reverse
-            cur_score = float('-inf')
-            for next_pos in candidates:
-                cur_score = max(self._minimax_ab(new_board, next_pos, -color, score, level - 1, alpha, beta), cur_score)
+            cur_score, move = float('-inf'), None
+            for pos in candidates:
+                new_board, _ = self._place_piece(pos, chessboard, color)
+                score, _ = self._minimax_ab(new_board, -color, alpha, beta, level - 1)
+                if score > cur_score:
+                    cur_score, move = score, pos
+                    alpha = max(alpha, cur_score)
                 if cur_score >= beta:
-                    break
-                alpha = max(alpha, cur_score)
+                    return cur_score, move
         # opp minimize the number we lose
         else:
-            score += reverse
-            cur_score = float('inf')
-            for next_pos in candidates:
-                cur_score = min(self._minimax_ab(new_board, next_pos, -color, score, level - 1, alpha, beta), cur_score)
+            cur_score, move = float('inf'), None
+            for pos in candidates:
+                new_board, _ = self._place_piece(pos, chessboard, color)
+                score, _ = self._minimax_ab(new_board, -color, alpha, beta, level - 1)
+                if score < cur_score:
+                    cur_score, move = score, pos
+                    beta = min(beta, cur_score)
                 if cur_score <= alpha:
-                    break
-                beta = min(beta, cur_score)
-        return cur_score
+                    return cur_score, move
+        return cur_score, move
 
-    def _choose_next(self, chessboard):
-        scores = {}
-        for pos in self.candidate_list:
-            if self.color == COLOR_BLACK:
-                score = self._minimax_ab(chessboard, pos, self.color, 0, 5, float('-inf'), float('inf'))
-            else:
-                score = self._minimax_ab(chessboard, pos, self.color, 0, 5, float('-inf'), float('inf'))
-            # print(pos, ':', score)
-            if score in scores.keys() and self._is_edge(pos):
-                continue
-            scores[score] = pos
-        # the score of pure reverse by opp should be maximized
-        self.candidate_list.append(scores[max(scores.keys())])
+    def _choose_next(self, chessboard, start_time):
+        self.count += 1
+        _, move = self._minimax_ab(chessboard, self.color, float('-inf'), float('inf'), 4)
+        self.candidate_list.append(move)
 
 
-# board = [[0, 0, 0, 0, 0, 0, 0, 0],
-#          [0, 0, 0, 0, 0, 0, 0, 0],
-#          [0, 0, 0, 0, 0, 0, 0, 0],
-#          [0, 0, 0, 1, -1, 0, 0, 0],
-#          [0, 0, 0, 1, -1, -1, 0, 0],
-#          [0, 0, 0, 1, 1, 1, 0, 0],
-#          [0, 0, 0, 0, 0, 0, 0, 0],
-#          [0, 0, 0, 0, 0, 0, 0, 0]]
+# ini_board = [[0, 0, 0, 0, 0, 0, 0, 0],
+#              [0, 0, 0, 0, 0, 0, 0, 0],
+#              [0, 0, 0, 0, 0, 0, 0, 0],
+#              [0, 0, 0, 1, -1, 0, 0, 0],
+#              [0, 0, 0, 1, -1, -1, 0, 0],
+#              [0, 0, 0, 1, 1, 1, 0, 0],
+#              [0, 0, 0, 0, 0, 0, 0, 0],
+#              [0, 0, 0, 0, 0, 0, 0, 0]]
 #
 # if __name__ == '__main__':
 #     ai = AI(8, -1, 5)
-#     ai.go(board)
+#     ai.go(ini_board)
 #     print(ai.candidate_list)
