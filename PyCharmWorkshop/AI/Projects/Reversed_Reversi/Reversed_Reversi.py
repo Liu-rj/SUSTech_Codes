@@ -8,14 +8,14 @@ COLOR_NONE = 0
 
 class AI(object):
     dirs = ((-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1))
-    weight_map = np.array([[-500, 50, -10, -5, -5, -10, 50, -500],
-                           [50, 60, -1, -1, -1, -1, 60, 50],
+    weight_map = np.array([[-500, 75, -10, -5, -5, -10, 75, -500],
+                           [75, 45, -1, -1, -1, -1, 45, 75],
                            [-10, -1, -3, -2, -2, -3, -1, -10],
                            [-5, -1, -2, -1, -1, -2, -1, -5],
                            [-5, -1, -2, -1, -1, -2, -1, -5],
                            [-10, -1, -3, -2, -2, -3, -1, -10],
-                           [50, 60, -1, -1, -1, -1, 60, 50],
-                           [-500, 50, -10, -5, -5, -10, 50, -500]])
+                           [75, 45, -1, -1, -1, -1, 45, 75],
+                           [-500, 75, -10, -5, -5, -10, 75, -500]])
 
     # chessboard_size, color, time_out passed from agent
     def __init__(self, chessboard_size, color, time_out):
@@ -90,7 +90,6 @@ class AI(object):
 
     def _stable_eval(self, board, color):
         stable = [0, 0, 0]
-        # 角, 边, 八个方向都无空格
         cind1 = [0, 0, 7, 7]
         cind2 = [0, 7, 7, 0]
         inc1 = [0, 1, 0, -1]
@@ -155,14 +154,14 @@ class AI(object):
     def _heuristic_score(self, chessboard, color, candidates):
         score = np.sum(chessboard * self.weight_map) * color
         score += 15 * (len(candidates) - len(self._get_valid_pos(chessboard, -color)))
-        score -= 10 * self._stable_eval(chessboard, color)
+        score -= 12 * self._stable_eval(chessboard, color)
         score -= 5 * np.sum(chessboard) * color
         return score
 
     def _minimax_ab(self, chessboard, color, alpha, beta, level, start):
         candidates = self._get_valid_pos(chessboard, color)
         end = time.time()
-        if len(candidates) == 0 or level == 0 or end - start > 4.95:
+        if len(candidates) == 0 or level == 0 or end - start > 4.93:
             # if end - start > 4.9:
             #     print('early return!')
             return self._heuristic_score(chessboard, color, candidates), None
@@ -179,7 +178,7 @@ class AI(object):
                 sorted_candidates.sort(key=lambda x: x[0], reverse=True)
             candidates = []
             for i in range(len(sorted_candidates)):
-                if i > 4:
+                if i > 3:
                     break
                 else:
                     candidates.append(sorted_candidates[i][1])
@@ -215,7 +214,7 @@ class AI(object):
 
     def _choose_next(self, chessboard, start):
         self.count += 1
-        _, move = self._minimax_ab(chessboard, self.color, float('-inf'), float('inf'), self._get_depth(), start)
+        _, move = self._minimax_ab(chessboard, self.color, float('-inf'), float('inf'), 6, start)
         self.candidate_list.append(move)
 
 
