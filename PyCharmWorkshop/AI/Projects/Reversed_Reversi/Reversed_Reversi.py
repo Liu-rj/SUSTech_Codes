@@ -9,12 +9,12 @@ COLOR_NONE = 0
 class AI(object):
     dirs = ((-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1))
     weight_map = np.array([[-500, 75, -10, -5, -5, -10, 75, -500],
-                           [75, 45, -1, -1, -1, -1, 45, 75],
+                           [75, 35, -1, -1, -1, -1, 35, 75],
                            [-10, -1, -3, -2, -2, -3, -1, -10],
                            [-5, -1, -2, -1, -1, -2, -1, -5],
                            [-5, -1, -2, -1, -1, -2, -1, -5],
                            [-10, -1, -3, -2, -2, -3, -1, -10],
-                           [75, 45, -1, -1, -1, -1, 45, 75],
+                           [75, 35, -1, -1, -1, -1, 35, 75],
                            [-500, 75, -10, -5, -5, -10, 75, -500]])
 
     # chessboard_size, color, time_out passed from agent
@@ -149,22 +149,33 @@ class AI(object):
                     for k in range(jrange):
                         diag2full[sind1 - j][sind2 - j] = True
         stable[2] = sum(sum(np.logical_and(np.logical_and(np.logical_and(colfull, rowfull), diag1full), diag2full)))
-        return sum(stable)
+        return -sum(stable)
 
-    def _heuristic_score(self, chessboard, color, candidates):
-        score = np.sum(chessboard * self.weight_map) * color
-        score += 15 * (len(candidates) - len(self._get_valid_pos(chessboard, -color)))
-        score -= 12 * self._stable_eval(chessboard, color)
-        score -= 5 * np.sum(chessboard) * color
+    def _piece_score(self, chessboard):
+        return -np.sum(chessboard) * self.color
+
+    def _map_score(self, chessboard):
+        score = np.sum(chessboard * self.weight_map) * self.color
+        return score
+
+    def _active_score(self, chessboard):
+        return len(self._get_valid_pos(chessboard, self.color)) - len(self._get_valid_pos(chessboard, -self.color))
+
+    def _heuristic_score(self, chessboard):
+        score = 0
+        score += self._map_score(chessboard)
+        score += 15 * self._active_score(chessboard)
+        score += 8 * self._stable_eval(chessboard, self.color)
+        score += 10 * self._piece_score(chessboard)
         return score
 
     def _minimax_ab(self, chessboard, color, alpha, beta, level, start):
         candidates = self._get_valid_pos(chessboard, color)
         end = time.time()
         if len(candidates) == 0 or level == 0 or end - start > 4.93:
-            # if end - start > 4.9:
+            # if end - start > 4.93:
             #     print('early return!')
-            return self._heuristic_score(chessboard, color, candidates), None
+            return self._heuristic_score(chessboard), None
         # alpha-beta pre-search
         if level > 3:
             sorted_candidates = []
@@ -173,9 +184,9 @@ class AI(object):
                 score, _ = self._minimax_ab(new_board, -color, alpha, beta, 2, start)
                 sorted_candidates.append((score, pos))
             if color == self.color:
-                sorted_candidates.sort(key=lambda x: x[0])
-            else:
                 sorted_candidates.sort(key=lambda x: x[0], reverse=True)
+            else:
+                sorted_candidates.sort(key=lambda x: x[0])
             candidates = []
             for i in range(len(sorted_candidates)):
                 if i > 3:
@@ -210,7 +221,7 @@ class AI(object):
         if len(self.candidate_list) > 9:
             return 4
         else:
-            return 5
+            return 6
 
     def _choose_next(self, chessboard, start):
         self.count += 1
@@ -227,7 +238,18 @@ class AI(object):
 #              [0, 0, 0, 0, 0, 0, 0, 0],
 #              [0, 0, 0, 0, 0, 0, 0, 0]]
 #
+# board1 = [[0, 0, 0, 0, 0, 0, 0, 0],
+#           [0, 1, -1, 0, 0, 0, 0, 0],
+#           [0, 0, 1, 0, 0, 0, 0, 0],
+#           [0, 0, -1, 1, -1, 0, 0, 0],
+#           [0, 0, 0, -1, 1, -1, 0, 0],
+#           [0, 0, 0, 0, 0, 1, 0, 0],
+#           [0, 0, 0, 0, 0, -1, 1, 0],
+#           [0, 0, 0, 0, 0, 0, 0, 0]]
+#
 # if __name__ == '__main__':
 #     ai = AI(8, -1, 5)
+#     ai.go(board1)
+#     print(ai.candidate_list)
 #     ai.go(ini_board)
 #     print(ai.candidate_list)
