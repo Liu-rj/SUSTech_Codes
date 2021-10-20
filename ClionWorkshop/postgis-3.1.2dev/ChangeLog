@@ -1,0 +1,125 @@
+2021-04-10  Regina Obe <lr@pcorp.us>
+
+	* NEWS, extensions/postgis_tiger_geocoder/Makefile.in,
+	extras/tiger_geocoder/tiger_loader_2020.sql: Support for tiger 2020.
+	Closes #4838 for PostGIS 3.1.2
+
+2021-03-11  Regina Obe <lr@pcorp.us>
+
+	* NEWS, raster/rt_pg/rtpg_band_properties.c,
+	raster/rt_pg/rtpostgis.sql.in, raster/test/regress/rt_asraster.sql,
+	raster/test/regress/rt_bandmetadata.sql,
+	raster/test/regress/rt_bandmetadata_expected,
+	raster/test/regress/rt_clip.sql,
+	raster/test/regress/rt_intersection.sql,
+	raster/test/regress/rt_mapalgebra_expected,
+	raster/test/regress/rt_mapalgebra_expr.sql,
+	raster/test/regress/rt_mapalgebraexpr_2raster.sql,
+	raster/test/regress/rt_mapalgebraexpr_2raster_expected,
+	raster/test/regress/rt_mapalgebrafct_2raster.sql,
+	raster/test/regress/rt_mapalgebrafct_2raster_expected: Change raster
+	to use returns table instead of out for multi row returns Changes to
+	raster regress to use lateral instead of select and other fixes to
+	regress on PostgreSQL 14.  Paul Ramsey, Regina Obe Closes #4876 for
+	PostGIS 3.1.2 Closes
+	https://git.osgeo.org/gitea/postgis/postgis/pulls/53
+
+2021-03-11  Regina Obe <lr@pcorp.us>
+
+	* NEWS, postgis/lwgeom_in_gml.c, postgis/lwgeom_in_kml.c: Move
+	postgres.h include to top to fix mingw64 issues as suggested by Tom
+	Lane.  Closes #4877 for PostGIS 3.1
+
+2021-03-03  Sandro Santilli <strk@kbt.io>
+
+	* topology/sql/populate.sql.in,
+	topology/test/regress/addedge_expected: References #4837 for PostGIS
+	3.1
+
+2021-03-09  Regina Obe <lr@pcorp.us>
+
+	* regress/core/fixedoverlay_expected: get rid of extra line break -
+	closes #4873
+
+2021-03-09  Regina Obe <lr@pcorp.us>
+
+	* regress/core/fixedoverlay.sql, regress/core/fixedoverlay_expected: 
+	Back port fixed-overlay test changes from 3.2 (master) closes #4873
+
+2021-03-05  Sandro Santilli <strk@kbt.io>
+
+	* NEWS, topology/test/regress/geometry_cast.sql,
+	topology/test/regress/geometry_cast_expected,
+	topology/test/tests.mk, topology/topology.sql.in: Fix SRID in
+	Geometry(TopoGeometry) for empty TopoGeometry objects Includes testcase and NEWS item References #4871 in 3.1 branch
+	(3.1.2dev)
+
+2021-03-01  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* regress/core/tickets.sql, regress/core/tickets_expected: Address
+	differing error messages from Proj 8 and <8. References #4860
+
+2021-02-26  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* NEWS: News item for #4863
+
+2021-02-26  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* liblwgeom/lwgeom.c, regress/core/tickets.sql,
+	regress/core/tickets_expected: Ensure bboxes are refreshed after
+	cooridinate transforms in scale/affine. References #4863
+
+2021-02-26  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* liblwgeom/cunit/cu_geos.c: Make cunit makevalid test stronger
+	relative to different GEOS versions (normalize)
+
+2021-02-18  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* regress/core/tickets.sql, regress/core/tickets_expected: Add tests
+	to support earlier projection axis issues, references #4844
+
+2021-02-18  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* : commit 4845b918c3d36d591cd55dd583cbcd28c65e52b1 Author: Paul
+	Ramsey <pramsey@cleverelephant.ca> Date:   Thu Feb 18 10:15:15 2021
+	-0800
+
+2021-02-18  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* liblwgeom/lwgeodetic.c, regress/core/tickets.sql,
+	regress/core/tickets_expected: Mistake in converting negative
+	azimuth values to positive results in incorrect azimuths in
+	geography.  Closes #4840
+
+2021-02-17  Daniel Baston <dbaston@gmail.com>
+
+	* NEWS: Update NEWS for #4853
+
+2021-02-17  Daniel Baston <dbaston@gmail.com>
+
+	* liblwgeom/lwgeom_geos_cluster.c, regress/core/tickets.sql,
+	regress/core/tickets_expected: Allow DBSCAN cluster to form when
+	recordset length = minPoints Fixes #4853
+
+2021-02-17  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* NEWS: Update NEWS for #4835
+
+2021-02-17  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* liblwgeom/cunit/cu_geodetic.c, liblwgeom/lwgeodetic.h: Adjust
+	geodetic tolerance, references #4835
+
+2021-02-09  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* README.md: Move CI from travis to Github
+
+2021-02-09  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* .github/workflows/ci.yml: Add GitHub Actions config
+
+2021-02-09  Paul Ramsey <pramsey@cleverelephant.ca>
+
+	* Note support for newer Proj
+

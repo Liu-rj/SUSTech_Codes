@@ -1,0 +1,42 @@
+#############################################################################
+#
+# Master Makefile used to build extensions
+# Copyright (C) 2012 Regina Obe and Leo Hsu <lr@pcorp.us>
+# Copyright (C) 2012 Sandro Santilli <strk@kbt.io>
+#
+# This is free software; you can redistribute and/or modify it under
+# the terms of the GNU General Public Licence. See the COPYING file.
+#
+#############################################################################
+
+SUBDIRS = postgis
+SUBDIRS += postgis_tiger_geocoder
+ifeq (raster,raster)
+	SUBDIRS += postgis_raster
+endif
+ifeq (topology,topology)
+	SUBDIRS += postgis_topology
+endif
+ifeq (,sfcgal)
+	SUBDIRS += postgis_sfcgal
+endif
+
+ifeq (,address_standardizer)
+	SUBDIRS += address_standardizer
+endif
+
+all clean distclean install uninstall installcheck:
+	for DIR in $(SUBDIRS); do \
+		echo "---- Making $@ in $${DIR}"; \
+		$(MAKE) -C "$${DIR}" $@ || exit 1; \
+	done
+
+distclean: distclean-local
+
+distclean-local:
+	rm -f Makefile
+
+
+check check-unit check-regress:
+	@echo "Nothing to check"
+

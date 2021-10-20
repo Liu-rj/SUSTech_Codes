@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/point_index.dir/point_index.cc.o -o point_index  -Wl,-rpath,/home/lrj/Public/s2geometry/cmake-build-debug ../libs2testing.a ../libs2.so.0.10.0 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so -lpthread 
