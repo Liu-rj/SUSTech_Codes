@@ -8,14 +8,14 @@ COLOR_NONE = 0
 
 class AI(object):
     dirs = ((-1, -1), (-1, 0), (-1, 1), (0, -1), (0, 1), (1, -1), (1, 0), (1, 1))
-    weight_map = np.array([[-500, 75, -10, -5, -5, -10, 75, -500],
+    weight_map = np.array([[-500, 75, -50, -5, -5, -50, 75, -500],
                            [75, 35, -1, -1, -1, -1, 35, 75],
-                           [-10, -1, -3, -2, -2, -3, -1, -10],
+                           [-50, -1, -3, -2, -2, -3, -1, -50],
                            [-5, -1, -2, -1, -1, -2, -1, -5],
                            [-5, -1, -2, -1, -1, -2, -1, -5],
-                           [-10, -1, -3, -2, -2, -3, -1, -10],
+                           [-50, -1, -3, -2, -2, -3, -1, -50],
                            [75, 35, -1, -1, -1, -1, 35, 75],
-                           [-500, 75, -10, -5, -5, -10, 75, -500]])
+                           [-500, 75, -50, -5, -5, -50, 75, -500]])
 
     # chessboard_size, color, time_out passed from agent
     def __init__(self, chessboard_size, color, time_out):
@@ -163,10 +163,70 @@ class AI(object):
 
     def _heuristic_score(self, chessboard):
         score = 0
-        score += self._map_score(chessboard)
-        score += 15 * self._active_score(chessboard)
-        score += 8 * self._stable_eval(chessboard, self.color)
-        score += 10 * self._piece_score(chessboard)
+        xs = [0, 7]
+        ys = [0, 7]
+        for x in xs:
+            count = 0
+            for y in range(1, 7):
+                if chessboard[x][y] == self.color:
+                    count += 1
+            if count == 6:
+                score -= 100
+        for y in ys:
+            count = 0
+            for x in range(1, 7):
+                if chessboard[x][y] == self.color:
+                    count += 1
+            if count == 6:
+                score -= 100
+        corners = [(0, 0), (0, 7), (7, 0), (7, 7)]
+        for pos in corners:
+            x, y = pos[0], pos[1]
+            if chessboard[x][y] == self.color:
+                inner_x, inner_y = 0, 0
+                if x == 0:
+                    inner_x = 1
+                    self.weight_map[x + 1][y] = -200
+                elif x == 7:
+                    inner_x = 6
+                    self.weight_map[x - 1][y] = -200
+                if y == 0:
+                    inner_y = 1
+                    self.weight_map[x][y + 1] = -200
+                elif y == 7:
+                    inner_y = 6
+                    self.weight_map[x][y - 1] = -200
+                self.weight_map[inner_x][inner_y] = -150
+            elif chessboard[x][y] == -self.color:
+                inner_x, inner_y = 0, 0
+                if x == 0:
+                    inner_x = 1
+                    self.weight_map[x + 1][y] = 0
+                elif x == 7:
+                    inner_x = 6
+                    self.weight_map[x - 1][y] = 0
+                if y == 0:
+                    inner_y = 1
+                    self.weight_map[x][y + 1] = 0
+                elif y == 7:
+                    inner_y = 6
+                    self.weight_map[x][y - 1] = 0
+                self.weight_map[inner_x][inner_y] = 0
+        if self.count > 20:
+            score += self._map_score(chessboard) / 5
+            score += 5 * self._active_score(chessboard)
+            score += 10 * self._stable_eval(chessboard, self.color)
+            score += 15 * self._piece_score(chessboard)
+        elif self.count > 10:
+            score += self._map_score(chessboard) / 2
+            score += 10 * self._active_score(chessboard)
+            score += 10 * self._stable_eval(chessboard, self.color)
+            score += 10 * self._piece_score(chessboard)
+        else:
+            score += self._map_score(chessboard)
+            score += 15 * self._active_score(chessboard)
+            score += 5 * self._stable_eval(chessboard, self.color)
+            score += 10 * self._piece_score(chessboard)
         return score
 
     def _minimax_ab(self, chessboard, color, alpha, beta, level, start):
@@ -227,7 +287,6 @@ class AI(object):
         self.count += 1
         _, move = self._minimax_ab(chessboard, self.color, float('-inf'), float('inf'), 6, start)
         self.candidate_list.append(move)
-
 
 # ini_board = [[0, 0, 0, 0, 0, 0, 0, 0],
 #              [0, 0, 0, 0, 0, 0, 0, 0],
