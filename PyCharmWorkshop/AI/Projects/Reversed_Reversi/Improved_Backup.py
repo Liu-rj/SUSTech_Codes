@@ -88,7 +88,7 @@ class AI(object):
                     new_board[x][y] = color
         return new_board, count
 
-    def _stable_eval(self, chessboard):
+    def _stable_eval(self, board, color):
         stable = [0, 0, 0]
         cind1 = [0, 0, 7, 7]
         cind2 = [0, 7, 7, 0]
@@ -96,26 +96,26 @@ class AI(object):
         inc2 = [1, 0, -1, 0]
         stop = [0, 0, 0, 0]
         for i in range(4):
-            if chessboard[cind1[i]][cind2[i]] == self.color:
+            if board[cind1[i]][cind2[i]] == color:
                 stop[i] = 1
                 stable[0] += 1
                 for j in range(1, 7):
-                    if chessboard[cind1[i] + inc1[i] * j][cind2[i] + inc2[i] * j] != self.color:
+                    if board[cind1[i] + inc1[i] * j][cind2[i] + inc2[i] * j] != color:
                         break
                     else:
                         stop[i] = j + 1
                         stable[1] += 1
         for i in range(4):
-            if chessboard[cind1[i]][cind2[i]] == self.color:
+            if board[cind1[i]][cind2[i]] == color:
                 for j in range(1, 7 - stop[i - 1]):
-                    if chessboard[cind1[i] - inc1[i - 1] * j][cind2[i] - inc2[i - 1] * j] != self.color:
+                    if board[cind1[i] - inc1[i - 1] * j][cind2[i] - inc2[i - 1] * j] != color:
                         break
                     else:
                         stable[1] += 1
         colfull = np.zeros((8, 8), dtype=int)
-        colfull[:, np.sum(abs(chessboard), axis=0) == 8] = True
+        colfull[:, np.sum(abs(board), axis=0) == 8] = True
         rowfull = np.zeros((8, 8), dtype=int)
-        rowfull[np.sum(abs(chessboard), axis=1) == 8, :] = True
+        rowfull[np.sum(abs(board), axis=1) == 8, :] = True
         diag1full = np.zeros((8, 8), dtype=int)
         for i in range(15):
             diagsum = 0
@@ -128,7 +128,7 @@ class AI(object):
                 sind2 = i - 7
                 jrange = 15 - i
             for j in range(jrange):
-                diagsum += abs(chessboard[sind1 - j][sind2 + j])
+                diagsum += abs(board[sind1 - j][sind2 + j])
                 if diagsum == jrange:
                     for k in range(jrange):
                         diag1full[sind1 - j][sind2 + j] = True
@@ -144,7 +144,7 @@ class AI(object):
                 sind2 = 14 - i
                 jrange = 15 - i
             for j in range(jrange):
-                diagsum += abs(chessboard[sind1 - j][sind2 - j])
+                diagsum += abs(board[sind1 - j][sind2 - j])
                 if diagsum == jrange:
                     for k in range(jrange):
                         diag2full[sind1 - j][sind2 - j] = True
@@ -161,104 +161,27 @@ class AI(object):
     def _active_score(self, chessboard):
         return len(self._get_valid_pos(chessboard, self.color)) - len(self._get_valid_pos(chessboard, -self.color))
 
-    def _edge_penalty(self, chessboard):
-        score = 0
-        xs = [0, 7]
-        ys = [0, 7]
-        for x in xs:
-            count = 0
-            for y in range(1, 7):
-                if chessboard[x][y] == self.color:
-                    count += 1
-            if count == 6:
-                score -= 100
-        for y in ys:
-            count = 0
-            for x in range(1, 7):
-                if chessboard[x][y] == self.color:
-                    count += 1
-            if count == 6:
-                score -= 100
-        return score
-
-    def _adjust_wp(self, chessboard):
-        if chessboard[0][0] == self.color:
-            self.weight_map[0][1] = -200
-            self.weight_map[1][0] = -200
-            self.weight_map[1][1] = -200
-        elif chessboard[0][0] == -self.color:
-            self.weight_map[0][1] = 0
-            self.weight_map[1][0] = 0
-            self.weight_map[1][1] = 0
-        if chessboard[0][7] == self.color:
-            self.weight_map[0][6] = -200
-            self.weight_map[1][7] = -200
-            self.weight_map[1][6] = -200
-        elif chessboard[0][7] == -self.color:
-            self.weight_map[0][6] = 0
-            self.weight_map[1][7] = 0
-            self.weight_map[1][6] = 0
-        if chessboard[7][0] == self.color:
-            self.weight_map[7][1] = -200
-            self.weight_map[6][0] = -200
-            self.weight_map[6][1] = -200
-        elif chessboard[7][0] == -self.color:
-            self.weight_map[7][1] = 0
-            self.weight_map[6][0] = 0
-            self.weight_map[6][1] = 0
-        if chessboard[7][7] == self.color:
-            self.weight_map[7][6] = -200
-            self.weight_map[6][7] = -200
-            self.weight_map[6][6] = -200
-        elif chessboard[7][7] == -self.color:
-            self.weight_map[7][6] = 0
-            self.weight_map[6][7] = 0
-            self.weight_map[6][6] = 0
-
-    def _gard_award(self, chessboard):
-        if chessboard[0][1] == self.color and chessboard[1][0] == self.color:
-            return 200
-        if chessboard[6][0] == self.color and chessboard[7][1] == self.color:
-            return 200
-        if chessboard[0][6] == self.color and chessboard[1][7] == self.color:
-            return 200
-        if chessboard[6][7] == self.color and chessboard[7][6] == self.color:
-            return 200
-        return 0
-
     def _heuristic_score(self, chessboard):
         score = 0
-
         score += self._map_score(chessboard)
         score += 15 * self._active_score(chessboard)
-        score += 8 * self._stable_eval(chessboard)
+        score += 8 * self._stable_eval(chessboard, self.color)
         score += 10 * self._piece_score(chessboard)
-
-        # score += self._edge_penalty(chessboard)
-        # score += self._gard_award(chessboard)
-        # if self.count > 25:
-        #     score += self._map_score(chessboard) / 3
-        #     score += 10 * self._active_score(chessboard)
-        #     score += 8 * self._stable_eval(chessboard)
-        #     score += 15 * self._piece_score(chessboard)
-        # else:
-        #     score += self._map_score(chessboard)
-        #     score += 15 * self._active_score(chessboard)
-        #     score += 8 * self._stable_eval(chessboard)
-        #     score += 10 * self._piece_score(chessboard)
         return score
 
-    def _minimax_ab(self, chessboard, color, alpha, beta, level, start, pre):
+    def _minimax_ab(self, chessboard, color, alpha, beta, level, start):
         candidates = self._get_valid_pos(chessboard, color)
         end = time.time()
         if len(candidates) == 0 or level == 0 or end - start > 4.93:
+            # if end - start > 4.93:
+            #     print('early return!')
             return self._heuristic_score(chessboard), None
         # alpha-beta pre-search
-        if pre and level > 3:
+        if level > 3:
             sorted_candidates = []
             for pos in candidates:
                 new_board, _ = self._place_piece(pos, chessboard, color)
-                score, _ = self._minimax_ab(new_board, -color, alpha, beta, 2, start, pre)
+                score, _ = self._minimax_ab(new_board, -color, alpha, beta, 2, start)
                 sorted_candidates.append((score, pos))
             if color == self.color:
                 sorted_candidates.sort(key=lambda x: x[0], reverse=True)
@@ -275,7 +198,7 @@ class AI(object):
             cur_score, move = float('-inf'), None
             for pos in candidates:
                 new_board, _ = self._place_piece(pos, chessboard, color)
-                score, _ = self._minimax_ab(new_board, -color, alpha, beta, level - 1, start, pre)
+                score, _ = self._minimax_ab(new_board, -color, alpha, beta, level - 1, start)
                 if score > cur_score:
                     cur_score, move = score, pos
                     alpha = max(alpha, cur_score)
@@ -286,7 +209,7 @@ class AI(object):
             cur_score, move = float('inf'), None
             for pos in candidates:
                 new_board, _ = self._place_piece(pos, chessboard, color)
-                score, _ = self._minimax_ab(new_board, -color, alpha, beta, level - 1, start, pre)
+                score, _ = self._minimax_ab(new_board, -color, alpha, beta, level - 1, start)
                 if score < cur_score:
                     cur_score, move = score, pos
                     beta = min(beta, cur_score)
@@ -295,62 +218,12 @@ class AI(object):
         return cur_score, move
 
     def _get_depth(self):
-        if len(self.candidate_list) > 11:
+        if len(self.candidate_list) > 9:
             return 4
         else:
-            return 5
-
-    def _pre_search(self):
-        if 10 < self.count < 22:
-            return True, 6
-        return False, 5
+            return 6
 
     def _choose_next(self, chessboard, start):
         self.count += 1
-        # self._adjust_wp(chessboard)
-        pre, depth = self._pre_search()
-        _, move = self._minimax_ab(chessboard, self.color, float('-inf'), float('inf'), 6, start, True)
+        _, move = self._minimax_ab(chessboard, self.color, float('-inf'), float('inf'), 6, start)
         self.candidate_list.append(move)
-
-
-# ini_board = [[0, 0, 0, 0, 0, 0, 0, 0],
-#              [0, 0, 0, 0, 0, 0, 0, 0],
-#              [0, 0, 0, 0, 0, 0, 0, 0],
-#              [0, 0, 0, 1, -1, 0, 0, 0],
-#              [0, 0, 0, 1, -1, -1, 0, 0],
-#              [0, 0, 0, 1, 1, 1, 0, 0],
-#              [0, 0, 0, 0, 0, 0, 0, 0],
-#              [0, 0, 0, 0, 0, 0, 0, 0]]
-#
-# board1 = [[0, 0, 0, 0, 0, 0, 0, 0],
-#           [0, 1, -1, 0, 0, 0, 0, 0],
-#           [0, 0, 1, 0, 0, 0, 0, 0],
-#           [0, 0, -1, 1, -1, 0, 0, 0],
-#           [0, 0, 0, -1, 1, -1, 0, 0],
-#           [0, 0, 0, 0, 0, 1, 0, 0],
-#           [0, 0, 0, 0, 0, -1, 1, 0],
-#           [0, 0, 0, 0, 0, 0, 0, 0]]
-#
-# end_board = [[0, 1, -1, -1, -1, -1, -1, 0], [-1, -1, -1, 1, 1, 1, 1, -1], [-1, 1, -1, 1, 1, 1, 1, 1],
-#              [-1, -1, 1, 1, 1, -1, 1, -1], [-1, -1, 1, 1, 1, -1, 1, -1], [-1, -1, -1, -1, 1, 1, 1, -1],
-#              [-1, 1, 1, 1, 1, 1, 1, 0], [0, -1, 1, -1, -1, -1, 0, 0]]
-#
-# if __name__ == '__main__':
-#     ai = AI(8, -1, 5)
-#     start = time.time()
-#     ai.count = 26
-#     ai.go(end_board)
-#     end = time.time()
-#     print(end - start)
-#     print(ai.candidate_list)
-#     start = time.time()
-#     ai.count = 0
-#     ai.go(board1)
-#     end = time.time()
-#     print(end - start)
-#     print(ai.candidate_list)
-#     start = time.time()
-#     ai.go(ini_board)
-#     end = time.time()
-#     print(end - start)
-#     print(ai.candidate_list)
