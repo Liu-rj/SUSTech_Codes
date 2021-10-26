@@ -1,5 +1,6 @@
 import time
 import numpy as np
+import numba as nb
 
 COLOR_BLACK = -1
 COLOR_WHITE = 1
@@ -228,24 +229,18 @@ class AI(object):
 
     def _heuristic_score(self, chessboard):
         score = 0
-
-        score += self._map_score(chessboard)
-        score += 15 * self._active_score(chessboard)
-        score += 8 * self._stable_eval(chessboard)
-        score += 10 * self._piece_score(chessboard)
-
-        # score += self._edge_penalty(chessboard)
-        # score += self._gard_award(chessboard)
-        # if self.count > 25:
-        #     score += self._map_score(chessboard) / 3
-        #     score += 10 * self._active_score(chessboard)
-        #     score += 8 * self._stable_eval(chessboard)
-        #     score += 15 * self._piece_score(chessboard)
-        # else:
-        #     score += self._map_score(chessboard)
-        #     score += 15 * self._active_score(chessboard)
-        #     score += 8 * self._stable_eval(chessboard)
-        #     score += 10 * self._piece_score(chessboard)
+        score += self._edge_penalty(chessboard)
+        score += self._gard_award(chessboard)
+        if self.count > 25:
+            score += self._map_score(chessboard) / 3
+            score += 5 * self._active_score(chessboard)
+            score += 5 * self._stable_eval(chessboard)
+            score += 20 * self._piece_score(chessboard)
+        else:
+            score += self._map_score(chessboard)
+            score += 15 * self._active_score(chessboard)
+            score += 8 * self._stable_eval(chessboard)
+            score += 10 * self._piece_score(chessboard)
         return score
 
     def _minimax_ab(self, chessboard, color, alpha, beta, level, start, pre):
@@ -266,10 +261,7 @@ class AI(object):
                 sorted_candidates.sort(key=lambda x: x[0])
             candidates = []
             for i in range(len(sorted_candidates)):
-                if i > 3:
-                    break
-                else:
-                    candidates.append(sorted_candidates[i][1])
+                candidates.append(sorted_candidates[i][1])
         # we maximize the number we lose
         if color == self.color:
             cur_score, move = float('-inf'), None
@@ -294,22 +286,21 @@ class AI(object):
                     return cur_score, move
         return cur_score, move
 
-    def _get_depth(self):
-        if len(self.candidate_list) > 11:
-            return 4
-        else:
-            return 5
-
     def _pre_search(self):
-        if 10 < self.count < 22:
-            return True, 6
-        return False, 5
+        if self.count > 25:
+            return False, 10
+        else:
+            if len(self.candidate_list) > 7:
+                return False, 4
+            else:
+                return True, 5
 
     def _choose_next(self, chessboard, start):
         self.count += 1
-        # self._adjust_wp(chessboard)
+        self._adjust_wp(chessboard)
         pre, depth = self._pre_search()
-        _, move = self._minimax_ab(chessboard, self.color, float('-inf'), float('inf'), 6, start, True)
+        _, move = self._minimax_ab(chessboard, self.color, float('-inf'), float('inf'), depth, start, pre)
+        print(depth, pre)
         self.candidate_list.append(move)
 
 
@@ -331,26 +322,33 @@ class AI(object):
 #           [0, 0, 0, 0, 0, -1, 1, 0],
 #           [0, 0, 0, 0, 0, 0, 0, 0]]
 #
-# end_board = [[0, 1, -1, -1, -1, -1, -1, 0], [-1, -1, -1, 1, 1, 1, 1, -1], [-1, 1, -1, 1, 1, 1, 1, 1],
-#              [-1, -1, 1, 1, 1, -1, 1, -1], [-1, -1, 1, 1, 1, -1, 1, -1], [-1, -1, -1, -1, 1, 1, 1, -1],
-#              [-1, 1, 1, 1, 1, 1, 1, 0], [0, -1, 1, -1, -1, -1, 0, 0]]
+# end_board = [[0, 1, -1, -1, -1, -1, -1, 0],
+#              [-1, -1, -1, 1, 1, 1, 1, -1],
+#              [-1, 1, -1, 1, 1, 1, 1, 1],
+#              [-1, -1, 1, 1, 1, -1, 1, -1],
+#              [-1, -1, 1, 1, 1, -1, 1, -1],
+#              [-1, -1, -1, -1, 1, 1, 1, -1],
+#              [-1, 1, 1, 1, 1, 1, 1, 0],
+#              [0, -1, 1, -1, -1, -1, 0, 0]]
 #
 # if __name__ == '__main__':
 #     ai = AI(8, -1, 5)
+#
 #     start = time.time()
-#     ai.count = 26
-#     ai.go(end_board)
+#     ai.go(ini_board)
 #     end = time.time()
 #     print(end - start)
 #     print(ai.candidate_list)
+#
 #     start = time.time()
-#     ai.count = 0
 #     ai.go(board1)
 #     end = time.time()
 #     print(end - start)
 #     print(ai.candidate_list)
+#
+#     ai.count = 26
 #     start = time.time()
-#     ai.go(ini_board)
+#     ai.go(end_board)
 #     end = time.time()
 #     print(end - start)
 #     print(ai.candidate_list)
