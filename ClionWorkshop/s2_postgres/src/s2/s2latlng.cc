@@ -16,6 +16,8 @@
 // Author: ericv@google.com (Eric Veach)
 
 #include "s2/s2latlng.h"
+#include "postgres.h"
+#include "utils/jsonb.h"
 
 #include <algorithm>
 #include <ostream>
@@ -25,6 +27,13 @@
 
 using std::max;
 using std::min;
+
+PG_FUNCTION_INFO_V1(RadiansToPoint);
+Datum RadiansToPoint(PG_FUNCTION_ARGS) {
+    double lat_radians = PG_GETARG_FLOAT8(0);
+    double lng_radians = PG_GETARG_FLOAT8(1);
+    PG_RETURN_BOOL(true);
+}
 
 S2LatLng S2LatLng::Normalized() const {
   // remainder(x, 2 * M_PI) reduces its argument to the range [-M_PI, M_PI]

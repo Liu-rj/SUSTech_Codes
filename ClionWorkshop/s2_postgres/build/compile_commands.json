@@ -1,1072 +1,567 @@
 [
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2text_format_test.dir/src/s2/s2text_format_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2text_format_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2text_format_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src    -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_testing.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_testing.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shapeutil_visit_crossing_edge_pairs_test.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_visit_crossing_edge_pairs_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_visit_crossing_edge_pairs_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src    -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_testing.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_testing.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shapeutil_range_iterator_test.dir/src/s2/s2shapeutil_range_iterator_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_range_iterator_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_range_iterator_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src    -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2testing.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2testing.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shapeutil_coding_test.dir/src/s2/s2shapeutil_coding_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_coding_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_coding_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/base/stringprintf.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/base/stringprintf.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/base/stringprintf.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shapeutil_build_polygon_boundaries_test.dir/src/s2/s2shapeutil_build_polygon_boundaries_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_build_polygon_boundaries_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_build_polygon_boundaries_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/base/strtoint.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/base/strtoint.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/base/strtoint.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shapeutil_get_reference_point_test.dir/src/s2/s2shapeutil_get_reference_point_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_get_reference_point_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_get_reference_point_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/encoded_s2cell_id_vector.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/encoded_s2cell_id_vector.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/encoded_s2cell_id_vector.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shape_index_region_test.dir/src/s2/s2shape_index_region_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shape_index_region_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shape_index_region_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/encoded_s2point_vector.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/encoded_s2point_vector.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/encoded_s2point_vector.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shape_index_buffered_region_test.dir/src/s2/s2shape_index_buffered_region_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shape_index_buffered_region_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shape_index_buffered_region_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/encoded_s2shape_index.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/encoded_s2shape_index.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/encoded_s2shape_index.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2region_coverer_test.dir/src/s2/s2region_coverer_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2region_coverer_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2region_coverer_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/encoded_string_vector.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/encoded_string_vector.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/encoded_string_vector.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2region_test.dir/src/s2/s2region_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2region_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2region_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/id_set_lexicon.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/id_set_lexicon.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/id_set_lexicon.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2projections_test.dir/src/s2/s2projections_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2projections_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2projections_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/mutable_s2shape_index.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/mutable_s2shape_index.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/mutable_s2shape_index.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2polyline_simplifier_test.dir/src/s2/s2polyline_simplifier_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2polyline_simplifier_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2polyline_simplifier_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/r2rect.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/r2rect.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/r2rect.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2polyline_alignment_test.dir/src/s2/s2polyline_alignment_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2polyline_alignment_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2polyline_alignment_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s1angle.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s1angle.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s1angle.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2pointutil_test.dir/src/s2/s2pointutil_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2pointutil_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2pointutil_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s1chord_angle.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s1chord_angle.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s1chord_angle.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2point_region_test.dir/src/s2/s2point_region_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2point_region_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2point_region_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s1interval.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s1interval.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s1interval.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shapeutil_count_edges_test.dir/src/s2/s2shapeutil_count_edges_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_count_edges_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_count_edges_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2boolean_operation.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2boolean_operation.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2boolean_operation.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2r2rect_test.dir/src/s2/s2r2rect_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2r2rect_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2r2rect_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builder.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builder.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builder.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2point_index_test.dir/src/s2/s2point_index_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2point_index_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2point_index_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builder_graph.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builder_graph.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builder_graph.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shape_index_test.dir/src/s2/s2shape_index_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shape_index_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shape_index_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_closed_set_normalizer.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_closed_set_normalizer.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_closed_set_normalizer.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2point_compression_test.dir/src/s2/s2point_compression_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2point_compression_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2point_compression_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_find_polygon_degeneracies.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_find_polygon_degeneracies.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_find_polygon_degeneracies.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2point_test.dir/src/s2/s2point_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2point_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2point_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_lax_polygon_layer.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_lax_polygon_layer.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_lax_polygon_layer.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2max_distance_targets_test.dir/src/s2/s2max_distance_targets_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2max_distance_targets_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2max_distance_targets_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2point_vector_layer.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_s2point_vector_layer.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_s2point_vector_layer.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2measures_test.dir/src/s2/s2measures_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2measures_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2measures_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2polygon_layer.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_s2polygon_layer.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_s2polygon_layer.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builderutil_s2polyline_vector_layer_test.dir/src/s2/s2builderutil_s2polyline_vector_layer_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polyline_vector_layer_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polyline_vector_layer_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_layer.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_s2polyline_layer.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_s2polyline_layer.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shapeutil_contains_brute_force_test.dir/src/s2/s2shapeutil_contains_brute_force_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_contains_brute_force_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_contains_brute_force_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_vector_layer.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_s2polyline_vector_layer.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_s2polyline_vector_layer.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builderutil_lax_polygon_layer_test.dir/src/s2/s2builderutil_lax_polygon_layer_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_lax_polygon_layer_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_lax_polygon_layer_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_snap_functions.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_snap_functions.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2builderutil_snap_functions.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2latlng_rect_test.dir/src/s2/s2latlng_rect_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2latlng_rect_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2latlng_rect_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2cap.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2cap.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2cap.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shape_measures_test.dir/src/s2/s2shape_measures_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shape_measures_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shape_measures_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2cell.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2cell.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2cell.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2cap_test.dir/src/s2/s2cap_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2cap_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2cap_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2cell_id.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2cell_id.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2cell_id.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/id_set_lexicon_test.dir/src/s2/id_set_lexicon_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/id_set_lexicon_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/id_set_lexicon_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2cell_index.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2cell_index.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2cell_index.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builderutil_closed_set_normalizer_test.dir/src/s2/s2builderutil_closed_set_normalizer_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_closed_set_normalizer_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_closed_set_normalizer_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2cell_union.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2cell_union.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2cell_union.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2closest_edge_query_base_test.dir/src/s2/s2closest_edge_query_base_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2closest_edge_query_base_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2closest_edge_query_base_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2centroids.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2centroids.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2centroids.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builder_graph_test.dir/src/s2/s2builder_graph_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builder_graph_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builder_graph_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2closest_cell_query.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2closest_cell_query.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2closest_cell_query.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builder_test.dir/src/s2/s2builder_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builder_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builder_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2closest_edge_query.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2closest_edge_query.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2closest_edge_query.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/encoded_s2cell_id_vector_test.dir/src/s2/encoded_s2cell_id_vector_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/encoded_s2cell_id_vector_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/encoded_s2cell_id_vector_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2closest_point_query.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2closest_point_query.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2closest_point_query.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2predicates_test.dir/src/s2/s2predicates_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2predicates_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2predicates_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2contains_vertex_query.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2contains_vertex_query.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2contains_vertex_query.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2cell_test.dir/src/s2/s2cell_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2cell_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2cell_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2convex_hull_query.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2convex_hull_query.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2convex_hull_query.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2edge_tessellator_test.dir/src/s2/s2edge_tessellator_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_tessellator_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_tessellator_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2coords.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2coords.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2coords.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2edge_crosser_test.dir/src/s2/s2edge_crosser_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_crosser_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_crosser_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2crossing_edge_query.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2crossing_edge_query.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2crossing_edge_query.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s1interval_test.dir/src/s2/s1interval_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s1interval_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s1interval_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2debug.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2debug.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2debug.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builderutil_s2polygon_layer_test.dir/src/s2/s2builderutil_s2polygon_layer_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polygon_layer_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polygon_layer_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2earth.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2earth.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2earth.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2wedge_relations_test.dir/src/s2/s2wedge_relations_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2wedge_relations_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2wedge_relations_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2edge_clipping.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2edge_clipping.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2edge_clipping.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builderutil_testing_test.dir/src/s2/s2builderutil_testing_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_testing_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_testing_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2edge_crosser.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2edge_crosser.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2edge_crosser.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2padded_cell_test.dir/src/s2/s2padded_cell_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2padded_cell_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2padded_cell_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2edge_crossings.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2edge_crossings.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2edge_crossings.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/encoded_string_vector_test.dir/src/s2/encoded_string_vector_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/encoded_string_vector_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/encoded_string_vector_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2edge_distances.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2edge_distances.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2edge_distances.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2error_test.dir/src/s2/s2error_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2error_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2error_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2edge_tessellator.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2edge_tessellator.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2edge_tessellator.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2contains_point_query_test.dir/src/s2/s2contains_point_query_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2contains_point_query_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2contains_point_query_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2error.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2error.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2error.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/encoded_s2point_vector_test.dir/src/s2/encoded_s2point_vector_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/encoded_s2point_vector_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/encoded_s2point_vector_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2furthest_edge_query.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2furthest_edge_query.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2furthest_edge_query.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builderutil_s2point_vector_layer_test.dir/src/s2/s2builderutil_s2point_vector_layer_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_s2point_vector_layer_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_s2point_vector_layer_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2latlng.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2latlng.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2latlng.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builderutil_find_polygon_degeneracies_test.dir/src/s2/s2builderutil_find_polygon_degeneracies_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_find_polygon_degeneracies_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_find_polygon_degeneracies_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2latlng_rect.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2latlng_rect.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2latlng_rect.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/encoded_s2shape_index_test.dir/src/s2/encoded_s2shape_index_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/encoded_s2shape_index_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/encoded_s2shape_index_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2latlng_rect_bounder.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2latlng_rect_bounder.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2latlng_rect_bounder.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shapeutil_edge_iterator_test.dir/src/s2/s2shapeutil_edge_iterator_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_edge_iterator_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_edge_iterator_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2lax_loop_shape.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2lax_loop_shape.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2lax_loop_shape.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/mutable_s2shape_index_test.dir/src/s2/mutable_s2shape_index_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/mutable_s2shape_index_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/mutable_s2shape_index_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2lax_polygon_shape.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2lax_polygon_shape.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2lax_polygon_shape.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/r2rect_test.dir/src/s2/r2rect_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/r2rect_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/r2rect_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2lax_polyline_shape.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2lax_polyline_shape.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2lax_polyline_shape.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2region_union_test.dir/src/s2/s2region_union_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2region_union_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2region_union_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2loop.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2loop.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2loop.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/encoded_uint_vector_test.dir/src/s2/encoded_uint_vector_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/encoded_uint_vector_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/encoded_uint_vector_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2loop_measures.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2loop_measures.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2loop_measures.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2edge_distances_test.dir/src/s2/s2edge_distances_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_distances_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_distances_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2measures.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2measures.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2measures.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2testing_test.dir/src/s2/s2testing_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2testing_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2testing_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2metrics.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2metrics.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2metrics.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2loop_measures_test.dir/src/s2/s2loop_measures_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2loop_measures_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2loop_measures_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2max_distance_targets.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2max_distance_targets.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2max_distance_targets.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builderutil_s2polyline_layer_test.dir/src/s2/s2builderutil_s2polyline_layer_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polyline_layer_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polyline_layer_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2min_distance_targets.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2min_distance_targets.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2min_distance_targets.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2shape_index_measures_test.dir/src/s2/s2shape_index_measures_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shape_index_measures_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shape_index_measures_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2padded_cell.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2padded_cell.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2padded_cell.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2region_term_indexer_test.dir/src/s2/s2region_term_indexer_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2region_term_indexer_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2region_term_indexer_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2point_compression.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2point_compression.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2point_compression.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s1angle_test.dir/src/s2/s1angle_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s1angle_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s1angle_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2point_region.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2point_region.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2point_region.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s1chord_angle_test.dir/src/s2/s1chord_angle_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s1chord_angle_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s1chord_angle_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2pointutil.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2pointutil.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2pointutil.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2lax_loop_shape_test.dir/src/s2/s2lax_loop_shape_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2lax_loop_shape_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2lax_loop_shape_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2polygon.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2polygon.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2polygon.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/sequence_lexicon_test.dir/src/s2/sequence_lexicon_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/sequence_lexicon_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/sequence_lexicon_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2polyline.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2polyline.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2polyline.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2cell_index_test.dir/src/s2/s2cell_index_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2cell_index_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2cell_index_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2polyline_alignment.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2polyline_alignment.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2polyline_alignment.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2edge_clipping_test.dir/src/s2/s2edge_clipping_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_clipping_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_clipping_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2polyline_measures.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2polyline_measures.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2polyline_measures.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2cell_union_test.dir/src/s2/s2cell_union_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2cell_union_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2cell_union_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2polyline_simplifier.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2polyline_simplifier.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2polyline_simplifier.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2centroids_test.dir/src/s2/s2centroids_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2centroids_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2centroids_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2predicates.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2predicates.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2predicates.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2closest_cell_query_base_test.dir/src/s2/s2closest_cell_query_base_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2closest_cell_query_base_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2closest_cell_query_base_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2projections.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2projections.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2projections.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2boolean_operation_test.dir/src/s2/s2boolean_operation_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2boolean_operation_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2boolean_operation_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2r2rect.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2r2rect.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2r2rect.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2closest_cell_query_test.dir/src/s2/s2closest_cell_query_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2closest_cell_query_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2closest_cell_query_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2region.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2region.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2region.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2builderutil_snap_functions_test.dir/src/s2/s2builderutil_snap_functions_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_snap_functions_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_snap_functions_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2region_term_indexer.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2region_term_indexer.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2region_term_indexer.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2closest_edge_query_test.dir/src/s2/s2closest_edge_query_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2closest_edge_query_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2closest_edge_query_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2region_coverer.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2region_coverer.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2region_coverer.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2closest_point_query_base_test.dir/src/s2/s2closest_point_query_base_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2closest_point_query_base_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2closest_point_query_base_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2region_intersection.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2region_intersection.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2region_intersection.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2polyline_test.dir/src/s2/s2polyline_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2polyline_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2polyline_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2region_union.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2region_union.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2region_union.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2polygon_test.dir/src/s2/s2polygon_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2polygon_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2polygon_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shape_index.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shape_index.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shape_index.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2min_distance_targets_test.dir/src/s2/s2min_distance_targets_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2min_distance_targets_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2min_distance_targets_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shape_index_buffered_region.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shape_index_buffered_region.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shape_index_buffered_region.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2coords_test.dir/src/s2/s2coords_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2coords_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2coords_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shape_index_measures.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shape_index_measures.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shape_index_measures.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2contains_vertex_query_test.dir/src/s2/s2contains_vertex_query_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2contains_vertex_query_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2contains_vertex_query_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shape_measures.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shape_measures.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shape_measures.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2convex_hull_query_test.dir/src/s2/s2convex_hull_query_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2convex_hull_query_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2convex_hull_query_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_build_polygon_boundaries.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_build_polygon_boundaries.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_build_polygon_boundaries.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2crossing_edge_query_test.dir/src/s2/s2crossing_edge_query_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2crossing_edge_query_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2crossing_edge_query_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_coding.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_coding.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_coding.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2point_vector_shape_test.dir/src/s2/s2point_vector_shape_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2point_vector_shape_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2point_vector_shape_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_contains_brute_force.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_contains_brute_force.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_contains_brute_force.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2closest_point_query_test.dir/src/s2/s2closest_point_query_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2closest_point_query_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2closest_point_query_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_edge_iterator.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_edge_iterator.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_edge_iterator.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2earth_test.dir/src/s2/s2earth_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2earth_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2earth_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_get_reference_point.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_get_reference_point.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_get_reference_point.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2edge_crossings_test.dir/src/s2/s2edge_crossings_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_crossings_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_crossings_test.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_range_iterator.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_range_iterator.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_range_iterator.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/base/stringprintf.cc.o -c /home/lrj/Public/s2geometry/src/s2/base/stringprintf.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/base/stringprintf.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/base/strtoint.cc.o -c /home/lrj/Public/s2geometry/src/s2/base/strtoint.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/base/strtoint.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2text_format.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2text_format.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2text_format.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/encoded_s2cell_id_vector.cc.o -c /home/lrj/Public/s2geometry/src/s2/encoded_s2cell_id_vector.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/encoded_s2cell_id_vector.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2wedge_relations.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2wedge_relations.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2wedge_relations.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/encoded_s2point_vector.cc.o -c /home/lrj/Public/s2geometry/src/s2/encoded_s2point_vector.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/encoded_s2point_vector.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/strings/ostringstream.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/strings/ostringstream.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/strings/ostringstream.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/encoded_s2shape_index.cc.o -c /home/lrj/Public/s2geometry/src/s2/encoded_s2shape_index.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/encoded_s2shape_index.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/strings/serialize.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/strings/serialize.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/strings/serialize.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/encoded_string_vector.cc.o -c /home/lrj/Public/s2geometry/src/s2/encoded_string_vector.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/encoded_string_vector.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/base/dynamic_annotations.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/base/dynamic_annotations.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/id_set_lexicon.cc.o -c /home/lrj/Public/s2geometry/src/s2/id_set_lexicon.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/id_set_lexicon.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/raw_logging.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/base/internal/raw_logging.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/base/internal/raw_logging.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/mutable_s2shape_index.cc.o -c /home/lrj/Public/s2geometry/src/s2/mutable_s2shape_index.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/mutable_s2shape_index.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/throw_delegate.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/base/internal/throw_delegate.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/base/internal/throw_delegate.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/r2rect.cc.o -c /home/lrj/Public/s2geometry/src/s2/r2rect.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/r2rect.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/numeric/int128.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/numeric/int128.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/numeric/int128.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s1angle.cc.o -c /home/lrj/Public/s2geometry/src/s2/s1angle.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s1angle.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/ascii.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/ascii.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/ascii.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s1chord_angle.cc.o -c /home/lrj/Public/s2geometry/src/s2/s1chord_angle.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s1chord_angle.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/match.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/match.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/match.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s1interval.cc.o -c /home/lrj/Public/s2geometry/src/s2/s1interval.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s1interval.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/numbers.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/numbers.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/numbers.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2boolean_operation.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2boolean_operation.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2boolean_operation.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/str_cat.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/str_cat.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/str_cat.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builder.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builder.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builder.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/str_split.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/str_split.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/str_split.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builder_graph.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builder_graph.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builder_graph.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/string_view.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/string_view.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/string_view.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_closed_set_normalizer.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_closed_set_normalizer.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_closed_set_normalizer.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/strip.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/strip.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/strip.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_find_polygon_degeneracies.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_find_polygon_degeneracies.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_find_polygon_degeneracies.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/internal/memutil.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/internal/memutil.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/third_party/absl/strings/internal/memutil.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_lax_polygon_layer.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_lax_polygon_layer.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_lax_polygon_layer.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/bits/bit-interleave.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/bits/bit-interleave.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/bits/bit-interleave.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2point_vector_layer.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_s2point_vector_layer.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_s2point_vector_layer.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/bits/bits.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/bits/bits.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/bits/bits.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2polygon_layer.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polygon_layer.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polygon_layer.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/coding/coder.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/coding/coder.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/coding/coder.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_layer.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polyline_layer.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polyline_layer.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/coding/varint.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/coding/varint.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/coding/varint.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_vector_layer.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polyline_vector_layer.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_s2polyline_vector_layer.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/math/exactfloat/exactfloat.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/math/exactfloat/exactfloat.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/math/exactfloat/exactfloat.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2builderutil_snap_functions.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_snap_functions.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_snap_functions.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/math/mathutil.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/math/mathutil.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/math/mathutil.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2cap.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2cap.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2cap.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/units/length-units.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/units/length-units.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/util/units/length-units.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2cell.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2cell.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2cell.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build/examples",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src    -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/term_index.dir/term_index.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/doc/examples/term_index.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/doc/examples/term_index.cc"
 },
 {
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2cell_id.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2cell_id.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2cell_id.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2cell_index.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2cell_index.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2cell_index.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2cell_union.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2cell_union.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2cell_union.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2centroids.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2centroids.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2centroids.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2closest_cell_query.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2closest_cell_query.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2closest_cell_query.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2closest_edge_query.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2closest_edge_query.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2closest_edge_query.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2closest_point_query.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2closest_point_query.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2closest_point_query.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2contains_vertex_query.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2contains_vertex_query.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2contains_vertex_query.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2convex_hull_query.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2convex_hull_query.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2convex_hull_query.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2coords.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2coords.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2coords.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2crossing_edge_query.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2crossing_edge_query.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2crossing_edge_query.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2debug.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2debug.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2debug.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2earth.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2earth.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2earth.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2edge_clipping.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_clipping.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_clipping.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2edge_crosser.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_crosser.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_crosser.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2edge_crossings.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_crossings.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_crossings.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2edge_distances.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_distances.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_distances.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2edge_tessellator.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_tessellator.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_tessellator.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2error.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2error.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2error.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2furthest_edge_query.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2furthest_edge_query.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2furthest_edge_query.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2latlng.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2latlng.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2latlng.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2latlng_rect.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2latlng_rect.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2latlng_rect.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2latlng_rect_bounder.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2latlng_rect_bounder.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2latlng_rect_bounder.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2lax_loop_shape.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2lax_loop_shape.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2lax_loop_shape.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2lax_polygon_shape.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2lax_polygon_shape.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2lax_polygon_shape.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2lax_polyline_shape.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2lax_polyline_shape.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2lax_polyline_shape.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2loop.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2loop.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2loop.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2loop_measures.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2loop_measures.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2loop_measures.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2measures.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2measures.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2measures.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2metrics.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2metrics.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2metrics.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2max_distance_targets.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2max_distance_targets.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2max_distance_targets.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2min_distance_targets.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2min_distance_targets.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2min_distance_targets.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2padded_cell.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2padded_cell.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2padded_cell.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2point_compression.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2point_compression.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2point_compression.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2point_region.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2point_region.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2point_region.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2pointutil.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2pointutil.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2pointutil.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2polygon.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2polygon.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2polygon.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2polyline.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2polyline.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2polyline.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2polyline_alignment.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2polyline_alignment.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2polyline_alignment.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2polyline_measures.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2polyline_measures.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2polyline_measures.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2polyline_simplifier.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2polyline_simplifier.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2polyline_simplifier.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2predicates.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2predicates.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2predicates.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2projections.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2projections.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2projections.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2r2rect.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2r2rect.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2r2rect.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2region.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2region.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2region.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2region_term_indexer.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2region_term_indexer.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2region_term_indexer.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2region_coverer.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2region_coverer.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2region_coverer.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2region_intersection.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2region_intersection.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2region_intersection.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2region_union.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2region_union.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2region_union.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shape_index.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shape_index.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shape_index.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shape_index_buffered_region.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shape_index_buffered_region.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shape_index_buffered_region.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shape_index_measures.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shape_index_measures.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shape_index_measures.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shape_measures.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shape_measures.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shape_measures.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_build_polygon_boundaries.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_build_polygon_boundaries.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_build_polygon_boundaries.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_coding.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_coding.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_coding.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_contains_brute_force.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_contains_brute_force.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_contains_brute_force.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_edge_iterator.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_edge_iterator.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_edge_iterator.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_get_reference_point.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_get_reference_point.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_get_reference_point.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_range_iterator.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_range_iterator.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_range_iterator.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2text_format.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2text_format.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2text_format.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/s2wedge_relations.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2wedge_relations.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2wedge_relations.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/strings/ostringstream.cc.o -c /home/lrj/Public/s2geometry/src/s2/strings/ostringstream.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/strings/ostringstream.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/strings/serialize.cc.o -c /home/lrj/Public/s2geometry/src/s2/strings/serialize.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/strings/serialize.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/base/dynamic_annotations.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/base/dynamic_annotations.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/raw_logging.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/base/internal/raw_logging.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/base/internal/raw_logging.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/throw_delegate.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/base/internal/throw_delegate.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/base/internal/throw_delegate.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/numeric/int128.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/numeric/int128.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/numeric/int128.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/ascii.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/ascii.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/ascii.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/match.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/match.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/match.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/numbers.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/numbers.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/numbers.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/str_cat.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/str_cat.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/str_cat.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/str_split.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/str_split.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/str_split.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/string_view.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/string_view.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/string_view.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/strip.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/strip.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/strip.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/third_party/absl/strings/internal/memutil.cc.o -c /home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/internal/memutil.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/third_party/absl/strings/internal/memutil.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/bits/bit-interleave.cc.o -c /home/lrj/Public/s2geometry/src/s2/util/bits/bit-interleave.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/util/bits/bit-interleave.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/bits/bits.cc.o -c /home/lrj/Public/s2geometry/src/s2/util/bits/bits.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/util/bits/bits.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/coding/coder.cc.o -c /home/lrj/Public/s2geometry/src/s2/util/coding/coder.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/util/coding/coder.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/coding/varint.cc.o -c /home/lrj/Public/s2geometry/src/s2/util/coding/varint.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/util/coding/varint.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/math/exactfloat/exactfloat.cc.o -c /home/lrj/Public/s2geometry/src/s2/util/math/exactfloat/exactfloat.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/util/math/exactfloat/exactfloat.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/math/mathutil.cc.o -c /home/lrj/Public/s2geometry/src/s2/util/math/mathutil.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/util/math/mathutil.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -Ds2_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include  -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2.dir/src/s2/util/units/length-units.cc.o -c /home/lrj/Public/s2geometry/src/s2/util/units/length-units.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/util/units/length-units.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2edge_vector_shape_test.dir/src/s2/s2edge_vector_shape_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2edge_vector_shape_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2edge_vector_shape_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2polyline_measures_test.dir/src/s2/s2polyline_measures_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2polyline_measures_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2polyline_measures_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2cell_id_test.dir/src/s2/s2cell_id_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2cell_id_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2cell_id_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2furthest_edge_query_test.dir/src/s2/s2furthest_edge_query_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2furthest_edge_query_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2furthest_edge_query_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2latlng_test.dir/src/s2/s2latlng_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2latlng_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2latlng_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/value_lexicon_test.dir/src/s2/value_lexicon_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/value_lexicon_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/value_lexicon_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2metrics_test.dir/src/s2/s2metrics_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2metrics_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2metrics_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2loop_test.dir/src/s2/s2loop_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2loop_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2loop_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/r1interval_test.dir/src/s2/r1interval_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/r1interval_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/r1interval_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include    -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2builderutil_testing.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2builderutil_testing.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include    -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2shapeutil_testing.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2shapeutil_testing.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include    -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2testing.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2testing.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2latlng_rect_bounder_test.dir/src/s2/s2latlng_rect_bounder_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2latlng_rect_bounder_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2latlng_rect_bounder_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2lax_polygon_shape_test.dir/src/s2/s2lax_polygon_shape_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2lax_polygon_shape_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2lax_polygon_shape_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest    -Wno-attributes -Wno-deprecated-declarations -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/s2lax_polyline_shape_test.dir/src/s2/s2lax_polyline_shape_test.cc.o -c /home/lrj/Public/s2geometry/src/s2/s2lax_polyline_shape_test.cc",
-  "file": "/home/lrj/Public/s2geometry/src/s2/s2lax_polyline_shape_test.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build/build_gtest",
-  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -DS2_USE_GFLAGS -DS2_USE_GLOG -Dgtest_main_EXPORTS -I/home/lrj/Public/s2geometry/src -isystem /usr/src/gtest/include -isystem /usr/src/gtest  -fPIC   -Wno-attributes -Wno-deprecated-declarations -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
-  "file": "/usr/src/gtest/src/gtest_main.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build/build_gtest",
-  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -DS2_USE_GFLAGS -DS2_USE_GLOG -Dgtest_EXPORTS -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC   -Wno-attributes -Wno-deprecated-declarations -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
-  "file": "/usr/src/gtest/src/gtest-all.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build/examples",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include    -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/term_index.dir/term_index.cc.o -c /home/lrj/Public/s2geometry/doc/examples/term_index.cc",
-  "file": "/home/lrj/Public/s2geometry/doc/examples/term_index.cc"
-},
-{
-  "directory": "/home/lrj/Public/s2geometry/build/examples",
-  "command": "/usr/bin/c++  -DS2_USE_GFLAGS -DS2_USE_GLOG -I/home/lrj/Public/s2geometry/src -I/usr/src/gtest/include    -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/point_index.dir/point_index.cc.o -c /home/lrj/Public/s2geometry/doc/examples/point_index.cc",
-  "file": "/home/lrj/Public/s2geometry/doc/examples/point_index.cc"
+  "directory": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build/examples",
+  "command": "/usr/bin/c++  -DABSL_MIN_LOG_LEVEL=1 -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src    -Wno-attributes -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/point_index.dir/point_index.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/doc/examples/point_index.cc",
+  "file": "/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/doc/examples/point_index.cc"
 }
 ]

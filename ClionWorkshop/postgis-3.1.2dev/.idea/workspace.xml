@@ -61,6 +61,41 @@
   <component name="ChangeListManager">
     <list default="true" id="616ceece-ec80-49d7-a326-1d024e3a2822" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgis/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgis/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/3.20.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2testing.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2testing.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2testing.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2testing.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2testing.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/CMakeFiles/s2testing.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/point_index.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/point_index.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/point_index.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/point_index.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/point_index.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/point_index.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/point_index.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/point_index.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/term_index.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/term_index.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/term_index.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/term_index.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/term_index.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/term_index.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/term_index.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/CMakeFiles/term_index.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/examples/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/s2-geometry.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/cmake-build-debug/s2-geometry.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s2_postgres/src/s2/s2latlng.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../s2_postgres/src/s2/s2latlng.cc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +146,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1zid0f9iUd0nBBprY5IgCFVPuzD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -124,7 +161,8 @@
     <property name="cf.advertisement.text.overridden" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../s2_postgis" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunManager" selected="Makefile Application.ChangeLog">
     <configuration name="ChangeLog" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="ChangeLog" CONFIG_NAME="ChangeLog" version="1">
@@ -357,11 +395,6 @@
         <option name="CLION.COMPOUND.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -426,6 +459,9 @@
       <updated>1634634620662</updated>
       <workItem from="1634634621865" duration="202000" />
       <workItem from="1634634949620" duration="821000" />
+      <workItem from="1634957048777" duration="18000" />
+      <workItem from="1634957463208" duration="3221000" />
+      <workItem from="1634983791980" duration="6031000" />
     </task>
     <servers />
   </component>

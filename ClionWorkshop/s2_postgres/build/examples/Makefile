@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lrj/Public/s2geometry
+CMAKE_SOURCE_DIR = /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lrj/Public/s2geometry/build
+CMAKE_BINARY_DIR = /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,17 +91,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -137,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lrj/Public/s2geometry/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/Public/s2geometry/build/CMakeFiles /home/lrj/Public/s2geometry/build/examples/CMakeFiles/progress.marks
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/Public/s2geometry/build/CMakeFiles 0
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build/CMakeFiles /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build/examples/CMakeFiles/progress.marks
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lrj/Public/s2geometry/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/CMakeFiles/term_index.dir/rule:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/term_index.dir/rule
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/term_index.dir/rule
 .PHONY : examples/CMakeFiles/term_index.dir/rule
 
 # Convenience name for target.
@@ -179,12 +168,12 @@ term_index: examples/CMakeFiles/term_index.dir/rule
 
 # fast build rule for target.
 term_index/fast:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f examples/CMakeFiles/term_index.dir/build.make examples/CMakeFiles/term_index.dir/build
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f examples/CMakeFiles/term_index.dir/build.make examples/CMakeFiles/term_index.dir/build
 .PHONY : term_index/fast
 
 # Convenience name for target.
 examples/CMakeFiles/point_index.dir/rule:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/point_index.dir/rule
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/point_index.dir/rule
 .PHONY : examples/CMakeFiles/point_index.dir/rule
 
 # Convenience name for target.
@@ -194,7 +183,7 @@ point_index: examples/CMakeFiles/point_index.dir/rule
 
 # fast build rule for target.
 point_index/fast:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f examples/CMakeFiles/point_index.dir/build.make examples/CMakeFiles/point_index.dir/build
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f examples/CMakeFiles/point_index.dir/build.make examples/CMakeFiles/point_index.dir/build
 .PHONY : point_index/fast
 
 point_index.o: point_index.cc.o
@@ -203,7 +192,7 @@ point_index.o: point_index.cc.o
 
 # target to build an object file
 point_index.cc.o:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f examples/CMakeFiles/point_index.dir/build.make examples/CMakeFiles/point_index.dir/point_index.cc.o
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f examples/CMakeFiles/point_index.dir/build.make examples/CMakeFiles/point_index.dir/point_index.cc.o
 .PHONY : point_index.cc.o
 
 point_index.i: point_index.cc.i
@@ -212,7 +201,7 @@ point_index.i: point_index.cc.i
 
 # target to preprocess a source file
 point_index.cc.i:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f examples/CMakeFiles/point_index.dir/build.make examples/CMakeFiles/point_index.dir/point_index.cc.i
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f examples/CMakeFiles/point_index.dir/build.make examples/CMakeFiles/point_index.dir/point_index.cc.i
 .PHONY : point_index.cc.i
 
 point_index.s: point_index.cc.s
@@ -221,7 +210,7 @@ point_index.s: point_index.cc.s
 
 # target to generate assembly for a file
 point_index.cc.s:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f examples/CMakeFiles/point_index.dir/build.make examples/CMakeFiles/point_index.dir/point_index.cc.s
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f examples/CMakeFiles/point_index.dir/build.make examples/CMakeFiles/point_index.dir/point_index.cc.s
 .PHONY : point_index.cc.s
 
 term_index.o: term_index.cc.o
@@ -230,7 +219,7 @@ term_index.o: term_index.cc.o
 
 # target to build an object file
 term_index.cc.o:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f examples/CMakeFiles/term_index.dir/build.make examples/CMakeFiles/term_index.dir/term_index.cc.o
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f examples/CMakeFiles/term_index.dir/build.make examples/CMakeFiles/term_index.dir/term_index.cc.o
 .PHONY : term_index.cc.o
 
 term_index.i: term_index.cc.i
@@ -239,7 +228,7 @@ term_index.i: term_index.cc.i
 
 # target to preprocess a source file
 term_index.cc.i:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f examples/CMakeFiles/term_index.dir/build.make examples/CMakeFiles/term_index.dir/term_index.cc.i
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f examples/CMakeFiles/term_index.dir/build.make examples/CMakeFiles/term_index.dir/term_index.cc.i
 .PHONY : term_index.cc.i
 
 term_index.s: term_index.cc.s
@@ -248,7 +237,7 @@ term_index.s: term_index.cc.s
 
 # target to generate assembly for a file
 term_index.cc.s:
-	cd /home/lrj/Public/s2geometry/build && $(MAKE) -f examples/CMakeFiles/term_index.dir/build.make examples/CMakeFiles/term_index.dir/term_index.cc.s
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(MAKE) -f examples/CMakeFiles/term_index.dir/build.make examples/CMakeFiles/term_index.dir/term_index.cc.s
 .PHONY : term_index.cc.s
 
 # Help Target
@@ -260,7 +249,6 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... edit_cache"
-	@echo "... test"
 	@echo "... term_index"
 	@echo "... install"
 	@echo "... list_install_components"
@@ -283,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lrj/Public/s2geometry/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

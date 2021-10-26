@@ -131,26 +131,6 @@ CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: ../src/s2/util/math/ma
 CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: ../src/s2/util/math/vector.h
 CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: ../src/s2/util/math/vector3_hash.h
 CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: ../src/s2/s2shapeutil_testing.cc
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/gtest-death-test.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/gtest-matchers.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/gtest-message.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/gtest-param-test.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/gtest-printers.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/gtest-test-part.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/gtest-typed-test.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/gtest.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/gtest_pred_impl.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/gtest_prod.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/internal/custom/gtest-port.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/internal/custom/gtest-printers.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/internal/gtest-death-test-internal.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/internal/gtest-filepath.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/internal/gtest-internal.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/internal/gtest-param-util.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/internal/gtest-port-arch.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/internal/gtest-port.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/internal/gtest-string.h
-CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: /usr/src/gtest/include/gtest/internal/gtest-type-util.h
 
 CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o: ../src/s2/_fp_contract_off.h
 CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o: ../src/s2/base/casts.h

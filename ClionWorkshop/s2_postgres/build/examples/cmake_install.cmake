@@ -1,4 +1,4 @@
-# Install script for directory: /home/lrj/Public/s2geometry/doc/examples
+# Install script for directory: /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/doc/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
