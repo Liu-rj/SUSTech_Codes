@@ -54,10 +54,10 @@ RM = /home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/212.5457.51/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lrj/Public/s2geometry
+CMAKE_SOURCE_DIR = /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lrj/Public/s2geometry/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -102,14 +102,14 @@ examples/clean: examples/CMakeFiles/term_index.dir/clean
 CMakeFiles/s2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94 "Built target s2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94 "Built target s2"
 .PHONY : CMakeFiles/s2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/s2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles 93
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles 93
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/s2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/s2.dir/rule
 
 # Convenience name for target.
@@ -128,14 +128,14 @@ CMakeFiles/s2.dir/clean:
 CMakeFiles/s2testing.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2testing.dir/build.make CMakeFiles/s2testing.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2testing.dir/build.make CMakeFiles/s2testing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles --progress-num=95,96,97,98 "Built target s2testing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles --progress-num=95,96,97,98 "Built target s2testing"
 .PHONY : CMakeFiles/s2testing.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/s2testing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/s2testing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/s2testing.dir/rule
 
 # Convenience name for target.
@@ -155,14 +155,14 @@ examples/CMakeFiles/point_index.dir/all: CMakeFiles/s2.dir/all
 examples/CMakeFiles/point_index.dir/all: CMakeFiles/s2testing.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/point_index.dir/build.make examples/CMakeFiles/point_index.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/point_index.dir/build.make examples/CMakeFiles/point_index.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles --progress-num=1 "Built target point_index"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles --progress-num=1 "Built target point_index"
 .PHONY : examples/CMakeFiles/point_index.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/point_index.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles 98
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles 98
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/point_index.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles 0
 .PHONY : examples/CMakeFiles/point_index.dir/rule
 
 # Convenience name for target.
@@ -182,14 +182,14 @@ examples/CMakeFiles/term_index.dir/all: CMakeFiles/s2.dir/all
 examples/CMakeFiles/term_index.dir/all: CMakeFiles/s2testing.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/term_index.dir/build.make examples/CMakeFiles/term_index.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/term_index.dir/build.make examples/CMakeFiles/term_index.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles --progress-num=99,100 "Built target term_index"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles --progress-num=99,100 "Built target term_index"
 .PHONY : examples/CMakeFiles/term_index.dir/all
 
 # Build rule for subdir invocation for target.
 examples/CMakeFiles/term_index.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles 99
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles 99
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/term_index.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/Public/s2geometry/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/cmake-build-debug/CMakeFiles 0
 .PHONY : examples/CMakeFiles/term_index.dir/rule
 
 # Convenience name for target.

@@ -100,6 +100,16 @@ if (WITH_PYTHON)
     include_directories(${Python3_INCLUDE_DIRS})
 endif()
 
+# set postgres extension requirements
+set(EXTENSION s2geometry)
+set(DATA s2--0.0.1.sql)
+set(PG_CONFIG /opt/pgsql/12.2/bin/pg_config)
+set(PGXS /opt/pgsql/12.2/lib/pgxs/src/makefiles/pgxs.mk)
+set(PG_INCLUDE_DIRS /opt/pgsql/12.2/include/)
+
+# set PG include directories
+include_directories(${PG_INCLUDE_DIRS} ${PG_INCLUDE_DIRS}/server ${PG_INCLUDE_DIRS}/libpg ${PG_INCLUDE_DIRS}/informix ${PG_INCLUDE_DIRS}/internal)
+
 include_directories(src)
 
 add_library(s2
@@ -430,6 +440,8 @@ install(TARGETS s2 s2testing
         ARCHIVE DESTINATION "${CMAKE_INSTALL_LIBDIR}"
         LIBRARY DESTINATION "${CMAKE_INSTALL_LIBDIR}")
 
+
+# GTEST EXTENSION
 message("GTEST_ROOT: ${GTEST_ROOT}")
 if (GTEST_ROOT)
   add_subdirectory(${GTEST_ROOT} build_gtest)

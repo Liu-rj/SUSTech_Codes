@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS
 
-CXX_INCLUDES = -I/home/lrj/Public/s2geometry/src
+CXX_INCLUDES = -I/opt/pgsql/12.2/include -I/opt/pgsql/12.2/include/server -I/opt/pgsql/12.2/include/libpg -I/opt/pgsql/12.2/include/informix -I/opt/pgsql/12.2/include/internal -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src
 
 CXX_FLAGS = -g -fPIC   -Wno-attributes -Wno-deprecated-declarations -std=c++11
 
