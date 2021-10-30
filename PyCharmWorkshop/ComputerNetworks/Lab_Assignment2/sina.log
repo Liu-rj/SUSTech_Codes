@@ -1,0 +1,193 @@
+www.sina.com 10.17.116.37 14000 8.8.8.8 True
+(10.17.116.37#14000) send query(<Root> NS IN rd=0) to DNS Server: (Local DNS server 8.8.8.8#53)
+id 53605
+opcode QUERY
+rcode NXDOMAIN
+flags QR RA AD
+;QUESTION
+<Root>. IN NS
+;ANSWER
+;AUTHORITY
+. 86393 IN SOA a.root-servers.net. nstld.verisign-grs.com. 2021102902 1800 900 604800 86400
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(a.root-servers.net. A IN rd=0) to DNS Server: (Local DNS server 8.8.8.8#53)
+id 31515
+opcode QUERY
+rcode NOERROR
+flags QR RA
+;QUESTION
+a.root-servers.net. IN A
+;ANSWER
+a.root-servers.net. 258324 IN A 198.41.0.4
+;AUTHORITY
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(www.sina.com A IN rd=0) to DNS Server: (a.root-servers.net. 198.41.0.4#53)
+id 23137
+opcode QUERY
+rcode NOERROR
+flags QR TC
+;QUESTION
+www.sina.com. IN A
+;ANSWER
+;AUTHORITY
+com. 172800 IN NS e.gtld-servers.net.
+com. 172800 IN NS b.gtld-servers.net.
+com. 172800 IN NS j.gtld-servers.net.
+com. 172800 IN NS m.gtld-servers.net.
+com. 172800 IN NS i.gtld-servers.net.
+com. 172800 IN NS f.gtld-servers.net.
+com. 172800 IN NS a.gtld-servers.net.
+com. 172800 IN NS g.gtld-servers.net.
+com. 172800 IN NS h.gtld-servers.net.
+com. 172800 IN NS l.gtld-servers.net.
+com. 172800 IN NS k.gtld-servers.net.
+com. 172800 IN NS c.gtld-servers.net.
+com. 172800 IN NS d.gtld-servers.net.
+;ADDITIONAL
+e.gtld-servers.net. 172800 IN A 192.12.94.30
+e.gtld-servers.net. 172800 IN AAAA 2001:502:1ca1::30
+b.gtld-servers.net. 172800 IN A 192.33.14.30
+b.gtld-servers.net. 172800 IN AAAA 2001:503:231d::2:30
+j.gtld-servers.net. 172800 IN A 192.48.79.30
+j.gtld-servers.net. 172800 IN AAAA 2001:502:7094::30
+m.gtld-servers.net. 172800 IN A 192.55.83.30
+m.gtld-servers.net. 172800 IN AAAA 2001:501:b1f9::30
+i.gtld-servers.net. 172800 IN A 192.43.172.30
+i.gtld-servers.net. 172800 IN AAAA 2001:503:39c1::30
+f.gtld-servers.net. 172800 IN A 192.35.51.30 
+
+(10.17.116.37#14000) send query(www.sina.com A IN rd=0) to DNS Server: (e.gtld-servers.net. 192.12.94.30#53)
+id 28275
+opcode QUERY
+rcode NOERROR
+flags QR
+;QUESTION
+www.sina.com. IN A
+;ANSWER
+;AUTHORITY
+sina.com. 172800 IN NS ns1.sina.com.cn.
+sina.com. 172800 IN NS ns2.sina.com.cn.
+sina.com. 172800 IN NS ns3.sina.com.cn.
+sina.com. 172800 IN NS ns1.sina.com.
+sina.com. 172800 IN NS ns2.sina.com.
+sina.com. 172800 IN NS ns4.sina.com.
+sina.com. 172800 IN NS ns3.sina.com.
+;ADDITIONAL
+ns1.sina.com. 172800 IN A 114.134.80.144
+ns2.sina.com. 172800 IN A 114.134.80.145
+ns4.sina.com. 172800 IN A 123.125.29.99
+ns3.sina.com. 172800 IN A 180.149.138.199 
+
+(10.17.116.37#14000) send query(www.sina.com A IN rd=0) to DNS Server: (ns1.sina.com. 114.134.80.144#53)
+id 25285
+opcode QUERY
+rcode NOERROR
+flags QR AA
+;QUESTION
+www.sina.com. IN A
+;ANSWER
+www.sina.com. 60 IN CNAME spool.grid.sinaedge.com.
+;AUTHORITY
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(<Root> NS IN rd=0) to DNS Server: (Local DNS server 8.8.8.8#53)
+id 15830
+opcode QUERY
+rcode NXDOMAIN
+flags QR RA AD
+;QUESTION
+<Root>. IN NS
+;ANSWER
+;AUTHORITY
+. 86397 IN SOA a.root-servers.net. nstld.verisign-grs.com. 2021102902 1800 900 604800 86400
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(a.root-servers.net. A IN rd=0) to DNS Server: (Local DNS server 8.8.8.8#53)
+id 31727
+opcode QUERY
+rcode NOERROR
+flags QR RA
+;QUESTION
+a.root-servers.net. IN A
+;ANSWER
+a.root-servers.net. 257768 IN A 198.41.0.4
+;AUTHORITY
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(spool.grid.sinaedge.com. A IN rd=0) to DNS Server: (a.root-servers.net. 198.41.0.4#53)
+id 36703
+opcode QUERY
+rcode NOERROR
+flags QR TC
+;QUESTION
+spool.grid.sinaedge.com. IN A
+;ANSWER
+;AUTHORITY
+com. 172800 IN NS e.gtld-servers.net.
+com. 172800 IN NS b.gtld-servers.net.
+com. 172800 IN NS j.gtld-servers.net.
+com. 172800 IN NS m.gtld-servers.net.
+com. 172800 IN NS i.gtld-servers.net.
+com. 172800 IN NS f.gtld-servers.net.
+com. 172800 IN NS a.gtld-servers.net.
+com. 172800 IN NS g.gtld-servers.net.
+com. 172800 IN NS h.gtld-servers.net.
+com. 172800 IN NS l.gtld-servers.net.
+com. 172800 IN NS k.gtld-servers.net.
+com. 172800 IN NS c.gtld-servers.net.
+com. 172800 IN NS d.gtld-servers.net.
+;ADDITIONAL
+e.gtld-servers.net. 172800 IN A 192.12.94.30
+e.gtld-servers.net. 172800 IN AAAA 2001:502:1ca1::30
+b.gtld-servers.net. 172800 IN A 192.33.14.30
+b.gtld-servers.net. 172800 IN AAAA 2001:503:231d::2:30
+j.gtld-servers.net. 172800 IN A 192.48.79.30
+j.gtld-servers.net. 172800 IN AAAA 2001:502:7094::30
+m.gtld-servers.net. 172800 IN A 192.55.83.30
+m.gtld-servers.net. 172800 IN AAAA 2001:501:b1f9::30
+i.gtld-servers.net. 172800 IN A 192.43.172.30
+i.gtld-servers.net. 172800 IN AAAA 2001:503:39c1::30
+f.gtld-servers.net. 172800 IN A 192.35.51.30 
+
+(10.17.116.37#14000) send query(spool.grid.sinaedge.com. A IN rd=0) to DNS Server: (e.gtld-servers.net. 192.12.94.30#53)
+id 29775
+opcode QUERY
+rcode NOERROR
+flags QR
+;QUESTION
+spool.grid.sinaedge.com. IN A
+;ANSWER
+;AUTHORITY
+sinaedge.com. 172800 IN NS ns1.sinaedge.com.
+sinaedge.com. 172800 IN NS ns2.sinaedge.com.
+sinaedge.com. 172800 IN NS ns3.sinaedge.com.
+sinaedge.com. 172800 IN NS ns4.sinaedge.com.
+sinaedge.com. 172800 IN NS ns5.sinaedge.com.
+sinaedge.com. 172800 IN NS ns6.sinaedge.com.
+;ADDITIONAL
+ns1.sinaedge.com. 172800 IN A 123.126.42.246
+ns2.sinaedge.com. 172800 IN A 58.63.238.144
+ns3.sinaedge.com. 172800 IN A 180.149.153.163
+ns4.sinaedge.com. 172800 IN A 221.179.175.225
+ns5.sinaedge.com. 172800 IN A 123.125.29.251
+ns6.sinaedge.com. 172800 IN A 36.51.254.87 
+
+(10.17.116.37#14000) send query(spool.grid.sinaedge.com. A IN rd=0) to DNS Server: (ns1.sinaedge.com. 123.126.42.246#53)
+id 28929
+opcode QUERY
+rcode NOERROR
+flags QR AA
+;QUESTION
+spool.grid.sinaedge.com. IN A
+;ANSWER
+spool.grid.sinaedge.com. 60 IN A 58.205.212.21
+;AUTHORITY
+;ADDITIONAL 
+
+Final Answer:
+Name: spool.grid.sinaedge.com.
+Addresses:
+58.205.212.21
+Aliases: www.sina.com

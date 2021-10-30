@@ -1,4 +1,5 @@
-from AI_Project1_4 import AI as AII
+from AI_Project1_4 import AI as AI_ljr
+from AI_xc import AI as AI_xc
 from Reversed_Reversi import AI
 import time
 import numpy as np
@@ -27,7 +28,7 @@ def is_end(ai, chessboard):
 
 if __name__ == '__main__':
     ai1 = AI(8, -1, 5)
-    ai2 = AII(8, 1, 5)
+    ai2 = AI_xc(8, 1, 5)
     chessboard = np.array(ini_board)
     ais = [ai1, ai2]
     count = 0

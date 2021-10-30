@@ -1,10 +1,61 @@
-11:59:45 **** Incremental Build of configuration Debug for project Lab7_IWDG ****
+19:51:01 **** Incremental Build of configuration Debug for project Lab7_IWDG ****
 make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:100:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  100 |   HAL_UART_Transmit(&huart1, "Restart\r\n", 9, HAL_MAX_DELAY);
+      |                              ^~~~~~~~~~~~~
+      |                              |
+      |                              char *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:337,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:725:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  725 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:105:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  105 |    sprintf(msg, "i = %d\r\n", i);
+      |    ^~~~~~~
+../Core/Src/main.c:105:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   25 | 
+../Core/Src/main.c:105:12: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  105 |    sprintf(msg, "i = %d\r\n", i);
+      |            ^~~
+      |            |
+      |            unsigned char *
+../Core/Src/main.c:105:12: note: expected 'char *' but argument is of type 'unsigned char *'
+../Core/Src/main.c:106:46: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  106 |    HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+      |                                              ^~~~~~
+../Core/Src/main.c:106:46: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:25:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   24 | #include "gpio.h"
+  +++ |+#include <string.h>
+   25 | 
+../Core/Src/main.c:106:53: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  106 |    HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                     ^~~
+      |                                                     |
+      |                                                     unsigned char *
+../Core/Src/main.c:106:53: note: expected 'const char *' but argument is of type 'unsigned char *'
+arm-none-eabi-gcc -o "Lab7_IWDG.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\SUSTech_Codes\CS301\STM32CubeIDE\workspace\Lab7_IWDG\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab7_IWDG.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab7_IWDG.elf
+ 
 arm-none-eabi-size   Lab7_IWDG.elf 
+arm-none-eabi-objdump -h -S  Lab7_IWDG.elf  > "Lab7_IWDG.list"
+arm-none-eabi-objcopy  -O binary  Lab7_IWDG.elf  "Lab7_IWDG.bin"
    text	   data	    bss	    dec	    hex	filename
    8960	    120	   1680	  10760	   2a08	Lab7_IWDG.elf
 Finished building: default.size.stdout
  
+Finished building: Lab7_IWDG.bin
+Finished building: Lab7_IWDG.list
+ 
+ 
 
-11:59:46 Build Finished. 0 errors, 0 warnings. (took 441ms)
+19:51:02 Build Finished. 0 errors, 7 warnings. (took 1s.40ms)
 
