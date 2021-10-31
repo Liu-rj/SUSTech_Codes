@@ -2554,8 +2554,6 @@ CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: ../src/s2/util/math/vector.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: ../src/s2/util/math/vector3_hash.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: ../src/s2/s2latlng.cc
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/c.h
-CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/fmgr.h
-CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/lib/stringinfo.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/pg_config.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/pg_config_ext.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/pg_config_manual.h
@@ -2564,12 +2562,8 @@ CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/port.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/port/win32_port.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/postgres.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/postgres_ext.h
-CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/utils/array.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/utils/elog.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/utils/errcodes.h
-CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/utils/expandeddatum.h
-CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/utils/jsonb.h
-CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/utils/numeric.h
 CMakeFiles/s2.dir/src/s2/s2latlng.cc.o: /opt/pgsql/12.2/include/server/utils/palloc.h
 
 CMakeFiles/s2.dir/src/s2/s2latlng_rect.cc.o: ../src/s2/_fp_contract_off.h

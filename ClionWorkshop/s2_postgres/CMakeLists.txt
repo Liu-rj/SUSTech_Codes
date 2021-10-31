@@ -101,10 +101,10 @@ if (WITH_PYTHON)
 endif()
 
 # set postgres extension requirements
-set(EXTENSION s2geometry)
-set(DATA s2--0.0.1.sql)
-set(PG_CONFIG /opt/pgsql/12.2/bin/pg_config)
-set(PGXS /opt/pgsql/12.2/lib/pgxs/src/makefiles/pgxs.mk)
+# set(EXTENSION s2geometry)
+# set(DATA s2--0.0.1.sql)
+# set(PG_CONFIG /opt/pgsql/12.2/bin/pg_config)
+# set(PGXS /opt/pgsql/12.2/lib/pgxs/src/makefiles/pgxs.mk)
 set(PG_INCLUDE_DIRS /opt/pgsql/12.2/include/)
 
 # set PG include directories

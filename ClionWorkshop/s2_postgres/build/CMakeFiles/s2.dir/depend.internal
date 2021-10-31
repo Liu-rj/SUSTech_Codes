@@ -2555,8 +2555,6 @@ CMakeFiles/s2.dir/src/s2/s2latlng.cc.o
  ../src/s2/util/math/vector3_hash.h
  /home/lrj/SUSTech_Codes/ClionWorkshop/s2_postgres/src/s2/s2latlng.cc
  /opt/pgsql/12.2/include/server/c.h
- /opt/pgsql/12.2/include/server/fmgr.h
- /opt/pgsql/12.2/include/server/lib/stringinfo.h
  /opt/pgsql/12.2/include/server/pg_config.h
  /opt/pgsql/12.2/include/server/pg_config_ext.h
  /opt/pgsql/12.2/include/server/pg_config_manual.h
@@ -2565,12 +2563,8 @@ CMakeFiles/s2.dir/src/s2/s2latlng.cc.o
  /opt/pgsql/12.2/include/server/port/win32_port.h
  /opt/pgsql/12.2/include/server/postgres.h
  /opt/pgsql/12.2/include/server/postgres_ext.h
- /opt/pgsql/12.2/include/server/utils/array.h
  /opt/pgsql/12.2/include/server/utils/elog.h
  /opt/pgsql/12.2/include/server/utils/errcodes.h
- /opt/pgsql/12.2/include/server/utils/expandeddatum.h
- /opt/pgsql/12.2/include/server/utils/jsonb.h
- /opt/pgsql/12.2/include/server/utils/numeric.h
  /opt/pgsql/12.2/include/server/utils/palloc.h
 CMakeFiles/s2.dir/src/s2/s2latlng_rect.cc.o
  ../src/s2/_fp_contract_off.h

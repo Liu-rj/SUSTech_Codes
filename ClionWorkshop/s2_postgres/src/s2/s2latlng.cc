@@ -17,7 +17,6 @@
 
 #include "s2/s2latlng.h"
 #include "postgres.h"
-#include "utils/jsonb.h"
 
 #include <algorithm>
 #include <ostream>
