@@ -1,0 +1,4 @@
+/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/cmake-build-debug/CMakeFiles/s2testing.dir
+/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/cmake-build-debug/CMakeFiles/s2.dir

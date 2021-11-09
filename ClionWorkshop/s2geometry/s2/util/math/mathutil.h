@@ -24,7 +24,10 @@
 #include <type_traits>
 
 #include "s2/base/integral_types.h"
-#include "postgres.h"
+
+//extern "C" {
+//#include "postgres.h"
+//}
 
 class MathUtil {
  public:
