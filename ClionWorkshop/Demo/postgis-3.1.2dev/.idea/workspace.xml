@@ -12,7 +12,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="616ceece-ec80-49d7-a326-1d024e3a2822" name="Changes" comment="" />
+    <list default="true" id="616ceece-ec80-49d7-a326-1d024e3a2822" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgis_revision.h" beforeDir="false" afterPath="$PROJECT_DIR$/postgis_revision.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2geometry--0.0.1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2geometry--0.0.1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2geometry.control" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2geometry.control" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +85,14 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,6 +116,8 @@
       <workItem from="1636446611438" duration="3482000" />
       <workItem from="1636450324936" duration="9000" />
       <workItem from="1636460864985" duration="3198000" />
+      <workItem from="1636466810087" duration="125000" />
+      <workItem from="1636544178987" duration="11404000" />
     </task>
     <servers />
   </component>
@@ -119,5 +135,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
   </component>
 </project>

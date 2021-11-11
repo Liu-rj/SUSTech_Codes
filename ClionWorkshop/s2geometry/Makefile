@@ -1,6 +1,6 @@
-MODULE_big = s2geometry
-MODULEDIR = contrib/s2geometry
-MODULEPATH = $$libdir/s2geometry
+EXTENSION = s2geometry
+#MODULEDIR = contrib/s2geometry
+#MODULEPATH = $$libdir/s2geometry
 DATA = $(wildcard *--*.sql)
 
 #TESTS = $(wildcard test/sql/*.sql)
@@ -15,6 +15,7 @@ DATA = $(wildcard *--*.sql)
 # object files
 OBJS = \
 			s2/test.o \
+			s2/s2point_inout.o \
 			s2/base/stringprintf.o \
             s2/base/strtoint.o \
             s2/encoded_s2cell_id_vector.o \
@@ -126,6 +127,8 @@ OBJS = \
 
 PG_CPPFLAGS += -I/usr/include -fPIC
 SHLIB_LINK += -L/usr/lib/x86_64-linux-gnu/ -lcrypto -lpthread -lstdc++ -lm -lgcc_s -lc -ldl
+
+MODULE_big = $(EXTENSION)
 
 # postgres build stuff
 PG_CONFIG = /opt/pgsql/12.2/bin/pg_config
