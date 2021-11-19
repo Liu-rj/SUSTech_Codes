@@ -37,7 +37,10 @@
 #include "s2/base/integral_types.h"
 #include "s2/third_party/absl/base/config.h"
 #include "s2/third_party/absl/base/port.h"
-#include "postgres.h"
+
+//extern "C" {
+//#include "postgres.h"
+//}
 
 #ifdef SWIG
 %include "third_party/absl/base/port.h"

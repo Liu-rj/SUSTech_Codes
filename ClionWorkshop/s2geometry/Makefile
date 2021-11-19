@@ -1,7 +1,9 @@
-EXTENSION = s2geometry                  # the extensions name
-DATA = $(wildcard *--*.sql)             # script files to install
-TESTS = $(wildcard test/sql/*.sql)      # use test/sql/*.sql as testfiles
+EXTENSION = s2geometry
+#MODULEDIR = contrib/s2geometry
+#MODULEPATH = $$libdir/s2geometry
+DATA = $(wildcard *--*.sql)
 
+#TESTS = $(wildcard test/sql/*.sql)
 ## find the sql and expected directories under test
 ## load plpgsql into test db
 ## load extension into test db
@@ -12,6 +14,8 @@ TESTS = $(wildcard test/sql/*.sql)      # use test/sql/*.sql as testfiles
 
 # object files
 OBJS = \
+			s2/test.o \
+			s2/s2point_inout.o \
 			s2/base/stringprintf.o \
             s2/base/strtoint.o \
             s2/encoded_s2cell_id_vector.o \
@@ -121,7 +125,9 @@ OBJS = \
             s2/util/math/mathutil.o \
             s2/util/units/length-units.o
 
-# final shared library to be build from multiple source files (OBJS)
+PG_CPPFLAGS += -I/usr/include -fPIC
+SHLIB_LINK += -L/usr/lib/x86_64-linux-gnu/ -lcrypto -lpthread -lstdc++ -lm -lgcc_s -lc -ldl
+
 MODULE_big = $(EXTENSION)
 
 # postgres build stuff

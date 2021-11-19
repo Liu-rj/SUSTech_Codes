@@ -24,7 +24,11 @@
 // packages.  We use S2_CHECK to make it easier to switch to
 // something other than GLOG for logging.
 
-#define S2_LOG LOG
+#define S2_LOG LOG//#ifndef NDEBUG
+//#define S2_LOG_DFATAL S2_LOG_FATAL
+//#else
+//#define S2_LOG_DFATAL S2_LOG_ERROR
+//#endif
 #define S2_LOG_IF LOG_IF
 #define S2_DLOG_IF DLOG_IF
 
@@ -123,7 +127,7 @@ struct S2LogMessageVoidify {
 #endif
 
 //#define S2_LOG(severity) S2_LOG_##severity.stream()
-#define S2_LOG(severity)
+#define S2_LOG(severity) std::cout
 
 // Implementing this as if (...) {} else S2_LOG(...) will cause dangling else
 // warnings when someone does if (...) S2_LOG_IF(...), so do this tricky
