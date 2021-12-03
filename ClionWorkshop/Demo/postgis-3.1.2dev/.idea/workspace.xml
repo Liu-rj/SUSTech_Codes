@@ -13,12 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="616ceece-ec80-49d7-a326-1d024e3a2822" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgis_revision.h" beforeDir="false" afterPath="$PROJECT_DIR$/postgis_revision.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../s2geometry/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2point_inout.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2/s2point_inout.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2point_inout.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2/s2point_inout.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2/test.cc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../s2geometry/s2geometry--0.0.1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2geometry--0.0.1.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2geometry.control" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2geometry.control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2geometry.so" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2geometry.so" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +118,9 @@
       <workItem from="1636460864985" duration="3198000" />
       <workItem from="1636466810087" duration="125000" />
       <workItem from="1636544178987" duration="11404000" />
+      <workItem from="1636640398533" duration="25000" />
+      <workItem from="1636856112961" duration="1892000" />
+      <workItem from="1638435800710" duration="5175000" />
     </task>
     <servers />
   </component>

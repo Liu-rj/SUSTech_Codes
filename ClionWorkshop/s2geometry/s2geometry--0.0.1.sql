@@ -5,6 +5,8 @@
 --  S2POINT TYPE
 -----------------------------------------------------------------------------
 
+CREATE TYPE s2point;
+
 -- Availability: 0.0.1
 CREATE OR REPLACE FUNCTION s2point_in(cstring, oid, integer)
     RETURNS s2point
@@ -55,15 +57,9 @@ AS
 
 CREATE TYPE s2point
 (
-    internallength = variable,
+    internallength = 16,
     input = s2point_in,
-    output = s2point_out, --     receive = s2point_recv,
---     send = s2point_send,
---     typmod_in = s2point_typmod_in,
---     typmod_out = s2point_typmod_out,
-    delimiter = ',',
---     analyze = s2point_analyze,
-    storage = main,
+    output = s2point_out,
     alignment = double
 );
 
