@@ -1,0 +1,37 @@
+23:25:03 **** Incremental Build of configuration Release for project Lab_Assignment2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+../Core/Src/stm32f1xx_it.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/stm32f1xx_it.c:243:2: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  243 |  sprintf(msg, "%f", tmp);
+      |  ^~~~~~~
+../Core/Src/stm32f1xx_it.c:243:2: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/stm32f1xx_it.c:27:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   26 | #include "lcd.h"
+  +++ |+#include <stdio.h>
+   27 | /* USER CODE END Includes */
+../Core/Src/stm32f1xx_it.c: In function 'HAL_ADC_LevelOutOfWindowCallback':
+../Core/Src/stm32f1xx_it.c:287:2: warning: implicit declaration of function 'LCD_ShowBMP'; did you mean 'LCD_ShowNum'? [-Wimplicit-function-declaration]
+  287 |  LCD_ShowBMP(30,200,(uint8_t **)bmp,64,64,1);
+      |  ^~~~~~~~~~~
+      |  LCD_ShowNum
+arm-none-eabi-gcc -o "Lab_Assignment2.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\SUSTech_Codes\CS301\STM32CubeIDE\workspace\Lab_Assignment2\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab_Assignment2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab_Assignment2.elf
+ 
+arm-none-eabi-size   Lab_Assignment2.elf 
+arm-none-eabi-objdump -h -S  Lab_Assignment2.elf  > "Lab_Assignment2.list"
+arm-none-eabi-objcopy  -O ihex  Lab_Assignment2.elf  "Lab_Assignment2.hex"
+   text	   data	    bss	    dec	    hex	filename
+  46228	   1000	   1736	  48964	   bf44	Lab_Assignment2.elf
+arm-none-eabi-objcopy  -O binary  Lab_Assignment2.elf  "Lab_Assignment2.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Lab_Assignment2.hex
+ 
+Finished building: Lab_Assignment2.bin
+Finished building: Lab_Assignment2.list
+ 
+ 
+
+23:25:04 Build Finished. 0 errors, 3 warnings. (took 720ms)
+

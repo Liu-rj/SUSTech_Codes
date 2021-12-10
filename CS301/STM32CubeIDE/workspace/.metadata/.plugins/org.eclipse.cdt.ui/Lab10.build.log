@@ -1,10 +1,55 @@
-11:32:35 **** Incremental Build of configuration Debug for project Lab10 ****
+12:45:26 **** Incremental Build of configuration Debug for project Lab10 ****
 make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3 -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'FuncProducer':
+../Core/Src/main.c:297:3: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  297 |   sprintf(msg, "PUT Mail value: %d\r\n", mail->var);
+      |   ^~~~~~~
+../Core/Src/main.c:297:3: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:23:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   22 | #include "cmsis_os.h"
+  +++ |+#include <stdio.h>
+   23 | 
+../Core/Src/main.c:298:46: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  298 |   HAL_UART_Transmit(&huart1, (uint8_t*) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                              ^~~~~~
+../Core/Src/main.c:298:46: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:23:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   22 | #include "cmsis_os.h"
+  +++ |+#include <string.h>
+   23 | 
+../Core/Src/main.c: In function 'FuncConsumer':
+../Core/Src/main.c:325:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+  325 |    sprintf(msg, "Receive Mail value: %d\r\n", pMail->var);
+      |    ^~~~~~~
+../Core/Src/main.c:325:4: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:326:47: warning: incompatible implicit declaration of built-in function 'strlen'
+  326 |    HAL_UART_Transmit(&huart1, (uint8_t*) msg, strlen(msg),
+      |                                               ^~~~~~
+../Core/Src/main.c:326:47: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:325:38: warning: '%d' directive writing between 1 and 5 bytes into a region of size 0 [-Wformat-overflow=]
+  325 |    sprintf(msg, "Receive Mail value: %d\r\n", pMail->var);
+      |                                      ^~
+../Core/Src/main.c:325:4: note: 'sprintf' output between 24 and 28 bytes into a destination of size 20
+  325 |    sprintf(msg, "Receive Mail value: %d\r\n", pMail->var);
+      |    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Lab10.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\Lab10\Lab10\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab10.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab10.elf
+ 
 arm-none-eabi-size   Lab10.elf 
+arm-none-eabi-objdump -h -S  Lab10.elf  > "Lab10.list"
+arm-none-eabi-objcopy  -O ihex  Lab10.elf  "Lab10.hex"
    text	   data	    bss	    dec	    hex	filename
-  12300	    124	   5764	  18188	   470c	Lab10.elf
+  21784	    124	  22628	  44536	   adf8	Lab10.elf
+arm-none-eabi-objcopy  -O binary  Lab10.elf  "Lab10.bin"
 Finished building: default.size.stdout
  
+Finished building: Lab10.hex
+Finished building: Lab10.bin
+ 
+ 
+Finished building: Lab10.list
+ 
 
-11:32:36 Build Finished. 0 errors, 0 warnings. (took 576ms)
+12:45:28 Build Finished. 0 errors, 7 warnings. (took 1s.866ms)
 
