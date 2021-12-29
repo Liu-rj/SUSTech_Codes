@@ -3,11 +3,11 @@ cmake_minimum_required(VERSION 3.12)
 project(s2geometry
         VERSION 0.0.1)
 
-#include(CMakeDependentOption)
-#include(CheckCXXCompilerFlag)
-#include(FeatureSummary)
-#include(FindPackageHandleStandardArgs)
-#include(GNUInstallDirs)
+include(CMakeDependentOption)
+include(CheckCXXCompilerFlag)
+include(FeatureSummary)
+include(FindPackageHandleStandardArgs)
+include(GNUInstallDirs)
 
 message(STATUS "${CMakeDependentOption}")
 
@@ -27,10 +27,10 @@ set(CMAKE_INSTALL_PREFIX install/)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/third_party/cmake")
 
 option(BUILD_SHARED_LIBS "Build shared libraries instead of static." ON)
-#add_feature_info(SHARED_LIBS BUILD_SHARED_LIBS
-#        "builds shared libraries instead of static.")
+add_feature_info(SHARED_LIBS BUILD_SHARED_LIBS
+        "builds shared libraries instead of static.")
 
-#feature_summary(WHAT ALL)
+feature_summary(WHAT ALL)
 
 find_package(OpenSSL REQUIRED)
 # pthreads isn't used directly, but this is still required for std::thread.
@@ -57,13 +57,6 @@ endif ()
 # OPENSSL_ROOT_DIR=/usr/local/opt/openssl cmake ..
 include_directories(${OPENSSL_INCLUDE_DIR})
 
-# set postgres extension requirements
-#set(MODULE_big s2geometry)
-#set(DATA s2--0.0.1.sql)
-#set(PG_CONFIG /opt/pgsql/12.2/bin/pg_config)
-#set(PGXS /opt/pgsql/12.2/lib/pgxs/src/makefiles/pgxs.mk)
-#include(${PGXS})
-
 message(STATUS "${OPENSSL_INCLUDE_DIR}")
 message(STATUS "${CMAKE_CURRENT_SOURCE_DIR}")
 message(STATUS "${OPENSSL_LIBRARIES}")
@@ -71,8 +64,8 @@ message(STATUS "${CMAKE_THREAD_LIBS_INIT}")
 
 include_directories(src)
 
-add_library(s2
-#        src/s2/test.cc
+add_executable(s2
+        src/s2/test.cc
         src/s2/base/stringprintf.cc
         src/s2/base/strtoint.cc
         src/s2/encoded_s2cell_id_vector.cc
@@ -181,22 +174,22 @@ add_library(s2
         src/s2/util/math/exactfloat/exactfloat.cc
         src/s2/util/math/mathutil.cc
         src/s2/util/units/length-units.cc)
-add_library(s2testing STATIC
-        src/s2/s2builderutil_testing.cc
-        src/s2/s2shapeutil_testing.cc
-        src/s2/s2testing.cc)
-target_link_libraries(
-        s2
-        ${OPENSSL_LIBRARIES}
-        ${CMAKE_THREAD_LIBS_INIT})
+#add_library(s2testing STATIC
+#        src/s2/s2builderutil_testing.cc
+#        src/s2/s2shapeutil_testing.cc
+#        src/s2/s2testing.cc)
+#target_link_libraries(
+#        s2
+#        ${OPENSSL_LIBRARIES}
+#        ${CMAKE_THREAD_LIBS_INIT})
 
-# Allow other CMake projects to use this one with:
-# list(APPEND CMAKE_MODULE_PATH "<path_to_s2geometry_dir>/third_party/cmake")
-# add_subdirectory(<path_to_s2geometry_dir> s2geometry)
-# target_link_libraries(<target_name> s2)
-target_include_directories(s2 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
-
-# Add version information to the target
-set_target_properties(s2 PROPERTIES
-        SOVERSION ${PROJECT_VERSION_MAJOR}
-        VERSION ${PROJECT_VERSION})
+## Allow other CMake projects to use this one with:
+## list(APPEND CMAKE_MODULE_PATH "<path_to_s2geometry_dir>/third_party/cmake")
+## add_subdirectory(<path_to_s2geometry_dir> s2geometry)
+## target_link_libraries(<target_name> s2)
+#target_include_directories(s2 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
+#
+## Add version information to the target
+#set_target_properties(s2 PROPERTIES
+#        SOVERSION ${PROJECT_VERSION_MAJOR}
+#        VERSION ${PROJECT_VERSION})

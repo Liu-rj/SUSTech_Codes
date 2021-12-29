@@ -5,22 +5,14 @@
 #include "s2point.h"
 #include "s2latlng.h"
 
-extern "C" {
-#include "postgres.h"
-#include "fmgr.h"
-
-PG_MODULE_MAGIC;
-
-PG_FUNCTION_INFO_V1(test_equal);
-}
-
-extern "C" Datum test_equal(PG_FUNCTION_ARGS)
+int main()
 {
-    int lat_radians = PG_GETARG_INT32(0);
-    int lng_radians = PG_GETARG_INT32(1);
-    int FLAGS_num_index_points = 10;
-    for (int i = 0; i < FLAGS_num_index_points; ++i) {
-        S2Point point(S2LatLng::FromDegrees(0, 0));
-    }
-    PG_RETURN_BOOL(lat_radians == lng_radians);
+    int i, sum = 0;
+    for (i = 1; i <= 100; i++)
+    {
+        sum += i;
+    } /*-for-*/
+    printf("sum = %d\n", sum);
+
+    return 0;
 }

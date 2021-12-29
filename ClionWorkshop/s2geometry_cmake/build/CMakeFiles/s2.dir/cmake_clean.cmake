@@ -88,6 +88,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/s2.dir/src/s2/s2wedge_relations.cc.o"
   "CMakeFiles/s2.dir/src/s2/strings/ostringstream.cc.o"
   "CMakeFiles/s2.dir/src/s2/strings/serialize.cc.o"
+  "CMakeFiles/s2.dir/src/s2/test.cc.o"
   "CMakeFiles/s2.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.o"
   "CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/raw_logging.cc.o"
   "CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/throw_delegate.cc.o"
@@ -107,10 +108,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/s2.dir/src/s2/util/math/exactfloat/exactfloat.cc.o"
   "CMakeFiles/s2.dir/src/s2/util/math/mathutil.cc.o"
   "CMakeFiles/s2.dir/src/s2/util/units/length-units.cc.o"
-  "libs2.pdb"
-  "libs2.so"
-  "libs2.so.0"
-  "libs2.so.0.0.1"
+  "s2"
+  "s2.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

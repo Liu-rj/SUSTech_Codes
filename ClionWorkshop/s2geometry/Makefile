@@ -16,6 +16,16 @@ DATA = $(wildcard *--*.sql)
 OBJS = \
 			s2/test.o \
 			s2/s2point_inout.o \
+			s2/s2_am/s2.o \
+			s2/s2_am/s2build.o \
+			s2/s2_am/s2get.o \
+			s2/s2_am/s2scan.o \
+			s2/s2_am/s2insert.o \
+			s2/s2_am/s2validate.o \
+			s2/s2_am/s2vacuum.o \
+			s2/s2_am/s2estimate.o \
+			s2/s2_am/s2util.o \
+			s2/s2_am/s2xlog.o \
 			s2/base/stringprintf.o \
             s2/base/strtoint.o \
             s2/encoded_s2cell_id_vector.o \

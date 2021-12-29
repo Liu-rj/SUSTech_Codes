@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.o"
+  "CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.o.d"
   "CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o"
+  "CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o.d"
   "CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o"
+  "CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o.d"
   "libs2testing.a"
   "libs2testing.pdb"
 )

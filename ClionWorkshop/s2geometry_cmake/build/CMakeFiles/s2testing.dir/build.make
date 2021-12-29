@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry
+CMAKE_SOURCE_DIR = /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/build
+CMAKE_BINARY_DIR = /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/s2testing.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/s2testing.dir/flags.make
 
 CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.o: CMakeFiles/s2testing.dir/flags.make
 CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.o: ../src/s2/s2builderutil_testing.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/src/s2/s2builderutil_testing.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_testing.cc
 
 CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/src/s2/s2builderutil_testing.cc > CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_testing.cc > CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.i
 
 CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/src/s2/s2builderutil_testing.cc -o CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_testing.cc -o CMakeFiles/s2testing.dir/src/s2/s2builderutil_testing.cc.s
 
 CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: CMakeFiles/s2testing.dir/flags.make
 CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o: ../src/s2/s2shapeutil_testing.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/src/s2/s2shapeutil_testing.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_testing.cc
 
 CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/src/s2/s2shapeutil_testing.cc > CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_testing.cc > CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.i
 
 CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/src/s2/s2shapeutil_testing.cc -o CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_testing.cc -o CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.s
 
 CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o: CMakeFiles/s2testing.dir/flags.make
 CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o: ../src/s2/s2testing.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/src/s2/s2testing.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o -c /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2testing.cc
 
 CMakeFiles/s2testing.dir/src/s2/s2testing.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/s2testing.dir/src/s2/s2testing.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/src/s2/s2testing.cc > CMakeFiles/s2testing.dir/src/s2/s2testing.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2testing.cc > CMakeFiles/s2testing.dir/src/s2/s2testing.cc.i
 
 CMakeFiles/s2testing.dir/src/s2/s2testing.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/s2testing.dir/src/s2/s2testing.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/src/s2/s2testing.cc -o CMakeFiles/s2testing.dir/src/s2/s2testing.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2testing.cc -o CMakeFiles/s2testing.dir/src/s2/s2testing.cc.s
 
 # Object files for target s2testing
 s2testing_OBJECTS = \
@@ -110,7 +110,7 @@ libs2testing.a: CMakeFiles/s2testing.dir/src/s2/s2shapeutil_testing.cc.o
 libs2testing.a: CMakeFiles/s2testing.dir/src/s2/s2testing.cc.o
 libs2testing.a: CMakeFiles/s2testing.dir/build.make
 libs2testing.a: CMakeFiles/s2testing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libs2testing.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libs2testing.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/s2testing.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/s2testing.dir/link.txt --verbose=$(VERBOSE)
 
@@ -124,6 +124,6 @@ CMakeFiles/s2testing.dir/clean:
 .PHONY : CMakeFiles/s2testing.dir/clean
 
 CMakeFiles/s2testing.dir/depend:
-	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/build /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/build /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/build/CMakeFiles/s2testing.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build/CMakeFiles/s2testing.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/s2testing.dir/depend
 

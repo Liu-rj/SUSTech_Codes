@@ -6,5 +6,5 @@ CXX_FLAGS =   -Wno-attributes -Wno-deprecated-declarations -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry/src 
+CXX_INCLUDES = -I/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src 
 

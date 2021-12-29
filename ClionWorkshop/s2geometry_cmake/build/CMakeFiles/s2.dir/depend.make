@@ -4941,6 +4941,33 @@ CMakeFiles/s2.dir/src/s2/strings/serialize.cc.o: ../src/s2/third_party/absl/stri
 CMakeFiles/s2.dir/src/s2/strings/serialize.cc.o: ../src/s2/third_party/absl/strings/strip.h
 CMakeFiles/s2.dir/src/s2/strings/serialize.cc.o: ../src/s2/strings/serialize.cc
 
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/_fp_contract_off.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/base/integral_types.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/base/log_severity.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/base/logging.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/r2.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/s1angle.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/s2point.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/base/attributes.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/base/config.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/base/internal/identity.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/base/internal/inline_variable.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/base/internal/invoke.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/base/log_severity.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/base/macros.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/base/optimization.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/base/policy_checks.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/base/port.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/meta/type_traits.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/third_party/absl/utility/utility.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/util/hash/mix.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/util/math/mathutil.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/util/math/vector.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/util/math/vector3_hash.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/s2latlng.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/s2point.h
+CMakeFiles/s2.dir/src/s2/test.cc.o: ../src/s2/test.cc
+
 CMakeFiles/s2.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.o: ../src/s2/third_party/absl/base/dynamic_annotations.h
 CMakeFiles/s2.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.o: ../src/s2/third_party/absl/base/dynamic_annotations.cc
 

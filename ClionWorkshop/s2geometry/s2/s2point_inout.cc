@@ -4,9 +4,10 @@
 
 #include "s2point.h"
 #include "s2latlng.h"
+#include "s2_am/geobase.h"
 #include <string>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 
 extern "C" {
 #include "postgres.h"
@@ -14,15 +15,13 @@ extern "C" {
 
 PG_FUNCTION_INFO_V1(s2point_in);
 PG_FUNCTION_INFO_V1(s2point_out);
+
+#ifdef PG_MODULE_MAGIC
+PG_MODULE_MAGIC;
+#endif
 }
 
 extern "C" {
-typedef struct GeoBase
-{
-    double lat;
-    double lng;
-} GeoBase;
-
 Datum s2point_in(PG_FUNCTION_ARGS)
 {
     char *str = PG_GETARG_CSTRING(0);
