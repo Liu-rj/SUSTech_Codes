@@ -22,9 +22,9 @@ class SeparableConv2d(nn.Module):
 class YourNet(nn.Module):
     def __init__(self):
         super(YourNet, self).__init__()
-        self.conv1 = nn.Conv2d(1, 6, (3, 3))
-        self.conv2 = nn.Conv2d(6, 10, (3, 3))
-        self.fc1 = nn.Linear(10 * 5 * 5, 10)
+        self.conv1 = nn.Conv2d(1, 3, (3, 3))
+        self.conv2 = nn.Conv2d(3, 6, (3, 3))
+        self.fc1 = nn.Linear(6 * 5 * 5, 10)
         # self.fc2 = nn.Linear(60, 16)
         # self.fc3 = nn.Linear(16, 10)
 
