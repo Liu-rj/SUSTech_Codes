@@ -9,6 +9,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\SUSTech_Codes\CS301\STM32CubeIDE\workspace\wifi-communication"/>
 			<item value="E:\SUSTech_Codes\CS301\STM32CubeIDE\workspace"/>
 		</list>
 	</section>

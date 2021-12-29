@@ -1,0 +1,457 @@
+20:36:45 **** Incremental Build of configuration Debug for project Project1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+../Core/Src/stm32f1xx_it.c: In function 'transmit1':
+../Core/Src/stm32f1xx_it.c:313:45: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  313 |  HAL_UART_Transmit(&huart1, (uint8_t*) msg, strlen(msg), 0xffff);
+      |                                             ^~~~~~
+../Core/Src/stm32f1xx_it.c:313:45: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/stm32f1xx_it.c:27:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   26 | #include <stdio.h>
+  +++ |+#include <string.h>
+   27 | // #include <string.h>
+../Core/Src/stm32f1xx_it.c:313:52: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  313 |  HAL_UART_Transmit(&huart1, (uint8_t*) msg, strlen(msg), 0xffff);
+      |                                                    ^~~
+      |                                                    |
+      |                                                    uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:313:52: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c: In function 'send_msg_uart1':
+../Core/Src/stm32f1xx_it.c:317:45: warning: incompatible implicit declaration of built-in function 'strlen'
+  317 |  HAL_UART_Transmit(&huart1, (uint8_t*) msg, strlen(msg), 0xffff);
+      |                                             ^~~~~~
+../Core/Src/stm32f1xx_it.c:317:45: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/stm32f1xx_it.c:317:52: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  317 |  HAL_UART_Transmit(&huart1, (uint8_t*) msg, strlen(msg), 0xffff);
+      |                                                    ^~~
+      |                                                    |
+      |                                                    uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:317:52: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c: In function 'send_cmd':
+../Core/Src/stm32f1xx_it.c:325:45: warning: incompatible implicit declaration of built-in function 'strlen'
+  325 |  HAL_UART_Transmit(&huart2, (uint8_t*) cmd, strlen(cmd), 0xffff);
+      |                                             ^~~~~~
+../Core/Src/stm32f1xx_it.c:325:45: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/stm32f1xx_it.c:325:52: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  325 |  HAL_UART_Transmit(&huart2, (uint8_t*) cmd, strlen(cmd), 0xffff);
+      |                                                    ^~~
+      |                                                    |
+      |                                                    uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:325:52: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c: In function 'send_cmd_without_delay':
+../Core/Src/stm32f1xx_it.c:334:12: warning: pointer targets in passing argument 1 of 'transmit1' differ in signedness [-Wpointer-sign]
+  334 |  transmit1(command);
+      |            ^~~~~~~
+      |            |
+      |            char *
+../Core/Src/stm32f1xx_it.c:312:25: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  312 | void transmit1(uint8_t *msg) {
+      |                ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:335:45: warning: incompatible implicit declaration of built-in function 'strlen'
+  335 |  HAL_UART_Transmit(&huart2, (uint8_t*) cmd, strlen(cmd), 0xffff);
+      |                                             ^~~~~~
+../Core/Src/stm32f1xx_it.c:335:45: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/stm32f1xx_it.c:335:52: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  335 |  HAL_UART_Transmit(&huart2, (uint8_t*) cmd, strlen(cmd), 0xffff);
+      |                                                    ^~~
+      |                                                    |
+      |                                                    uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:335:52: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:336:12: warning: pointer targets in passing argument 1 of 'transmit1' differ in signedness [-Wpointer-sign]
+  336 |  transmit1("Start send command END\n");
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            |
+      |            char *
+../Core/Src/stm32f1xx_it.c:312:25: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  312 | void transmit1(uint8_t *msg) {
+      |                ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c: In function 'send_message_without_delay':
+../Core/Src/stm32f1xx_it.c:342:57: warning: incompatible implicit declaration of built-in function 'strlen'
+  342 |  sprintf(activate, "AT+CIPSEND=%d,%d\r\n", link_number, strlen(msg));
+      |                                                         ^~~~~~
+../Core/Src/stm32f1xx_it.c:342:57: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/stm32f1xx_it.c:342:64: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  342 |  sprintf(activate, "AT+CIPSEND=%d,%d\r\n", link_number, strlen(msg));
+      |                                                                ^~~
+      |                                                                |
+      |                                                                uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:342:64: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:342:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  342 |  sprintf(activate, "AT+CIPSEND=%d,%d\r\n", link_number, strlen(msg));
+      |          ^~~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/stm32f1xx_it.c:26:
+d:\programs\st\stm32cubeide_1.7.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346\tools\arm-none-eabi\include\stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/stm32f1xx_it.c: In function 'send_message':
+../Core/Src/stm32f1xx_it.c:355:57: warning: incompatible implicit declaration of built-in function 'strlen'
+  355 |  sprintf(activate, "AT+CIPSEND=%d,%d\r\n", link_number, strlen(msg));
+      |                                                         ^~~~~~
+../Core/Src/stm32f1xx_it.c:355:57: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/stm32f1xx_it.c:355:64: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  355 |  sprintf(activate, "AT+CIPSEND=%d,%d\r\n", link_number, strlen(msg));
+      |                                                                ^~~
+      |                                                                |
+      |                                                                uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:355:64: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:355:10: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+  355 |  sprintf(activate, "AT+CIPSEND=%d,%d\r\n", link_number, strlen(msg));
+      |          ^~~~~~~~
+      |          |
+      |          uint8_t * {aka unsigned char *}
+In file included from ../Core/Src/stm32f1xx_it.c:26:
+d:\programs\st\stm32cubeide_1.7.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346\tools\arm-none-eabi\include\stdio.h:244:14: note: expected 'char * restrict' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+  244 | int sprintf (char *__restrict, const char *__restrict, ...)
+      |              ^
+../Core/Src/stm32f1xx_it.c: In function 'init_server':
+../Core/Src/stm32f1xx_it.c:374:11: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  374 |  send_cmd("AT+CWMODE=3\r\n", 2000);
+      |           ^~~~~~~~~~~~~~~~~
+      |           |
+      |           char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:375:11: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  375 |  send_cmd("AT+RST\r\n", 5000);
+      |           ^~~~~~~~~~~~
+      |           |
+      |           char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:376:11: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  376 |  send_cmd("AT+CWSAP=\"SUSTC-WIFI-FAKE\",\"987654321\",1,0,4,0\r\n", 2000);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |           |
+      |           char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:379:11: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  379 |  send_cmd("AT+CIPMUX=1\r\n", 2000);
+      |           ^~~~~~~~~~~~~~~~~
+      |           |
+      |           char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:380:11: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  380 |  send_cmd("AT+CIPSERVER=1,8089\r\n", 2000);
+      |           ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |           |
+      |           char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/stm32f1xx_it.c:400:15: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  400 |    } else if (strcmp(uart1_rx_buffer, "server\r\n") == 0) {
+      |               ^~~~~~
+../Core/Src/stm32f1xx_it.c:400:22: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  400 |    } else if (strcmp(uart1_rx_buffer, "server\r\n") == 0) {
+      |                      ^~~~~~~~~~~~~~~
+      |                      |
+      |                      uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:400:22: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:403:14: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  403 |     send_cmd("AT+CWMODE=3\r\n", 1000);
+      |              ^~~~~~~~~~~~~~~~~
+      |              |
+      |              char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:404:22: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  404 |    } else if (strcmp(uart1_rx_buffer, "client\r\n") == 0) {
+      |                      ^~~~~~~~~~~~~~~
+      |                      |
+      |                      uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:404:22: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:406:22: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  406 |    } else if (strcmp(uart1_rx_buffer, "start\r\n") == 0
+      |                      ^~~~~~~~~~~~~~~
+      |                      |
+      |                      uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:406:22: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:410:22: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  410 |    } else if (strcmp(uart1_rx_buffer, "connect to wifi\r\n") == 0
+      |                      ^~~~~~~~~~~~~~~
+      |                      |
+      |                      uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:410:22: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:413:22: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  413 |    } else if (strcmp(uart1_rx_buffer, "connect to server\r\n") == 0
+      |                      ^~~~~~~~~~~~~~~
+      |                      |
+      |                      uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:413:22: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:418:22: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  418 |    } else if (strcmp(uart1_rx_buffer, "close connection\r\n") == 0) {
+      |                      ^~~~~~~~~~~~~~~
+      |                      |
+      |                      uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:418:22: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:421:15: warning: implicit declaration of function 'strncmp' [-Wimplicit-function-declaration]
+  421 |    } else if (strncmp(uart1_rx_buffer, "quit wifi\r\n") == 0
+      |               ^~~~~~~
+../Core/Src/stm32f1xx_it.c:421:23: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  421 |    } else if (strncmp(uart1_rx_buffer, "quit wifi\r\n") == 0
+      |                       ^~~~~~~~~~~~~~~
+      |                       |
+      |                       uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:421:23: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:421:15: warning: too few arguments to built-in function 'strncmp' expecting 3 [-Wbuiltin-declaration-mismatch]
+  421 |    } else if (strncmp(uart1_rx_buffer, "quit wifi\r\n") == 0
+      |               ^~~~~~~
+../Core/Src/stm32f1xx_it.c:423:14: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  423 |     send_cmd("AT+CWQAP\r\n", 1000);
+      |              ^~~~~~~~~~~~~~
+      |              |
+      |              char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:425:23: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  425 |    } else if (strncmp(uart1_rx_buffer, "ip status\r\n") == 0) {
+      |                       ^~~~~~~~~~~~~~~
+      |                       |
+      |                       uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:425:23: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:425:15: warning: too few arguments to built-in function 'strncmp' expecting 3 [-Wbuiltin-declaration-mismatch]
+  425 |    } else if (strncmp(uart1_rx_buffer, "ip status\r\n") == 0) {
+      |               ^~~~~~~
+../Core/Src/stm32f1xx_it.c:426:14: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  426 |     send_cmd("AT+CIPSTATUS\r\n", 1000);
+      |              ^~~~~~~~~~~~~~~~~~
+      |              |
+      |              char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:427:14: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  427 |     send_cmd("AT+CIFSR\r\n", 1000);
+      |              ^~~~~~~~~~~~~~
+      |              |
+      |              char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:428:23: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  428 |    } else if (strncmp(uart1_rx_buffer, "wifi status\r\n") == 0) {
+      |                       ^~~~~~~~~~~~~~~
+      |                       |
+      |                       uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:428:23: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:428:15: warning: too few arguments to built-in function 'strncmp' expecting 3 [-Wbuiltin-declaration-mismatch]
+  428 |    } else if (strncmp(uart1_rx_buffer, "wifi status\r\n") == 0) {
+      |               ^~~~~~~
+../Core/Src/stm32f1xx_it.c:429:14: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  429 |     send_cmd("AT+CWLIF\r\n", 1000);
+      |              ^~~~~~~~~~~~~~
+      |              |
+      |              char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:430:14: warning: pointer targets in passing argument 1 of 'send_cmd' differ in signedness [-Wpointer-sign]
+  430 |     send_cmd("AT+CIPSTATUS\r\n", 1000);
+      |              ^~~~~~~~~~~~~~~~~~
+      |              |
+      |              char *
+../Core/Src/stm32f1xx_it.c:321:24: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  321 | void send_cmd(uint8_t *cmd, int delay_time) {
+      |               ~~~~~~~~~^~~
+../Core/Src/stm32f1xx_it.c:437:4: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  437 |    memset(uart1_rx_buffer, 0, data_length);
+      |    ^~~~~~
+../Core/Src/stm32f1xx_it.c:437:4: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/stm32f1xx_it.c:437:4: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/stm32f1xx_it.c:446:16: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  446 |    if (strncmp(uart2_rx_buffer, "WIFI CONNECTED\r\n", 16) == 0
+      |                ^~~~~~~~~~~~~~~
+      |                |
+      |                uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:446:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:446:55: warning: 'strncmp' argument 3 type is 'int' where 'unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  446 |    if (strncmp(uart2_rx_buffer, "WIFI CONNECTED\r\n", 16) == 0
+      |                                                       ^~
+<built-in>: note: built-in 'strncmp' declared here
+../Core/Src/stm32f1xx_it.c:452:23: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  452 |    } else if (strncmp(uart2_rx_buffer, "WIFI GOT IP\r\n", 13) == 0) {
+      |                       ^~~~~~~~~~~~~~~
+      |                       |
+      |                       uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:452:23: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:452:59: warning: 'strncmp' argument 3 type is 'int' where 'unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  452 |    } else if (strncmp(uart2_rx_buffer, "WIFI GOT IP\r\n", 13) == 0) {
+      |                                                           ^~
+<built-in>: note: built-in 'strncmp' declared here
+../Core/Src/stm32f1xx_it.c:458:17: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  458 |      && strncmp(uart2_rx_buffer, (uint8_t*) "+", 1) == 0) {
+      |                 ^~~~~~~~~~~~~~~
+      |                 |
+      |                 uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:458:17: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:458:34: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness [-Wpointer-sign]
+  458 |      && strncmp(uart2_rx_buffer, (uint8_t*) "+", 1) == 0) {
+      |                                  ^~~~~~~~~~~~~~
+      |                                  |
+      |                                  uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:458:34: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:458:50: warning: 'strncmp' argument 3 type is 'int' where 'unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  458 |      && strncmp(uart2_rx_buffer, (uint8_t*) "+", 1) == 0) {
+      |                                                  ^
+<built-in>: note: built-in 'strncmp' declared here
+../Core/Src/stm32f1xx_it.c:459:9: warning: implicit declaration of function 'strstr' [-Wimplicit-function-declaration]
+  459 |     if (strstr(uart2_rx_buffer, "+timeout") != NULL) {
+      |         ^~~~~~
+../Core/Src/stm32f1xx_it.c:459:9: warning: incompatible implicit declaration of built-in function 'strstr'
+../Core/Src/stm32f1xx_it.c:459:9: note: include '<string.h>' or provide a declaration of 'strstr'
+../Core/Src/stm32f1xx_it.c:459:16: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+  459 |     if (strstr(uart2_rx_buffer, "+timeout") != NULL) {
+      |                ^~~~~~~~~~~~~~~
+      |                |
+      |                uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:459:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:463:16: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  463 |     if (strcmp(uart2_rx_buffer, "WIFI DISCONNECT\r\n", 16) == 0) { //client 端会收到这个消息
+      |                ^~~~~~~~~~~~~~~
+      |                |
+      |                uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:463:16: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:463:9: warning: too many arguments to built-in function 'strcmp' expecting 2 [-Wbuiltin-declaration-mismatch]
+  463 |     if (strcmp(uart2_rx_buffer, "WIFI DISCONNECT\r\n", 16) == 0) { //client 端会收到这个消息
+      |         ^~~~~~
+../Core/Src/stm32f1xx_it.c:467:24: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  467 |     } else if (strncmp(uart2_rx_buffer, "\r\n+IPD,", 7) == 0) {
+      |                        ^~~~~~~~~~~~~~~
+      |                        |
+      |                        uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:467:24: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:467:54: warning: 'strncmp' argument 3 type is 'int' where 'unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  467 |     } else if (strncmp(uart2_rx_buffer, "\r\n+IPD,", 7) == 0) {
+      |                                                      ^
+<built-in>: note: built-in 'strncmp' declared here
+../Core/Src/stm32f1xx_it.c:477:8: warning: incompatible implicit declaration of built-in function 'strlen'
+  477 |        strlen("Start Recieve\n"), 0xffff);
+      |        ^~~~~~
+../Core/Src/stm32f1xx_it.c:477:8: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/stm32f1xx_it.c:479:15: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+  479 |        strlen(uart2_rx_buffer), 0xffff);
+      |               ^~~~~~~~~~~~~~~
+      |               |
+      |               uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:479:15: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:485:6: warning: implicit declaration of function 'Answer' [-Wimplicit-function-declaration]
+  485 |      Answer(uart2_rx_buffer);
+      |      ^~~~~~
+../Core/Src/stm32f1xx_it.c:488:24: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  488 |     } else if (strncmp(uart2_rx_buffer, (uint8_t*) "SEND FAIL", 9)
+      |                        ^~~~~~~~~~~~~~~
+      |                        |
+      |                        uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:488:24: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:488:41: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness [-Wpointer-sign]
+  488 |     } else if (strncmp(uart2_rx_buffer, (uint8_t*) "SEND FAIL", 9)
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:488:41: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:488:65: warning: 'strncmp' argument 3 type is 'int' where 'unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  488 |     } else if (strncmp(uart2_rx_buffer, (uint8_t*) "SEND FAIL", 9)
+      |                                                                 ^
+<built-in>: note: built-in 'strncmp' declared here
+../Core/Src/stm32f1xx_it.c:493:24: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  493 |     } else if (strncmp(uart2_rx_buffer, (uint8_t*) "0,CLOSE OK", 10)
+      |                        ^~~~~~~~~~~~~~~
+      |                        |
+      |                        uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:493:24: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:493:41: warning: pointer targets in passing argument 2 of 'strncmp' differ in signedness [-Wpointer-sign]
+  493 |     } else if (strncmp(uart2_rx_buffer, (uint8_t*) "0,CLOSE OK", 10)
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                         |
+      |                                         uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:493:41: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:493:66: warning: 'strncmp' argument 3 type is 'int' where 'unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  493 |     } else if (strncmp(uart2_rx_buffer, (uint8_t*) "0,CLOSE OK", 10)
+      |                                                                  ^~
+<built-in>: note: built-in 'strncmp' declared here
+../Core/Src/stm32f1xx_it.c:503:23: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  503 |    } else if (strncmp(uart2_rx_buffer, "0,CONNECT\r\n", 11) == 0) {
+      |                       ^~~~~~~~~~~~~~~
+      |                       |
+      |                       uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:503:23: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:503:57: warning: 'strncmp' argument 3 type is 'int' where 'unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  503 |    } else if (strncmp(uart2_rx_buffer, "0,CONNECT\r\n", 11) == 0) {
+      |                                                         ^~
+<built-in>: note: built-in 'strncmp' declared here
+../Core/Src/stm32f1xx_it.c:512:5: warning: implicit declaration of function 'Question' [-Wimplicit-function-declaration]
+  512 |     Question();
+      |     ^~~~~~~~
+../Core/Src/stm32f1xx_it.c:513:23: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  513 |    } else if (strncmp(uart2_rx_buffer, "0,CONNECT FAIL\r\n", 16) == 0 ||
+      |                       ^~~~~~~~~~~~~~~
+      |                       |
+      |                       uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:513:23: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:513:62: warning: 'strncmp' argument 3 type is 'int' where 'unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  513 |    } else if (strncmp(uart2_rx_buffer, "0,CONNECT FAIL\r\n", 16) == 0 ||
+      |                                                              ^~
+<built-in>: note: built-in 'strncmp' declared here
+../Core/Src/stm32f1xx_it.c:514:4: warning: incompatible implicit declaration of built-in function 'strstr'
+  514 |    strstr(uart2_rx_buffer, "0,CLOSED\r\n") != NULL) {
+      |    ^~~~~~
+../Core/Src/stm32f1xx_it.c:514:4: note: include '<string.h>' or provide a declaration of 'strstr'
+../Core/Src/stm32f1xx_it.c:514:11: warning: pointer targets in passing argument 1 of 'strstr' differ in signedness [-Wpointer-sign]
+  514 |    strstr(uart2_rx_buffer, "0,CLOSED\r\n") != NULL) {
+      |           ^~~~~~~~~~~~~~~
+      |           |
+      |           uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:514:11: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:518:23: warning: pointer targets in passing argument 1 of 'strncmp' differ in signedness [-Wpointer-sign]
+  518 |    } else if (strncmp(uart2_rx_buffer, "0,CLOSED\r\n", 10) == 0) {
+      |                       ^~~~~~~~~~~~~~~
+      |                       |
+      |                       uint8_t * {aka unsigned char *}
+../Core/Src/stm32f1xx_it.c:518:23: note: expected 'const char *' but argument is of type 'uint8_t *' {aka 'unsigned char *'}
+../Core/Src/stm32f1xx_it.c:518:56: warning: 'strncmp' argument 3 type is 'int' where 'unsigned int' is expected in a call to built-in function declared without prototype [-Wbuiltin-declaration-mismatch]
+  518 |    } else if (strncmp(uart2_rx_buffer, "0,CLOSED\r\n", 10) == 0) {
+      |                                                        ^~
+<built-in>: note: built-in 'strncmp' declared here
+../Core/Src/stm32f1xx_it.c:531:4: warning: incompatible implicit declaration of built-in function 'memset'
+  531 |    memset(uart2_rx_buffer, 0, data_length);
+      |    ^~~~~~
+../Core/Src/stm32f1xx_it.c:531:4: note: include '<string.h>' or provide a declaration of 'memset'
+../Core/Src/stm32f1xx_it.c:537:18: warning: pointer targets in passing argument 1 of 'send_msg_uart1' differ in signedness [-Wpointer-sign]
+  537 |   send_msg_uart1("USART UNKNOWN RECIEVED\n", 1);
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  |
+      |                  char *
+../Core/Src/stm32f1xx_it.c:316:30: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  316 | void send_msg_uart1(uint8_t *msg, int delay_time) {
+      |                     ~~~~~~~~~^~~
+arm-none-eabi-gcc -o "Project1.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\EmbededSystem\CS301-EmbeddedSystem-Project1-Questioner\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Project1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Project1.elf
+ 
+arm-none-eabi-size   Project1.elf 
+arm-none-eabi-objdump -h -S  Project1.elf  > "Project1.list"
+arm-none-eabi-objcopy  -O ihex  Project1.elf  "Project1.hex"
+   text	   data	    bss	    dec	    hex	filename
+  52472	    228	   6292	  58992	   e670	Project1.elf
+arm-none-eabi-objcopy  -O binary  Project1.elf  "Project1.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Project1.hex
+Finished building: Project1.bin
+ 
+ 
+Finished building: Project1.list
+ 
+
+20:36:46 Build Finished. 0 errors, 78 warnings. (took 1s.95ms)
+
