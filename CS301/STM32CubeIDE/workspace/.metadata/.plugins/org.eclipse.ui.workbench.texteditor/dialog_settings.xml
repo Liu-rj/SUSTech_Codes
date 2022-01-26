@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="restart_wifi"/>
+		<item key="selection" value="link_number"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="restart_wifi"/>
 			<item value="link_number"/>
+			<item value="HAL_GPIO_EXTI_Callback"/>
+			<item value="restart_wifi"/>
 			<item value="connection_counter"/>
 			<item value="updateuD"/>
 			<item value="addNewLine"/>
@@ -22,7 +23,6 @@
 			<item value="conn_fail_msg"/>
 			<item value="join_ap"/>
 			<item value="&quot;AT+CWJAP=\&quot;SUSTC-WIFI-FAKE\&quot;,\&quot;987654321\&quot;\r\n&quot;"/>
-			<item value="look_up_cmd"/>
 		</list>
 		<list key="replacehistory">
 		</list>
