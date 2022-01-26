@@ -17,16 +17,6 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug"/>
 				<Option type="4"/>
@@ -37,31 +27,18 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="s2">
-				<Option output="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/s2" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
 				<Option working_dir="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src"/>
-					<Add directory="/usr/include/c++/9"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
-					<Add directory="/usr/include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 s2"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="s2/fast">
-				<Option output="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/s2" prefix_auto="0" extension_auto="0"/>
+			<Target title="s2geometry">
+				<Option output="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/s2geometry" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -77,7 +54,30 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 s2/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 s2geometry"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="s2geometry/fast">
+				<Option output="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/s2geometry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 s2geometry/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,655 +85,661 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/base/stringprintf.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/base/stringprintf.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/base/strtoint.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/base/strtoint.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/encoded_s2cell_id_vector.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/encoded_s2cell_id_vector.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/encoded_s2point_vector.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/encoded_s2point_vector.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/encoded_s2shape_index.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/encoded_s2shape_index.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/encoded_string_vector.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/encoded_string_vector.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/id_set_lexicon.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/id_set_lexicon.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/mutable_s2shape_index.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/mutable_s2shape_index.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/r2rect.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/r2rect.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s1angle.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s1angle.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s1chord_angle.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s1chord_angle.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s1interval.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s1interval.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2boolean_operation.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2boolean_operation.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builder.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builder.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builder_graph.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builder_graph.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_closed_set_normalizer.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_closed_set_normalizer.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_find_polygon_degeneracies.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_find_polygon_degeneracies.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_lax_polygon_layer.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_lax_polygon_layer.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_s2point_vector_layer.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_s2point_vector_layer.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_s2polygon_layer.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_s2polygon_layer.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_s2polyline_layer.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_s2polyline_layer.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_s2polyline_vector_layer.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_s2polyline_vector_layer.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_snap_functions.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2builderutil_snap_functions.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2cap.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2cap.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2cell.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2cell.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2cell_id.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2cell_id.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2cell_index.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2cell_index.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2cell_union.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2cell_union.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2centroids.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2centroids.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2closest_cell_query.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2closest_cell_query.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2closest_edge_query.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2closest_edge_query.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2closest_point_query.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2closest_point_query.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2contains_vertex_query.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2contains_vertex_query.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2convex_hull_query.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2convex_hull_query.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2coords.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2coords.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2crossing_edge_query.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2crossing_edge_query.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2debug.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2debug.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2earth.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2earth.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2edge_clipping.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2edge_clipping.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2edge_crosser.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2edge_crosser.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2edge_crossings.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2edge_crossings.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2edge_distances.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2edge_distances.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2edge_tessellator.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2edge_tessellator.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2error.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2error.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2furthest_edge_query.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2furthest_edge_query.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2latlng.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2latlng.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2latlng_rect.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2latlng_rect.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2latlng_rect_bounder.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2latlng_rect_bounder.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2lax_loop_shape.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2lax_loop_shape.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2lax_polygon_shape.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2lax_polygon_shape.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2lax_polyline_shape.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2lax_polyline_shape.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2loop.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2loop.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2loop_measures.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2loop_measures.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2max_distance_targets.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2max_distance_targets.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2measures.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2measures.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2metrics.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2metrics.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2min_distance_targets.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2min_distance_targets.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2padded_cell.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2padded_cell.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2point_compression.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2point_compression.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2point_region.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2point_region.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2pointutil.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2pointutil.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2polygon.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2polygon.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2polyline.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2polyline.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2polyline_alignment.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2polyline_alignment.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2polyline_measures.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2polyline_measures.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2polyline_simplifier.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2polyline_simplifier.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2predicates.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2predicates.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2projections.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2projections.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2r2rect.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2r2rect.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2region.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2region.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2region_coverer.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2region_coverer.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2region_intersection.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2region_intersection.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2region_term_indexer.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2region_term_indexer.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2region_union.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2region_union.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shape_index.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shape_index.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shape_index_buffered_region.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shape_index_buffered_region.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shape_index_measures.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shape_index_measures.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shape_measures.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shape_measures.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_build_polygon_boundaries.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_build_polygon_boundaries.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_coding.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_coding.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_contains_brute_force.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_contains_brute_force.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_edge_iterator.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_edge_iterator.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_get_reference_point.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_get_reference_point.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_range_iterator.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_range_iterator.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2shapeutil_visit_crossing_edge_pairs.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
+		</Unit>
+		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2testing.cc">
+			<Option target="s2geometry"/>
+		</Unit>
+		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2testing.h">
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2text_format.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2text_format.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2wedge_relations.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/s2wedge_relations.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/strings/ostringstream.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/strings/ostringstream.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/strings/serialize.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/strings/serialize.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/test.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/base/dynamic_annotations.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/base/dynamic_annotations.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/base/internal/raw_logging.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/base/internal/raw_logging.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/base/internal/throw_delegate.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/base/internal/throw_delegate.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/numeric/int128.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/numeric/int128.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/ascii.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/ascii.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/internal/memutil.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/internal/memutil.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/match.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/match.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/numbers.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/numbers.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/str_cat.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/str_cat.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/str_split.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/str_split.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/string_view.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/string_view.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/strip.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/third_party/absl/strings/strip.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/bits/bit-interleave.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/bits/bit-interleave.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/bits/bits.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/bits/bits.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/coding/coder.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/coding/coder.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/coding/varint.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/coding/varint.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/math/exactfloat/exactfloat.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/math/exactfloat/exactfloat.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/math/mathutil.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/math/mathutil.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/units/length-units.cc">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/src/s2/util/units/length-units.h">
-			<Option target="s2"/>
+			<Option target="s2geometry"/>
 		</Unit>
 		<Unit filename="/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

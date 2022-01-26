@@ -219,8 +219,8 @@ IndexTuple s2FormTuple(S2STATE *s2State, Relation r,
             compatt[i] = (Datum) 0;
         else
         {
-            GISTENTRY centry;
-            GISTENTRY *cep;
+            S2ENTRY centry;
+            S2ENTRY *cep;
 
             gistentryinit(centry, attdata[i], r, NULL, (OffsetNumber) 0,
                           isleaf);

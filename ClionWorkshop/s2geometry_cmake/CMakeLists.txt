@@ -64,8 +64,7 @@ message(STATUS "${CMAKE_THREAD_LIBS_INIT}")
 
 include_directories(src)
 
-add_executable(s2
-        src/s2/test.cc
+add_executable(s2geometry
         src/s2/base/stringprintf.cc
         src/s2/base/strtoint.cc
         src/s2/encoded_s2cell_id_vector.cc
@@ -173,15 +172,17 @@ add_executable(s2
         src/s2/util/coding/varint.cc
         src/s2/util/math/exactfloat/exactfloat.cc
         src/s2/util/math/mathutil.cc
-        src/s2/util/units/length-units.cc)
+        src/s2/util/units/length-units.cc
+        src/s2/s2testing.cc
+        src/s2/test.cc)
 #add_library(s2testing STATIC
 #        src/s2/s2builderutil_testing.cc
 #        src/s2/s2shapeutil_testing.cc
 #        src/s2/s2testing.cc)
-#target_link_libraries(
-#        s2
-#        ${OPENSSL_LIBRARIES}
-#        ${CMAKE_THREAD_LIBS_INIT})
+target_link_libraries(
+        s2geometry
+        ${OPENSSL_LIBRARIES}
+        ${CMAKE_THREAD_LIBS_INIT})
 
 ## Allow other CMake projects to use this one with:
 ## list(APPEND CMAKE_MODULE_PATH "<path_to_s2geometry_dir>/third_party/cmake")

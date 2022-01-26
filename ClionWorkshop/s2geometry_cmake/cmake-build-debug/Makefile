@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.46/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.46/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -65,25 +65,25 @@ CMAKE_BINARY_DIR = /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/cmake-
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.46/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.46/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named s2
+# Target rules for targets named s2geometry
 
 # Build rule for target.
-s2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 s2
-.PHONY : s2
+s2geometry: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 s2geometry
+.PHONY : s2geometry
 
 # fast build rule for target.
-s2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/build
-.PHONY : s2/fast
+s2geometry/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/build
+.PHONY : s2geometry/fast
 
 src/s2/base/stringprintf.o: src/s2/base/stringprintf.cc.o
 .PHONY : src/s2/base/stringprintf.o
 
 # target to build an object file
 src/s2/base/stringprintf.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/base/stringprintf.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/base/stringprintf.cc.o
 .PHONY : src/s2/base/stringprintf.cc.o
 
 src/s2/base/stringprintf.i: src/s2/base/stringprintf.cc.i
@@ -142,7 +142,7 @@ src/s2/base/stringprintf.i: src/s2/base/stringprintf.cc.i
 
 # target to preprocess a source file
 src/s2/base/stringprintf.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/base/stringprintf.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/base/stringprintf.cc.i
 .PHONY : src/s2/base/stringprintf.cc.i
 
 src/s2/base/stringprintf.s: src/s2/base/stringprintf.cc.s
@@ -150,7 +150,7 @@ src/s2/base/stringprintf.s: src/s2/base/stringprintf.cc.s
 
 # target to generate assembly for a file
 src/s2/base/stringprintf.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/base/stringprintf.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/base/stringprintf.cc.s
 .PHONY : src/s2/base/stringprintf.cc.s
 
 src/s2/base/strtoint.o: src/s2/base/strtoint.cc.o
@@ -158,7 +158,7 @@ src/s2/base/strtoint.o: src/s2/base/strtoint.cc.o
 
 # target to build an object file
 src/s2/base/strtoint.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/base/strtoint.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/base/strtoint.cc.o
 .PHONY : src/s2/base/strtoint.cc.o
 
 src/s2/base/strtoint.i: src/s2/base/strtoint.cc.i
@@ -166,7 +166,7 @@ src/s2/base/strtoint.i: src/s2/base/strtoint.cc.i
 
 # target to preprocess a source file
 src/s2/base/strtoint.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/base/strtoint.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/base/strtoint.cc.i
 .PHONY : src/s2/base/strtoint.cc.i
 
 src/s2/base/strtoint.s: src/s2/base/strtoint.cc.s
@@ -174,7 +174,7 @@ src/s2/base/strtoint.s: src/s2/base/strtoint.cc.s
 
 # target to generate assembly for a file
 src/s2/base/strtoint.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/base/strtoint.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/base/strtoint.cc.s
 .PHONY : src/s2/base/strtoint.cc.s
 
 src/s2/encoded_s2cell_id_vector.o: src/s2/encoded_s2cell_id_vector.cc.o
@@ -182,7 +182,7 @@ src/s2/encoded_s2cell_id_vector.o: src/s2/encoded_s2cell_id_vector.cc.o
 
 # target to build an object file
 src/s2/encoded_s2cell_id_vector.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_s2cell_id_vector.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_s2cell_id_vector.cc.o
 .PHONY : src/s2/encoded_s2cell_id_vector.cc.o
 
 src/s2/encoded_s2cell_id_vector.i: src/s2/encoded_s2cell_id_vector.cc.i
@@ -190,7 +190,7 @@ src/s2/encoded_s2cell_id_vector.i: src/s2/encoded_s2cell_id_vector.cc.i
 
 # target to preprocess a source file
 src/s2/encoded_s2cell_id_vector.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_s2cell_id_vector.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_s2cell_id_vector.cc.i
 .PHONY : src/s2/encoded_s2cell_id_vector.cc.i
 
 src/s2/encoded_s2cell_id_vector.s: src/s2/encoded_s2cell_id_vector.cc.s
@@ -198,7 +198,7 @@ src/s2/encoded_s2cell_id_vector.s: src/s2/encoded_s2cell_id_vector.cc.s
 
 # target to generate assembly for a file
 src/s2/encoded_s2cell_id_vector.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_s2cell_id_vector.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_s2cell_id_vector.cc.s
 .PHONY : src/s2/encoded_s2cell_id_vector.cc.s
 
 src/s2/encoded_s2point_vector.o: src/s2/encoded_s2point_vector.cc.o
@@ -206,7 +206,7 @@ src/s2/encoded_s2point_vector.o: src/s2/encoded_s2point_vector.cc.o
 
 # target to build an object file
 src/s2/encoded_s2point_vector.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_s2point_vector.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_s2point_vector.cc.o
 .PHONY : src/s2/encoded_s2point_vector.cc.o
 
 src/s2/encoded_s2point_vector.i: src/s2/encoded_s2point_vector.cc.i
@@ -214,7 +214,7 @@ src/s2/encoded_s2point_vector.i: src/s2/encoded_s2point_vector.cc.i
 
 # target to preprocess a source file
 src/s2/encoded_s2point_vector.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_s2point_vector.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_s2point_vector.cc.i
 .PHONY : src/s2/encoded_s2point_vector.cc.i
 
 src/s2/encoded_s2point_vector.s: src/s2/encoded_s2point_vector.cc.s
@@ -222,7 +222,7 @@ src/s2/encoded_s2point_vector.s: src/s2/encoded_s2point_vector.cc.s
 
 # target to generate assembly for a file
 src/s2/encoded_s2point_vector.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_s2point_vector.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_s2point_vector.cc.s
 .PHONY : src/s2/encoded_s2point_vector.cc.s
 
 src/s2/encoded_s2shape_index.o: src/s2/encoded_s2shape_index.cc.o
@@ -230,7 +230,7 @@ src/s2/encoded_s2shape_index.o: src/s2/encoded_s2shape_index.cc.o
 
 # target to build an object file
 src/s2/encoded_s2shape_index.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_s2shape_index.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_s2shape_index.cc.o
 .PHONY : src/s2/encoded_s2shape_index.cc.o
 
 src/s2/encoded_s2shape_index.i: src/s2/encoded_s2shape_index.cc.i
@@ -238,7 +238,7 @@ src/s2/encoded_s2shape_index.i: src/s2/encoded_s2shape_index.cc.i
 
 # target to preprocess a source file
 src/s2/encoded_s2shape_index.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_s2shape_index.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_s2shape_index.cc.i
 .PHONY : src/s2/encoded_s2shape_index.cc.i
 
 src/s2/encoded_s2shape_index.s: src/s2/encoded_s2shape_index.cc.s
@@ -246,7 +246,7 @@ src/s2/encoded_s2shape_index.s: src/s2/encoded_s2shape_index.cc.s
 
 # target to generate assembly for a file
 src/s2/encoded_s2shape_index.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_s2shape_index.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_s2shape_index.cc.s
 .PHONY : src/s2/encoded_s2shape_index.cc.s
 
 src/s2/encoded_string_vector.o: src/s2/encoded_string_vector.cc.o
@@ -254,7 +254,7 @@ src/s2/encoded_string_vector.o: src/s2/encoded_string_vector.cc.o
 
 # target to build an object file
 src/s2/encoded_string_vector.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_string_vector.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_string_vector.cc.o
 .PHONY : src/s2/encoded_string_vector.cc.o
 
 src/s2/encoded_string_vector.i: src/s2/encoded_string_vector.cc.i
@@ -262,7 +262,7 @@ src/s2/encoded_string_vector.i: src/s2/encoded_string_vector.cc.i
 
 # target to preprocess a source file
 src/s2/encoded_string_vector.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_string_vector.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_string_vector.cc.i
 .PHONY : src/s2/encoded_string_vector.cc.i
 
 src/s2/encoded_string_vector.s: src/s2/encoded_string_vector.cc.s
@@ -270,7 +270,7 @@ src/s2/encoded_string_vector.s: src/s2/encoded_string_vector.cc.s
 
 # target to generate assembly for a file
 src/s2/encoded_string_vector.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/encoded_string_vector.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/encoded_string_vector.cc.s
 .PHONY : src/s2/encoded_string_vector.cc.s
 
 src/s2/id_set_lexicon.o: src/s2/id_set_lexicon.cc.o
@@ -278,7 +278,7 @@ src/s2/id_set_lexicon.o: src/s2/id_set_lexicon.cc.o
 
 # target to build an object file
 src/s2/id_set_lexicon.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/id_set_lexicon.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/id_set_lexicon.cc.o
 .PHONY : src/s2/id_set_lexicon.cc.o
 
 src/s2/id_set_lexicon.i: src/s2/id_set_lexicon.cc.i
@@ -286,7 +286,7 @@ src/s2/id_set_lexicon.i: src/s2/id_set_lexicon.cc.i
 
 # target to preprocess a source file
 src/s2/id_set_lexicon.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/id_set_lexicon.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/id_set_lexicon.cc.i
 .PHONY : src/s2/id_set_lexicon.cc.i
 
 src/s2/id_set_lexicon.s: src/s2/id_set_lexicon.cc.s
@@ -294,7 +294,7 @@ src/s2/id_set_lexicon.s: src/s2/id_set_lexicon.cc.s
 
 # target to generate assembly for a file
 src/s2/id_set_lexicon.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/id_set_lexicon.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/id_set_lexicon.cc.s
 .PHONY : src/s2/id_set_lexicon.cc.s
 
 src/s2/mutable_s2shape_index.o: src/s2/mutable_s2shape_index.cc.o
@@ -302,7 +302,7 @@ src/s2/mutable_s2shape_index.o: src/s2/mutable_s2shape_index.cc.o
 
 # target to build an object file
 src/s2/mutable_s2shape_index.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/mutable_s2shape_index.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/mutable_s2shape_index.cc.o
 .PHONY : src/s2/mutable_s2shape_index.cc.o
 
 src/s2/mutable_s2shape_index.i: src/s2/mutable_s2shape_index.cc.i
@@ -310,7 +310,7 @@ src/s2/mutable_s2shape_index.i: src/s2/mutable_s2shape_index.cc.i
 
 # target to preprocess a source file
 src/s2/mutable_s2shape_index.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/mutable_s2shape_index.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/mutable_s2shape_index.cc.i
 .PHONY : src/s2/mutable_s2shape_index.cc.i
 
 src/s2/mutable_s2shape_index.s: src/s2/mutable_s2shape_index.cc.s
@@ -318,7 +318,7 @@ src/s2/mutable_s2shape_index.s: src/s2/mutable_s2shape_index.cc.s
 
 # target to generate assembly for a file
 src/s2/mutable_s2shape_index.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/mutable_s2shape_index.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/mutable_s2shape_index.cc.s
 .PHONY : src/s2/mutable_s2shape_index.cc.s
 
 src/s2/r2rect.o: src/s2/r2rect.cc.o
@@ -326,7 +326,7 @@ src/s2/r2rect.o: src/s2/r2rect.cc.o
 
 # target to build an object file
 src/s2/r2rect.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/r2rect.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/r2rect.cc.o
 .PHONY : src/s2/r2rect.cc.o
 
 src/s2/r2rect.i: src/s2/r2rect.cc.i
@@ -334,7 +334,7 @@ src/s2/r2rect.i: src/s2/r2rect.cc.i
 
 # target to preprocess a source file
 src/s2/r2rect.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/r2rect.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/r2rect.cc.i
 .PHONY : src/s2/r2rect.cc.i
 
 src/s2/r2rect.s: src/s2/r2rect.cc.s
@@ -342,7 +342,7 @@ src/s2/r2rect.s: src/s2/r2rect.cc.s
 
 # target to generate assembly for a file
 src/s2/r2rect.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/r2rect.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/r2rect.cc.s
 .PHONY : src/s2/r2rect.cc.s
 
 src/s2/s1angle.o: src/s2/s1angle.cc.o
@@ -350,7 +350,7 @@ src/s2/s1angle.o: src/s2/s1angle.cc.o
 
 # target to build an object file
 src/s2/s1angle.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s1angle.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s1angle.cc.o
 .PHONY : src/s2/s1angle.cc.o
 
 src/s2/s1angle.i: src/s2/s1angle.cc.i
@@ -358,7 +358,7 @@ src/s2/s1angle.i: src/s2/s1angle.cc.i
 
 # target to preprocess a source file
 src/s2/s1angle.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s1angle.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s1angle.cc.i
 .PHONY : src/s2/s1angle.cc.i
 
 src/s2/s1angle.s: src/s2/s1angle.cc.s
@@ -366,7 +366,7 @@ src/s2/s1angle.s: src/s2/s1angle.cc.s
 
 # target to generate assembly for a file
 src/s2/s1angle.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s1angle.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s1angle.cc.s
 .PHONY : src/s2/s1angle.cc.s
 
 src/s2/s1chord_angle.o: src/s2/s1chord_angle.cc.o
@@ -374,7 +374,7 @@ src/s2/s1chord_angle.o: src/s2/s1chord_angle.cc.o
 
 # target to build an object file
 src/s2/s1chord_angle.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s1chord_angle.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s1chord_angle.cc.o
 .PHONY : src/s2/s1chord_angle.cc.o
 
 src/s2/s1chord_angle.i: src/s2/s1chord_angle.cc.i
@@ -382,7 +382,7 @@ src/s2/s1chord_angle.i: src/s2/s1chord_angle.cc.i
 
 # target to preprocess a source file
 src/s2/s1chord_angle.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s1chord_angle.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s1chord_angle.cc.i
 .PHONY : src/s2/s1chord_angle.cc.i
 
 src/s2/s1chord_angle.s: src/s2/s1chord_angle.cc.s
@@ -390,7 +390,7 @@ src/s2/s1chord_angle.s: src/s2/s1chord_angle.cc.s
 
 # target to generate assembly for a file
 src/s2/s1chord_angle.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s1chord_angle.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s1chord_angle.cc.s
 .PHONY : src/s2/s1chord_angle.cc.s
 
 src/s2/s1interval.o: src/s2/s1interval.cc.o
@@ -398,7 +398,7 @@ src/s2/s1interval.o: src/s2/s1interval.cc.o
 
 # target to build an object file
 src/s2/s1interval.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s1interval.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s1interval.cc.o
 .PHONY : src/s2/s1interval.cc.o
 
 src/s2/s1interval.i: src/s2/s1interval.cc.i
@@ -406,7 +406,7 @@ src/s2/s1interval.i: src/s2/s1interval.cc.i
 
 # target to preprocess a source file
 src/s2/s1interval.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s1interval.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s1interval.cc.i
 .PHONY : src/s2/s1interval.cc.i
 
 src/s2/s1interval.s: src/s2/s1interval.cc.s
@@ -414,7 +414,7 @@ src/s2/s1interval.s: src/s2/s1interval.cc.s
 
 # target to generate assembly for a file
 src/s2/s1interval.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s1interval.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s1interval.cc.s
 .PHONY : src/s2/s1interval.cc.s
 
 src/s2/s2boolean_operation.o: src/s2/s2boolean_operation.cc.o
@@ -422,7 +422,7 @@ src/s2/s2boolean_operation.o: src/s2/s2boolean_operation.cc.o
 
 # target to build an object file
 src/s2/s2boolean_operation.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2boolean_operation.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2boolean_operation.cc.o
 .PHONY : src/s2/s2boolean_operation.cc.o
 
 src/s2/s2boolean_operation.i: src/s2/s2boolean_operation.cc.i
@@ -430,7 +430,7 @@ src/s2/s2boolean_operation.i: src/s2/s2boolean_operation.cc.i
 
 # target to preprocess a source file
 src/s2/s2boolean_operation.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2boolean_operation.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2boolean_operation.cc.i
 .PHONY : src/s2/s2boolean_operation.cc.i
 
 src/s2/s2boolean_operation.s: src/s2/s2boolean_operation.cc.s
@@ -438,7 +438,7 @@ src/s2/s2boolean_operation.s: src/s2/s2boolean_operation.cc.s
 
 # target to generate assembly for a file
 src/s2/s2boolean_operation.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2boolean_operation.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2boolean_operation.cc.s
 .PHONY : src/s2/s2boolean_operation.cc.s
 
 src/s2/s2builder.o: src/s2/s2builder.cc.o
@@ -446,7 +446,7 @@ src/s2/s2builder.o: src/s2/s2builder.cc.o
 
 # target to build an object file
 src/s2/s2builder.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builder.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builder.cc.o
 .PHONY : src/s2/s2builder.cc.o
 
 src/s2/s2builder.i: src/s2/s2builder.cc.i
@@ -454,7 +454,7 @@ src/s2/s2builder.i: src/s2/s2builder.cc.i
 
 # target to preprocess a source file
 src/s2/s2builder.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builder.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builder.cc.i
 .PHONY : src/s2/s2builder.cc.i
 
 src/s2/s2builder.s: src/s2/s2builder.cc.s
@@ -462,7 +462,7 @@ src/s2/s2builder.s: src/s2/s2builder.cc.s
 
 # target to generate assembly for a file
 src/s2/s2builder.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builder.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builder.cc.s
 .PHONY : src/s2/s2builder.cc.s
 
 src/s2/s2builder_graph.o: src/s2/s2builder_graph.cc.o
@@ -470,7 +470,7 @@ src/s2/s2builder_graph.o: src/s2/s2builder_graph.cc.o
 
 # target to build an object file
 src/s2/s2builder_graph.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builder_graph.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builder_graph.cc.o
 .PHONY : src/s2/s2builder_graph.cc.o
 
 src/s2/s2builder_graph.i: src/s2/s2builder_graph.cc.i
@@ -478,7 +478,7 @@ src/s2/s2builder_graph.i: src/s2/s2builder_graph.cc.i
 
 # target to preprocess a source file
 src/s2/s2builder_graph.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builder_graph.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builder_graph.cc.i
 .PHONY : src/s2/s2builder_graph.cc.i
 
 src/s2/s2builder_graph.s: src/s2/s2builder_graph.cc.s
@@ -486,7 +486,7 @@ src/s2/s2builder_graph.s: src/s2/s2builder_graph.cc.s
 
 # target to generate assembly for a file
 src/s2/s2builder_graph.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builder_graph.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builder_graph.cc.s
 .PHONY : src/s2/s2builder_graph.cc.s
 
 src/s2/s2builderutil_closed_set_normalizer.o: src/s2/s2builderutil_closed_set_normalizer.cc.o
@@ -494,7 +494,7 @@ src/s2/s2builderutil_closed_set_normalizer.o: src/s2/s2builderutil_closed_set_no
 
 # target to build an object file
 src/s2/s2builderutil_closed_set_normalizer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_closed_set_normalizer.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_closed_set_normalizer.cc.o
 .PHONY : src/s2/s2builderutil_closed_set_normalizer.cc.o
 
 src/s2/s2builderutil_closed_set_normalizer.i: src/s2/s2builderutil_closed_set_normalizer.cc.i
@@ -502,7 +502,7 @@ src/s2/s2builderutil_closed_set_normalizer.i: src/s2/s2builderutil_closed_set_no
 
 # target to preprocess a source file
 src/s2/s2builderutil_closed_set_normalizer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_closed_set_normalizer.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_closed_set_normalizer.cc.i
 .PHONY : src/s2/s2builderutil_closed_set_normalizer.cc.i
 
 src/s2/s2builderutil_closed_set_normalizer.s: src/s2/s2builderutil_closed_set_normalizer.cc.s
@@ -510,7 +510,7 @@ src/s2/s2builderutil_closed_set_normalizer.s: src/s2/s2builderutil_closed_set_no
 
 # target to generate assembly for a file
 src/s2/s2builderutil_closed_set_normalizer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_closed_set_normalizer.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_closed_set_normalizer.cc.s
 .PHONY : src/s2/s2builderutil_closed_set_normalizer.cc.s
 
 src/s2/s2builderutil_find_polygon_degeneracies.o: src/s2/s2builderutil_find_polygon_degeneracies.cc.o
@@ -518,7 +518,7 @@ src/s2/s2builderutil_find_polygon_degeneracies.o: src/s2/s2builderutil_find_poly
 
 # target to build an object file
 src/s2/s2builderutil_find_polygon_degeneracies.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_find_polygon_degeneracies.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_find_polygon_degeneracies.cc.o
 .PHONY : src/s2/s2builderutil_find_polygon_degeneracies.cc.o
 
 src/s2/s2builderutil_find_polygon_degeneracies.i: src/s2/s2builderutil_find_polygon_degeneracies.cc.i
@@ -526,7 +526,7 @@ src/s2/s2builderutil_find_polygon_degeneracies.i: src/s2/s2builderutil_find_poly
 
 # target to preprocess a source file
 src/s2/s2builderutil_find_polygon_degeneracies.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_find_polygon_degeneracies.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_find_polygon_degeneracies.cc.i
 .PHONY : src/s2/s2builderutil_find_polygon_degeneracies.cc.i
 
 src/s2/s2builderutil_find_polygon_degeneracies.s: src/s2/s2builderutil_find_polygon_degeneracies.cc.s
@@ -534,7 +534,7 @@ src/s2/s2builderutil_find_polygon_degeneracies.s: src/s2/s2builderutil_find_poly
 
 # target to generate assembly for a file
 src/s2/s2builderutil_find_polygon_degeneracies.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_find_polygon_degeneracies.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_find_polygon_degeneracies.cc.s
 .PHONY : src/s2/s2builderutil_find_polygon_degeneracies.cc.s
 
 src/s2/s2builderutil_lax_polygon_layer.o: src/s2/s2builderutil_lax_polygon_layer.cc.o
@@ -542,7 +542,7 @@ src/s2/s2builderutil_lax_polygon_layer.o: src/s2/s2builderutil_lax_polygon_layer
 
 # target to build an object file
 src/s2/s2builderutil_lax_polygon_layer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_lax_polygon_layer.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_lax_polygon_layer.cc.o
 .PHONY : src/s2/s2builderutil_lax_polygon_layer.cc.o
 
 src/s2/s2builderutil_lax_polygon_layer.i: src/s2/s2builderutil_lax_polygon_layer.cc.i
@@ -550,7 +550,7 @@ src/s2/s2builderutil_lax_polygon_layer.i: src/s2/s2builderutil_lax_polygon_layer
 
 # target to preprocess a source file
 src/s2/s2builderutil_lax_polygon_layer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_lax_polygon_layer.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_lax_polygon_layer.cc.i
 .PHONY : src/s2/s2builderutil_lax_polygon_layer.cc.i
 
 src/s2/s2builderutil_lax_polygon_layer.s: src/s2/s2builderutil_lax_polygon_layer.cc.s
@@ -558,7 +558,7 @@ src/s2/s2builderutil_lax_polygon_layer.s: src/s2/s2builderutil_lax_polygon_layer
 
 # target to generate assembly for a file
 src/s2/s2builderutil_lax_polygon_layer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_lax_polygon_layer.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_lax_polygon_layer.cc.s
 .PHONY : src/s2/s2builderutil_lax_polygon_layer.cc.s
 
 src/s2/s2builderutil_s2point_vector_layer.o: src/s2/s2builderutil_s2point_vector_layer.cc.o
@@ -566,7 +566,7 @@ src/s2/s2builderutil_s2point_vector_layer.o: src/s2/s2builderutil_s2point_vector
 
 # target to build an object file
 src/s2/s2builderutil_s2point_vector_layer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2point_vector_layer.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2point_vector_layer.cc.o
 .PHONY : src/s2/s2builderutil_s2point_vector_layer.cc.o
 
 src/s2/s2builderutil_s2point_vector_layer.i: src/s2/s2builderutil_s2point_vector_layer.cc.i
@@ -574,7 +574,7 @@ src/s2/s2builderutil_s2point_vector_layer.i: src/s2/s2builderutil_s2point_vector
 
 # target to preprocess a source file
 src/s2/s2builderutil_s2point_vector_layer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2point_vector_layer.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2point_vector_layer.cc.i
 .PHONY : src/s2/s2builderutil_s2point_vector_layer.cc.i
 
 src/s2/s2builderutil_s2point_vector_layer.s: src/s2/s2builderutil_s2point_vector_layer.cc.s
@@ -582,7 +582,7 @@ src/s2/s2builderutil_s2point_vector_layer.s: src/s2/s2builderutil_s2point_vector
 
 # target to generate assembly for a file
 src/s2/s2builderutil_s2point_vector_layer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2point_vector_layer.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2point_vector_layer.cc.s
 .PHONY : src/s2/s2builderutil_s2point_vector_layer.cc.s
 
 src/s2/s2builderutil_s2polygon_layer.o: src/s2/s2builderutil_s2polygon_layer.cc.o
@@ -590,7 +590,7 @@ src/s2/s2builderutil_s2polygon_layer.o: src/s2/s2builderutil_s2polygon_layer.cc.
 
 # target to build an object file
 src/s2/s2builderutil_s2polygon_layer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2polygon_layer.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2polygon_layer.cc.o
 .PHONY : src/s2/s2builderutil_s2polygon_layer.cc.o
 
 src/s2/s2builderutil_s2polygon_layer.i: src/s2/s2builderutil_s2polygon_layer.cc.i
@@ -598,7 +598,7 @@ src/s2/s2builderutil_s2polygon_layer.i: src/s2/s2builderutil_s2polygon_layer.cc.
 
 # target to preprocess a source file
 src/s2/s2builderutil_s2polygon_layer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2polygon_layer.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2polygon_layer.cc.i
 .PHONY : src/s2/s2builderutil_s2polygon_layer.cc.i
 
 src/s2/s2builderutil_s2polygon_layer.s: src/s2/s2builderutil_s2polygon_layer.cc.s
@@ -606,7 +606,7 @@ src/s2/s2builderutil_s2polygon_layer.s: src/s2/s2builderutil_s2polygon_layer.cc.
 
 # target to generate assembly for a file
 src/s2/s2builderutil_s2polygon_layer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2polygon_layer.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2polygon_layer.cc.s
 .PHONY : src/s2/s2builderutil_s2polygon_layer.cc.s
 
 src/s2/s2builderutil_s2polyline_layer.o: src/s2/s2builderutil_s2polyline_layer.cc.o
@@ -614,7 +614,7 @@ src/s2/s2builderutil_s2polyline_layer.o: src/s2/s2builderutil_s2polyline_layer.c
 
 # target to build an object file
 src/s2/s2builderutil_s2polyline_layer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_layer.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2polyline_layer.cc.o
 .PHONY : src/s2/s2builderutil_s2polyline_layer.cc.o
 
 src/s2/s2builderutil_s2polyline_layer.i: src/s2/s2builderutil_s2polyline_layer.cc.i
@@ -622,7 +622,7 @@ src/s2/s2builderutil_s2polyline_layer.i: src/s2/s2builderutil_s2polyline_layer.c
 
 # target to preprocess a source file
 src/s2/s2builderutil_s2polyline_layer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_layer.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2polyline_layer.cc.i
 .PHONY : src/s2/s2builderutil_s2polyline_layer.cc.i
 
 src/s2/s2builderutil_s2polyline_layer.s: src/s2/s2builderutil_s2polyline_layer.cc.s
@@ -630,7 +630,7 @@ src/s2/s2builderutil_s2polyline_layer.s: src/s2/s2builderutil_s2polyline_layer.c
 
 # target to generate assembly for a file
 src/s2/s2builderutil_s2polyline_layer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_layer.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2polyline_layer.cc.s
 .PHONY : src/s2/s2builderutil_s2polyline_layer.cc.s
 
 src/s2/s2builderutil_s2polyline_vector_layer.o: src/s2/s2builderutil_s2polyline_vector_layer.cc.o
@@ -638,7 +638,7 @@ src/s2/s2builderutil_s2polyline_vector_layer.o: src/s2/s2builderutil_s2polyline_
 
 # target to build an object file
 src/s2/s2builderutil_s2polyline_vector_layer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_vector_layer.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2polyline_vector_layer.cc.o
 .PHONY : src/s2/s2builderutil_s2polyline_vector_layer.cc.o
 
 src/s2/s2builderutil_s2polyline_vector_layer.i: src/s2/s2builderutil_s2polyline_vector_layer.cc.i
@@ -646,7 +646,7 @@ src/s2/s2builderutil_s2polyline_vector_layer.i: src/s2/s2builderutil_s2polyline_
 
 # target to preprocess a source file
 src/s2/s2builderutil_s2polyline_vector_layer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_vector_layer.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2polyline_vector_layer.cc.i
 .PHONY : src/s2/s2builderutil_s2polyline_vector_layer.cc.i
 
 src/s2/s2builderutil_s2polyline_vector_layer.s: src/s2/s2builderutil_s2polyline_vector_layer.cc.s
@@ -654,7 +654,7 @@ src/s2/s2builderutil_s2polyline_vector_layer.s: src/s2/s2builderutil_s2polyline_
 
 # target to generate assembly for a file
 src/s2/s2builderutil_s2polyline_vector_layer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_vector_layer.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_s2polyline_vector_layer.cc.s
 .PHONY : src/s2/s2builderutil_s2polyline_vector_layer.cc.s
 
 src/s2/s2builderutil_snap_functions.o: src/s2/s2builderutil_snap_functions.cc.o
@@ -662,7 +662,7 @@ src/s2/s2builderutil_snap_functions.o: src/s2/s2builderutil_snap_functions.cc.o
 
 # target to build an object file
 src/s2/s2builderutil_snap_functions.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_snap_functions.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_snap_functions.cc.o
 .PHONY : src/s2/s2builderutil_snap_functions.cc.o
 
 src/s2/s2builderutil_snap_functions.i: src/s2/s2builderutil_snap_functions.cc.i
@@ -670,7 +670,7 @@ src/s2/s2builderutil_snap_functions.i: src/s2/s2builderutil_snap_functions.cc.i
 
 # target to preprocess a source file
 src/s2/s2builderutil_snap_functions.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_snap_functions.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_snap_functions.cc.i
 .PHONY : src/s2/s2builderutil_snap_functions.cc.i
 
 src/s2/s2builderutil_snap_functions.s: src/s2/s2builderutil_snap_functions.cc.s
@@ -678,7 +678,7 @@ src/s2/s2builderutil_snap_functions.s: src/s2/s2builderutil_snap_functions.cc.s
 
 # target to generate assembly for a file
 src/s2/s2builderutil_snap_functions.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2builderutil_snap_functions.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2builderutil_snap_functions.cc.s
 .PHONY : src/s2/s2builderutil_snap_functions.cc.s
 
 src/s2/s2cap.o: src/s2/s2cap.cc.o
@@ -686,7 +686,7 @@ src/s2/s2cap.o: src/s2/s2cap.cc.o
 
 # target to build an object file
 src/s2/s2cap.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cap.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cap.cc.o
 .PHONY : src/s2/s2cap.cc.o
 
 src/s2/s2cap.i: src/s2/s2cap.cc.i
@@ -694,7 +694,7 @@ src/s2/s2cap.i: src/s2/s2cap.cc.i
 
 # target to preprocess a source file
 src/s2/s2cap.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cap.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cap.cc.i
 .PHONY : src/s2/s2cap.cc.i
 
 src/s2/s2cap.s: src/s2/s2cap.cc.s
@@ -702,7 +702,7 @@ src/s2/s2cap.s: src/s2/s2cap.cc.s
 
 # target to generate assembly for a file
 src/s2/s2cap.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cap.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cap.cc.s
 .PHONY : src/s2/s2cap.cc.s
 
 src/s2/s2cell.o: src/s2/s2cell.cc.o
@@ -710,7 +710,7 @@ src/s2/s2cell.o: src/s2/s2cell.cc.o
 
 # target to build an object file
 src/s2/s2cell.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell.cc.o
 .PHONY : src/s2/s2cell.cc.o
 
 src/s2/s2cell.i: src/s2/s2cell.cc.i
@@ -718,7 +718,7 @@ src/s2/s2cell.i: src/s2/s2cell.cc.i
 
 # target to preprocess a source file
 src/s2/s2cell.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell.cc.i
 .PHONY : src/s2/s2cell.cc.i
 
 src/s2/s2cell.s: src/s2/s2cell.cc.s
@@ -726,7 +726,7 @@ src/s2/s2cell.s: src/s2/s2cell.cc.s
 
 # target to generate assembly for a file
 src/s2/s2cell.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell.cc.s
 .PHONY : src/s2/s2cell.cc.s
 
 src/s2/s2cell_id.o: src/s2/s2cell_id.cc.o
@@ -734,7 +734,7 @@ src/s2/s2cell_id.o: src/s2/s2cell_id.cc.o
 
 # target to build an object file
 src/s2/s2cell_id.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell_id.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell_id.cc.o
 .PHONY : src/s2/s2cell_id.cc.o
 
 src/s2/s2cell_id.i: src/s2/s2cell_id.cc.i
@@ -742,7 +742,7 @@ src/s2/s2cell_id.i: src/s2/s2cell_id.cc.i
 
 # target to preprocess a source file
 src/s2/s2cell_id.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell_id.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell_id.cc.i
 .PHONY : src/s2/s2cell_id.cc.i
 
 src/s2/s2cell_id.s: src/s2/s2cell_id.cc.s
@@ -750,7 +750,7 @@ src/s2/s2cell_id.s: src/s2/s2cell_id.cc.s
 
 # target to generate assembly for a file
 src/s2/s2cell_id.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell_id.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell_id.cc.s
 .PHONY : src/s2/s2cell_id.cc.s
 
 src/s2/s2cell_index.o: src/s2/s2cell_index.cc.o
@@ -758,7 +758,7 @@ src/s2/s2cell_index.o: src/s2/s2cell_index.cc.o
 
 # target to build an object file
 src/s2/s2cell_index.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell_index.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell_index.cc.o
 .PHONY : src/s2/s2cell_index.cc.o
 
 src/s2/s2cell_index.i: src/s2/s2cell_index.cc.i
@@ -766,7 +766,7 @@ src/s2/s2cell_index.i: src/s2/s2cell_index.cc.i
 
 # target to preprocess a source file
 src/s2/s2cell_index.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell_index.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell_index.cc.i
 .PHONY : src/s2/s2cell_index.cc.i
 
 src/s2/s2cell_index.s: src/s2/s2cell_index.cc.s
@@ -774,7 +774,7 @@ src/s2/s2cell_index.s: src/s2/s2cell_index.cc.s
 
 # target to generate assembly for a file
 src/s2/s2cell_index.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell_index.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell_index.cc.s
 .PHONY : src/s2/s2cell_index.cc.s
 
 src/s2/s2cell_union.o: src/s2/s2cell_union.cc.o
@@ -782,7 +782,7 @@ src/s2/s2cell_union.o: src/s2/s2cell_union.cc.o
 
 # target to build an object file
 src/s2/s2cell_union.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell_union.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell_union.cc.o
 .PHONY : src/s2/s2cell_union.cc.o
 
 src/s2/s2cell_union.i: src/s2/s2cell_union.cc.i
@@ -790,7 +790,7 @@ src/s2/s2cell_union.i: src/s2/s2cell_union.cc.i
 
 # target to preprocess a source file
 src/s2/s2cell_union.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell_union.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell_union.cc.i
 .PHONY : src/s2/s2cell_union.cc.i
 
 src/s2/s2cell_union.s: src/s2/s2cell_union.cc.s
@@ -798,7 +798,7 @@ src/s2/s2cell_union.s: src/s2/s2cell_union.cc.s
 
 # target to generate assembly for a file
 src/s2/s2cell_union.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2cell_union.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2cell_union.cc.s
 .PHONY : src/s2/s2cell_union.cc.s
 
 src/s2/s2centroids.o: src/s2/s2centroids.cc.o
@@ -806,7 +806,7 @@ src/s2/s2centroids.o: src/s2/s2centroids.cc.o
 
 # target to build an object file
 src/s2/s2centroids.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2centroids.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2centroids.cc.o
 .PHONY : src/s2/s2centroids.cc.o
 
 src/s2/s2centroids.i: src/s2/s2centroids.cc.i
@@ -814,7 +814,7 @@ src/s2/s2centroids.i: src/s2/s2centroids.cc.i
 
 # target to preprocess a source file
 src/s2/s2centroids.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2centroids.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2centroids.cc.i
 .PHONY : src/s2/s2centroids.cc.i
 
 src/s2/s2centroids.s: src/s2/s2centroids.cc.s
@@ -822,7 +822,7 @@ src/s2/s2centroids.s: src/s2/s2centroids.cc.s
 
 # target to generate assembly for a file
 src/s2/s2centroids.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2centroids.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2centroids.cc.s
 .PHONY : src/s2/s2centroids.cc.s
 
 src/s2/s2closest_cell_query.o: src/s2/s2closest_cell_query.cc.o
@@ -830,7 +830,7 @@ src/s2/s2closest_cell_query.o: src/s2/s2closest_cell_query.cc.o
 
 # target to build an object file
 src/s2/s2closest_cell_query.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2closest_cell_query.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2closest_cell_query.cc.o
 .PHONY : src/s2/s2closest_cell_query.cc.o
 
 src/s2/s2closest_cell_query.i: src/s2/s2closest_cell_query.cc.i
@@ -838,7 +838,7 @@ src/s2/s2closest_cell_query.i: src/s2/s2closest_cell_query.cc.i
 
 # target to preprocess a source file
 src/s2/s2closest_cell_query.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2closest_cell_query.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2closest_cell_query.cc.i
 .PHONY : src/s2/s2closest_cell_query.cc.i
 
 src/s2/s2closest_cell_query.s: src/s2/s2closest_cell_query.cc.s
@@ -846,7 +846,7 @@ src/s2/s2closest_cell_query.s: src/s2/s2closest_cell_query.cc.s
 
 # target to generate assembly for a file
 src/s2/s2closest_cell_query.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2closest_cell_query.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2closest_cell_query.cc.s
 .PHONY : src/s2/s2closest_cell_query.cc.s
 
 src/s2/s2closest_edge_query.o: src/s2/s2closest_edge_query.cc.o
@@ -854,7 +854,7 @@ src/s2/s2closest_edge_query.o: src/s2/s2closest_edge_query.cc.o
 
 # target to build an object file
 src/s2/s2closest_edge_query.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2closest_edge_query.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2closest_edge_query.cc.o
 .PHONY : src/s2/s2closest_edge_query.cc.o
 
 src/s2/s2closest_edge_query.i: src/s2/s2closest_edge_query.cc.i
@@ -862,7 +862,7 @@ src/s2/s2closest_edge_query.i: src/s2/s2closest_edge_query.cc.i
 
 # target to preprocess a source file
 src/s2/s2closest_edge_query.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2closest_edge_query.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2closest_edge_query.cc.i
 .PHONY : src/s2/s2closest_edge_query.cc.i
 
 src/s2/s2closest_edge_query.s: src/s2/s2closest_edge_query.cc.s
@@ -870,7 +870,7 @@ src/s2/s2closest_edge_query.s: src/s2/s2closest_edge_query.cc.s
 
 # target to generate assembly for a file
 src/s2/s2closest_edge_query.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2closest_edge_query.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2closest_edge_query.cc.s
 .PHONY : src/s2/s2closest_edge_query.cc.s
 
 src/s2/s2closest_point_query.o: src/s2/s2closest_point_query.cc.o
@@ -878,7 +878,7 @@ src/s2/s2closest_point_query.o: src/s2/s2closest_point_query.cc.o
 
 # target to build an object file
 src/s2/s2closest_point_query.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2closest_point_query.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2closest_point_query.cc.o
 .PHONY : src/s2/s2closest_point_query.cc.o
 
 src/s2/s2closest_point_query.i: src/s2/s2closest_point_query.cc.i
@@ -886,7 +886,7 @@ src/s2/s2closest_point_query.i: src/s2/s2closest_point_query.cc.i
 
 # target to preprocess a source file
 src/s2/s2closest_point_query.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2closest_point_query.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2closest_point_query.cc.i
 .PHONY : src/s2/s2closest_point_query.cc.i
 
 src/s2/s2closest_point_query.s: src/s2/s2closest_point_query.cc.s
@@ -894,7 +894,7 @@ src/s2/s2closest_point_query.s: src/s2/s2closest_point_query.cc.s
 
 # target to generate assembly for a file
 src/s2/s2closest_point_query.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2closest_point_query.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2closest_point_query.cc.s
 .PHONY : src/s2/s2closest_point_query.cc.s
 
 src/s2/s2contains_vertex_query.o: src/s2/s2contains_vertex_query.cc.o
@@ -902,7 +902,7 @@ src/s2/s2contains_vertex_query.o: src/s2/s2contains_vertex_query.cc.o
 
 # target to build an object file
 src/s2/s2contains_vertex_query.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2contains_vertex_query.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2contains_vertex_query.cc.o
 .PHONY : src/s2/s2contains_vertex_query.cc.o
 
 src/s2/s2contains_vertex_query.i: src/s2/s2contains_vertex_query.cc.i
@@ -910,7 +910,7 @@ src/s2/s2contains_vertex_query.i: src/s2/s2contains_vertex_query.cc.i
 
 # target to preprocess a source file
 src/s2/s2contains_vertex_query.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2contains_vertex_query.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2contains_vertex_query.cc.i
 .PHONY : src/s2/s2contains_vertex_query.cc.i
 
 src/s2/s2contains_vertex_query.s: src/s2/s2contains_vertex_query.cc.s
@@ -918,7 +918,7 @@ src/s2/s2contains_vertex_query.s: src/s2/s2contains_vertex_query.cc.s
 
 # target to generate assembly for a file
 src/s2/s2contains_vertex_query.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2contains_vertex_query.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2contains_vertex_query.cc.s
 .PHONY : src/s2/s2contains_vertex_query.cc.s
 
 src/s2/s2convex_hull_query.o: src/s2/s2convex_hull_query.cc.o
@@ -926,7 +926,7 @@ src/s2/s2convex_hull_query.o: src/s2/s2convex_hull_query.cc.o
 
 # target to build an object file
 src/s2/s2convex_hull_query.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2convex_hull_query.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2convex_hull_query.cc.o
 .PHONY : src/s2/s2convex_hull_query.cc.o
 
 src/s2/s2convex_hull_query.i: src/s2/s2convex_hull_query.cc.i
@@ -934,7 +934,7 @@ src/s2/s2convex_hull_query.i: src/s2/s2convex_hull_query.cc.i
 
 # target to preprocess a source file
 src/s2/s2convex_hull_query.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2convex_hull_query.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2convex_hull_query.cc.i
 .PHONY : src/s2/s2convex_hull_query.cc.i
 
 src/s2/s2convex_hull_query.s: src/s2/s2convex_hull_query.cc.s
@@ -942,7 +942,7 @@ src/s2/s2convex_hull_query.s: src/s2/s2convex_hull_query.cc.s
 
 # target to generate assembly for a file
 src/s2/s2convex_hull_query.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2convex_hull_query.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2convex_hull_query.cc.s
 .PHONY : src/s2/s2convex_hull_query.cc.s
 
 src/s2/s2coords.o: src/s2/s2coords.cc.o
@@ -950,7 +950,7 @@ src/s2/s2coords.o: src/s2/s2coords.cc.o
 
 # target to build an object file
 src/s2/s2coords.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2coords.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2coords.cc.o
 .PHONY : src/s2/s2coords.cc.o
 
 src/s2/s2coords.i: src/s2/s2coords.cc.i
@@ -958,7 +958,7 @@ src/s2/s2coords.i: src/s2/s2coords.cc.i
 
 # target to preprocess a source file
 src/s2/s2coords.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2coords.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2coords.cc.i
 .PHONY : src/s2/s2coords.cc.i
 
 src/s2/s2coords.s: src/s2/s2coords.cc.s
@@ -966,7 +966,7 @@ src/s2/s2coords.s: src/s2/s2coords.cc.s
 
 # target to generate assembly for a file
 src/s2/s2coords.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2coords.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2coords.cc.s
 .PHONY : src/s2/s2coords.cc.s
 
 src/s2/s2crossing_edge_query.o: src/s2/s2crossing_edge_query.cc.o
@@ -974,7 +974,7 @@ src/s2/s2crossing_edge_query.o: src/s2/s2crossing_edge_query.cc.o
 
 # target to build an object file
 src/s2/s2crossing_edge_query.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2crossing_edge_query.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2crossing_edge_query.cc.o
 .PHONY : src/s2/s2crossing_edge_query.cc.o
 
 src/s2/s2crossing_edge_query.i: src/s2/s2crossing_edge_query.cc.i
@@ -982,7 +982,7 @@ src/s2/s2crossing_edge_query.i: src/s2/s2crossing_edge_query.cc.i
 
 # target to preprocess a source file
 src/s2/s2crossing_edge_query.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2crossing_edge_query.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2crossing_edge_query.cc.i
 .PHONY : src/s2/s2crossing_edge_query.cc.i
 
 src/s2/s2crossing_edge_query.s: src/s2/s2crossing_edge_query.cc.s
@@ -990,7 +990,7 @@ src/s2/s2crossing_edge_query.s: src/s2/s2crossing_edge_query.cc.s
 
 # target to generate assembly for a file
 src/s2/s2crossing_edge_query.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2crossing_edge_query.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2crossing_edge_query.cc.s
 .PHONY : src/s2/s2crossing_edge_query.cc.s
 
 src/s2/s2debug.o: src/s2/s2debug.cc.o
@@ -998,7 +998,7 @@ src/s2/s2debug.o: src/s2/s2debug.cc.o
 
 # target to build an object file
 src/s2/s2debug.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2debug.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2debug.cc.o
 .PHONY : src/s2/s2debug.cc.o
 
 src/s2/s2debug.i: src/s2/s2debug.cc.i
@@ -1006,7 +1006,7 @@ src/s2/s2debug.i: src/s2/s2debug.cc.i
 
 # target to preprocess a source file
 src/s2/s2debug.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2debug.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2debug.cc.i
 .PHONY : src/s2/s2debug.cc.i
 
 src/s2/s2debug.s: src/s2/s2debug.cc.s
@@ -1014,7 +1014,7 @@ src/s2/s2debug.s: src/s2/s2debug.cc.s
 
 # target to generate assembly for a file
 src/s2/s2debug.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2debug.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2debug.cc.s
 .PHONY : src/s2/s2debug.cc.s
 
 src/s2/s2earth.o: src/s2/s2earth.cc.o
@@ -1022,7 +1022,7 @@ src/s2/s2earth.o: src/s2/s2earth.cc.o
 
 # target to build an object file
 src/s2/s2earth.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2earth.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2earth.cc.o
 .PHONY : src/s2/s2earth.cc.o
 
 src/s2/s2earth.i: src/s2/s2earth.cc.i
@@ -1030,7 +1030,7 @@ src/s2/s2earth.i: src/s2/s2earth.cc.i
 
 # target to preprocess a source file
 src/s2/s2earth.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2earth.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2earth.cc.i
 .PHONY : src/s2/s2earth.cc.i
 
 src/s2/s2earth.s: src/s2/s2earth.cc.s
@@ -1038,7 +1038,7 @@ src/s2/s2earth.s: src/s2/s2earth.cc.s
 
 # target to generate assembly for a file
 src/s2/s2earth.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2earth.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2earth.cc.s
 .PHONY : src/s2/s2earth.cc.s
 
 src/s2/s2edge_clipping.o: src/s2/s2edge_clipping.cc.o
@@ -1046,7 +1046,7 @@ src/s2/s2edge_clipping.o: src/s2/s2edge_clipping.cc.o
 
 # target to build an object file
 src/s2/s2edge_clipping.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_clipping.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_clipping.cc.o
 .PHONY : src/s2/s2edge_clipping.cc.o
 
 src/s2/s2edge_clipping.i: src/s2/s2edge_clipping.cc.i
@@ -1054,7 +1054,7 @@ src/s2/s2edge_clipping.i: src/s2/s2edge_clipping.cc.i
 
 # target to preprocess a source file
 src/s2/s2edge_clipping.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_clipping.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_clipping.cc.i
 .PHONY : src/s2/s2edge_clipping.cc.i
 
 src/s2/s2edge_clipping.s: src/s2/s2edge_clipping.cc.s
@@ -1062,7 +1062,7 @@ src/s2/s2edge_clipping.s: src/s2/s2edge_clipping.cc.s
 
 # target to generate assembly for a file
 src/s2/s2edge_clipping.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_clipping.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_clipping.cc.s
 .PHONY : src/s2/s2edge_clipping.cc.s
 
 src/s2/s2edge_crosser.o: src/s2/s2edge_crosser.cc.o
@@ -1070,7 +1070,7 @@ src/s2/s2edge_crosser.o: src/s2/s2edge_crosser.cc.o
 
 # target to build an object file
 src/s2/s2edge_crosser.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_crosser.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_crosser.cc.o
 .PHONY : src/s2/s2edge_crosser.cc.o
 
 src/s2/s2edge_crosser.i: src/s2/s2edge_crosser.cc.i
@@ -1078,7 +1078,7 @@ src/s2/s2edge_crosser.i: src/s2/s2edge_crosser.cc.i
 
 # target to preprocess a source file
 src/s2/s2edge_crosser.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_crosser.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_crosser.cc.i
 .PHONY : src/s2/s2edge_crosser.cc.i
 
 src/s2/s2edge_crosser.s: src/s2/s2edge_crosser.cc.s
@@ -1086,7 +1086,7 @@ src/s2/s2edge_crosser.s: src/s2/s2edge_crosser.cc.s
 
 # target to generate assembly for a file
 src/s2/s2edge_crosser.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_crosser.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_crosser.cc.s
 .PHONY : src/s2/s2edge_crosser.cc.s
 
 src/s2/s2edge_crossings.o: src/s2/s2edge_crossings.cc.o
@@ -1094,7 +1094,7 @@ src/s2/s2edge_crossings.o: src/s2/s2edge_crossings.cc.o
 
 # target to build an object file
 src/s2/s2edge_crossings.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_crossings.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_crossings.cc.o
 .PHONY : src/s2/s2edge_crossings.cc.o
 
 src/s2/s2edge_crossings.i: src/s2/s2edge_crossings.cc.i
@@ -1102,7 +1102,7 @@ src/s2/s2edge_crossings.i: src/s2/s2edge_crossings.cc.i
 
 # target to preprocess a source file
 src/s2/s2edge_crossings.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_crossings.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_crossings.cc.i
 .PHONY : src/s2/s2edge_crossings.cc.i
 
 src/s2/s2edge_crossings.s: src/s2/s2edge_crossings.cc.s
@@ -1110,7 +1110,7 @@ src/s2/s2edge_crossings.s: src/s2/s2edge_crossings.cc.s
 
 # target to generate assembly for a file
 src/s2/s2edge_crossings.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_crossings.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_crossings.cc.s
 .PHONY : src/s2/s2edge_crossings.cc.s
 
 src/s2/s2edge_distances.o: src/s2/s2edge_distances.cc.o
@@ -1118,7 +1118,7 @@ src/s2/s2edge_distances.o: src/s2/s2edge_distances.cc.o
 
 # target to build an object file
 src/s2/s2edge_distances.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_distances.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_distances.cc.o
 .PHONY : src/s2/s2edge_distances.cc.o
 
 src/s2/s2edge_distances.i: src/s2/s2edge_distances.cc.i
@@ -1126,7 +1126,7 @@ src/s2/s2edge_distances.i: src/s2/s2edge_distances.cc.i
 
 # target to preprocess a source file
 src/s2/s2edge_distances.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_distances.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_distances.cc.i
 .PHONY : src/s2/s2edge_distances.cc.i
 
 src/s2/s2edge_distances.s: src/s2/s2edge_distances.cc.s
@@ -1134,7 +1134,7 @@ src/s2/s2edge_distances.s: src/s2/s2edge_distances.cc.s
 
 # target to generate assembly for a file
 src/s2/s2edge_distances.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_distances.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_distances.cc.s
 .PHONY : src/s2/s2edge_distances.cc.s
 
 src/s2/s2edge_tessellator.o: src/s2/s2edge_tessellator.cc.o
@@ -1142,7 +1142,7 @@ src/s2/s2edge_tessellator.o: src/s2/s2edge_tessellator.cc.o
 
 # target to build an object file
 src/s2/s2edge_tessellator.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_tessellator.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_tessellator.cc.o
 .PHONY : src/s2/s2edge_tessellator.cc.o
 
 src/s2/s2edge_tessellator.i: src/s2/s2edge_tessellator.cc.i
@@ -1150,7 +1150,7 @@ src/s2/s2edge_tessellator.i: src/s2/s2edge_tessellator.cc.i
 
 # target to preprocess a source file
 src/s2/s2edge_tessellator.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_tessellator.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_tessellator.cc.i
 .PHONY : src/s2/s2edge_tessellator.cc.i
 
 src/s2/s2edge_tessellator.s: src/s2/s2edge_tessellator.cc.s
@@ -1158,7 +1158,7 @@ src/s2/s2edge_tessellator.s: src/s2/s2edge_tessellator.cc.s
 
 # target to generate assembly for a file
 src/s2/s2edge_tessellator.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2edge_tessellator.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2edge_tessellator.cc.s
 .PHONY : src/s2/s2edge_tessellator.cc.s
 
 src/s2/s2error.o: src/s2/s2error.cc.o
@@ -1166,7 +1166,7 @@ src/s2/s2error.o: src/s2/s2error.cc.o
 
 # target to build an object file
 src/s2/s2error.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2error.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2error.cc.o
 .PHONY : src/s2/s2error.cc.o
 
 src/s2/s2error.i: src/s2/s2error.cc.i
@@ -1174,7 +1174,7 @@ src/s2/s2error.i: src/s2/s2error.cc.i
 
 # target to preprocess a source file
 src/s2/s2error.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2error.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2error.cc.i
 .PHONY : src/s2/s2error.cc.i
 
 src/s2/s2error.s: src/s2/s2error.cc.s
@@ -1182,7 +1182,7 @@ src/s2/s2error.s: src/s2/s2error.cc.s
 
 # target to generate assembly for a file
 src/s2/s2error.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2error.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2error.cc.s
 .PHONY : src/s2/s2error.cc.s
 
 src/s2/s2furthest_edge_query.o: src/s2/s2furthest_edge_query.cc.o
@@ -1190,7 +1190,7 @@ src/s2/s2furthest_edge_query.o: src/s2/s2furthest_edge_query.cc.o
 
 # target to build an object file
 src/s2/s2furthest_edge_query.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2furthest_edge_query.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2furthest_edge_query.cc.o
 .PHONY : src/s2/s2furthest_edge_query.cc.o
 
 src/s2/s2furthest_edge_query.i: src/s2/s2furthest_edge_query.cc.i
@@ -1198,7 +1198,7 @@ src/s2/s2furthest_edge_query.i: src/s2/s2furthest_edge_query.cc.i
 
 # target to preprocess a source file
 src/s2/s2furthest_edge_query.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2furthest_edge_query.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2furthest_edge_query.cc.i
 .PHONY : src/s2/s2furthest_edge_query.cc.i
 
 src/s2/s2furthest_edge_query.s: src/s2/s2furthest_edge_query.cc.s
@@ -1206,7 +1206,7 @@ src/s2/s2furthest_edge_query.s: src/s2/s2furthest_edge_query.cc.s
 
 # target to generate assembly for a file
 src/s2/s2furthest_edge_query.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2furthest_edge_query.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2furthest_edge_query.cc.s
 .PHONY : src/s2/s2furthest_edge_query.cc.s
 
 src/s2/s2latlng.o: src/s2/s2latlng.cc.o
@@ -1214,7 +1214,7 @@ src/s2/s2latlng.o: src/s2/s2latlng.cc.o
 
 # target to build an object file
 src/s2/s2latlng.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2latlng.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2latlng.cc.o
 .PHONY : src/s2/s2latlng.cc.o
 
 src/s2/s2latlng.i: src/s2/s2latlng.cc.i
@@ -1222,7 +1222,7 @@ src/s2/s2latlng.i: src/s2/s2latlng.cc.i
 
 # target to preprocess a source file
 src/s2/s2latlng.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2latlng.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2latlng.cc.i
 .PHONY : src/s2/s2latlng.cc.i
 
 src/s2/s2latlng.s: src/s2/s2latlng.cc.s
@@ -1230,7 +1230,7 @@ src/s2/s2latlng.s: src/s2/s2latlng.cc.s
 
 # target to generate assembly for a file
 src/s2/s2latlng.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2latlng.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2latlng.cc.s
 .PHONY : src/s2/s2latlng.cc.s
 
 src/s2/s2latlng_rect.o: src/s2/s2latlng_rect.cc.o
@@ -1238,7 +1238,7 @@ src/s2/s2latlng_rect.o: src/s2/s2latlng_rect.cc.o
 
 # target to build an object file
 src/s2/s2latlng_rect.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2latlng_rect.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2latlng_rect.cc.o
 .PHONY : src/s2/s2latlng_rect.cc.o
 
 src/s2/s2latlng_rect.i: src/s2/s2latlng_rect.cc.i
@@ -1246,7 +1246,7 @@ src/s2/s2latlng_rect.i: src/s2/s2latlng_rect.cc.i
 
 # target to preprocess a source file
 src/s2/s2latlng_rect.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2latlng_rect.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2latlng_rect.cc.i
 .PHONY : src/s2/s2latlng_rect.cc.i
 
 src/s2/s2latlng_rect.s: src/s2/s2latlng_rect.cc.s
@@ -1254,7 +1254,7 @@ src/s2/s2latlng_rect.s: src/s2/s2latlng_rect.cc.s
 
 # target to generate assembly for a file
 src/s2/s2latlng_rect.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2latlng_rect.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2latlng_rect.cc.s
 .PHONY : src/s2/s2latlng_rect.cc.s
 
 src/s2/s2latlng_rect_bounder.o: src/s2/s2latlng_rect_bounder.cc.o
@@ -1262,7 +1262,7 @@ src/s2/s2latlng_rect_bounder.o: src/s2/s2latlng_rect_bounder.cc.o
 
 # target to build an object file
 src/s2/s2latlng_rect_bounder.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2latlng_rect_bounder.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2latlng_rect_bounder.cc.o
 .PHONY : src/s2/s2latlng_rect_bounder.cc.o
 
 src/s2/s2latlng_rect_bounder.i: src/s2/s2latlng_rect_bounder.cc.i
@@ -1270,7 +1270,7 @@ src/s2/s2latlng_rect_bounder.i: src/s2/s2latlng_rect_bounder.cc.i
 
 # target to preprocess a source file
 src/s2/s2latlng_rect_bounder.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2latlng_rect_bounder.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2latlng_rect_bounder.cc.i
 .PHONY : src/s2/s2latlng_rect_bounder.cc.i
 
 src/s2/s2latlng_rect_bounder.s: src/s2/s2latlng_rect_bounder.cc.s
@@ -1278,7 +1278,7 @@ src/s2/s2latlng_rect_bounder.s: src/s2/s2latlng_rect_bounder.cc.s
 
 # target to generate assembly for a file
 src/s2/s2latlng_rect_bounder.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2latlng_rect_bounder.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2latlng_rect_bounder.cc.s
 .PHONY : src/s2/s2latlng_rect_bounder.cc.s
 
 src/s2/s2lax_loop_shape.o: src/s2/s2lax_loop_shape.cc.o
@@ -1286,7 +1286,7 @@ src/s2/s2lax_loop_shape.o: src/s2/s2lax_loop_shape.cc.o
 
 # target to build an object file
 src/s2/s2lax_loop_shape.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2lax_loop_shape.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2lax_loop_shape.cc.o
 .PHONY : src/s2/s2lax_loop_shape.cc.o
 
 src/s2/s2lax_loop_shape.i: src/s2/s2lax_loop_shape.cc.i
@@ -1294,7 +1294,7 @@ src/s2/s2lax_loop_shape.i: src/s2/s2lax_loop_shape.cc.i
 
 # target to preprocess a source file
 src/s2/s2lax_loop_shape.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2lax_loop_shape.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2lax_loop_shape.cc.i
 .PHONY : src/s2/s2lax_loop_shape.cc.i
 
 src/s2/s2lax_loop_shape.s: src/s2/s2lax_loop_shape.cc.s
@@ -1302,7 +1302,7 @@ src/s2/s2lax_loop_shape.s: src/s2/s2lax_loop_shape.cc.s
 
 # target to generate assembly for a file
 src/s2/s2lax_loop_shape.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2lax_loop_shape.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2lax_loop_shape.cc.s
 .PHONY : src/s2/s2lax_loop_shape.cc.s
 
 src/s2/s2lax_polygon_shape.o: src/s2/s2lax_polygon_shape.cc.o
@@ -1310,7 +1310,7 @@ src/s2/s2lax_polygon_shape.o: src/s2/s2lax_polygon_shape.cc.o
 
 # target to build an object file
 src/s2/s2lax_polygon_shape.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2lax_polygon_shape.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2lax_polygon_shape.cc.o
 .PHONY : src/s2/s2lax_polygon_shape.cc.o
 
 src/s2/s2lax_polygon_shape.i: src/s2/s2lax_polygon_shape.cc.i
@@ -1318,7 +1318,7 @@ src/s2/s2lax_polygon_shape.i: src/s2/s2lax_polygon_shape.cc.i
 
 # target to preprocess a source file
 src/s2/s2lax_polygon_shape.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2lax_polygon_shape.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2lax_polygon_shape.cc.i
 .PHONY : src/s2/s2lax_polygon_shape.cc.i
 
 src/s2/s2lax_polygon_shape.s: src/s2/s2lax_polygon_shape.cc.s
@@ -1326,7 +1326,7 @@ src/s2/s2lax_polygon_shape.s: src/s2/s2lax_polygon_shape.cc.s
 
 # target to generate assembly for a file
 src/s2/s2lax_polygon_shape.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2lax_polygon_shape.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2lax_polygon_shape.cc.s
 .PHONY : src/s2/s2lax_polygon_shape.cc.s
 
 src/s2/s2lax_polyline_shape.o: src/s2/s2lax_polyline_shape.cc.o
@@ -1334,7 +1334,7 @@ src/s2/s2lax_polyline_shape.o: src/s2/s2lax_polyline_shape.cc.o
 
 # target to build an object file
 src/s2/s2lax_polyline_shape.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2lax_polyline_shape.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2lax_polyline_shape.cc.o
 .PHONY : src/s2/s2lax_polyline_shape.cc.o
 
 src/s2/s2lax_polyline_shape.i: src/s2/s2lax_polyline_shape.cc.i
@@ -1342,7 +1342,7 @@ src/s2/s2lax_polyline_shape.i: src/s2/s2lax_polyline_shape.cc.i
 
 # target to preprocess a source file
 src/s2/s2lax_polyline_shape.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2lax_polyline_shape.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2lax_polyline_shape.cc.i
 .PHONY : src/s2/s2lax_polyline_shape.cc.i
 
 src/s2/s2lax_polyline_shape.s: src/s2/s2lax_polyline_shape.cc.s
@@ -1350,7 +1350,7 @@ src/s2/s2lax_polyline_shape.s: src/s2/s2lax_polyline_shape.cc.s
 
 # target to generate assembly for a file
 src/s2/s2lax_polyline_shape.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2lax_polyline_shape.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2lax_polyline_shape.cc.s
 .PHONY : src/s2/s2lax_polyline_shape.cc.s
 
 src/s2/s2loop.o: src/s2/s2loop.cc.o
@@ -1358,7 +1358,7 @@ src/s2/s2loop.o: src/s2/s2loop.cc.o
 
 # target to build an object file
 src/s2/s2loop.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2loop.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2loop.cc.o
 .PHONY : src/s2/s2loop.cc.o
 
 src/s2/s2loop.i: src/s2/s2loop.cc.i
@@ -1366,7 +1366,7 @@ src/s2/s2loop.i: src/s2/s2loop.cc.i
 
 # target to preprocess a source file
 src/s2/s2loop.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2loop.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2loop.cc.i
 .PHONY : src/s2/s2loop.cc.i
 
 src/s2/s2loop.s: src/s2/s2loop.cc.s
@@ -1374,7 +1374,7 @@ src/s2/s2loop.s: src/s2/s2loop.cc.s
 
 # target to generate assembly for a file
 src/s2/s2loop.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2loop.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2loop.cc.s
 .PHONY : src/s2/s2loop.cc.s
 
 src/s2/s2loop_measures.o: src/s2/s2loop_measures.cc.o
@@ -1382,7 +1382,7 @@ src/s2/s2loop_measures.o: src/s2/s2loop_measures.cc.o
 
 # target to build an object file
 src/s2/s2loop_measures.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2loop_measures.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2loop_measures.cc.o
 .PHONY : src/s2/s2loop_measures.cc.o
 
 src/s2/s2loop_measures.i: src/s2/s2loop_measures.cc.i
@@ -1390,7 +1390,7 @@ src/s2/s2loop_measures.i: src/s2/s2loop_measures.cc.i
 
 # target to preprocess a source file
 src/s2/s2loop_measures.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2loop_measures.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2loop_measures.cc.i
 .PHONY : src/s2/s2loop_measures.cc.i
 
 src/s2/s2loop_measures.s: src/s2/s2loop_measures.cc.s
@@ -1398,7 +1398,7 @@ src/s2/s2loop_measures.s: src/s2/s2loop_measures.cc.s
 
 # target to generate assembly for a file
 src/s2/s2loop_measures.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2loop_measures.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2loop_measures.cc.s
 .PHONY : src/s2/s2loop_measures.cc.s
 
 src/s2/s2max_distance_targets.o: src/s2/s2max_distance_targets.cc.o
@@ -1406,7 +1406,7 @@ src/s2/s2max_distance_targets.o: src/s2/s2max_distance_targets.cc.o
 
 # target to build an object file
 src/s2/s2max_distance_targets.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2max_distance_targets.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2max_distance_targets.cc.o
 .PHONY : src/s2/s2max_distance_targets.cc.o
 
 src/s2/s2max_distance_targets.i: src/s2/s2max_distance_targets.cc.i
@@ -1414,7 +1414,7 @@ src/s2/s2max_distance_targets.i: src/s2/s2max_distance_targets.cc.i
 
 # target to preprocess a source file
 src/s2/s2max_distance_targets.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2max_distance_targets.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2max_distance_targets.cc.i
 .PHONY : src/s2/s2max_distance_targets.cc.i
 
 src/s2/s2max_distance_targets.s: src/s2/s2max_distance_targets.cc.s
@@ -1422,7 +1422,7 @@ src/s2/s2max_distance_targets.s: src/s2/s2max_distance_targets.cc.s
 
 # target to generate assembly for a file
 src/s2/s2max_distance_targets.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2max_distance_targets.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2max_distance_targets.cc.s
 .PHONY : src/s2/s2max_distance_targets.cc.s
 
 src/s2/s2measures.o: src/s2/s2measures.cc.o
@@ -1430,7 +1430,7 @@ src/s2/s2measures.o: src/s2/s2measures.cc.o
 
 # target to build an object file
 src/s2/s2measures.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2measures.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2measures.cc.o
 .PHONY : src/s2/s2measures.cc.o
 
 src/s2/s2measures.i: src/s2/s2measures.cc.i
@@ -1438,7 +1438,7 @@ src/s2/s2measures.i: src/s2/s2measures.cc.i
 
 # target to preprocess a source file
 src/s2/s2measures.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2measures.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2measures.cc.i
 .PHONY : src/s2/s2measures.cc.i
 
 src/s2/s2measures.s: src/s2/s2measures.cc.s
@@ -1446,7 +1446,7 @@ src/s2/s2measures.s: src/s2/s2measures.cc.s
 
 # target to generate assembly for a file
 src/s2/s2measures.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2measures.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2measures.cc.s
 .PHONY : src/s2/s2measures.cc.s
 
 src/s2/s2metrics.o: src/s2/s2metrics.cc.o
@@ -1454,7 +1454,7 @@ src/s2/s2metrics.o: src/s2/s2metrics.cc.o
 
 # target to build an object file
 src/s2/s2metrics.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2metrics.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2metrics.cc.o
 .PHONY : src/s2/s2metrics.cc.o
 
 src/s2/s2metrics.i: src/s2/s2metrics.cc.i
@@ -1462,7 +1462,7 @@ src/s2/s2metrics.i: src/s2/s2metrics.cc.i
 
 # target to preprocess a source file
 src/s2/s2metrics.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2metrics.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2metrics.cc.i
 .PHONY : src/s2/s2metrics.cc.i
 
 src/s2/s2metrics.s: src/s2/s2metrics.cc.s
@@ -1470,7 +1470,7 @@ src/s2/s2metrics.s: src/s2/s2metrics.cc.s
 
 # target to generate assembly for a file
 src/s2/s2metrics.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2metrics.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2metrics.cc.s
 .PHONY : src/s2/s2metrics.cc.s
 
 src/s2/s2min_distance_targets.o: src/s2/s2min_distance_targets.cc.o
@@ -1478,7 +1478,7 @@ src/s2/s2min_distance_targets.o: src/s2/s2min_distance_targets.cc.o
 
 # target to build an object file
 src/s2/s2min_distance_targets.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2min_distance_targets.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2min_distance_targets.cc.o
 .PHONY : src/s2/s2min_distance_targets.cc.o
 
 src/s2/s2min_distance_targets.i: src/s2/s2min_distance_targets.cc.i
@@ -1486,7 +1486,7 @@ src/s2/s2min_distance_targets.i: src/s2/s2min_distance_targets.cc.i
 
 # target to preprocess a source file
 src/s2/s2min_distance_targets.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2min_distance_targets.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2min_distance_targets.cc.i
 .PHONY : src/s2/s2min_distance_targets.cc.i
 
 src/s2/s2min_distance_targets.s: src/s2/s2min_distance_targets.cc.s
@@ -1494,7 +1494,7 @@ src/s2/s2min_distance_targets.s: src/s2/s2min_distance_targets.cc.s
 
 # target to generate assembly for a file
 src/s2/s2min_distance_targets.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2min_distance_targets.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2min_distance_targets.cc.s
 .PHONY : src/s2/s2min_distance_targets.cc.s
 
 src/s2/s2padded_cell.o: src/s2/s2padded_cell.cc.o
@@ -1502,7 +1502,7 @@ src/s2/s2padded_cell.o: src/s2/s2padded_cell.cc.o
 
 # target to build an object file
 src/s2/s2padded_cell.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2padded_cell.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2padded_cell.cc.o
 .PHONY : src/s2/s2padded_cell.cc.o
 
 src/s2/s2padded_cell.i: src/s2/s2padded_cell.cc.i
@@ -1510,7 +1510,7 @@ src/s2/s2padded_cell.i: src/s2/s2padded_cell.cc.i
 
 # target to preprocess a source file
 src/s2/s2padded_cell.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2padded_cell.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2padded_cell.cc.i
 .PHONY : src/s2/s2padded_cell.cc.i
 
 src/s2/s2padded_cell.s: src/s2/s2padded_cell.cc.s
@@ -1518,7 +1518,7 @@ src/s2/s2padded_cell.s: src/s2/s2padded_cell.cc.s
 
 # target to generate assembly for a file
 src/s2/s2padded_cell.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2padded_cell.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2padded_cell.cc.s
 .PHONY : src/s2/s2padded_cell.cc.s
 
 src/s2/s2point_compression.o: src/s2/s2point_compression.cc.o
@@ -1526,7 +1526,7 @@ src/s2/s2point_compression.o: src/s2/s2point_compression.cc.o
 
 # target to build an object file
 src/s2/s2point_compression.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2point_compression.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2point_compression.cc.o
 .PHONY : src/s2/s2point_compression.cc.o
 
 src/s2/s2point_compression.i: src/s2/s2point_compression.cc.i
@@ -1534,7 +1534,7 @@ src/s2/s2point_compression.i: src/s2/s2point_compression.cc.i
 
 # target to preprocess a source file
 src/s2/s2point_compression.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2point_compression.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2point_compression.cc.i
 .PHONY : src/s2/s2point_compression.cc.i
 
 src/s2/s2point_compression.s: src/s2/s2point_compression.cc.s
@@ -1542,7 +1542,7 @@ src/s2/s2point_compression.s: src/s2/s2point_compression.cc.s
 
 # target to generate assembly for a file
 src/s2/s2point_compression.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2point_compression.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2point_compression.cc.s
 .PHONY : src/s2/s2point_compression.cc.s
 
 src/s2/s2point_region.o: src/s2/s2point_region.cc.o
@@ -1550,7 +1550,7 @@ src/s2/s2point_region.o: src/s2/s2point_region.cc.o
 
 # target to build an object file
 src/s2/s2point_region.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2point_region.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2point_region.cc.o
 .PHONY : src/s2/s2point_region.cc.o
 
 src/s2/s2point_region.i: src/s2/s2point_region.cc.i
@@ -1558,7 +1558,7 @@ src/s2/s2point_region.i: src/s2/s2point_region.cc.i
 
 # target to preprocess a source file
 src/s2/s2point_region.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2point_region.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2point_region.cc.i
 .PHONY : src/s2/s2point_region.cc.i
 
 src/s2/s2point_region.s: src/s2/s2point_region.cc.s
@@ -1566,7 +1566,7 @@ src/s2/s2point_region.s: src/s2/s2point_region.cc.s
 
 # target to generate assembly for a file
 src/s2/s2point_region.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2point_region.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2point_region.cc.s
 .PHONY : src/s2/s2point_region.cc.s
 
 src/s2/s2pointutil.o: src/s2/s2pointutil.cc.o
@@ -1574,7 +1574,7 @@ src/s2/s2pointutil.o: src/s2/s2pointutil.cc.o
 
 # target to build an object file
 src/s2/s2pointutil.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2pointutil.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2pointutil.cc.o
 .PHONY : src/s2/s2pointutil.cc.o
 
 src/s2/s2pointutil.i: src/s2/s2pointutil.cc.i
@@ -1582,7 +1582,7 @@ src/s2/s2pointutil.i: src/s2/s2pointutil.cc.i
 
 # target to preprocess a source file
 src/s2/s2pointutil.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2pointutil.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2pointutil.cc.i
 .PHONY : src/s2/s2pointutil.cc.i
 
 src/s2/s2pointutil.s: src/s2/s2pointutil.cc.s
@@ -1590,7 +1590,7 @@ src/s2/s2pointutil.s: src/s2/s2pointutil.cc.s
 
 # target to generate assembly for a file
 src/s2/s2pointutil.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2pointutil.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2pointutil.cc.s
 .PHONY : src/s2/s2pointutil.cc.s
 
 src/s2/s2polygon.o: src/s2/s2polygon.cc.o
@@ -1598,7 +1598,7 @@ src/s2/s2polygon.o: src/s2/s2polygon.cc.o
 
 # target to build an object file
 src/s2/s2polygon.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polygon.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polygon.cc.o
 .PHONY : src/s2/s2polygon.cc.o
 
 src/s2/s2polygon.i: src/s2/s2polygon.cc.i
@@ -1606,7 +1606,7 @@ src/s2/s2polygon.i: src/s2/s2polygon.cc.i
 
 # target to preprocess a source file
 src/s2/s2polygon.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polygon.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polygon.cc.i
 .PHONY : src/s2/s2polygon.cc.i
 
 src/s2/s2polygon.s: src/s2/s2polygon.cc.s
@@ -1614,7 +1614,7 @@ src/s2/s2polygon.s: src/s2/s2polygon.cc.s
 
 # target to generate assembly for a file
 src/s2/s2polygon.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polygon.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polygon.cc.s
 .PHONY : src/s2/s2polygon.cc.s
 
 src/s2/s2polyline.o: src/s2/s2polyline.cc.o
@@ -1622,7 +1622,7 @@ src/s2/s2polyline.o: src/s2/s2polyline.cc.o
 
 # target to build an object file
 src/s2/s2polyline.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline.cc.o
 .PHONY : src/s2/s2polyline.cc.o
 
 src/s2/s2polyline.i: src/s2/s2polyline.cc.i
@@ -1630,7 +1630,7 @@ src/s2/s2polyline.i: src/s2/s2polyline.cc.i
 
 # target to preprocess a source file
 src/s2/s2polyline.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline.cc.i
 .PHONY : src/s2/s2polyline.cc.i
 
 src/s2/s2polyline.s: src/s2/s2polyline.cc.s
@@ -1638,7 +1638,7 @@ src/s2/s2polyline.s: src/s2/s2polyline.cc.s
 
 # target to generate assembly for a file
 src/s2/s2polyline.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline.cc.s
 .PHONY : src/s2/s2polyline.cc.s
 
 src/s2/s2polyline_alignment.o: src/s2/s2polyline_alignment.cc.o
@@ -1646,7 +1646,7 @@ src/s2/s2polyline_alignment.o: src/s2/s2polyline_alignment.cc.o
 
 # target to build an object file
 src/s2/s2polyline_alignment.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline_alignment.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline_alignment.cc.o
 .PHONY : src/s2/s2polyline_alignment.cc.o
 
 src/s2/s2polyline_alignment.i: src/s2/s2polyline_alignment.cc.i
@@ -1654,7 +1654,7 @@ src/s2/s2polyline_alignment.i: src/s2/s2polyline_alignment.cc.i
 
 # target to preprocess a source file
 src/s2/s2polyline_alignment.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline_alignment.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline_alignment.cc.i
 .PHONY : src/s2/s2polyline_alignment.cc.i
 
 src/s2/s2polyline_alignment.s: src/s2/s2polyline_alignment.cc.s
@@ -1662,7 +1662,7 @@ src/s2/s2polyline_alignment.s: src/s2/s2polyline_alignment.cc.s
 
 # target to generate assembly for a file
 src/s2/s2polyline_alignment.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline_alignment.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline_alignment.cc.s
 .PHONY : src/s2/s2polyline_alignment.cc.s
 
 src/s2/s2polyline_measures.o: src/s2/s2polyline_measures.cc.o
@@ -1670,7 +1670,7 @@ src/s2/s2polyline_measures.o: src/s2/s2polyline_measures.cc.o
 
 # target to build an object file
 src/s2/s2polyline_measures.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline_measures.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline_measures.cc.o
 .PHONY : src/s2/s2polyline_measures.cc.o
 
 src/s2/s2polyline_measures.i: src/s2/s2polyline_measures.cc.i
@@ -1678,7 +1678,7 @@ src/s2/s2polyline_measures.i: src/s2/s2polyline_measures.cc.i
 
 # target to preprocess a source file
 src/s2/s2polyline_measures.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline_measures.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline_measures.cc.i
 .PHONY : src/s2/s2polyline_measures.cc.i
 
 src/s2/s2polyline_measures.s: src/s2/s2polyline_measures.cc.s
@@ -1686,7 +1686,7 @@ src/s2/s2polyline_measures.s: src/s2/s2polyline_measures.cc.s
 
 # target to generate assembly for a file
 src/s2/s2polyline_measures.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline_measures.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline_measures.cc.s
 .PHONY : src/s2/s2polyline_measures.cc.s
 
 src/s2/s2polyline_simplifier.o: src/s2/s2polyline_simplifier.cc.o
@@ -1694,7 +1694,7 @@ src/s2/s2polyline_simplifier.o: src/s2/s2polyline_simplifier.cc.o
 
 # target to build an object file
 src/s2/s2polyline_simplifier.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline_simplifier.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline_simplifier.cc.o
 .PHONY : src/s2/s2polyline_simplifier.cc.o
 
 src/s2/s2polyline_simplifier.i: src/s2/s2polyline_simplifier.cc.i
@@ -1702,7 +1702,7 @@ src/s2/s2polyline_simplifier.i: src/s2/s2polyline_simplifier.cc.i
 
 # target to preprocess a source file
 src/s2/s2polyline_simplifier.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline_simplifier.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline_simplifier.cc.i
 .PHONY : src/s2/s2polyline_simplifier.cc.i
 
 src/s2/s2polyline_simplifier.s: src/s2/s2polyline_simplifier.cc.s
@@ -1710,7 +1710,7 @@ src/s2/s2polyline_simplifier.s: src/s2/s2polyline_simplifier.cc.s
 
 # target to generate assembly for a file
 src/s2/s2polyline_simplifier.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2polyline_simplifier.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2polyline_simplifier.cc.s
 .PHONY : src/s2/s2polyline_simplifier.cc.s
 
 src/s2/s2predicates.o: src/s2/s2predicates.cc.o
@@ -1718,7 +1718,7 @@ src/s2/s2predicates.o: src/s2/s2predicates.cc.o
 
 # target to build an object file
 src/s2/s2predicates.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2predicates.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2predicates.cc.o
 .PHONY : src/s2/s2predicates.cc.o
 
 src/s2/s2predicates.i: src/s2/s2predicates.cc.i
@@ -1726,7 +1726,7 @@ src/s2/s2predicates.i: src/s2/s2predicates.cc.i
 
 # target to preprocess a source file
 src/s2/s2predicates.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2predicates.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2predicates.cc.i
 .PHONY : src/s2/s2predicates.cc.i
 
 src/s2/s2predicates.s: src/s2/s2predicates.cc.s
@@ -1734,7 +1734,7 @@ src/s2/s2predicates.s: src/s2/s2predicates.cc.s
 
 # target to generate assembly for a file
 src/s2/s2predicates.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2predicates.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2predicates.cc.s
 .PHONY : src/s2/s2predicates.cc.s
 
 src/s2/s2projections.o: src/s2/s2projections.cc.o
@@ -1742,7 +1742,7 @@ src/s2/s2projections.o: src/s2/s2projections.cc.o
 
 # target to build an object file
 src/s2/s2projections.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2projections.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2projections.cc.o
 .PHONY : src/s2/s2projections.cc.o
 
 src/s2/s2projections.i: src/s2/s2projections.cc.i
@@ -1750,7 +1750,7 @@ src/s2/s2projections.i: src/s2/s2projections.cc.i
 
 # target to preprocess a source file
 src/s2/s2projections.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2projections.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2projections.cc.i
 .PHONY : src/s2/s2projections.cc.i
 
 src/s2/s2projections.s: src/s2/s2projections.cc.s
@@ -1758,7 +1758,7 @@ src/s2/s2projections.s: src/s2/s2projections.cc.s
 
 # target to generate assembly for a file
 src/s2/s2projections.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2projections.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2projections.cc.s
 .PHONY : src/s2/s2projections.cc.s
 
 src/s2/s2r2rect.o: src/s2/s2r2rect.cc.o
@@ -1766,7 +1766,7 @@ src/s2/s2r2rect.o: src/s2/s2r2rect.cc.o
 
 # target to build an object file
 src/s2/s2r2rect.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2r2rect.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2r2rect.cc.o
 .PHONY : src/s2/s2r2rect.cc.o
 
 src/s2/s2r2rect.i: src/s2/s2r2rect.cc.i
@@ -1774,7 +1774,7 @@ src/s2/s2r2rect.i: src/s2/s2r2rect.cc.i
 
 # target to preprocess a source file
 src/s2/s2r2rect.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2r2rect.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2r2rect.cc.i
 .PHONY : src/s2/s2r2rect.cc.i
 
 src/s2/s2r2rect.s: src/s2/s2r2rect.cc.s
@@ -1782,7 +1782,7 @@ src/s2/s2r2rect.s: src/s2/s2r2rect.cc.s
 
 # target to generate assembly for a file
 src/s2/s2r2rect.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2r2rect.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2r2rect.cc.s
 .PHONY : src/s2/s2r2rect.cc.s
 
 src/s2/s2region.o: src/s2/s2region.cc.o
@@ -1790,7 +1790,7 @@ src/s2/s2region.o: src/s2/s2region.cc.o
 
 # target to build an object file
 src/s2/s2region.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region.cc.o
 .PHONY : src/s2/s2region.cc.o
 
 src/s2/s2region.i: src/s2/s2region.cc.i
@@ -1798,7 +1798,7 @@ src/s2/s2region.i: src/s2/s2region.cc.i
 
 # target to preprocess a source file
 src/s2/s2region.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region.cc.i
 .PHONY : src/s2/s2region.cc.i
 
 src/s2/s2region.s: src/s2/s2region.cc.s
@@ -1806,7 +1806,7 @@ src/s2/s2region.s: src/s2/s2region.cc.s
 
 # target to generate assembly for a file
 src/s2/s2region.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region.cc.s
 .PHONY : src/s2/s2region.cc.s
 
 src/s2/s2region_coverer.o: src/s2/s2region_coverer.cc.o
@@ -1814,7 +1814,7 @@ src/s2/s2region_coverer.o: src/s2/s2region_coverer.cc.o
 
 # target to build an object file
 src/s2/s2region_coverer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_coverer.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_coverer.cc.o
 .PHONY : src/s2/s2region_coverer.cc.o
 
 src/s2/s2region_coverer.i: src/s2/s2region_coverer.cc.i
@@ -1822,7 +1822,7 @@ src/s2/s2region_coverer.i: src/s2/s2region_coverer.cc.i
 
 # target to preprocess a source file
 src/s2/s2region_coverer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_coverer.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_coverer.cc.i
 .PHONY : src/s2/s2region_coverer.cc.i
 
 src/s2/s2region_coverer.s: src/s2/s2region_coverer.cc.s
@@ -1830,7 +1830,7 @@ src/s2/s2region_coverer.s: src/s2/s2region_coverer.cc.s
 
 # target to generate assembly for a file
 src/s2/s2region_coverer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_coverer.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_coverer.cc.s
 .PHONY : src/s2/s2region_coverer.cc.s
 
 src/s2/s2region_intersection.o: src/s2/s2region_intersection.cc.o
@@ -1838,7 +1838,7 @@ src/s2/s2region_intersection.o: src/s2/s2region_intersection.cc.o
 
 # target to build an object file
 src/s2/s2region_intersection.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_intersection.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_intersection.cc.o
 .PHONY : src/s2/s2region_intersection.cc.o
 
 src/s2/s2region_intersection.i: src/s2/s2region_intersection.cc.i
@@ -1846,7 +1846,7 @@ src/s2/s2region_intersection.i: src/s2/s2region_intersection.cc.i
 
 # target to preprocess a source file
 src/s2/s2region_intersection.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_intersection.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_intersection.cc.i
 .PHONY : src/s2/s2region_intersection.cc.i
 
 src/s2/s2region_intersection.s: src/s2/s2region_intersection.cc.s
@@ -1854,7 +1854,7 @@ src/s2/s2region_intersection.s: src/s2/s2region_intersection.cc.s
 
 # target to generate assembly for a file
 src/s2/s2region_intersection.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_intersection.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_intersection.cc.s
 .PHONY : src/s2/s2region_intersection.cc.s
 
 src/s2/s2region_term_indexer.o: src/s2/s2region_term_indexer.cc.o
@@ -1862,7 +1862,7 @@ src/s2/s2region_term_indexer.o: src/s2/s2region_term_indexer.cc.o
 
 # target to build an object file
 src/s2/s2region_term_indexer.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_term_indexer.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_term_indexer.cc.o
 .PHONY : src/s2/s2region_term_indexer.cc.o
 
 src/s2/s2region_term_indexer.i: src/s2/s2region_term_indexer.cc.i
@@ -1870,7 +1870,7 @@ src/s2/s2region_term_indexer.i: src/s2/s2region_term_indexer.cc.i
 
 # target to preprocess a source file
 src/s2/s2region_term_indexer.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_term_indexer.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_term_indexer.cc.i
 .PHONY : src/s2/s2region_term_indexer.cc.i
 
 src/s2/s2region_term_indexer.s: src/s2/s2region_term_indexer.cc.s
@@ -1878,7 +1878,7 @@ src/s2/s2region_term_indexer.s: src/s2/s2region_term_indexer.cc.s
 
 # target to generate assembly for a file
 src/s2/s2region_term_indexer.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_term_indexer.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_term_indexer.cc.s
 .PHONY : src/s2/s2region_term_indexer.cc.s
 
 src/s2/s2region_union.o: src/s2/s2region_union.cc.o
@@ -1886,7 +1886,7 @@ src/s2/s2region_union.o: src/s2/s2region_union.cc.o
 
 # target to build an object file
 src/s2/s2region_union.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_union.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_union.cc.o
 .PHONY : src/s2/s2region_union.cc.o
 
 src/s2/s2region_union.i: src/s2/s2region_union.cc.i
@@ -1894,7 +1894,7 @@ src/s2/s2region_union.i: src/s2/s2region_union.cc.i
 
 # target to preprocess a source file
 src/s2/s2region_union.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_union.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_union.cc.i
 .PHONY : src/s2/s2region_union.cc.i
 
 src/s2/s2region_union.s: src/s2/s2region_union.cc.s
@@ -1902,7 +1902,7 @@ src/s2/s2region_union.s: src/s2/s2region_union.cc.s
 
 # target to generate assembly for a file
 src/s2/s2region_union.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2region_union.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2region_union.cc.s
 .PHONY : src/s2/s2region_union.cc.s
 
 src/s2/s2shape_index.o: src/s2/s2shape_index.cc.o
@@ -1910,7 +1910,7 @@ src/s2/s2shape_index.o: src/s2/s2shape_index.cc.o
 
 # target to build an object file
 src/s2/s2shape_index.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_index.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_index.cc.o
 .PHONY : src/s2/s2shape_index.cc.o
 
 src/s2/s2shape_index.i: src/s2/s2shape_index.cc.i
@@ -1918,7 +1918,7 @@ src/s2/s2shape_index.i: src/s2/s2shape_index.cc.i
 
 # target to preprocess a source file
 src/s2/s2shape_index.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_index.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_index.cc.i
 .PHONY : src/s2/s2shape_index.cc.i
 
 src/s2/s2shape_index.s: src/s2/s2shape_index.cc.s
@@ -1926,7 +1926,7 @@ src/s2/s2shape_index.s: src/s2/s2shape_index.cc.s
 
 # target to generate assembly for a file
 src/s2/s2shape_index.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_index.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_index.cc.s
 .PHONY : src/s2/s2shape_index.cc.s
 
 src/s2/s2shape_index_buffered_region.o: src/s2/s2shape_index_buffered_region.cc.o
@@ -1934,7 +1934,7 @@ src/s2/s2shape_index_buffered_region.o: src/s2/s2shape_index_buffered_region.cc.
 
 # target to build an object file
 src/s2/s2shape_index_buffered_region.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_index_buffered_region.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_index_buffered_region.cc.o
 .PHONY : src/s2/s2shape_index_buffered_region.cc.o
 
 src/s2/s2shape_index_buffered_region.i: src/s2/s2shape_index_buffered_region.cc.i
@@ -1942,7 +1942,7 @@ src/s2/s2shape_index_buffered_region.i: src/s2/s2shape_index_buffered_region.cc.
 
 # target to preprocess a source file
 src/s2/s2shape_index_buffered_region.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_index_buffered_region.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_index_buffered_region.cc.i
 .PHONY : src/s2/s2shape_index_buffered_region.cc.i
 
 src/s2/s2shape_index_buffered_region.s: src/s2/s2shape_index_buffered_region.cc.s
@@ -1950,7 +1950,7 @@ src/s2/s2shape_index_buffered_region.s: src/s2/s2shape_index_buffered_region.cc.
 
 # target to generate assembly for a file
 src/s2/s2shape_index_buffered_region.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_index_buffered_region.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_index_buffered_region.cc.s
 .PHONY : src/s2/s2shape_index_buffered_region.cc.s
 
 src/s2/s2shape_index_measures.o: src/s2/s2shape_index_measures.cc.o
@@ -1958,7 +1958,7 @@ src/s2/s2shape_index_measures.o: src/s2/s2shape_index_measures.cc.o
 
 # target to build an object file
 src/s2/s2shape_index_measures.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_index_measures.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_index_measures.cc.o
 .PHONY : src/s2/s2shape_index_measures.cc.o
 
 src/s2/s2shape_index_measures.i: src/s2/s2shape_index_measures.cc.i
@@ -1966,7 +1966,7 @@ src/s2/s2shape_index_measures.i: src/s2/s2shape_index_measures.cc.i
 
 # target to preprocess a source file
 src/s2/s2shape_index_measures.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_index_measures.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_index_measures.cc.i
 .PHONY : src/s2/s2shape_index_measures.cc.i
 
 src/s2/s2shape_index_measures.s: src/s2/s2shape_index_measures.cc.s
@@ -1974,7 +1974,7 @@ src/s2/s2shape_index_measures.s: src/s2/s2shape_index_measures.cc.s
 
 # target to generate assembly for a file
 src/s2/s2shape_index_measures.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_index_measures.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_index_measures.cc.s
 .PHONY : src/s2/s2shape_index_measures.cc.s
 
 src/s2/s2shape_measures.o: src/s2/s2shape_measures.cc.o
@@ -1982,7 +1982,7 @@ src/s2/s2shape_measures.o: src/s2/s2shape_measures.cc.o
 
 # target to build an object file
 src/s2/s2shape_measures.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_measures.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_measures.cc.o
 .PHONY : src/s2/s2shape_measures.cc.o
 
 src/s2/s2shape_measures.i: src/s2/s2shape_measures.cc.i
@@ -1990,7 +1990,7 @@ src/s2/s2shape_measures.i: src/s2/s2shape_measures.cc.i
 
 # target to preprocess a source file
 src/s2/s2shape_measures.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_measures.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_measures.cc.i
 .PHONY : src/s2/s2shape_measures.cc.i
 
 src/s2/s2shape_measures.s: src/s2/s2shape_measures.cc.s
@@ -1998,7 +1998,7 @@ src/s2/s2shape_measures.s: src/s2/s2shape_measures.cc.s
 
 # target to generate assembly for a file
 src/s2/s2shape_measures.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shape_measures.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shape_measures.cc.s
 .PHONY : src/s2/s2shape_measures.cc.s
 
 src/s2/s2shapeutil_build_polygon_boundaries.o: src/s2/s2shapeutil_build_polygon_boundaries.cc.o
@@ -2006,7 +2006,7 @@ src/s2/s2shapeutil_build_polygon_boundaries.o: src/s2/s2shapeutil_build_polygon_
 
 # target to build an object file
 src/s2/s2shapeutil_build_polygon_boundaries.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_build_polygon_boundaries.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_build_polygon_boundaries.cc.o
 .PHONY : src/s2/s2shapeutil_build_polygon_boundaries.cc.o
 
 src/s2/s2shapeutil_build_polygon_boundaries.i: src/s2/s2shapeutil_build_polygon_boundaries.cc.i
@@ -2014,7 +2014,7 @@ src/s2/s2shapeutil_build_polygon_boundaries.i: src/s2/s2shapeutil_build_polygon_
 
 # target to preprocess a source file
 src/s2/s2shapeutil_build_polygon_boundaries.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_build_polygon_boundaries.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_build_polygon_boundaries.cc.i
 .PHONY : src/s2/s2shapeutil_build_polygon_boundaries.cc.i
 
 src/s2/s2shapeutil_build_polygon_boundaries.s: src/s2/s2shapeutil_build_polygon_boundaries.cc.s
@@ -2022,7 +2022,7 @@ src/s2/s2shapeutil_build_polygon_boundaries.s: src/s2/s2shapeutil_build_polygon_
 
 # target to generate assembly for a file
 src/s2/s2shapeutil_build_polygon_boundaries.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_build_polygon_boundaries.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_build_polygon_boundaries.cc.s
 .PHONY : src/s2/s2shapeutil_build_polygon_boundaries.cc.s
 
 src/s2/s2shapeutil_coding.o: src/s2/s2shapeutil_coding.cc.o
@@ -2030,7 +2030,7 @@ src/s2/s2shapeutil_coding.o: src/s2/s2shapeutil_coding.cc.o
 
 # target to build an object file
 src/s2/s2shapeutil_coding.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_coding.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_coding.cc.o
 .PHONY : src/s2/s2shapeutil_coding.cc.o
 
 src/s2/s2shapeutil_coding.i: src/s2/s2shapeutil_coding.cc.i
@@ -2038,7 +2038,7 @@ src/s2/s2shapeutil_coding.i: src/s2/s2shapeutil_coding.cc.i
 
 # target to preprocess a source file
 src/s2/s2shapeutil_coding.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_coding.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_coding.cc.i
 .PHONY : src/s2/s2shapeutil_coding.cc.i
 
 src/s2/s2shapeutil_coding.s: src/s2/s2shapeutil_coding.cc.s
@@ -2046,7 +2046,7 @@ src/s2/s2shapeutil_coding.s: src/s2/s2shapeutil_coding.cc.s
 
 # target to generate assembly for a file
 src/s2/s2shapeutil_coding.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_coding.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_coding.cc.s
 .PHONY : src/s2/s2shapeutil_coding.cc.s
 
 src/s2/s2shapeutil_contains_brute_force.o: src/s2/s2shapeutil_contains_brute_force.cc.o
@@ -2054,7 +2054,7 @@ src/s2/s2shapeutil_contains_brute_force.o: src/s2/s2shapeutil_contains_brute_for
 
 # target to build an object file
 src/s2/s2shapeutil_contains_brute_force.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_contains_brute_force.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_contains_brute_force.cc.o
 .PHONY : src/s2/s2shapeutil_contains_brute_force.cc.o
 
 src/s2/s2shapeutil_contains_brute_force.i: src/s2/s2shapeutil_contains_brute_force.cc.i
@@ -2062,7 +2062,7 @@ src/s2/s2shapeutil_contains_brute_force.i: src/s2/s2shapeutil_contains_brute_for
 
 # target to preprocess a source file
 src/s2/s2shapeutil_contains_brute_force.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_contains_brute_force.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_contains_brute_force.cc.i
 .PHONY : src/s2/s2shapeutil_contains_brute_force.cc.i
 
 src/s2/s2shapeutil_contains_brute_force.s: src/s2/s2shapeutil_contains_brute_force.cc.s
@@ -2070,7 +2070,7 @@ src/s2/s2shapeutil_contains_brute_force.s: src/s2/s2shapeutil_contains_brute_for
 
 # target to generate assembly for a file
 src/s2/s2shapeutil_contains_brute_force.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_contains_brute_force.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_contains_brute_force.cc.s
 .PHONY : src/s2/s2shapeutil_contains_brute_force.cc.s
 
 src/s2/s2shapeutil_edge_iterator.o: src/s2/s2shapeutil_edge_iterator.cc.o
@@ -2078,7 +2078,7 @@ src/s2/s2shapeutil_edge_iterator.o: src/s2/s2shapeutil_edge_iterator.cc.o
 
 # target to build an object file
 src/s2/s2shapeutil_edge_iterator.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_edge_iterator.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_edge_iterator.cc.o
 .PHONY : src/s2/s2shapeutil_edge_iterator.cc.o
 
 src/s2/s2shapeutil_edge_iterator.i: src/s2/s2shapeutil_edge_iterator.cc.i
@@ -2086,7 +2086,7 @@ src/s2/s2shapeutil_edge_iterator.i: src/s2/s2shapeutil_edge_iterator.cc.i
 
 # target to preprocess a source file
 src/s2/s2shapeutil_edge_iterator.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_edge_iterator.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_edge_iterator.cc.i
 .PHONY : src/s2/s2shapeutil_edge_iterator.cc.i
 
 src/s2/s2shapeutil_edge_iterator.s: src/s2/s2shapeutil_edge_iterator.cc.s
@@ -2094,7 +2094,7 @@ src/s2/s2shapeutil_edge_iterator.s: src/s2/s2shapeutil_edge_iterator.cc.s
 
 # target to generate assembly for a file
 src/s2/s2shapeutil_edge_iterator.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_edge_iterator.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_edge_iterator.cc.s
 .PHONY : src/s2/s2shapeutil_edge_iterator.cc.s
 
 src/s2/s2shapeutil_get_reference_point.o: src/s2/s2shapeutil_get_reference_point.cc.o
@@ -2102,7 +2102,7 @@ src/s2/s2shapeutil_get_reference_point.o: src/s2/s2shapeutil_get_reference_point
 
 # target to build an object file
 src/s2/s2shapeutil_get_reference_point.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_get_reference_point.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_get_reference_point.cc.o
 .PHONY : src/s2/s2shapeutil_get_reference_point.cc.o
 
 src/s2/s2shapeutil_get_reference_point.i: src/s2/s2shapeutil_get_reference_point.cc.i
@@ -2110,7 +2110,7 @@ src/s2/s2shapeutil_get_reference_point.i: src/s2/s2shapeutil_get_reference_point
 
 # target to preprocess a source file
 src/s2/s2shapeutil_get_reference_point.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_get_reference_point.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_get_reference_point.cc.i
 .PHONY : src/s2/s2shapeutil_get_reference_point.cc.i
 
 src/s2/s2shapeutil_get_reference_point.s: src/s2/s2shapeutil_get_reference_point.cc.s
@@ -2118,7 +2118,7 @@ src/s2/s2shapeutil_get_reference_point.s: src/s2/s2shapeutil_get_reference_point
 
 # target to generate assembly for a file
 src/s2/s2shapeutil_get_reference_point.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_get_reference_point.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_get_reference_point.cc.s
 .PHONY : src/s2/s2shapeutil_get_reference_point.cc.s
 
 src/s2/s2shapeutil_range_iterator.o: src/s2/s2shapeutil_range_iterator.cc.o
@@ -2126,7 +2126,7 @@ src/s2/s2shapeutil_range_iterator.o: src/s2/s2shapeutil_range_iterator.cc.o
 
 # target to build an object file
 src/s2/s2shapeutil_range_iterator.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_range_iterator.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_range_iterator.cc.o
 .PHONY : src/s2/s2shapeutil_range_iterator.cc.o
 
 src/s2/s2shapeutil_range_iterator.i: src/s2/s2shapeutil_range_iterator.cc.i
@@ -2134,7 +2134,7 @@ src/s2/s2shapeutil_range_iterator.i: src/s2/s2shapeutil_range_iterator.cc.i
 
 # target to preprocess a source file
 src/s2/s2shapeutil_range_iterator.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_range_iterator.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_range_iterator.cc.i
 .PHONY : src/s2/s2shapeutil_range_iterator.cc.i
 
 src/s2/s2shapeutil_range_iterator.s: src/s2/s2shapeutil_range_iterator.cc.s
@@ -2142,7 +2142,7 @@ src/s2/s2shapeutil_range_iterator.s: src/s2/s2shapeutil_range_iterator.cc.s
 
 # target to generate assembly for a file
 src/s2/s2shapeutil_range_iterator.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_range_iterator.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_range_iterator.cc.s
 .PHONY : src/s2/s2shapeutil_range_iterator.cc.s
 
 src/s2/s2shapeutil_visit_crossing_edge_pairs.o: src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.o
@@ -2150,7 +2150,7 @@ src/s2/s2shapeutil_visit_crossing_edge_pairs.o: src/s2/s2shapeutil_visit_crossin
 
 # target to build an object file
 src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.o
 .PHONY : src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.o
 
 src/s2/s2shapeutil_visit_crossing_edge_pairs.i: src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.i
@@ -2158,7 +2158,7 @@ src/s2/s2shapeutil_visit_crossing_edge_pairs.i: src/s2/s2shapeutil_visit_crossin
 
 # target to preprocess a source file
 src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.i
 .PHONY : src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.i
 
 src/s2/s2shapeutil_visit_crossing_edge_pairs.s: src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.s
@@ -2166,15 +2166,39 @@ src/s2/s2shapeutil_visit_crossing_edge_pairs.s: src/s2/s2shapeutil_visit_crossin
 
 # target to generate assembly for a file
 src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.s
 .PHONY : src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.s
+
+src/s2/s2testing.o: src/s2/s2testing.cc.o
+.PHONY : src/s2/s2testing.o
+
+# target to build an object file
+src/s2/s2testing.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2testing.cc.o
+.PHONY : src/s2/s2testing.cc.o
+
+src/s2/s2testing.i: src/s2/s2testing.cc.i
+.PHONY : src/s2/s2testing.i
+
+# target to preprocess a source file
+src/s2/s2testing.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2testing.cc.i
+.PHONY : src/s2/s2testing.cc.i
+
+src/s2/s2testing.s: src/s2/s2testing.cc.s
+.PHONY : src/s2/s2testing.s
+
+# target to generate assembly for a file
+src/s2/s2testing.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2testing.cc.s
+.PHONY : src/s2/s2testing.cc.s
 
 src/s2/s2text_format.o: src/s2/s2text_format.cc.o
 .PHONY : src/s2/s2text_format.o
 
 # target to build an object file
 src/s2/s2text_format.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2text_format.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2text_format.cc.o
 .PHONY : src/s2/s2text_format.cc.o
 
 src/s2/s2text_format.i: src/s2/s2text_format.cc.i
@@ -2182,7 +2206,7 @@ src/s2/s2text_format.i: src/s2/s2text_format.cc.i
 
 # target to preprocess a source file
 src/s2/s2text_format.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2text_format.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2text_format.cc.i
 .PHONY : src/s2/s2text_format.cc.i
 
 src/s2/s2text_format.s: src/s2/s2text_format.cc.s
@@ -2190,7 +2214,7 @@ src/s2/s2text_format.s: src/s2/s2text_format.cc.s
 
 # target to generate assembly for a file
 src/s2/s2text_format.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2text_format.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2text_format.cc.s
 .PHONY : src/s2/s2text_format.cc.s
 
 src/s2/s2wedge_relations.o: src/s2/s2wedge_relations.cc.o
@@ -2198,7 +2222,7 @@ src/s2/s2wedge_relations.o: src/s2/s2wedge_relations.cc.o
 
 # target to build an object file
 src/s2/s2wedge_relations.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2wedge_relations.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2wedge_relations.cc.o
 .PHONY : src/s2/s2wedge_relations.cc.o
 
 src/s2/s2wedge_relations.i: src/s2/s2wedge_relations.cc.i
@@ -2206,7 +2230,7 @@ src/s2/s2wedge_relations.i: src/s2/s2wedge_relations.cc.i
 
 # target to preprocess a source file
 src/s2/s2wedge_relations.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2wedge_relations.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2wedge_relations.cc.i
 .PHONY : src/s2/s2wedge_relations.cc.i
 
 src/s2/s2wedge_relations.s: src/s2/s2wedge_relations.cc.s
@@ -2214,7 +2238,7 @@ src/s2/s2wedge_relations.s: src/s2/s2wedge_relations.cc.s
 
 # target to generate assembly for a file
 src/s2/s2wedge_relations.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/s2wedge_relations.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/s2wedge_relations.cc.s
 .PHONY : src/s2/s2wedge_relations.cc.s
 
 src/s2/strings/ostringstream.o: src/s2/strings/ostringstream.cc.o
@@ -2222,7 +2246,7 @@ src/s2/strings/ostringstream.o: src/s2/strings/ostringstream.cc.o
 
 # target to build an object file
 src/s2/strings/ostringstream.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/strings/ostringstream.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/strings/ostringstream.cc.o
 .PHONY : src/s2/strings/ostringstream.cc.o
 
 src/s2/strings/ostringstream.i: src/s2/strings/ostringstream.cc.i
@@ -2230,7 +2254,7 @@ src/s2/strings/ostringstream.i: src/s2/strings/ostringstream.cc.i
 
 # target to preprocess a source file
 src/s2/strings/ostringstream.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/strings/ostringstream.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/strings/ostringstream.cc.i
 .PHONY : src/s2/strings/ostringstream.cc.i
 
 src/s2/strings/ostringstream.s: src/s2/strings/ostringstream.cc.s
@@ -2238,7 +2262,7 @@ src/s2/strings/ostringstream.s: src/s2/strings/ostringstream.cc.s
 
 # target to generate assembly for a file
 src/s2/strings/ostringstream.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/strings/ostringstream.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/strings/ostringstream.cc.s
 .PHONY : src/s2/strings/ostringstream.cc.s
 
 src/s2/strings/serialize.o: src/s2/strings/serialize.cc.o
@@ -2246,7 +2270,7 @@ src/s2/strings/serialize.o: src/s2/strings/serialize.cc.o
 
 # target to build an object file
 src/s2/strings/serialize.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/strings/serialize.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/strings/serialize.cc.o
 .PHONY : src/s2/strings/serialize.cc.o
 
 src/s2/strings/serialize.i: src/s2/strings/serialize.cc.i
@@ -2254,7 +2278,7 @@ src/s2/strings/serialize.i: src/s2/strings/serialize.cc.i
 
 # target to preprocess a source file
 src/s2/strings/serialize.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/strings/serialize.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/strings/serialize.cc.i
 .PHONY : src/s2/strings/serialize.cc.i
 
 src/s2/strings/serialize.s: src/s2/strings/serialize.cc.s
@@ -2262,7 +2286,7 @@ src/s2/strings/serialize.s: src/s2/strings/serialize.cc.s
 
 # target to generate assembly for a file
 src/s2/strings/serialize.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/strings/serialize.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/strings/serialize.cc.s
 .PHONY : src/s2/strings/serialize.cc.s
 
 src/s2/test.o: src/s2/test.cc.o
@@ -2270,7 +2294,7 @@ src/s2/test.o: src/s2/test.cc.o
 
 # target to build an object file
 src/s2/test.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/test.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/test.cc.o
 .PHONY : src/s2/test.cc.o
 
 src/s2/test.i: src/s2/test.cc.i
@@ -2278,7 +2302,7 @@ src/s2/test.i: src/s2/test.cc.i
 
 # target to preprocess a source file
 src/s2/test.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/test.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/test.cc.i
 .PHONY : src/s2/test.cc.i
 
 src/s2/test.s: src/s2/test.cc.s
@@ -2286,7 +2310,7 @@ src/s2/test.s: src/s2/test.cc.s
 
 # target to generate assembly for a file
 src/s2/test.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/test.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/test.cc.s
 .PHONY : src/s2/test.cc.s
 
 src/s2/third_party/absl/base/dynamic_annotations.o: src/s2/third_party/absl/base/dynamic_annotations.cc.o
@@ -2294,7 +2318,7 @@ src/s2/third_party/absl/base/dynamic_annotations.o: src/s2/third_party/absl/base
 
 # target to build an object file
 src/s2/third_party/absl/base/dynamic_annotations.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.o
 .PHONY : src/s2/third_party/absl/base/dynamic_annotations.cc.o
 
 src/s2/third_party/absl/base/dynamic_annotations.i: src/s2/third_party/absl/base/dynamic_annotations.cc.i
@@ -2302,7 +2326,7 @@ src/s2/third_party/absl/base/dynamic_annotations.i: src/s2/third_party/absl/base
 
 # target to preprocess a source file
 src/s2/third_party/absl/base/dynamic_annotations.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.i
 .PHONY : src/s2/third_party/absl/base/dynamic_annotations.cc.i
 
 src/s2/third_party/absl/base/dynamic_annotations.s: src/s2/third_party/absl/base/dynamic_annotations.cc.s
@@ -2310,7 +2334,7 @@ src/s2/third_party/absl/base/dynamic_annotations.s: src/s2/third_party/absl/base
 
 # target to generate assembly for a file
 src/s2/third_party/absl/base/dynamic_annotations.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/base/dynamic_annotations.cc.s
 .PHONY : src/s2/third_party/absl/base/dynamic_annotations.cc.s
 
 src/s2/third_party/absl/base/internal/raw_logging.o: src/s2/third_party/absl/base/internal/raw_logging.cc.o
@@ -2318,7 +2342,7 @@ src/s2/third_party/absl/base/internal/raw_logging.o: src/s2/third_party/absl/bas
 
 # target to build an object file
 src/s2/third_party/absl/base/internal/raw_logging.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/raw_logging.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/base/internal/raw_logging.cc.o
 .PHONY : src/s2/third_party/absl/base/internal/raw_logging.cc.o
 
 src/s2/third_party/absl/base/internal/raw_logging.i: src/s2/third_party/absl/base/internal/raw_logging.cc.i
@@ -2326,7 +2350,7 @@ src/s2/third_party/absl/base/internal/raw_logging.i: src/s2/third_party/absl/bas
 
 # target to preprocess a source file
 src/s2/third_party/absl/base/internal/raw_logging.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/raw_logging.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/base/internal/raw_logging.cc.i
 .PHONY : src/s2/third_party/absl/base/internal/raw_logging.cc.i
 
 src/s2/third_party/absl/base/internal/raw_logging.s: src/s2/third_party/absl/base/internal/raw_logging.cc.s
@@ -2334,7 +2358,7 @@ src/s2/third_party/absl/base/internal/raw_logging.s: src/s2/third_party/absl/bas
 
 # target to generate assembly for a file
 src/s2/third_party/absl/base/internal/raw_logging.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/raw_logging.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/base/internal/raw_logging.cc.s
 .PHONY : src/s2/third_party/absl/base/internal/raw_logging.cc.s
 
 src/s2/third_party/absl/base/internal/throw_delegate.o: src/s2/third_party/absl/base/internal/throw_delegate.cc.o
@@ -2342,7 +2366,7 @@ src/s2/third_party/absl/base/internal/throw_delegate.o: src/s2/third_party/absl/
 
 # target to build an object file
 src/s2/third_party/absl/base/internal/throw_delegate.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/throw_delegate.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/base/internal/throw_delegate.cc.o
 .PHONY : src/s2/third_party/absl/base/internal/throw_delegate.cc.o
 
 src/s2/third_party/absl/base/internal/throw_delegate.i: src/s2/third_party/absl/base/internal/throw_delegate.cc.i
@@ -2350,7 +2374,7 @@ src/s2/third_party/absl/base/internal/throw_delegate.i: src/s2/third_party/absl/
 
 # target to preprocess a source file
 src/s2/third_party/absl/base/internal/throw_delegate.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/throw_delegate.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/base/internal/throw_delegate.cc.i
 .PHONY : src/s2/third_party/absl/base/internal/throw_delegate.cc.i
 
 src/s2/third_party/absl/base/internal/throw_delegate.s: src/s2/third_party/absl/base/internal/throw_delegate.cc.s
@@ -2358,7 +2382,7 @@ src/s2/third_party/absl/base/internal/throw_delegate.s: src/s2/third_party/absl/
 
 # target to generate assembly for a file
 src/s2/third_party/absl/base/internal/throw_delegate.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/base/internal/throw_delegate.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/base/internal/throw_delegate.cc.s
 .PHONY : src/s2/third_party/absl/base/internal/throw_delegate.cc.s
 
 src/s2/third_party/absl/numeric/int128.o: src/s2/third_party/absl/numeric/int128.cc.o
@@ -2366,7 +2390,7 @@ src/s2/third_party/absl/numeric/int128.o: src/s2/third_party/absl/numeric/int128
 
 # target to build an object file
 src/s2/third_party/absl/numeric/int128.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/numeric/int128.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/numeric/int128.cc.o
 .PHONY : src/s2/third_party/absl/numeric/int128.cc.o
 
 src/s2/third_party/absl/numeric/int128.i: src/s2/third_party/absl/numeric/int128.cc.i
@@ -2374,7 +2398,7 @@ src/s2/third_party/absl/numeric/int128.i: src/s2/third_party/absl/numeric/int128
 
 # target to preprocess a source file
 src/s2/third_party/absl/numeric/int128.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/numeric/int128.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/numeric/int128.cc.i
 .PHONY : src/s2/third_party/absl/numeric/int128.cc.i
 
 src/s2/third_party/absl/numeric/int128.s: src/s2/third_party/absl/numeric/int128.cc.s
@@ -2382,7 +2406,7 @@ src/s2/third_party/absl/numeric/int128.s: src/s2/third_party/absl/numeric/int128
 
 # target to generate assembly for a file
 src/s2/third_party/absl/numeric/int128.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/numeric/int128.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/numeric/int128.cc.s
 .PHONY : src/s2/third_party/absl/numeric/int128.cc.s
 
 src/s2/third_party/absl/strings/ascii.o: src/s2/third_party/absl/strings/ascii.cc.o
@@ -2390,7 +2414,7 @@ src/s2/third_party/absl/strings/ascii.o: src/s2/third_party/absl/strings/ascii.c
 
 # target to build an object file
 src/s2/third_party/absl/strings/ascii.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/ascii.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/ascii.cc.o
 .PHONY : src/s2/third_party/absl/strings/ascii.cc.o
 
 src/s2/third_party/absl/strings/ascii.i: src/s2/third_party/absl/strings/ascii.cc.i
@@ -2398,7 +2422,7 @@ src/s2/third_party/absl/strings/ascii.i: src/s2/third_party/absl/strings/ascii.c
 
 # target to preprocess a source file
 src/s2/third_party/absl/strings/ascii.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/ascii.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/ascii.cc.i
 .PHONY : src/s2/third_party/absl/strings/ascii.cc.i
 
 src/s2/third_party/absl/strings/ascii.s: src/s2/third_party/absl/strings/ascii.cc.s
@@ -2406,7 +2430,7 @@ src/s2/third_party/absl/strings/ascii.s: src/s2/third_party/absl/strings/ascii.c
 
 # target to generate assembly for a file
 src/s2/third_party/absl/strings/ascii.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/ascii.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/ascii.cc.s
 .PHONY : src/s2/third_party/absl/strings/ascii.cc.s
 
 src/s2/third_party/absl/strings/internal/memutil.o: src/s2/third_party/absl/strings/internal/memutil.cc.o
@@ -2414,7 +2438,7 @@ src/s2/third_party/absl/strings/internal/memutil.o: src/s2/third_party/absl/stri
 
 # target to build an object file
 src/s2/third_party/absl/strings/internal/memutil.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/internal/memutil.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/internal/memutil.cc.o
 .PHONY : src/s2/third_party/absl/strings/internal/memutil.cc.o
 
 src/s2/third_party/absl/strings/internal/memutil.i: src/s2/third_party/absl/strings/internal/memutil.cc.i
@@ -2422,7 +2446,7 @@ src/s2/third_party/absl/strings/internal/memutil.i: src/s2/third_party/absl/stri
 
 # target to preprocess a source file
 src/s2/third_party/absl/strings/internal/memutil.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/internal/memutil.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/internal/memutil.cc.i
 .PHONY : src/s2/third_party/absl/strings/internal/memutil.cc.i
 
 src/s2/third_party/absl/strings/internal/memutil.s: src/s2/third_party/absl/strings/internal/memutil.cc.s
@@ -2430,7 +2454,7 @@ src/s2/third_party/absl/strings/internal/memutil.s: src/s2/third_party/absl/stri
 
 # target to generate assembly for a file
 src/s2/third_party/absl/strings/internal/memutil.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/internal/memutil.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/internal/memutil.cc.s
 .PHONY : src/s2/third_party/absl/strings/internal/memutil.cc.s
 
 src/s2/third_party/absl/strings/match.o: src/s2/third_party/absl/strings/match.cc.o
@@ -2438,7 +2462,7 @@ src/s2/third_party/absl/strings/match.o: src/s2/third_party/absl/strings/match.c
 
 # target to build an object file
 src/s2/third_party/absl/strings/match.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/match.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/match.cc.o
 .PHONY : src/s2/third_party/absl/strings/match.cc.o
 
 src/s2/third_party/absl/strings/match.i: src/s2/third_party/absl/strings/match.cc.i
@@ -2446,7 +2470,7 @@ src/s2/third_party/absl/strings/match.i: src/s2/third_party/absl/strings/match.c
 
 # target to preprocess a source file
 src/s2/third_party/absl/strings/match.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/match.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/match.cc.i
 .PHONY : src/s2/third_party/absl/strings/match.cc.i
 
 src/s2/third_party/absl/strings/match.s: src/s2/third_party/absl/strings/match.cc.s
@@ -2454,7 +2478,7 @@ src/s2/third_party/absl/strings/match.s: src/s2/third_party/absl/strings/match.c
 
 # target to generate assembly for a file
 src/s2/third_party/absl/strings/match.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/match.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/match.cc.s
 .PHONY : src/s2/third_party/absl/strings/match.cc.s
 
 src/s2/third_party/absl/strings/numbers.o: src/s2/third_party/absl/strings/numbers.cc.o
@@ -2462,7 +2486,7 @@ src/s2/third_party/absl/strings/numbers.o: src/s2/third_party/absl/strings/numbe
 
 # target to build an object file
 src/s2/third_party/absl/strings/numbers.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/numbers.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/numbers.cc.o
 .PHONY : src/s2/third_party/absl/strings/numbers.cc.o
 
 src/s2/third_party/absl/strings/numbers.i: src/s2/third_party/absl/strings/numbers.cc.i
@@ -2470,7 +2494,7 @@ src/s2/third_party/absl/strings/numbers.i: src/s2/third_party/absl/strings/numbe
 
 # target to preprocess a source file
 src/s2/third_party/absl/strings/numbers.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/numbers.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/numbers.cc.i
 .PHONY : src/s2/third_party/absl/strings/numbers.cc.i
 
 src/s2/third_party/absl/strings/numbers.s: src/s2/third_party/absl/strings/numbers.cc.s
@@ -2478,7 +2502,7 @@ src/s2/third_party/absl/strings/numbers.s: src/s2/third_party/absl/strings/numbe
 
 # target to generate assembly for a file
 src/s2/third_party/absl/strings/numbers.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/numbers.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/numbers.cc.s
 .PHONY : src/s2/third_party/absl/strings/numbers.cc.s
 
 src/s2/third_party/absl/strings/str_cat.o: src/s2/third_party/absl/strings/str_cat.cc.o
@@ -2486,7 +2510,7 @@ src/s2/third_party/absl/strings/str_cat.o: src/s2/third_party/absl/strings/str_c
 
 # target to build an object file
 src/s2/third_party/absl/strings/str_cat.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/str_cat.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/str_cat.cc.o
 .PHONY : src/s2/third_party/absl/strings/str_cat.cc.o
 
 src/s2/third_party/absl/strings/str_cat.i: src/s2/third_party/absl/strings/str_cat.cc.i
@@ -2494,7 +2518,7 @@ src/s2/third_party/absl/strings/str_cat.i: src/s2/third_party/absl/strings/str_c
 
 # target to preprocess a source file
 src/s2/third_party/absl/strings/str_cat.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/str_cat.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/str_cat.cc.i
 .PHONY : src/s2/third_party/absl/strings/str_cat.cc.i
 
 src/s2/third_party/absl/strings/str_cat.s: src/s2/third_party/absl/strings/str_cat.cc.s
@@ -2502,7 +2526,7 @@ src/s2/third_party/absl/strings/str_cat.s: src/s2/third_party/absl/strings/str_c
 
 # target to generate assembly for a file
 src/s2/third_party/absl/strings/str_cat.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/str_cat.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/str_cat.cc.s
 .PHONY : src/s2/third_party/absl/strings/str_cat.cc.s
 
 src/s2/third_party/absl/strings/str_split.o: src/s2/third_party/absl/strings/str_split.cc.o
@@ -2510,7 +2534,7 @@ src/s2/third_party/absl/strings/str_split.o: src/s2/third_party/absl/strings/str
 
 # target to build an object file
 src/s2/third_party/absl/strings/str_split.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/str_split.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/str_split.cc.o
 .PHONY : src/s2/third_party/absl/strings/str_split.cc.o
 
 src/s2/third_party/absl/strings/str_split.i: src/s2/third_party/absl/strings/str_split.cc.i
@@ -2518,7 +2542,7 @@ src/s2/third_party/absl/strings/str_split.i: src/s2/third_party/absl/strings/str
 
 # target to preprocess a source file
 src/s2/third_party/absl/strings/str_split.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/str_split.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/str_split.cc.i
 .PHONY : src/s2/third_party/absl/strings/str_split.cc.i
 
 src/s2/third_party/absl/strings/str_split.s: src/s2/third_party/absl/strings/str_split.cc.s
@@ -2526,7 +2550,7 @@ src/s2/third_party/absl/strings/str_split.s: src/s2/third_party/absl/strings/str
 
 # target to generate assembly for a file
 src/s2/third_party/absl/strings/str_split.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/str_split.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/str_split.cc.s
 .PHONY : src/s2/third_party/absl/strings/str_split.cc.s
 
 src/s2/third_party/absl/strings/string_view.o: src/s2/third_party/absl/strings/string_view.cc.o
@@ -2534,7 +2558,7 @@ src/s2/third_party/absl/strings/string_view.o: src/s2/third_party/absl/strings/s
 
 # target to build an object file
 src/s2/third_party/absl/strings/string_view.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/string_view.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/string_view.cc.o
 .PHONY : src/s2/third_party/absl/strings/string_view.cc.o
 
 src/s2/third_party/absl/strings/string_view.i: src/s2/third_party/absl/strings/string_view.cc.i
@@ -2542,7 +2566,7 @@ src/s2/third_party/absl/strings/string_view.i: src/s2/third_party/absl/strings/s
 
 # target to preprocess a source file
 src/s2/third_party/absl/strings/string_view.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/string_view.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/string_view.cc.i
 .PHONY : src/s2/third_party/absl/strings/string_view.cc.i
 
 src/s2/third_party/absl/strings/string_view.s: src/s2/third_party/absl/strings/string_view.cc.s
@@ -2550,7 +2574,7 @@ src/s2/third_party/absl/strings/string_view.s: src/s2/third_party/absl/strings/s
 
 # target to generate assembly for a file
 src/s2/third_party/absl/strings/string_view.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/string_view.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/string_view.cc.s
 .PHONY : src/s2/third_party/absl/strings/string_view.cc.s
 
 src/s2/third_party/absl/strings/strip.o: src/s2/third_party/absl/strings/strip.cc.o
@@ -2558,7 +2582,7 @@ src/s2/third_party/absl/strings/strip.o: src/s2/third_party/absl/strings/strip.c
 
 # target to build an object file
 src/s2/third_party/absl/strings/strip.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/strip.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/strip.cc.o
 .PHONY : src/s2/third_party/absl/strings/strip.cc.o
 
 src/s2/third_party/absl/strings/strip.i: src/s2/third_party/absl/strings/strip.cc.i
@@ -2566,7 +2590,7 @@ src/s2/third_party/absl/strings/strip.i: src/s2/third_party/absl/strings/strip.c
 
 # target to preprocess a source file
 src/s2/third_party/absl/strings/strip.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/strip.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/strip.cc.i
 .PHONY : src/s2/third_party/absl/strings/strip.cc.i
 
 src/s2/third_party/absl/strings/strip.s: src/s2/third_party/absl/strings/strip.cc.s
@@ -2574,7 +2598,7 @@ src/s2/third_party/absl/strings/strip.s: src/s2/third_party/absl/strings/strip.c
 
 # target to generate assembly for a file
 src/s2/third_party/absl/strings/strip.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/third_party/absl/strings/strip.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/third_party/absl/strings/strip.cc.s
 .PHONY : src/s2/third_party/absl/strings/strip.cc.s
 
 src/s2/util/bits/bit-interleave.o: src/s2/util/bits/bit-interleave.cc.o
@@ -2582,7 +2606,7 @@ src/s2/util/bits/bit-interleave.o: src/s2/util/bits/bit-interleave.cc.o
 
 # target to build an object file
 src/s2/util/bits/bit-interleave.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/bits/bit-interleave.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/bits/bit-interleave.cc.o
 .PHONY : src/s2/util/bits/bit-interleave.cc.o
 
 src/s2/util/bits/bit-interleave.i: src/s2/util/bits/bit-interleave.cc.i
@@ -2590,7 +2614,7 @@ src/s2/util/bits/bit-interleave.i: src/s2/util/bits/bit-interleave.cc.i
 
 # target to preprocess a source file
 src/s2/util/bits/bit-interleave.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/bits/bit-interleave.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/bits/bit-interleave.cc.i
 .PHONY : src/s2/util/bits/bit-interleave.cc.i
 
 src/s2/util/bits/bit-interleave.s: src/s2/util/bits/bit-interleave.cc.s
@@ -2598,7 +2622,7 @@ src/s2/util/bits/bit-interleave.s: src/s2/util/bits/bit-interleave.cc.s
 
 # target to generate assembly for a file
 src/s2/util/bits/bit-interleave.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/bits/bit-interleave.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/bits/bit-interleave.cc.s
 .PHONY : src/s2/util/bits/bit-interleave.cc.s
 
 src/s2/util/bits/bits.o: src/s2/util/bits/bits.cc.o
@@ -2606,7 +2630,7 @@ src/s2/util/bits/bits.o: src/s2/util/bits/bits.cc.o
 
 # target to build an object file
 src/s2/util/bits/bits.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/bits/bits.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/bits/bits.cc.o
 .PHONY : src/s2/util/bits/bits.cc.o
 
 src/s2/util/bits/bits.i: src/s2/util/bits/bits.cc.i
@@ -2614,7 +2638,7 @@ src/s2/util/bits/bits.i: src/s2/util/bits/bits.cc.i
 
 # target to preprocess a source file
 src/s2/util/bits/bits.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/bits/bits.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/bits/bits.cc.i
 .PHONY : src/s2/util/bits/bits.cc.i
 
 src/s2/util/bits/bits.s: src/s2/util/bits/bits.cc.s
@@ -2622,7 +2646,7 @@ src/s2/util/bits/bits.s: src/s2/util/bits/bits.cc.s
 
 # target to generate assembly for a file
 src/s2/util/bits/bits.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/bits/bits.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/bits/bits.cc.s
 .PHONY : src/s2/util/bits/bits.cc.s
 
 src/s2/util/coding/coder.o: src/s2/util/coding/coder.cc.o
@@ -2630,7 +2654,7 @@ src/s2/util/coding/coder.o: src/s2/util/coding/coder.cc.o
 
 # target to build an object file
 src/s2/util/coding/coder.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/coding/coder.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/coding/coder.cc.o
 .PHONY : src/s2/util/coding/coder.cc.o
 
 src/s2/util/coding/coder.i: src/s2/util/coding/coder.cc.i
@@ -2638,7 +2662,7 @@ src/s2/util/coding/coder.i: src/s2/util/coding/coder.cc.i
 
 # target to preprocess a source file
 src/s2/util/coding/coder.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/coding/coder.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/coding/coder.cc.i
 .PHONY : src/s2/util/coding/coder.cc.i
 
 src/s2/util/coding/coder.s: src/s2/util/coding/coder.cc.s
@@ -2646,7 +2670,7 @@ src/s2/util/coding/coder.s: src/s2/util/coding/coder.cc.s
 
 # target to generate assembly for a file
 src/s2/util/coding/coder.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/coding/coder.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/coding/coder.cc.s
 .PHONY : src/s2/util/coding/coder.cc.s
 
 src/s2/util/coding/varint.o: src/s2/util/coding/varint.cc.o
@@ -2654,7 +2678,7 @@ src/s2/util/coding/varint.o: src/s2/util/coding/varint.cc.o
 
 # target to build an object file
 src/s2/util/coding/varint.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/coding/varint.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/coding/varint.cc.o
 .PHONY : src/s2/util/coding/varint.cc.o
 
 src/s2/util/coding/varint.i: src/s2/util/coding/varint.cc.i
@@ -2662,7 +2686,7 @@ src/s2/util/coding/varint.i: src/s2/util/coding/varint.cc.i
 
 # target to preprocess a source file
 src/s2/util/coding/varint.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/coding/varint.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/coding/varint.cc.i
 .PHONY : src/s2/util/coding/varint.cc.i
 
 src/s2/util/coding/varint.s: src/s2/util/coding/varint.cc.s
@@ -2670,7 +2694,7 @@ src/s2/util/coding/varint.s: src/s2/util/coding/varint.cc.s
 
 # target to generate assembly for a file
 src/s2/util/coding/varint.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/coding/varint.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/coding/varint.cc.s
 .PHONY : src/s2/util/coding/varint.cc.s
 
 src/s2/util/math/exactfloat/exactfloat.o: src/s2/util/math/exactfloat/exactfloat.cc.o
@@ -2678,7 +2702,7 @@ src/s2/util/math/exactfloat/exactfloat.o: src/s2/util/math/exactfloat/exactfloat
 
 # target to build an object file
 src/s2/util/math/exactfloat/exactfloat.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/math/exactfloat/exactfloat.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/math/exactfloat/exactfloat.cc.o
 .PHONY : src/s2/util/math/exactfloat/exactfloat.cc.o
 
 src/s2/util/math/exactfloat/exactfloat.i: src/s2/util/math/exactfloat/exactfloat.cc.i
@@ -2686,7 +2710,7 @@ src/s2/util/math/exactfloat/exactfloat.i: src/s2/util/math/exactfloat/exactfloat
 
 # target to preprocess a source file
 src/s2/util/math/exactfloat/exactfloat.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/math/exactfloat/exactfloat.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/math/exactfloat/exactfloat.cc.i
 .PHONY : src/s2/util/math/exactfloat/exactfloat.cc.i
 
 src/s2/util/math/exactfloat/exactfloat.s: src/s2/util/math/exactfloat/exactfloat.cc.s
@@ -2694,7 +2718,7 @@ src/s2/util/math/exactfloat/exactfloat.s: src/s2/util/math/exactfloat/exactfloat
 
 # target to generate assembly for a file
 src/s2/util/math/exactfloat/exactfloat.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/math/exactfloat/exactfloat.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/math/exactfloat/exactfloat.cc.s
 .PHONY : src/s2/util/math/exactfloat/exactfloat.cc.s
 
 src/s2/util/math/mathutil.o: src/s2/util/math/mathutil.cc.o
@@ -2702,7 +2726,7 @@ src/s2/util/math/mathutil.o: src/s2/util/math/mathutil.cc.o
 
 # target to build an object file
 src/s2/util/math/mathutil.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/math/mathutil.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/math/mathutil.cc.o
 .PHONY : src/s2/util/math/mathutil.cc.o
 
 src/s2/util/math/mathutil.i: src/s2/util/math/mathutil.cc.i
@@ -2710,7 +2734,7 @@ src/s2/util/math/mathutil.i: src/s2/util/math/mathutil.cc.i
 
 # target to preprocess a source file
 src/s2/util/math/mathutil.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/math/mathutil.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/math/mathutil.cc.i
 .PHONY : src/s2/util/math/mathutil.cc.i
 
 src/s2/util/math/mathutil.s: src/s2/util/math/mathutil.cc.s
@@ -2718,7 +2742,7 @@ src/s2/util/math/mathutil.s: src/s2/util/math/mathutil.cc.s
 
 # target to generate assembly for a file
 src/s2/util/math/mathutil.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/math/mathutil.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/math/mathutil.cc.s
 .PHONY : src/s2/util/math/mathutil.cc.s
 
 src/s2/util/units/length-units.o: src/s2/util/units/length-units.cc.o
@@ -2726,7 +2750,7 @@ src/s2/util/units/length-units.o: src/s2/util/units/length-units.cc.o
 
 # target to build an object file
 src/s2/util/units/length-units.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/units/length-units.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/units/length-units.cc.o
 .PHONY : src/s2/util/units/length-units.cc.o
 
 src/s2/util/units/length-units.i: src/s2/util/units/length-units.cc.i
@@ -2734,7 +2758,7 @@ src/s2/util/units/length-units.i: src/s2/util/units/length-units.cc.i
 
 # target to preprocess a source file
 src/s2/util/units/length-units.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/units/length-units.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/units/length-units.cc.i
 .PHONY : src/s2/util/units/length-units.cc.i
 
 src/s2/util/units/length-units.s: src/s2/util/units/length-units.cc.s
@@ -2742,7 +2766,7 @@ src/s2/util/units/length-units.s: src/s2/util/units/length-units.cc.s
 
 # target to generate assembly for a file
 src/s2/util/units/length-units.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2.dir/build.make CMakeFiles/s2.dir/src/s2/util/units/length-units.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/s2geometry.dir/build.make CMakeFiles/s2geometry.dir/src/s2/util/units/length-units.cc.s
 .PHONY : src/s2/util/units/length-units.cc.s
 
 # Help Target
@@ -2753,7 +2777,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... s2"
+	@echo "... s2geometry"
 	@echo "... src/s2/base/stringprintf.o"
 	@echo "... src/s2/base/stringprintf.i"
 	@echo "... src/s2/base/stringprintf.s"
@@ -3009,6 +3033,9 @@ help:
 	@echo "... src/s2/s2shapeutil_visit_crossing_edge_pairs.o"
 	@echo "... src/s2/s2shapeutil_visit_crossing_edge_pairs.i"
 	@echo "... src/s2/s2shapeutil_visit_crossing_edge_pairs.s"
+	@echo "... src/s2/s2testing.o"
+	@echo "... src/s2/s2testing.i"
+	@echo "... src/s2/s2testing.s"
 	@echo "... src/s2/s2text_format.o"
 	@echo "... src/s2/s2text_format.i"
 	@echo "... src/s2/s2text_format.s"

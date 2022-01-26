@@ -1,4 +1,4 @@
-/home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake
+/home/lrj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.46/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake
 -- 
 -- The following features have been enabled:
 

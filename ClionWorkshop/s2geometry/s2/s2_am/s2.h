@@ -65,6 +65,20 @@ typedef struct S2PageOpaqueData
 
 typedef S2PageOpaqueData *S2PageOpaque;
 
+/*
+ * An entry on a GiST node.  Contains the key, as well as its own
+ * location (rel,page,offset) which can supply the matching pointer.
+ * leafkey is a flag to tell us if the entry is in a leaf node.
+ */
+typedef struct S2ENTRY
+{
+    Datum		key;
+    Relation	rel;
+    Page		page;
+    OffsetNumber offset;
+    bool		leafkey;
+} S2ENTRY;
+
 #define S2PageGetOpaque(page) ( (S2PageOpaque) PageGetSpecialPointer(page) )
 #define S2PageIsDeleted(page) ( S2PageGetOpaque(page)->flags & F_DELETED)
 
