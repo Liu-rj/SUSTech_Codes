@@ -66,6 +66,7 @@ Datum ST_Distance(PG_FUNCTION_ARGS);
 Datum LWGEOM_closestpoint(PG_FUNCTION_ARGS);
 Datum LWGEOM_shortestline2d(PG_FUNCTION_ARGS);
 Datum LWGEOM_longestline2d(PG_FUNCTION_ARGS);
+Datum proj_dist(PG_FUNCTION_ARGS);
 Datum LWGEOM_dwithin(PG_FUNCTION_ARGS);
 Datum LWGEOM_dfullywithin(PG_FUNCTION_ARGS);
 
@@ -715,6 +716,13 @@ Datum ST_Distance(PG_FUNCTION_ARGS)
 	PG_RETURN_NULL();
 }
 
+PG_FUNCTION_INFO_V1(proj_dist);
+Datum proj_dist(PG_FUNCTION_ARGS)
+{
+	float8 tolerance = PG_GETARG_FLOAT8(2);
+	PG_RETURN_FLOAT8(2 * sin(0.5 * Min(M_PI, (tolerance / 6371010.0))));
+}
+
 /**
 Returns boolean describing if
 mininimum 2d distance between objects in
@@ -727,6 +735,7 @@ Datum LWGEOM_dwithin(PG_FUNCTION_ARGS)
 	GSERIALIZED *geom1 = PG_GETARG_GSERIALIZED_P(0);
 	GSERIALIZED *geom2 = PG_GETARG_GSERIALIZED_P(1);
 	double tolerance = PG_GETARG_FLOAT8(2);
+//	double tolerance = 2 * sin(0.5 * Min(M_PI, (PG_GETARG_FLOAT8(2) / 6371010.0)));
 	LWGEOM *lwgeom1 = lwgeom_from_gserialized(geom1);
 	LWGEOM *lwgeom2 = lwgeom_from_gserialized(geom2);
 

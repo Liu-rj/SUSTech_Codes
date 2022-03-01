@@ -60,9 +60,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="616ceece-ec80-49d7-a326-1d024e3a2822" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../s2geometry/index/range_covering.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s2geometry/proj_func/proj_dist.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s2geometry_cmake/src/point_index_test/test.cc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2util.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2util.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgis/geometry_inout.c" beforeDir="false" afterPath="$PROJECT_DIR$/postgis/geometry_inout.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgis/lwgeom_functions_basic.c" beforeDir="false" afterPath="$PROJECT_DIR$/postgis/lwgeom_functions_basic.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgis/postgis.sql.in" beforeDir="false" afterPath="$PROJECT_DIR$/postgis/postgis.sql.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgis_revision.h" beforeDir="false" afterPath="$PROJECT_DIR$/postgis_revision.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/geobase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2build.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2estimate.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2get.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2insert.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2scan.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2util.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2vacuum.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2validate.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2xlog.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2xlog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2point_inout.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/datatype/s2point_inout.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2geometry--0.0.1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2geometry--0.0.1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6eb28eed63ad24be9f7c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/.cmake/api/v1/reply/index-2022-01-23T13-52-24-0710.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/.cmake/api/v1/reply/target-s2geometry-Debug-834908ef81c4b5385495.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/s2builder.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/s2builder.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/s2closest_point_query.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/s2closest_point_query.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/test.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/test.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/test.cc.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/test.cc.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/s2geometry" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/s2geometry" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/s2geometry.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/s2geometry.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/src/s2/s2closest_point_query_base.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/src/s2/s2closest_point_query_base.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/src/s2/s2point_index.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/src/s2/s2point_index.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/src/s2/test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test--0.0.1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test.control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test.so" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -445,6 +495,8 @@
       <workItem from="1638603459522" duration="6734000" />
       <workItem from="1642687638883" duration="1011000" />
       <workItem from="1642738824406" duration="821000" />
+      <workItem from="1643430391826" duration="34108000" />
+      <workItem from="1645581501778" duration="890000" />
     </task>
     <servers />
   </component>

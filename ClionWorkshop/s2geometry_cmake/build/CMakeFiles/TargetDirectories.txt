@@ -1,3 +1,0 @@
-/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build/CMakeFiles/rebuild_cache.dir
-/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build/CMakeFiles/edit_cache.dir
-/home/lrj/SUSTech_Codes/ClionWorkshop/s2geometry_cmake/build/CMakeFiles/s2.dir
