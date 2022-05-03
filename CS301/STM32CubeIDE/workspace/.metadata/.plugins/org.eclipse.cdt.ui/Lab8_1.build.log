@@ -1,0 +1,49 @@
+11:49:42 **** Incremental Build of configuration Debug for project Lab8_1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:96:30: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   96 |   HAL_UART_Transmit(&huart1, "Start\r\n", 7, HAL_MAX_DELAY);
+      |                              ^~~~~~~~~~~
+      |                              |
+      |                              char *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:337,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:725:73: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  725 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~^~~~~
+../Core/Src/main.c:112:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  112 |    sprintf(msg, "ch:%d %f\r\n", i, vol);
+      |    ^~~~~~~
+../Core/Src/main.c:112:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include "gpio.h"
+  +++ |+#include <stdio.h>
+   25 | 
+../Core/Src/main.c:113:46: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  113 |    HAL_UART_Transmit(&huart1, (uint8_t*)msg, strlen(msg), HAL_MAX_DELAY);
+      |                                              ^~~~~~
+../Core/Src/main.c:113:46: warning: incompatible implicit declaration of built-in function 'strlen'
+../Core/Src/main.c:25:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   24 | #include "gpio.h"
+  +++ |+#include <string.h>
+   25 | 
+arm-none-eabi-gcc -o "Lab8_1.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\SUSTech_Codes\CS301\STM32CubeIDE\workspace\Lab8_1\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab8_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab8_1.elf
+ 
+arm-none-eabi-size   Lab8_1.elf 
+arm-none-eabi-objdump -h -S  Lab8_1.elf  > "Lab8_1.list"
+arm-none-eabi-objcopy  -O binary  Lab8_1.elf  "Lab8_1.bin"
+   text	   data	    bss	    dec	    hex	filename
+  24852	    484	   1716	  27052	   69ac	Lab8_1.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab8_1.bin
+ 
+Finished building: Lab8_1.list
+ 
+
+11:49:43 Build Finished. 0 errors, 5 warnings. (took 1s.550ms)
+

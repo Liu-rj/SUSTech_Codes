@@ -1,0 +1,59 @@
+22:41:30 **** Incremental Build of configuration Debug for project Ass 1 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+../Core/Src/stm32f1xx_it.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/stm32f1xx_it.c:297:8: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+  297 |    if (strcmp(uRx_Data, "Turn off LED0\r") == 0)
+      |        ^~~~~~
+../Core/Src/stm32f1xx_it.c:297:15: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  297 |    if (strcmp(uRx_Data, "Turn off LED0\r") == 0)
+      |               ^~~~~~~~
+      |               |
+      |               unsigned char *
+../Core/Src/stm32f1xx_it.c:297:15: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/stm32f1xx_it.c:301:15: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  301 |    if (strcmp(uRx_Data, "Turn on LED0\r") == 0)
+      |               ^~~~~~~~
+      |               |
+      |               unsigned char *
+../Core/Src/stm32f1xx_it.c:301:15: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/stm32f1xx_it.c:305:15: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  305 |    if (strcmp(uRx_Data, "Turn off LED1\r") == 0)
+      |               ^~~~~~~~
+      |               |
+      |               unsigned char *
+../Core/Src/stm32f1xx_it.c:305:15: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/stm32f1xx_it.c:309:15: warning: pointer targets in passing argument 1 of 'strcmp' differ in signedness [-Wpointer-sign]
+  309 |    if (strcmp(uRx_Data, "Turn on LED1\r") == 0)
+      |               ^~~~~~~~
+      |               |
+      |               unsigned char *
+../Core/Src/stm32f1xx_it.c:309:15: note: expected 'const char *' but argument is of type 'unsigned char *'
+../Core/Src/stm32f1xx_it.c:314:4: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  314 |    memset(uRx_Data, 0, sizeof uRx_Data);
+      |    ^~~~~~
+../Core/Src/stm32f1xx_it.c:314:4: warning: incompatible implicit declaration of built-in function 'memset'
+../Core/Src/stm32f1xx_it.c:24:1: note: include '<string.h>' or provide a declaration of 'memset'
+   23 | #include "stm32f1xx_it.h"
+  +++ |+#include <string.h>
+   24 | /* Private includes ----------------------------------------------------------*/
+arm-none-eabi-gcc -o "Ass 1.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\SUSTech_Codes\CS301\STM32CubeIDE\workspace\Ass 1\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ass 1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ass 1.elf
+ 
+arm-none-eabi-size   Ass\ 1.elf 
+arm-none-eabi-objdump -h -S  Ass\ 1.elf  > "Ass 1.list"
+arm-none-eabi-objcopy  -O ihex  Ass\ 1.elf  "Ass 1.hex"
+   text	   data	    bss	    dec	    hex	filename
+   9632	     20	   2684	  12336	   3030	Ass 1.elf
+arm-none-eabi-objcopy  -O binary  Ass\ 1.elf  "Ass 1.bin"
+Finished building: default.size.stdout
+ 
+Finished building: Ass 1.hex
+Finished building: Ass 1.bin
+Finished building: Ass 1.list
+ 
+ 
+ 
+
+22:41:30 Build Finished. 0 errors, 7 warnings. (took 846ms)
+

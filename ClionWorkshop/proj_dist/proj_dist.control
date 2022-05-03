@@ -1,0 +1,3 @@
+comment = 'project sphere distance to planar distance'
+default_version = '0.0.1'
+relocatable = true

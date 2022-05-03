@@ -1,0 +1,1 @@
+#define POSTGIS_REVISION 40e885f

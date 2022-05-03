@@ -1,0 +1,132 @@
+www.baidu.com 10.17.116.37 14000 8.8.8.8 True
+(10.17.116.37#14000) send query(<Root> NS IN rd=0) to DNS Server: (Local DNS server 8.8.8.8#53)
+id 4184
+opcode QUERY
+rcode NXDOMAIN
+flags QR RA AD
+;QUESTION
+<Root>. IN NS
+;ANSWER
+;AUTHORITY
+. 86388 IN SOA a.root-servers.net. nstld.verisign-grs.com. 2021102902 1800 900 604800 86400
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(a.root-servers.net. A IN rd=0) to DNS Server: (Local DNS server 8.8.8.8#53)
+id 34503
+opcode QUERY
+rcode NOERROR
+flags QR RA
+;QUESTION
+a.root-servers.net. IN A
+;ANSWER
+a.root-servers.net. 258864 IN A 198.41.0.4
+;AUTHORITY
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(www.baidu.com A IN rd=0) to DNS Server: (a.root-servers.net. 198.41.0.4#53)
+id 28776
+opcode QUERY
+rcode NOERROR
+flags QR TC
+;QUESTION
+www.baidu.com. IN A
+;ANSWER
+;AUTHORITY
+com. 172800 IN NS e.gtld-servers.net.
+com. 172800 IN NS b.gtld-servers.net.
+com. 172800 IN NS j.gtld-servers.net.
+com. 172800 IN NS m.gtld-servers.net.
+com. 172800 IN NS i.gtld-servers.net.
+com. 172800 IN NS f.gtld-servers.net.
+com. 172800 IN NS a.gtld-servers.net.
+com. 172800 IN NS g.gtld-servers.net.
+com. 172800 IN NS h.gtld-servers.net.
+com. 172800 IN NS l.gtld-servers.net.
+com. 172800 IN NS k.gtld-servers.net.
+com. 172800 IN NS c.gtld-servers.net.
+com. 172800 IN NS d.gtld-servers.net.
+;ADDITIONAL
+e.gtld-servers.net. 172800 IN A 192.12.94.30
+e.gtld-servers.net. 172800 IN AAAA 2001:502:1ca1::30
+b.gtld-servers.net. 172800 IN A 192.33.14.30
+b.gtld-servers.net. 172800 IN AAAA 2001:503:231d::2:30
+j.gtld-servers.net. 172800 IN A 192.48.79.30
+j.gtld-servers.net. 172800 IN AAAA 2001:502:7094::30
+m.gtld-servers.net. 172800 IN A 192.55.83.30
+m.gtld-servers.net. 172800 IN AAAA 2001:501:b1f9::30
+i.gtld-servers.net. 172800 IN A 192.43.172.30
+i.gtld-servers.net. 172800 IN AAAA 2001:503:39c1::30
+f.gtld-servers.net. 172800 IN A 192.35.51.30 
+
+(10.17.116.37#14000) send query(www.baidu.com A IN rd=0) to DNS Server: (e.gtld-servers.net. 192.12.94.30#53)
+id 63937
+opcode QUERY
+rcode NOERROR
+flags QR
+;QUESTION
+www.baidu.com. IN A
+;ANSWER
+;AUTHORITY
+baidu.com. 172800 IN NS ns2.baidu.com.
+baidu.com. 172800 IN NS ns3.baidu.com.
+baidu.com. 172800 IN NS ns4.baidu.com.
+baidu.com. 172800 IN NS ns1.baidu.com.
+baidu.com. 172800 IN NS ns7.baidu.com.
+;ADDITIONAL
+ns2.baidu.com. 172800 IN A 220.181.33.31
+ns3.baidu.com. 172800 IN A 112.80.248.64
+ns4.baidu.com. 172800 IN A 14.215.178.80
+ns1.baidu.com. 172800 IN A 110.242.68.134
+ns7.baidu.com. 172800 IN A 180.76.76.92 
+
+(10.17.116.37#14000) send query(www.baidu.com A IN rd=0) to DNS Server: (ns2.baidu.com. 220.181.33.31#53)
+id 9147
+opcode QUERY
+rcode NOERROR
+flags QR AA
+;QUESTION
+www.baidu.com. IN A
+;ANSWER
+www.baidu.com. 1200 IN CNAME www.a.shifen.com.
+;AUTHORITY
+a.shifen.com. 1200 IN NS ns5.a.shifen.com.
+a.shifen.com. 1200 IN NS ns3.a.shifen.com.
+a.shifen.com. 1200 IN NS ns1.a.shifen.com.
+a.shifen.com. 1200 IN NS ns2.a.shifen.com.
+a.shifen.com. 1200 IN NS ns4.a.shifen.com.
+;ADDITIONAL
+ns1.a.shifen.com. 1200 IN A 110.242.68.42
+ns2.a.shifen.com. 1200 IN A 220.181.33.32
+ns3.a.shifen.com. 1200 IN A 112.80.255.253
+ns4.a.shifen.com. 1200 IN A 14.215.177.229
+ns5.a.shifen.com. 1200 IN A 180.76.76.95 
+
+(10.17.116.37#14000) send query(www.a.shifen.com. A IN rd=0) to DNS Server: (ns1.a.shifen.com. 110.242.68.42#53)
+id 44476
+opcode QUERY
+rcode NOERROR
+flags QR AA
+;QUESTION
+www.a.shifen.com. IN A
+;ANSWER
+www.a.shifen.com. 300 IN A 182.61.200.6
+www.a.shifen.com. 300 IN A 182.61.200.7
+;AUTHORITY
+a.shifen.com. 1200 IN NS ns5.a.shifen.com.
+a.shifen.com. 1200 IN NS ns1.a.shifen.com.
+a.shifen.com. 1200 IN NS ns2.a.shifen.com.
+a.shifen.com. 1200 IN NS ns3.a.shifen.com.
+a.shifen.com. 1200 IN NS ns4.a.shifen.com.
+;ADDITIONAL
+ns1.a.shifen.com. 300 IN A 110.242.68.42
+ns2.a.shifen.com. 600 IN A 220.181.33.32
+ns3.a.shifen.com. 600 IN A 112.80.255.253
+ns4.a.shifen.com. 600 IN A 14.215.177.229
+ns5.a.shifen.com. 600 IN A 180.76.76.95 
+
+Final Answer:
+Name: www.a.shifen.com.
+Addresses:
+182.61.200.6
+182.61.200.7
+Aliases: www.baidu.com

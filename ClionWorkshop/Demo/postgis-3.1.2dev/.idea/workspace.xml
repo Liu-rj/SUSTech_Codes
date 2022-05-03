@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="postgis-3.1.2dev" targetName="installcheck" />
+      <config projectName="postgis-3.1.2dev" targetName="comments-uninstall" />
+      <config projectName="postgis-3.1.2dev" targetName="distclean" />
+      <config projectName="postgis-3.1.2dev" targetName="check-long" />
+      <config projectName="postgis-3.1.2dev" targetName="templategis-install" />
+      <config projectName="postgis-3.1.2dev" targetName="utils" />
+      <config projectName="postgis-3.1.2dev" targetName="fmt" />
+      <config projectName="postgis-3.1.2dev" targetName="docs" />
+      <config projectName="postgis-3.1.2dev" targetName="GNUmakefile" />
+      <config projectName="postgis-3.1.2dev" targetName="maintainer-clean-local" />
+      <config projectName="postgis-3.1.2dev" targetName="docs-uninstall" />
+      <config projectName="postgis-3.1.2dev" targetName="commit" />
+      <config projectName="postgis-3.1.2dev" targetName="templategis-uninstall" />
+      <config projectName="postgis-3.1.2dev" targetName="check-regress" />
+      <config projectName="postgis-3.1.2dev" targetName="test" />
+      <config projectName="postgis-3.1.2dev" targetName="comments" />
+      <config projectName="postgis-3.1.2dev" targetName="docs-install" />
+      <config projectName="postgis-3.1.2dev" targetName="installcheck-upgrade" />
+      <config projectName="postgis-3.1.2dev" targetName="installcheck-upgrade-byfunc" />
+      <config projectName="postgis-3.1.2dev" targetName="ChangeLog" />
+      <config projectName="postgis-3.1.2dev" targetName="clean-local" />
+      <config projectName="postgis-3.1.2dev" targetName="check-unit" />
+      <config projectName="postgis-3.1.2dev" targetName="docs-clean" />
+      <config projectName="postgis-3.1.2dev" targetName="garden" />
+      <config projectName="postgis-3.1.2dev" targetName="raster" />
+      <config projectName="postgis-3.1.2dev" targetName="templategis-clean" />
+      <config projectName="postgis-3.1.2dev" targetName="liblwgeom" />
+      <config projectName="postgis-3.1.2dev" targetName="docs-check" />
+      <config projectName="postgis-3.1.2dev" targetName="raster-sql" />
+      <config projectName="postgis-3.1.2dev" targetName="staged-install" />
+      <config projectName="postgis-3.1.2dev" targetName="uninstall" />
+      <config projectName="postgis-3.1.2dev" targetName="check" />
+      <config projectName="postgis-3.1.2dev" targetName="install" />
+      <config projectName="postgis-3.1.2dev" targetName="raster-post-install-check" />
+      <config projectName="postgis-3.1.2dev" targetName="check-news" />
+      <config projectName="postgis-3.1.2dev" targetName="templategis" />
+      <config projectName="postgis-3.1.2dev" targetName="noop" />
+      <config projectName="postgis-3.1.2dev" targetName="configure" />
+      <config projectName="postgis-3.1.2dev" targetName="comments-install" />
+      <config projectName="postgis-3.1.2dev" targetName="maintainer-clean" />
+      <config projectName="postgis-3.1.2dev" targetName="cheatsheets" />
+      <config projectName="postgis-3.1.2dev" targetName="all" />
+      <config projectName="postgis-3.1.2dev" targetName="installcheck-base" />
+      <config projectName="postgis-3.1.2dev" targetName="distclean-local" />
+      <config projectName="postgis-3.1.2dev" targetName="check-no-trailing-blanks" />
+      <config projectName="postgis-3.1.2dev" targetName="check-regress-deps" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="616ceece-ec80-49d7-a326-1d024e3a2822" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../s2geometry/index/range_covering.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s2geometry/proj_func/proj_dist.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../s2geometry_cmake/src/point_index_test/test.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgis/geometry_inout.c" beforeDir="false" afterPath="$PROJECT_DIR$/postgis/geometry_inout.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgis/lwgeom_functions_basic.c" beforeDir="false" afterPath="$PROJECT_DIR$/postgis/lwgeom_functions_basic.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgis/postgis.sql.in" beforeDir="false" afterPath="$PROJECT_DIR$/postgis/postgis.sql.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgis_revision.h" beforeDir="false" afterPath="$PROJECT_DIR$/postgis_revision.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/geobase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2build.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2estimate.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2get.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2insert.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2scan.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2util.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2vacuum.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2validate.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2xlog.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2_am/s2xlog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/s2point_inout.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/datatype/s2point_inout.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2/test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry/s2geometry--0.0.1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry/s2geometry--0.0.1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6eb28eed63ad24be9f7c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/.cmake/api/v1/reply/index-2022-01-23T13-52-24-0710.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/.cmake/api/v1/reply/target-s2geometry-Debug-834908ef81c4b5385495.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/s2builder.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/s2builder.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/s2closest_point_query.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/s2closest_point_query.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/test.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/test.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/test.cc.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/CMakeFiles/s2geometry.dir/src/s2/test.cc.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/compile_commands.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/s2geometry" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/s2geometry" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/s2geometry.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/cmake-build-debug/s2geometry.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/src/s2/s2closest_point_query_base.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/src/s2/s2closest_point_query_base.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/src/s2/s2point_index.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../s2geometry_cmake/src/s2/s2point_index.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../s2geometry_cmake/src/s2/test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test--0.0.1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test.control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test.so" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="postgis-3.1.2dev" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="postgis-3.1.2dev" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1zid0f9iUd0nBBprY5IgCFVPuzD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../s2geometry_cmake" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Makefile Application.ChangeLog">
+    <configuration name="ChangeLog" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="ChangeLog" CONFIG_NAME="ChangeLog" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GNUmakefile" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="GNUmakefile" CONFIG_NAME="GNUmakefile" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="all" CONFIG_NAME="all" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cheatsheets" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="cheatsheets" CONFIG_NAME="cheatsheets" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-long" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="check-long" CONFIG_NAME="check-long" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-news" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="check-news" CONFIG_NAME="check-news" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-no-trailing-blanks" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="check-no-trailing-blanks" CONFIG_NAME="check-no-trailing-blanks" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-regress-deps" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="check-regress-deps" CONFIG_NAME="check-regress-deps" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-regress" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="check-regress" CONFIG_NAME="check-regress" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-unit" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="check-unit" CONFIG_NAME="check-unit" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="check" CONFIG_NAME="check" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean-local" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="clean-local" CONFIG_NAME="clean-local" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="comments-install" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="comments-install" CONFIG_NAME="comments-install" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="comments-uninstall" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="comments-uninstall" CONFIG_NAME="comments-uninstall" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="comments" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="comments" CONFIG_NAME="comments" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="commit" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="commit" CONFIG_NAME="commit" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="configure" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="configure" CONFIG_NAME="configure" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="distclean-local" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="distclean-local" CONFIG_NAME="distclean-local" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="distclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="distclean" CONFIG_NAME="distclean" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docs-check" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="docs-check" CONFIG_NAME="docs-check" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docs-clean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="docs-clean" CONFIG_NAME="docs-clean" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docs-install" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="docs-install" CONFIG_NAME="docs-install" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docs-uninstall" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="docs-uninstall" CONFIG_NAME="docs-uninstall" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docs" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="docs" CONFIG_NAME="docs" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fmt" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="fmt" CONFIG_NAME="fmt" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="garden" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="garden" CONFIG_NAME="garden" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="install" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="install" CONFIG_NAME="install" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="installcheck-base" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="installcheck-base" CONFIG_NAME="installcheck-base" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="installcheck-upgrade-byfunc" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="installcheck-upgrade-byfunc" CONFIG_NAME="installcheck-upgrade-byfunc" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="installcheck-upgrade" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="installcheck-upgrade" CONFIG_NAME="installcheck-upgrade" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="installcheck" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="installcheck" CONFIG_NAME="installcheck" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="liblwgeom" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="liblwgeom" CONFIG_NAME="liblwgeom" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maintainer-clean-local" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="maintainer-clean-local" CONFIG_NAME="maintainer-clean-local" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maintainer-clean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="maintainer-clean" CONFIG_NAME="maintainer-clean" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="noop" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="noop" CONFIG_NAME="noop" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="raster-post-install-check" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="raster-post-install-check" CONFIG_NAME="raster-post-install-check" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="raster-sql" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="raster-sql" CONFIG_NAME="raster-sql" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="raster" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="raster" CONFIG_NAME="raster" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="staged-install" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="staged-install" CONFIG_NAME="staged-install" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="templategis-clean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="templategis-clean" CONFIG_NAME="templategis-clean" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="templategis-install" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="templategis-install" CONFIG_NAME="templategis-install" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="templategis-uninstall" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="templategis-uninstall" CONFIG_NAME="templategis-uninstall" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="templategis" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="templategis" CONFIG_NAME="templategis" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="test" CONFIG_NAME="test" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="uninstall" CONFIG_NAME="uninstall" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="utils" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="postgis-3.1.2dev" TARGET_NAME="utils" CONFIG_NAME="utils" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Makefile Application.ChangeLog" />
+      <item itemvalue="Makefile Application.fmt" />
+      <item itemvalue="Makefile Application.liblwgeom" />
+      <item itemvalue="Makefile Application.raster" />
+      <item itemvalue="Makefile Application.utils" />
+      <item itemvalue="Makefile Application.all" />
+      <item itemvalue="Makefile Application.cheatsheets" />
+      <item itemvalue="Makefile Application.check" />
+      <item itemvalue="Makefile Application.check-long" />
+      <item itemvalue="Makefile Application.check-news" />
+      <item itemvalue="Makefile Application.check-no-trailing-blanks" />
+      <item itemvalue="Makefile Application.check-regress" />
+      <item itemvalue="Makefile Application.check-regress-deps" />
+      <item itemvalue="Makefile Application.check-unit" />
+      <item itemvalue="Makefile Application.clean-local" />
+      <item itemvalue="Makefile Application.comments" />
+      <item itemvalue="Makefile Application.comments-install" />
+      <item itemvalue="Makefile Application.comments-uninstall" />
+      <item itemvalue="Makefile Application.commit" />
+      <item itemvalue="Makefile Application.configure" />
+      <item itemvalue="Makefile Application.distclean" />
+      <item itemvalue="Makefile Application.distclean-local" />
+      <item itemvalue="Makefile Application.docs" />
+      <item itemvalue="Makefile Application.docs-check" />
+      <item itemvalue="Makefile Application.docs-clean" />
+      <item itemvalue="Makefile Application.docs-install" />
+      <item itemvalue="Makefile Application.docs-uninstall" />
+      <item itemvalue="Makefile Application.garden" />
+      <item itemvalue="Makefile Application.GNUmakefile" />
+      <item itemvalue="Makefile Application.install" />
+      <item itemvalue="Makefile Application.installcheck" />
+      <item itemvalue="Makefile Application.installcheck-base" />
+      <item itemvalue="Makefile Application.installcheck-upgrade" />
+      <item itemvalue="Makefile Application.installcheck-upgrade-byfunc" />
+      <item itemvalue="Makefile Application.maintainer-clean" />
+      <item itemvalue="Makefile Application.maintainer-clean-local" />
+      <item itemvalue="Makefile Application.noop" />
+      <item itemvalue="Makefile Application.raster-post-install-check" />
+      <item itemvalue="Makefile Application.raster-sql" />
+      <item itemvalue="Makefile Application.staged-install" />
+      <item itemvalue="Makefile Application.templategis" />
+      <item itemvalue="Makefile Application.templategis-clean" />
+      <item itemvalue="Makefile Application.templategis-install" />
+      <item itemvalue="Makefile Application.templategis-uninstall" />
+      <item itemvalue="Makefile Application.test" />
+      <item itemvalue="Makefile Application.uninstall" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="616ceece-ec80-49d7-a326-1d024e3a2822" name="Changes" comment="" />
+      <created>1634634620662</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634634620662</updated>
+      <workItem from="1634634621865" duration="202000" />
+      <workItem from="1634634949620" duration="821000" />
+      <workItem from="1634957048777" duration="18000" />
+      <workItem from="1634957463208" duration="3221000" />
+      <workItem from="1634983791980" duration="6031000" />
+      <workItem from="1635648322398" duration="2665000" />
+      <workItem from="1635668200441" duration="1329000" />
+      <workItem from="1635670648849" duration="39000" />
+      <workItem from="1635688772074" duration="602000" />
+      <workItem from="1636112616060" duration="192000" />
+      <workItem from="1636339760179" duration="8000" />
+      <workItem from="1636446611438" duration="3482000" />
+      <workItem from="1636450324936" duration="9000" />
+      <workItem from="1636460864985" duration="3198000" />
+      <workItem from="1636466810087" duration="125000" />
+      <workItem from="1636544178987" duration="11404000" />
+      <workItem from="1636640398533" duration="25000" />
+      <workItem from="1636856112961" duration="1892000" />
+      <workItem from="1638435800710" duration="5176000" />
+      <workItem from="1638541469999" duration="22000" />
+      <workItem from="1638603459522" duration="6734000" />
+      <workItem from="1642687638883" duration="1011000" />
+      <workItem from="1642738824406" duration="821000" />
+      <workItem from="1643430391826" duration="34108000" />
+      <workItem from="1645581501778" duration="890000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
+</project>

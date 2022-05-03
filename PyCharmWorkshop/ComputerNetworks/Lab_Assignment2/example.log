@@ -1,0 +1,181 @@
+www.example.com 10.17.116.37 14000 8.8.8.8 True
+(10.17.116.37#14000) send query(<Root> NS IN rd=0) to DNS Server: (Local DNS server 8.8.8.8#53)
+id 16062
+opcode QUERY
+rcode NXDOMAIN
+flags QR RA AD
+;QUESTION
+<Root>. IN NS
+;ANSWER
+;AUTHORITY
+. 86398 IN SOA a.root-servers.net. nstld.verisign-grs.com. 2021102902 1800 900 604800 86400
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(a.root-servers.net. A IN rd=0) to DNS Server: (Local DNS server 8.8.8.8#53)
+id 1648
+opcode QUERY
+rcode NOERROR
+flags QR RA
+;QUESTION
+a.root-servers.net. IN A
+;ANSWER
+a.root-servers.net. 258238 IN A 198.41.0.4
+;AUTHORITY
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(www.example.com A IN rd=0) to DNS Server: (a.root-servers.net. 198.41.0.4#53)
+id 45945
+opcode QUERY
+rcode NOERROR
+flags QR TC
+;QUESTION
+www.example.com. IN A
+;ANSWER
+;AUTHORITY
+com. 172800 IN NS e.gtld-servers.net.
+com. 172800 IN NS b.gtld-servers.net.
+com. 172800 IN NS j.gtld-servers.net.
+com. 172800 IN NS m.gtld-servers.net.
+com. 172800 IN NS i.gtld-servers.net.
+com. 172800 IN NS f.gtld-servers.net.
+com. 172800 IN NS a.gtld-servers.net.
+com. 172800 IN NS g.gtld-servers.net.
+com. 172800 IN NS h.gtld-servers.net.
+com. 172800 IN NS l.gtld-servers.net.
+com. 172800 IN NS k.gtld-servers.net.
+com. 172800 IN NS c.gtld-servers.net.
+com. 172800 IN NS d.gtld-servers.net.
+;ADDITIONAL
+e.gtld-servers.net. 172800 IN A 192.12.94.30
+e.gtld-servers.net. 172800 IN AAAA 2001:502:1ca1::30
+b.gtld-servers.net. 172800 IN A 192.33.14.30
+b.gtld-servers.net. 172800 IN AAAA 2001:503:231d::2:30
+j.gtld-servers.net. 172800 IN A 192.48.79.30
+j.gtld-servers.net. 172800 IN AAAA 2001:502:7094::30
+m.gtld-servers.net. 172800 IN A 192.55.83.30
+m.gtld-servers.net. 172800 IN AAAA 2001:501:b1f9::30
+i.gtld-servers.net. 172800 IN A 192.43.172.30
+i.gtld-servers.net. 172800 IN AAAA 2001:503:39c1::30
+f.gtld-servers.net. 172800 IN A 192.35.51.30 
+
+(10.17.116.37#14000) send query(www.example.com A IN rd=0) to DNS Server: (e.gtld-servers.net. 192.12.94.30#53)
+id 917
+opcode QUERY
+rcode NOERROR
+flags QR
+;QUESTION
+www.example.com. IN A
+;ANSWER
+;AUTHORITY
+example.com. 172800 IN NS a.iana-servers.net.
+example.com. 172800 IN NS b.iana-servers.net.
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(<Root> NS IN rd=0) to DNS Server: (Local DNS server 8.8.8.8#53)
+id 44688
+opcode QUERY
+rcode NXDOMAIN
+flags QR RA AD
+;QUESTION
+<Root>. IN NS
+;ANSWER
+;AUTHORITY
+. 86399 IN SOA a.root-servers.net. nstld.verisign-grs.com. 2021102902 1800 900 604800 86400
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(a.root-servers.net. A IN rd=0) to DNS Server: (Local DNS server 8.8.8.8#53)
+id 49721
+opcode QUERY
+rcode NOERROR
+flags QR RA
+;QUESTION
+a.root-servers.net. IN A
+;ANSWER
+a.root-servers.net. 258946 IN A 198.41.0.4
+;AUTHORITY
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(a.iana-servers.net. A IN rd=0) to DNS Server: (a.root-servers.net. 198.41.0.4#53)
+id 3329
+opcode QUERY
+rcode NOERROR
+flags QR TC
+;QUESTION
+a.iana-servers.net. IN A
+;ANSWER
+;AUTHORITY
+net. 172800 IN NS e.gtld-servers.net.
+net. 172800 IN NS f.gtld-servers.net.
+net. 172800 IN NS m.gtld-servers.net.
+net. 172800 IN NS i.gtld-servers.net.
+net. 172800 IN NS j.gtld-servers.net.
+net. 172800 IN NS b.gtld-servers.net.
+net. 172800 IN NS a.gtld-servers.net.
+net. 172800 IN NS c.gtld-servers.net.
+net. 172800 IN NS k.gtld-servers.net.
+net. 172800 IN NS h.gtld-servers.net.
+net. 172800 IN NS l.gtld-servers.net.
+net. 172800 IN NS g.gtld-servers.net.
+net. 172800 IN NS d.gtld-servers.net.
+;ADDITIONAL
+e.gtld-servers.net. 172800 IN A 192.12.94.30
+e.gtld-servers.net. 172800 IN AAAA 2001:502:1ca1::30
+f.gtld-servers.net. 172800 IN A 192.35.51.30
+f.gtld-servers.net. 172800 IN AAAA 2001:503:d414::30
+m.gtld-servers.net. 172800 IN A 192.55.83.30
+m.gtld-servers.net. 172800 IN AAAA 2001:501:b1f9::30
+i.gtld-servers.net. 172800 IN A 192.43.172.30
+i.gtld-servers.net. 172800 IN AAAA 2001:503:39c1::30
+j.gtld-servers.net. 172800 IN A 192.48.79.30
+j.gtld-servers.net. 172800 IN AAAA 2001:502:7094::30
+b.gtld-servers.net. 172800 IN A 192.33.14.30 
+
+(10.17.116.37#14000) send query(a.iana-servers.net. A IN rd=0) to DNS Server: (e.gtld-servers.net. 192.12.94.30#53)
+id 50135
+opcode QUERY
+rcode NOERROR
+flags QR
+;QUESTION
+a.iana-servers.net. IN A
+;ANSWER
+;AUTHORITY
+iana-servers.net. 172800 IN NS ns.icann.org.
+iana-servers.net. 172800 IN NS a.iana-servers.net.
+iana-servers.net. 172800 IN NS b.iana-servers.net.
+iana-servers.net. 172800 IN NS c.iana-servers.net.
+;ADDITIONAL
+a.iana-servers.net. 172800 IN A 199.43.135.53
+a.iana-servers.net. 172800 IN AAAA 2001:500:8f::53
+b.iana-servers.net. 172800 IN A 199.43.133.53
+b.iana-servers.net. 172800 IN AAAA 2001:500:8d::53
+c.iana-servers.net. 172800 IN A 199.43.134.53
+c.iana-servers.net. 172800 IN AAAA 2001:500:8e::53 
+
+(10.17.116.37#14000) send query(a.iana-servers.net. A IN rd=0) to DNS Server: (a.iana-servers.net. 199.43.135.53#53)
+id 60243
+opcode QUERY
+rcode NOERROR
+flags QR AA
+;QUESTION
+a.iana-servers.net. IN A
+;ANSWER
+a.iana-servers.net. 1800 IN A 199.43.135.53
+;AUTHORITY
+;ADDITIONAL 
+
+(10.17.116.37#14000) send query(www.example.com A IN rd=0) to DNS Server: (a.iana-servers.net. 199.43.135.53#53)
+id 28848
+opcode QUERY
+rcode NOERROR
+flags QR AA
+;QUESTION
+www.example.com. IN A
+;ANSWER
+www.example.com. 86400 IN A 93.184.216.34
+;AUTHORITY
+;ADDITIONAL 
+
+Final Answer:
+Name: www.example.com
+Addresses:
+93.184.216.34
