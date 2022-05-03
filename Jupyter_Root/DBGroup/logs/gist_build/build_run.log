@@ -1,0 +1,130 @@
+nohup: ignoring input
+
+-------------------------------------------
+
+nohup: ignoring input
+
+-------------------------------------------
+
+nohup: ignoring input
+
+-------------------------------------------
+
+nohup: ignoring input
+nohup: failed to run command './gist_build_sz.sh': No such file or directory
+nohup: ignoring input
+nohup: failed to run command './gist_build_cd.sh': No such file or directory
+nohup: ignoring input
+
+-------------------------------------------
+
+sz ### 1 --- 5659475 ### importing
+nohup: ignoring input
+
+-------------------------------------------
+
+nohup: ignoring input
+
+-------------------------------------------
+
+cd ### 1 --- 6649325 ### importing
+porto ### 1 --- 6653000 ### importing
+COPY 5659475
+sz ### 1 --- 5659475 ### import done
+sz ### 5659476 --- 11318951 ### importing
+COPY 6653000
+porto ### 1 --- 6653000 ### import done
+porto ### 6653001 --- 13306000 ### importing
+COPY 6649325
+cd ### 1 --- 6649325 ### import done
+cd ### 6649326 --- 13298651 ### importing
+COPY 5659476
+sz ### 5659476 --- 11318951 ### import done
+sz ### 11318952 --- 16978427 ### importing
+COPY 6653000
+porto ### 6653001 --- 13306000 ### import done
+porto ### 13306001 --- 19959000 ### importing
+COPY 6649326
+cd ### 6649326 --- 13298651 ### import done
+cd ### 13298652 --- 19947976 ### importing
+COPY 5659476
+sz ### 11318952 --- 16978427 ### import done
+sz ### 16978428 --- 22637902 ### importing
+COPY 6653000
+porto ### 13306001 --- 19959000 ### import done
+porto ### 19959001 --- 26612000 ### importing
+COPY 6649325
+cd ### 13298652 --- 19947976 ### import done
+cd ### 19947977 --- 26597302 ### importing
+COPY 5659475
+sz ### 16978428 --- 22637902 ### import done
+sz ### 22637903 --- 28297378 ### importing
+COPY 6653000
+porto ### 19959001 --- 26612000 ### import done
+porto ### 26612001 --- 33265000 ### importing
+COPY 6649326
+cd ### 19947977 --- 26597302 ### import done
+cd ### 26597303 --- 33246627 ### importing
+COPY 5659476
+sz ### 22637903 --- 28297378 ### import done
+sz ### 28297379 --- 33956854 ### importing
+COPY 6653000
+porto ### 26612001 --- 33265000 ### import done
+porto ### 33265001 --- 39918000 ### importing
+COPY 6649325
+cd ### 26597303 --- 33246627 ### import done
+cd ### 33246628 --- 39895953 ### importing
+COPY 5659476
+sz ### 28297379 --- 33956854 ### import done
+sz ### 33956855 --- 39616329 ### importing
+COPY 6653000
+porto ### 33265001 --- 39918000 ### import done
+porto ### 39918001 --- 46571000 ### importing
+COPY 5659475
+sz ### 33956855 --- 39616329 ### import done
+sz ### 39616330 --- 45275805 ### importing
+COPY 6649326
+cd ### 33246628 --- 39895953 ### import done
+cd ### 39895954 --- 46545278 ### importing
+COPY 6653000
+porto ### 39918001 --- 46571000 ### import done
+porto ### 46571001 --- 53224000 ### importing
+COPY 5659476
+sz ### 39616330 --- 45275805 ### import done
+sz ### 45275806 --- 50935281 ### importing
+COPY 6649325
+cd ### 39895954 --- 46545278 ### import done
+cd ### 46545279 --- 53194604 ### importing
+COPY 6653000
+porto ### 46571001 --- 53224000 ### import done
+porto ### 53224001 --- 59877000 ### importing
+COPY 5659476
+sz ### 45275806 --- 50935281 ### import done
+sz ### 50935282 --- 56594757 ### importing
+COPY 6649326
+cd ### 46545279 --- 53194604 ### import done
+cd ### 53194605 --- 59843929 ### importing
+COPY 6653000
+porto ### 53224001 --- 59877000 ### import done
+porto ### 59877001 --- 66530000 ### importing
+COPY 5659476
+sz ### 50935282 --- 56594757 ### import done
+done!
+
+-------------------------------------------
+
+COPY 6649325
+cd ### 53194605 --- 59843929 ### import done
+cd ### 59843930 --- 66493255 ### importing
+COPY 6653000
+porto ### 59877001 --- 66530000 ### import done
+done!
+
+-------------------------------------------
+
+COPY 6649326
+cd ### 59843930 --- 66493255 ### import done
+done!
+
+-------------------------------------------
+

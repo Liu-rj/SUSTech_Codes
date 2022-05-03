@@ -1,0 +1,334 @@
+nohup: ignoring input
+
+-------------------------------------------
+------ tryszrange index query
+### range query distance: 600 m ###
+---------148859 points retrived
+---------64633 points retrived
+---------399367 points retrived
+---------518894 points retrived
+---------55898 points retrived
+---------973889 points retrived
+---------601083 points retrived
+---------617374 points retrived
+---------47989 points retrived
+---------115839 points retrived
+---------291577 points retrived
+---------270719 points retrived
+---------219224 points retrived
+---------469721 points retrived
+---------242118 points retrived
+---------660927 points retrived
+---------147020 points retrived
+---------143929 points retrived
+---------574372 points retrived
+---------81 points retrived
+### range query distance: 1200 m ###
+---------1006797 points retrived
+---------1015891 points retrived
+---------1125858 points retrived
+---------2068084 points retrived
+---------747614 points retrived
+---------2961546 points retrived
+---------1994497 points retrived
+---------2066563 points retrived
+---------775514 points retrived
+---------710944 points retrived
+---------1044573 points retrived
+---------988854 points retrived
+---------698952 points retrived
+---------2830754 points retrived
+---------708399 points retrived
+---------1823570 points retrived
+---------405337 points retrived
+---------806428 points retrived
+---------1701892 points retrived
+---------849562 points retrived
+### range query distance: 1800 m ###
+---------2317029 points retrived
+---------2260057 points retrived
+---------2392828 points retrived
+---------3603861 points retrived
+---------1995156 points retrived
+---------5431565 points retrived
+---------4396407 points retrived
+---------4103876 points retrived
+---------1912653 points retrived
+---------2418551 points retrived
+---------2495963 points retrived
+---------3122600 points retrived
+---------1347976 points retrived
+---------5351451 points retrived
+---------1805458 points retrived
+---------2955369 points retrived
+---------1113627 points retrived
+---------3247561 points retrived
+---------2646183 points retrived
+---------3037935 points retrived
+### range query distance: 2400 m ###
+---------3874935 points retrived
+---------4500217 points retrived
+---------4112922 points retrived
+---------6322583 points retrived
+---------3879647 points retrived
+---------7831487 points retrived
+---------7327960 points retrived
+---------6570805 points retrived
+---------3560815 points retrived
+---------4281467 points retrived
+---------3829593 points retrived
+---------5628670 points retrived
+---------2086865 points retrived
+---------7387628 points retrived
+---------3005095 points retrived
+---------4664717 points retrived
+---------2363262 points retrived
+---------6309129 points retrived
+---------3823640 points retrived
+---------5575676 points retrived
+### range query distance: 3000 m ###
+---------6987421 points retrived
+---------6481511 points retrived
+---------7792095 points retrived
+---------8655776 points retrived
+---------6158385 points retrived
+---------10519570 points retrived
+---------10503566 points retrived
+---------9034042 points retrived
+---------5699308 points retrived
+---------6973148 points retrived
+---------5169943 points retrived
+---------9080975 points retrived
+---------3236008 points retrived
+---------9525683 points retrived
+---------4575086 points retrived
+---------7052122 points retrived
+---------3897558 points retrived
+---------9997929 points retrived
+---------5387796 points retrived
+---------9361833 points retrived
+------ try szrange index query: done!
+
+-------------------------------------------
+
+-------------------------------------------
+------ trycdrange index query
+### range query distance: 600 m ###
+---------148859 points retrived
+---------64633 points retrived
+---------399367 points retrived
+---------518894 points retrived
+---------55898 points retrived
+---------973889 points retrived
+---------601083 points retrived
+---------617374 points retrived
+---------47989 points retrived
+---------115839 points retrived
+---------291577 points retrived
+---------270719 points retrived
+---------219224 points retrived
+---------469721 points retrived
+---------242118 points retrived
+---------660927 points retrived
+---------147020 points retrived
+---------143929 points retrived
+---------574372 points retrived
+---------81 points retrived
+### range query distance: 1200 m ###
+---------1006797 points retrived
+---------1015891 points retrived
+---------1125858 points retrived
+---------2068084 points retrived
+---------747614 points retrived
+---------2961546 points retrived
+---------1994497 points retrived
+---------2066563 points retrived
+---------775514 points retrived
+---------710944 points retrived
+---------1044573 points retrived
+---------988854 points retrived
+---------698952 points retrived
+---------2830754 points retrived
+---------708399 points retrived
+---------1823570 points retrived
+---------405337 points retrived
+---------806428 points retrived
+---------1701892 points retrived
+---------849562 points retrived
+### range query distance: 1800 m ###
+---------2317029 points retrived
+---------2260057 points retrived
+---------2392828 points retrived
+---------3603861 points retrived
+---------1995156 points retrived
+---------5431565 points retrived
+---------4396407 points retrived
+---------4103876 points retrived
+---------1912653 points retrived
+---------2418551 points retrived
+---------2495963 points retrived
+---------3122600 points retrived
+---------1347976 points retrived
+---------5351451 points retrived
+---------1805458 points retrived
+---------2955369 points retrived
+---------1113627 points retrived
+---------3247561 points retrived
+---------2646183 points retrived
+---------3037935 points retrived
+### range query distance: 2400 m ###
+---------3874935 points retrived
+---------4500217 points retrived
+---------4112922 points retrived
+---------6322583 points retrived
+---------3879647 points retrived
+---------7831487 points retrived
+---------7327960 points retrived
+---------6570805 points retrived
+---------3560815 points retrived
+---------4281467 points retrived
+---------3829593 points retrived
+---------5628670 points retrived
+---------2086865 points retrived
+---------7387628 points retrived
+---------3005095 points retrived
+---------4664717 points retrived
+---------2363262 points retrived
+---------6309129 points retrived
+---------3823640 points retrived
+---------5575676 points retrived
+### range query distance: 3000 m ###
+---------6987421 points retrived
+---------6481511 points retrived
+---------7792095 points retrived
+---------8655776 points retrived
+---------6158385 points retrived
+---------10519570 points retrived
+---------10503566 points retrived
+---------9034042 points retrived
+---------5699308 points retrived
+---------6973148 points retrived
+---------5169943 points retrived
+---------9080975 points retrived
+---------3236008 points retrived
+---------9525683 points retrived
+---------4575086 points retrived
+---------7052122 points retrived
+---------3897558 points retrived
+---------9997929 points retrived
+---------5387796 points retrived
+---------9361833 points retrived
+------ try cdrange index query: done!
+
+-------------------------------------------
+
+-------------------------------------------
+------ tryportorange index query
+### range query distance: 600 m ###
+---------148859 points retrived
+---------64633 points retrived
+---------399367 points retrived
+---------518894 points retrived
+---------55898 points retrived
+---------973889 points retrived
+---------601083 points retrived
+---------617374 points retrived
+---------47989 points retrived
+---------115839 points retrived
+---------291577 points retrived
+---------270719 points retrived
+---------219224 points retrived
+---------469721 points retrived
+---------242118 points retrived
+---------660927 points retrived
+---------147020 points retrived
+---------143929 points retrived
+---------574372 points retrived
+---------81 points retrived
+### range query distance: 1200 m ###
+---------1006797 points retrived
+---------1015891 points retrived
+---------1125858 points retrived
+---------2068084 points retrived
+---------747614 points retrived
+---------2961546 points retrived
+---------1994497 points retrived
+---------2066563 points retrived
+---------775514 points retrived
+---------710944 points retrived
+---------1044573 points retrived
+---------988854 points retrived
+---------698952 points retrived
+---------2830754 points retrived
+---------708399 points retrived
+---------1823570 points retrived
+---------405337 points retrived
+---------806428 points retrived
+---------1701892 points retrived
+---------849562 points retrived
+### range query distance: 1800 m ###
+---------2317029 points retrived
+---------2260057 points retrived
+---------2392828 points retrived
+---------3603861 points retrived
+---------1995156 points retrived
+---------5431565 points retrived
+---------4396407 points retrived
+---------4103876 points retrived
+---------1912653 points retrived
+---------2418551 points retrived
+---------2495963 points retrived
+---------3122600 points retrived
+---------1347976 points retrived
+---------5351451 points retrived
+---------1805458 points retrived
+---------2955369 points retrived
+---------1113627 points retrived
+---------3247561 points retrived
+---------2646183 points retrived
+---------3037935 points retrived
+### range query distance: 2400 m ###
+---------3874935 points retrived
+---------4500217 points retrived
+---------4112922 points retrived
+---------6322583 points retrived
+---------3879647 points retrived
+---------7831487 points retrived
+---------7327960 points retrived
+---------6570805 points retrived
+---------3560815 points retrived
+---------4281467 points retrived
+---------3829593 points retrived
+---------5628670 points retrived
+---------2086865 points retrived
+---------7387628 points retrived
+---------3005095 points retrived
+---------4664717 points retrived
+---------2363262 points retrived
+---------6309129 points retrived
+---------3823640 points retrived
+---------5575676 points retrived
+### range query distance: 3000 m ###
+---------6987421 points retrived
+---------6481511 points retrived
+---------7792095 points retrived
+---------8655776 points retrived
+---------6158385 points retrived
+---------10519570 points retrived
+---------10503566 points retrived
+---------9034042 points retrived
+---------5699308 points retrived
+---------6973148 points retrived
+---------5169943 points retrived
+---------9080975 points retrived
+---------3236008 points retrived
+---------9525683 points retrived
+---------4575086 points retrived
+---------7052122 points retrived
+---------3897558 points retrived
+---------9997929 points retrived
+---------5387796 points retrived
+---------9361833 points retrived
+------ try portorange index query: done!
+
+-------------------------------------------

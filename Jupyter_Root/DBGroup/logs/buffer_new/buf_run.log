@@ -1,0 +1,2793 @@
+nohup: ignoring input
+
+-------------------------------------------
+
+buffer ------ 778MB ### 1
+------ try sz rnn index query the 1th time
+waiting for server to shut down.... done
+server stopped
+waiting for server to start....2021-09-03 14:24:51.021 UTC [31464] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 14:24:51.038 UTC [31464] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 14:24:51.039 UTC [31464] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 14:24:51.104 UTC [31464] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 14:24:51.272 UTC [31466] LOG:  database system was shut down at 2021-09-03 14:24:50 UTC
+2021-09-03 14:24:51.357 UTC [31464] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try sz rnn index query the 1th time: done!
+------ try sz rnn index query the 2th time
+waiting for server to shut down....2021-09-03 14:59:58.159 UTC [31464] LOG:  received fast shutdown request
+2021-09-03 14:59:58.191 UTC [31464] LOG:  aborting any active transactions
+2021-09-03 14:59:58.191 UTC [31464] LOG:  background worker "logical replication launcher" (PID 31472) exited with exit code 1
+2021-09-03 14:59:58.192 UTC [31467] LOG:  shutting down
+2021-09-03 14:59:58.417 UTC [31464] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 15:00:00.293 UTC [35581] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 15:00:00.305 UTC [35581] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 15:00:00.305 UTC [35581] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 15:00:00.384 UTC [35581] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 15:00:00.594 UTC [35582] LOG:  database system was shut down at 2021-09-03 14:59:58 UTC
+2021-09-03 15:00:00.678 UTC [35581] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try sz rnn index query the 2th time: done!
+------ try sz rnn index query the 3th time
+waiting for server to shut down....2021-09-03 15:46:14.361 UTC [35581] LOG:  received fast shutdown request
+2021-09-03 15:46:14.402 UTC [35581] LOG:  aborting any active transactions
+2021-09-03 15:46:14.403 UTC [35581] LOG:  background worker "logical replication launcher" (PID 35588) exited with exit code 1
+2021-09-03 15:46:14.404 UTC [35583] LOG:  shutting down
+2021-09-03 15:46:14.619 UTC [35581] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 15:46:16.220 UTC [40851] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 15:46:16.237 UTC [40851] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 15:46:16.237 UTC [40851] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 15:46:16.312 UTC [40851] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 15:46:16.613 UTC [40852] LOG:  database system was shut down at 2021-09-03 15:46:14 UTC
+2021-09-03 15:46:16.689 UTC [40851] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try sz rnn index query the 3th time: done!
+------ try sz rnn index query the 4th time
+waiting for server to shut down....2021-09-03 16:38:45.820 UTC [40851] LOG:  received fast shutdown request
+2021-09-03 16:38:45.848 UTC [40851] LOG:  aborting any active transactions
+2021-09-03 16:38:45.849 UTC [40851] LOG:  background worker "logical replication launcher" (PID 40858) exited with exit code 1
+2021-09-03 16:38:45.850 UTC [40853] LOG:  shutting down
+2021-09-03 16:38:46.081 UTC [40851] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 16:38:47.624 UTC [6244] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 16:38:47.663 UTC [6244] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 16:38:47.663 UTC [6244] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 16:38:47.941 UTC [6244] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 16:38:48.309 UTC [6251] LOG:  database system was shut down at 2021-09-03 16:38:45 UTC
+2021-09-03 16:38:48.418 UTC [6244] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try sz rnn index query the 4th time: done!
+------ try sz rnn index query the 5th time
+waiting for server to shut down....2021-09-03 17:38:18.890 UTC [6244] LOG:  received fast shutdown request
+2021-09-03 17:38:18.930 UTC [6244] LOG:  aborting any active transactions
+2021-09-03 17:38:18.931 UTC [6244] LOG:  background worker "logical replication launcher" (PID 6257) exited with exit code 1
+2021-09-03 17:38:18.933 UTC [6252] LOG:  shutting down
+2021-09-03 17:38:19.153 UTC [6244] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 17:38:20.724 UTC [12950] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 17:38:20.741 UTC [12950] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 17:38:20.741 UTC [12950] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 17:38:20.815 UTC [12950] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 17:38:21.067 UTC [12951] LOG:  database system was shut down at 2021-09-03 17:38:19 UTC
+2021-09-03 17:38:21.151 UTC [12950] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try sz rnn index query the 5th time: done!
+buffer ------ 2335MB ### 3
+------ try sz rnn index query the 1th time
+waiting for server to shut down....2021-09-03 18:44:42.396 UTC [12950] LOG:  received fast shutdown request
+2021-09-03 18:44:42.437 UTC [12950] LOG:  aborting any active transactions
+2021-09-03 18:44:42.438 UTC [12950] LOG:  background worker "logical replication launcher" (PID 12957) exited with exit code 1
+2021-09-03 18:44:42.439 UTC [12952] LOG:  shutting down
+2021-09-03 18:44:42.684 UTC [12950] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 18:44:44.517 UTC [20625] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 18:44:44.562 UTC [20625] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 18:44:44.562 UTC [20625] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 18:44:44.764 UTC [20625] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 18:44:45.199 UTC [20632] LOG:  database system was shut down at 2021-09-03 18:44:42 UTC
+2021-09-03 18:44:45.299 UTC [20625] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try sz rnn index query the 1th time: done!
+------ try sz rnn index query the 2th time
+waiting for server to shut down....2021-09-03 19:19:39.807 UTC [20625] LOG:  received fast shutdown request
+2021-09-03 19:19:39.850 UTC [20625] LOG:  aborting any active transactions
+2021-09-03 19:19:39.851 UTC [20625] LOG:  background worker "logical replication launcher" (PID 20638) exited with exit code 1
+2021-09-03 19:19:39.852 UTC [20633] LOG:  shutting down
+2021-09-03 19:19:40.202 UTC [20625] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 19:19:41.718 UTC [24568] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 19:19:41.741 UTC [24568] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 19:19:41.741 UTC [24568] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 19:19:41.818 UTC [24568] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 19:19:42.111 UTC [24569] LOG:  database system was shut down at 2021-09-03 19:19:39 UTC
+2021-09-03 19:19:42.195 UTC [24568] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try sz rnn index query the 2th time: done!
+------ try sz rnn index query the 3th time
+waiting for server to shut down....2021-09-03 20:05:30.882 UTC [24568] LOG:  received fast shutdown request
+2021-09-03 20:05:30.919 UTC [24568] LOG:  aborting any active transactions
+2021-09-03 20:05:30.919 UTC [24568] LOG:  background worker "logical replication launcher" (PID 24575) exited with exit code 1
+2021-09-03 20:05:30.923 UTC [24570] LOG:  shutting down
+2021-09-03 20:05:31.259 UTC [24568] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 20:05:32.870 UTC [29712] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 20:05:32.891 UTC [29712] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 20:05:32.891 UTC [29712] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 20:05:32.978 UTC [29712] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 20:05:33.313 UTC [29713] LOG:  database system was shut down at 2021-09-03 20:05:31 UTC
+2021-09-03 20:05:33.398 UTC [29712] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try sz rnn index query the 3th time: done!
+------ try sz rnn index query the 4th time
+waiting for server to shut down....2021-09-03 20:56:57.342 UTC [29712] LOG:  received fast shutdown request
+2021-09-03 20:56:57.374 UTC [29712] LOG:  aborting any active transactions
+2021-09-03 20:56:57.375 UTC [29712] LOG:  background worker "logical replication launcher" (PID 29719) exited with exit code 1
+2021-09-03 20:56:57.377 UTC [29714] LOG:  shutting down
+2021-09-03 20:56:57.744 UTC [29712] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 20:56:59.335 UTC [35444] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 20:56:59.360 UTC [35444] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 20:56:59.360 UTC [35444] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 20:56:59.417 UTC [35444] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 20:56:59.711 UTC [35445] LOG:  database system was shut down at 2021-09-03 20:56:57 UTC
+2021-09-03 20:56:59.820 UTC [35444] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try sz rnn index query the 4th time: done!
+------ try sz rnn index query the 5th time
+waiting for server to shut down....2021-09-03 21:54:01.828 UTC [35444] LOG:  received fast shutdown request
+2021-09-03 21:54:01.856 UTC [35444] LOG:  aborting any active transactions
+2021-09-03 21:54:01.857 UTC [35444] LOG:  background worker "logical replication launcher" (PID 35453) exited with exit code 1
+2021-09-03 21:54:01.868 UTC [35448] LOG:  shutting down
+2021-09-03 21:54:02.209 UTC [35444] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 21:54:03.966 UTC [36106] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 21:54:03.988 UTC [36106] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 21:54:03.988 UTC [36106] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 21:54:04.058 UTC [36106] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 21:54:04.342 UTC [36107] LOG:  database system was shut down at 2021-09-03 21:54:01 UTC
+2021-09-03 21:54:04.443 UTC [36106] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try sz rnn index query the 5th time: done!
+buffer ------ 3892MB ### 5
+------ try sz rnn index query the 1th time
+waiting for server to shut down....2021-09-03 22:56:41.750 UTC [36106] LOG:  received fast shutdown request
+2021-09-03 22:56:41.787 UTC [36106] LOG:  aborting any active transactions
+2021-09-03 22:56:41.788 UTC [36106] LOG:  background worker "logical replication launcher" (PID 36113) exited with exit code 1
+2021-09-03 22:56:41.789 UTC [36108] LOG:  shutting down
+2021-09-03 22:56:42.141 UTC [36106] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 22:56:43.714 UTC [36768] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 22:56:43.733 UTC [36768] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 22:56:43.733 UTC [36768] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 22:56:43.814 UTC [36768] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 22:56:44.149 UTC [36769] LOG:  database system was shut down at 2021-09-03 22:56:41 UTC
+2021-09-03 22:56:44.224 UTC [36768] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try sz rnn index query the 1th time: done!
+------ try sz rnn index query the 2th time
+waiting for server to shut down....2021-09-03 23:31:41.351 UTC [36768] LOG:  received fast shutdown request
+2021-09-03 23:31:41.380 UTC [36768] LOG:  aborting any active transactions
+2021-09-03 23:31:41.380 UTC [36768] LOG:  background worker "logical replication launcher" (PID 36775) exited with exit code 1
+2021-09-03 23:31:41.383 UTC [36770] LOG:  shutting down
+2021-09-03 23:31:41.832 UTC [36768] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-03 23:31:43.398 UTC [37199] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-03 23:31:43.435 UTC [37199] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-03 23:31:43.435 UTC [37199] LOG:  listening on IPv6 address "::", port 5432
+2021-09-03 23:31:43.498 UTC [37199] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-03 23:31:43.799 UTC [37200] LOG:  database system was shut down at 2021-09-03 23:31:41 UTC
+2021-09-03 23:31:43.884 UTC [37199] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try sz rnn index query the 2th time: done!
+------ try sz rnn index query the 3th time
+waiting for server to shut down....2021-09-04 00:17:16.980 UTC [37199] LOG:  received fast shutdown request
+2021-09-04 00:17:17.008 UTC [37199] LOG:  aborting any active transactions
+2021-09-04 00:17:17.009 UTC [37199] LOG:  background worker "logical replication launcher" (PID 37206) exited with exit code 1
+2021-09-04 00:17:17.060 UTC [37201] LOG:  shutting down
+2021-09-04 00:17:17.552 UTC [37199] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 00:17:19.143 UTC [37516] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 00:17:19.165 UTC [37516] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 00:17:19.165 UTC [37516] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 00:17:19.243 UTC [37516] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 00:17:19.494 UTC [37517] LOG:  database system was shut down at 2021-09-04 00:17:17 UTC
+2021-09-04 00:17:19.587 UTC [37516] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try sz rnn index query the 3th time: done!
+------ try sz rnn index query the 4th time
+waiting for server to shut down....2021-09-04 01:08:18.936 UTC [37516] LOG:  received fast shutdown request
+2021-09-04 01:08:18.972 UTC [37516] LOG:  aborting any active transactions
+2021-09-04 01:08:18.973 UTC [37516] LOG:  background worker "logical replication launcher" (PID 37523) exited with exit code 1
+2021-09-04 01:08:19.003 UTC [37518] LOG:  shutting down
+2021-09-04 01:08:19.489 UTC [37516] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 01:08:21.065 UTC [37804] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 01:08:21.087 UTC [37804] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 01:08:21.087 UTC [37804] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 01:08:21.149 UTC [37804] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 01:08:21.450 UTC [37805] LOG:  database system was shut down at 2021-09-04 01:08:19 UTC
+2021-09-04 01:08:21.534 UTC [37804] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try sz rnn index query the 4th time: done!
+------ try sz rnn index query the 5th time
+waiting for server to shut down....2021-09-04 02:05:52.973 UTC [37804] LOG:  received fast shutdown request
+2021-09-04 02:05:53.014 UTC [37804] LOG:  aborting any active transactions
+2021-09-04 02:05:53.015 UTC [37804] LOG:  background worker "logical replication launcher" (PID 37811) exited with exit code 1
+2021-09-04 02:05:53.086 UTC [37806] LOG:  shutting down
+2021-09-04 02:05:53.555 UTC [37804] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 02:05:55.374 UTC [40192] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 02:05:55.400 UTC [40192] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 02:05:55.401 UTC [40192] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 02:05:55.466 UTC [40192] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 02:05:55.784 UTC [40193] LOG:  database system was shut down at 2021-09-04 02:05:53 UTC
+2021-09-04 02:05:55.860 UTC [40192] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try sz rnn index query the 5th time: done!
+buffer ------ 5449MB ### 7
+------ try sz rnn index query the 1th time
+waiting for server to shut down....2021-09-04 03:10:09.512 UTC [40192] LOG:  received fast shutdown request
+2021-09-04 03:10:09.561 UTC [40192] LOG:  aborting any active transactions
+2021-09-04 03:10:09.562 UTC [40192] LOG:  background worker "logical replication launcher" (PID 40199) exited with exit code 1
+2021-09-04 03:10:09.576 UTC [40194] LOG:  shutting down
+2021-09-04 03:10:10.014 UTC [40192] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 03:10:12.071 UTC [2238] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 03:10:12.093 UTC [2238] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 03:10:12.093 UTC [2238] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 03:10:12.170 UTC [2238] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 03:10:12.514 UTC [2239] LOG:  database system was shut down at 2021-09-04 03:10:09 UTC
+2021-09-04 03:10:12.598 UTC [2238] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try sz rnn index query the 1th time: done!
+------ try sz rnn index query the 2th time
+waiting for server to shut down....2021-09-04 03:45:38.267 UTC [2238] LOG:  received fast shutdown request
+2021-09-04 03:45:38.307 UTC [2238] LOG:  aborting any active transactions
+2021-09-04 03:45:38.308 UTC [2238] LOG:  background worker "logical replication launcher" (PID 2245) exited with exit code 1
+2021-09-04 03:45:38.311 UTC [2240] LOG:  shutting down
+2021-09-04 03:45:38.780 UTC [2238] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 03:45:40.493 UTC [3221] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 03:45:40.527 UTC [3221] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 03:45:40.527 UTC [3221] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 03:45:40.593 UTC [3221] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 03:45:40.877 UTC [3222] LOG:  database system was shut down at 2021-09-04 03:45:38 UTC
+2021-09-04 03:45:40.978 UTC [3221] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try sz rnn index query the 2th time: done!
+------ try sz rnn index query the 3th time
+waiting for server to shut down....2021-09-04 04:32:05.538 UTC [3221] LOG:  received fast shutdown request
+2021-09-04 04:32:05.573 UTC [3221] LOG:  aborting any active transactions
+2021-09-04 04:32:05.574 UTC [3221] LOG:  background worker "logical replication launcher" (PID 3228) exited with exit code 1
+2021-09-04 04:32:05.613 UTC [3223] LOG:  shutting down
+2021-09-04 04:32:06.133 UTC [3221] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 04:32:07.775 UTC [4083] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 04:32:07.797 UTC [4083] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 04:32:07.797 UTC [4083] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 04:32:07.867 UTC [4083] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 04:32:08.202 UTC [4084] LOG:  database system was shut down at 2021-09-04 04:32:05 UTC
+2021-09-04 04:32:08.286 UTC [4083] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try sz rnn index query the 3th time: done!
+------ try sz rnn index query the 4th time
+waiting for server to shut down....2021-09-04 05:23:17.501 UTC [4083] LOG:  received fast shutdown request
+2021-09-04 05:23:17.532 UTC [4083] LOG:  aborting any active transactions
+2021-09-04 05:23:17.533 UTC [4083] LOG:  background worker "logical replication launcher" (PID 4090) exited with exit code 1
+2021-09-04 05:23:17.588 UTC [4085] LOG:  shutting down
+2021-09-04 05:23:18.158 UTC [4083] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 05:23:19.950 UTC [4683] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 05:23:19.977 UTC [4683] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 05:23:19.977 UTC [4683] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 05:23:20.050 UTC [4683] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 05:23:20.368 UTC [4684] LOG:  database system was shut down at 2021-09-04 05:23:17 UTC
+2021-09-04 05:23:20.444 UTC [4683] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try sz rnn index query the 4th time: done!
+------ try sz rnn index query the 5th time
+waiting for server to shut down....2021-09-04 06:20:05.400 UTC [4683] LOG:  received fast shutdown request
+2021-09-04 06:20:05.434 UTC [4683] LOG:  aborting any active transactions
+2021-09-04 06:20:05.434 UTC [4683] LOG:  background worker "logical replication launcher" (PID 4691) exited with exit code 1
+2021-09-04 06:20:05.470 UTC [4685] LOG:  shutting down
+2021-09-04 06:20:06.047 UTC [4683] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 06:20:07.869 UTC [5336] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 06:20:07.893 UTC [5336] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 06:20:07.893 UTC [5336] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 06:20:07.960 UTC [5336] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 06:20:08.262 UTC [5337] LOG:  database system was shut down at 2021-09-04 06:20:05 UTC
+2021-09-04 06:20:08.338 UTC [5336] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try sz rnn index query the 5th time: done!
+buffer ------ 7006MB ### 9
+------ try sz rnn index query the 1th time
+waiting for server to shut down....2021-09-04 07:24:56.378 UTC [5336] LOG:  received fast shutdown request
+2021-09-04 07:24:56.416 UTC [5336] LOG:  aborting any active transactions
+2021-09-04 07:24:56.416 UTC [5336] LOG:  background worker "logical replication launcher" (PID 5343) exited with exit code 1
+2021-09-04 07:24:56.442 UTC [5338] LOG:  shutting down
+2021-09-04 07:24:56.992 UTC [5336] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 07:24:59.017 UTC [6384] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 07:24:59.050 UTC [6384] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 07:24:59.050 UTC [6384] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 07:24:59.117 UTC [6384] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 07:24:59.402 UTC [6385] LOG:  database system was shut down at 2021-09-04 07:24:56 UTC
+2021-09-04 07:24:59.478 UTC [6384] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try sz rnn index query the 1th time: done!
+------ try sz rnn index query the 2th time
+waiting for server to shut down....2021-09-04 08:00:13.108 UTC [6384] LOG:  received fast shutdown request
+2021-09-04 08:00:13.144 UTC [6384] LOG:  aborting any active transactions
+2021-09-04 08:00:13.144 UTC [6384] LOG:  background worker "logical replication launcher" (PID 6391) exited with exit code 1
+2021-09-04 08:00:13.149 UTC [6386] LOG:  shutting down
+2021-09-04 08:00:13.602 UTC [6384] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 08:00:14.988 UTC [6885] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 08:00:14.999 UTC [6885] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 08:00:14.999 UTC [6885] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 08:00:15.071 UTC [6885] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 08:00:15.422 UTC [6886] LOG:  database system was shut down at 2021-09-04 08:00:13 UTC
+2021-09-04 08:00:15.498 UTC [6885] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try sz rnn index query the 2th time: done!
+------ try sz rnn index query the 3th time
+waiting for server to shut down....2021-09-04 08:46:45.377 UTC [6885] LOG:  received fast shutdown request
+2021-09-04 08:46:45.425 UTC [6885] LOG:  aborting any active transactions
+2021-09-04 08:46:45.426 UTC [6885] LOG:  background worker "logical replication launcher" (PID 6892) exited with exit code 1
+2021-09-04 08:46:45.482 UTC [6887] LOG:  shutting down
+2021-09-04 08:46:46.007 UTC [6885] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 08:46:47.761 UTC [8433] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 08:46:47.870 UTC [8433] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 08:46:47.870 UTC [8433] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 08:46:47.986 UTC [8433] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 08:46:48.604 UTC [8434] LOG:  database system was shut down at 2021-09-04 08:46:45 UTC
+.2021-09-04 08:46:48.730 UTC [8433] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try sz rnn index query the 3th time: done!
+------ try sz rnn index query the 4th time
+waiting for server to shut down...2021-09-04 09:39:22.176 UTC [8433] LOG:  received fast shutdown request
+.2021-09-04 09:39:22.215 UTC [8433] LOG:  aborting any active transactions
+2021-09-04 09:39:22.216 UTC [8433] LOG:  background worker "logical replication launcher" (PID 8441) exited with exit code 1
+2021-09-04 09:39:22.253 UTC [8436] LOG:  shutting down
+2021-09-04 09:39:22.841 UTC [8433] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 09:39:24.717 UTC [10001] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 09:39:24.744 UTC [10001] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 09:39:24.744 UTC [10001] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 09:39:24.825 UTC [10001] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 09:39:25.177 UTC [10002] LOG:  database system was shut down at 2021-09-04 09:39:22 UTC
+2021-09-04 09:39:25.253 UTC [10001] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try sz rnn index query the 4th time: done!
+------ try sz rnn index query the 5th time
+waiting for server to shut down....2021-09-04 10:37:35.093 UTC [10001] LOG:  received fast shutdown request
+2021-09-04 10:37:35.133 UTC [10001] LOG:  aborting any active transactions
+2021-09-04 10:37:35.134 UTC [10001] LOG:  background worker "logical replication launcher" (PID 10008) exited with exit code 1
+2021-09-04 10:37:35.167 UTC [10003] LOG:  shutting down
+2021-09-04 10:37:35.723 UTC [10001] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 10:37:37.510 UTC [10740] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 10:37:37.524 UTC [10740] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 10:37:37.524 UTC [10740] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 10:37:37.601 UTC [10740] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 10:37:37.895 UTC [10741] LOG:  database system was shut down at 2021-09-04 10:37:35 UTC
+2021-09-04 10:37:37.987 UTC [10740] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try sz rnn index query the 5th time: done!
+./buffer.sh: line 47: e: command not found
+buffer ------ 919MB ### 1
+------ try cd rnn index query the 1th time
+waiting for server to shut down....2021-09-04 11:40:03.749 UTC [10740] LOG:  received fast shutdown request
+2021-09-04 11:40:03.795 UTC [10740] LOG:  aborting any active transactions
+2021-09-04 11:40:03.796 UTC [10740] LOG:  background worker "logical replication launcher" (PID 10747) exited with exit code 1
+2021-09-04 11:40:03.840 UTC [10742] LOG:  shutting down
+2021-09-04 11:40:04.470 UTC [10740] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 11:40:06.205 UTC [11509] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 11:40:06.224 UTC [11509] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 11:40:06.224 UTC [11509] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 11:40:06.288 UTC [11509] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 11:40:06.515 UTC [11510] LOG:  database system was shut down at 2021-09-04 11:40:03 UTC
+2021-09-04 11:40:06.607 UTC [11509] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try cd rnn index query the 1th time: done!
+------ try cd rnn index query the 2th time
+waiting for server to shut down....2021-09-04 12:30:25.593 UTC [11509] LOG:  received fast shutdown request
+2021-09-04 12:30:25.635 UTC [11509] LOG:  aborting any active transactions
+2021-09-04 12:30:25.636 UTC [11509] LOG:  background worker "logical replication launcher" (PID 11516) exited with exit code 1
+2021-09-04 12:30:25.637 UTC [11511] LOG:  shutting down
+2021-09-04 12:30:25.874 UTC [11509] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 12:30:27.537 UTC [12104] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 12:30:27.561 UTC [12104] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 12:30:27.561 UTC [12104] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 12:30:27.628 UTC [12104] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 12:30:27.897 UTC [12105] LOG:  database system was shut down at 2021-09-04 12:30:25 UTC
+2021-09-04 12:30:28.014 UTC [12104] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try cd rnn index query the 2th time: done!
+------ try cd rnn index query the 3th time
+waiting for server to shut down....2021-09-04 13:37:02.737 UTC [12104] LOG:  received fast shutdown request
+2021-09-04 13:37:02.780 UTC [12104] LOG:  aborting any active transactions
+2021-09-04 13:37:02.781 UTC [12104] LOG:  background worker "logical replication launcher" (PID 12111) exited with exit code 1
+2021-09-04 13:37:02.782 UTC [12106] LOG:  shutting down
+2021-09-04 13:37:03.011 UTC [12104] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 13:37:04.748 UTC [13311] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 13:37:04.764 UTC [13311] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 13:37:04.764 UTC [13311] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 13:37:04.857 UTC [13311] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 13:37:05.150 UTC [13312] LOG:  database system was shut down at 2021-09-04 13:37:02 UTC
+2021-09-04 13:37:05.226 UTC [13311] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try cd rnn index query the 3th time: done!
+------ try cd rnn index query the 4th time
+waiting for server to shut down....2021-09-04 14:50:38.893 UTC [13311] LOG:  received fast shutdown request
+2021-09-04 14:50:38.934 UTC [13311] LOG:  aborting any active transactions
+2021-09-04 14:50:38.935 UTC [13311] LOG:  background worker "logical replication launcher" (PID 13369) exited with exit code 1
+2021-09-04 14:50:38.935 UTC [13313] LOG:  shutting down
+2021-09-04 14:50:39.161 UTC [13311] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 14:50:41.361 UTC [14360] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 14:50:41.385 UTC [14360] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 14:50:41.385 UTC [14360] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 14:50:41.444 UTC [14360] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 14:50:41.745 UTC [14361] LOG:  database system was shut down at 2021-09-04 14:50:39 UTC
+2021-09-04 14:50:41.829 UTC [14360] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try cd rnn index query the 4th time: done!
+------ try cd rnn index query the 5th time
+waiting for server to shut down....2021-09-04 16:07:57.055 UTC [14360] LOG:  received fast shutdown request
+2021-09-04 16:07:57.077 UTC [14360] LOG:  aborting any active transactions
+2021-09-04 16:07:57.078 UTC [14360] LOG:  background worker "logical replication launcher" (PID 14367) exited with exit code 1
+2021-09-04 16:07:57.079 UTC [14362] LOG:  shutting down
+2021-09-04 16:07:57.328 UTC [14360] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 16:07:59.321 UTC [15222] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 16:07:59.364 UTC [15222] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 16:07:59.364 UTC [15222] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 16:07:59.479 UTC [15222] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 16:07:59.747 UTC [15223] LOG:  database system was shut down at 2021-09-04 16:07:57 UTC
+2021-09-04 16:07:59.823 UTC [15222] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try cd rnn index query the 5th time: done!
+buffer ------ 2758MB ### 3
+------ try cd rnn index query the 1th time
+waiting for server to shut down....2021-09-04 17:31:06.820 UTC [15222] LOG:  received fast shutdown request
+2021-09-04 17:31:06.860 UTC [15222] LOG:  aborting any active transactions
+2021-09-04 17:31:06.861 UTC [15222] LOG:  background worker "logical replication launcher" (PID 15229) exited with exit code 1
+2021-09-04 17:31:06.862 UTC [15224] LOG:  shutting down
+2021-09-04 17:31:07.089 UTC [15222] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 17:31:08.946 UTC [16149] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 17:31:08.986 UTC [16149] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 17:31:08.986 UTC [16149] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 17:31:09.054 UTC [16149] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 17:31:09.347 UTC [16150] LOG:  database system was shut down at 2021-09-04 17:31:06 UTC
+2021-09-04 17:31:09.456 UTC [16149] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try cd rnn index query the 1th time: done!
+------ try cd rnn index query the 2th time
+waiting for server to shut down....2021-09-04 18:21:24.532 UTC [16149] LOG:  received fast shutdown request
+2021-09-04 18:21:24.575 UTC [16149] LOG:  aborting any active transactions
+2021-09-04 18:21:24.576 UTC [16149] LOG:  background worker "logical replication launcher" (PID 16156) exited with exit code 1
+2021-09-04 18:21:24.603 UTC [16151] LOG:  shutting down
+2021-09-04 18:21:24.982 UTC [16149] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 18:21:26.760 UTC [16730] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 18:21:26.775 UTC [16730] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 18:21:26.775 UTC [16730] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 18:21:26.851 UTC [16730] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 18:21:27.145 UTC [16731] LOG:  database system was shut down at 2021-09-04 18:21:24 UTC
+2021-09-04 18:21:27.229 UTC [16730] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try cd rnn index query the 2th time: done!
+------ try cd rnn index query the 3th time
+waiting for server to shut down....2021-09-04 19:26:51.131 UTC [16730] LOG:  received fast shutdown request
+2021-09-04 19:26:51.167 UTC [16730] LOG:  aborting any active transactions
+2021-09-04 19:26:51.168 UTC [16730] LOG:  background worker "logical replication launcher" (PID 16737) exited with exit code 1
+2021-09-04 19:26:51.206 UTC [16732] LOG:  shutting down
+2021-09-04 19:26:51.609 UTC [16730] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 19:26:53.560 UTC [17467] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 19:26:53.599 UTC [17467] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 19:26:53.599 UTC [17467] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 19:26:53.669 UTC [17467] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 19:26:53.937 UTC [17468] LOG:  database system was shut down at 2021-09-04 19:26:51 UTC
+2021-09-04 19:26:54.021 UTC [17467] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try cd rnn index query the 3th time: done!
+------ try cd rnn index query the 4th time
+waiting for server to shut down....2021-09-04 20:37:33.375 UTC [17467] LOG:  received fast shutdown request
+2021-09-04 20:37:33.398 UTC [17467] LOG:  aborting any active transactions
+2021-09-04 20:37:33.399 UTC [17467] LOG:  background worker "logical replication launcher" (PID 17474) exited with exit code 1
+2021-09-04 20:37:33.410 UTC [17469] LOG:  shutting down
+2021-09-04 20:37:33.843 UTC [17467] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 20:37:35.942 UTC [18265] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 20:37:35.976 UTC [18265] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 20:37:35.976 UTC [18265] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 20:37:36.042 UTC [18265] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 20:37:36.393 UTC [18266] LOG:  database system was shut down at 2021-09-04 20:37:33 UTC
+2021-09-04 20:37:36.469 UTC [18265] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try cd rnn index query the 4th time: done!
+------ try cd rnn index query the 5th time
+waiting for server to shut down....2021-09-04 21:52:14.369 UTC [18265] LOG:  received fast shutdown request
+2021-09-04 21:52:14.401 UTC [18265] LOG:  aborting any active transactions
+2021-09-04 21:52:14.401 UTC [18265] LOG:  background worker "logical replication launcher" (PID 18272) exited with exit code 1
+2021-09-04 21:52:14.436 UTC [18267] LOG:  shutting down
+2021-09-04 21:52:14.858 UTC [18265] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 21:52:16.911 UTC [19060] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 21:52:16.936 UTC [19060] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 21:52:16.937 UTC [19060] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 21:52:17.002 UTC [19060] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 21:52:17.295 UTC [19061] LOG:  database system was shut down at 2021-09-04 21:52:14 UTC
+2021-09-04 21:52:17.371 UTC [19060] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try cd rnn index query the 5th time: done!
+buffer ------ 4598MB ### 5
+------ try cd rnn index query the 1th time
+waiting for server to shut down....2021-09-04 23:10:10.333 UTC [19060] LOG:  received fast shutdown request
+2021-09-04 23:10:10.374 UTC [19060] LOG:  aborting any active transactions
+2021-09-04 23:10:10.375 UTC [19060] LOG:  background worker "logical replication launcher" (PID 19067) exited with exit code 1
+2021-09-04 23:10:10.376 UTC [19062] LOG:  shutting down
+2021-09-04 23:10:10.779 UTC [19060] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-04 23:10:12.859 UTC [19919] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-04 23:10:12.898 UTC [19919] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-04 23:10:12.898 UTC [19919] LOG:  listening on IPv6 address "::", port 5432
+2021-09-04 23:10:12.950 UTC [19919] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-04 23:10:13.285 UTC [19920] LOG:  database system was shut down at 2021-09-04 23:10:10 UTC
+2021-09-04 23:10:13.361 UTC [19919] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try cd rnn index query the 1th time: done!
+------ try cd rnn index query the 2th time
+waiting for server to shut down....2021-09-05 00:00:31.370 UTC [19919] LOG:  received fast shutdown request
+2021-09-05 00:00:31.402 UTC [19919] LOG:  aborting any active transactions
+2021-09-05 00:00:31.403 UTC [19919] LOG:  background worker "logical replication launcher" (PID 19926) exited with exit code 1
+2021-09-05 00:00:31.425 UTC [19921] LOG:  shutting down
+2021-09-05 00:00:31.972 UTC [19919] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 00:00:33.671 UTC [20610] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 00:00:33.704 UTC [20610] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 00:00:33.704 UTC [20610] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 00:00:33.771 UTC [20610] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 00:00:34.089 UTC [20611] LOG:  database system was shut down at 2021-09-05 00:00:31 UTC
+2021-09-05 00:00:34.164 UTC [20610] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try cd rnn index query the 2th time: done!
+------ try cd rnn index query the 3th time
+waiting for server to shut down....2021-09-05 01:05:59.150 UTC [20610] LOG:  received fast shutdown request
+2021-09-05 01:05:59.180 UTC [20610] LOG:  aborting any active transactions
+2021-09-05 01:05:59.181 UTC [20610] LOG:  background worker "logical replication launcher" (PID 20617) exited with exit code 1
+2021-09-05 01:05:59.230 UTC [20612] LOG:  shutting down
+2021-09-05 01:05:59.774 UTC [20610] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 01:06:01.748 UTC [21334] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 01:06:01.768 UTC [21334] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 01:06:01.768 UTC [21334] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 01:06:01.823 UTC [21334] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 01:06:02.108 UTC [21335] LOG:  database system was shut down at 2021-09-05 01:05:59 UTC
+2021-09-05 01:06:02.184 UTC [21334] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try cd rnn index query the 3th time: done!
+------ try cd rnn index query the 4th time
+waiting for server to shut down....2021-09-05 02:16:37.512 UTC [21334] LOG:  received fast shutdown request
+2021-09-05 02:16:37.545 UTC [21334] LOG:  aborting any active transactions
+2021-09-05 02:16:37.546 UTC [21334] LOG:  background worker "logical replication launcher" (PID 21341) exited with exit code 1
+2021-09-05 02:16:37.578 UTC [21336] LOG:  shutting down
+2021-09-05 02:16:38.107 UTC [21334] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 02:16:40.188 UTC [22118] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 02:16:40.213 UTC [22118] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 02:16:40.213 UTC [22118] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 02:16:40.272 UTC [22118] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 02:16:40.565 UTC [22119] LOG:  database system was shut down at 2021-09-05 02:16:37 UTC
+2021-09-05 02:16:40.665 UTC [22118] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try cd rnn index query the 4th time: done!
+------ try cd rnn index query the 5th time
+waiting for server to shut down...2021-09-05 03:30:57.793 UTC [22118] LOG:  received fast shutdown request
+.2021-09-05 03:30:57.819 UTC [22118] LOG:  aborting any active transactions
+2021-09-05 03:30:57.820 UTC [22118] LOG:  background worker "logical replication launcher" (PID 22125) exited with exit code 1
+2021-09-05 03:30:57.900 UTC [22120] LOG:  shutting down
+2021-09-05 03:30:58.415 UTC [22118] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 03:31:00.504 UTC [22951] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 03:31:00.527 UTC [22951] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 03:31:00.527 UTC [22951] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 03:31:00.604 UTC [22951] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 03:31:00.939 UTC [22952] LOG:  database system was shut down at 2021-09-05 03:30:58 UTC
+2021-09-05 03:31:01.015 UTC [22951] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try cd rnn index query the 5th time: done!
+buffer ------ 6437MB ### 7
+------ try cd rnn index query the 1th time
+waiting for server to shut down....2021-09-05 04:48:00.298 UTC [22951] LOG:  received fast shutdown request
+2021-09-05 04:48:00.339 UTC [22951] LOG:  aborting any active transactions
+2021-09-05 04:48:00.340 UTC [22951] LOG:  background worker "logical replication launcher" (PID 22958) exited with exit code 1
+2021-09-05 04:48:00.342 UTC [22953] LOG:  shutting down
+2021-09-05 04:48:00.883 UTC [22951] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 04:48:02.899 UTC [23807] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 04:48:02.914 UTC [23807] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 04:48:02.914 UTC [23807] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 04:48:02.974 UTC [23807] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 04:48:03.309 UTC [23808] LOG:  database system was shut down at 2021-09-05 04:48:00 UTC
+2021-09-05 04:48:03.384 UTC [23807] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try cd rnn index query the 1th time: done!
+------ try cd rnn index query the 2th time
+waiting for server to shut down....2021-09-05 05:38:20.852 UTC [23807] LOG:  received fast shutdown request
+2021-09-05 05:38:20.887 UTC [23807] LOG:  aborting any active transactions
+2021-09-05 05:38:20.888 UTC [23807] LOG:  background worker "logical replication launcher" (PID 23814) exited with exit code 1
+2021-09-05 05:38:20.950 UTC [23809] LOG:  shutting down
+2021-09-05 05:38:21.506 UTC [23807] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 05:38:23.272 UTC [24388] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 05:38:23.286 UTC [24388] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 05:38:23.286 UTC [24388] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 05:38:23.355 UTC [24388] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 05:38:23.715 UTC [24389] LOG:  database system was shut down at 2021-09-05 05:38:21 UTC
+2021-09-05 05:38:23.791 UTC [24388] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try cd rnn index query the 2th time: done!
+------ try cd rnn index query the 3th time
+waiting for server to shut down....2021-09-05 06:45:06.345 UTC [24388] LOG:  received fast shutdown request
+2021-09-05 06:45:06.372 UTC [24388] LOG:  aborting any active transactions
+2021-09-05 06:45:06.373 UTC [24388] LOG:  background worker "logical replication launcher" (PID 24395) exited with exit code 1
+2021-09-05 06:45:06.443 UTC [24390] LOG:  shutting down
+2021-09-05 06:45:07.096 UTC [24388] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 06:45:09.274 UTC [25397] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 06:45:09.296 UTC [25397] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 06:45:09.296 UTC [25397] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 06:45:09.349 UTC [25397] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 06:45:09.684 UTC [25398] LOG:  database system was shut down at 2021-09-05 06:45:06 UTC
+2021-09-05 06:45:09.776 UTC [25397] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try cd rnn index query the 3th time: done!
+------ try cd rnn index query the 4th time
+waiting for server to shut down....2021-09-05 07:56:04.712 UTC [25397] LOG:  received fast shutdown request
+2021-09-05 07:56:04.743 UTC [25397] LOG:  aborting any active transactions
+2021-09-05 07:56:04.743 UTC [25397] LOG:  background worker "logical replication launcher" (PID 25404) exited with exit code 1
+2021-09-05 07:56:04.834 UTC [25399] LOG:  shutting down
+2021-09-05 07:56:05.515 UTC [25397] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 07:56:07.503 UTC [26202] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 07:56:07.529 UTC [26202] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 07:56:07.529 UTC [26202] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 07:56:07.594 UTC [26202] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 07:56:07.929 UTC [26203] LOG:  database system was shut down at 2021-09-05 07:56:04 UTC
+2021-09-05 07:56:08.013 UTC [26202] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try cd rnn index query the 4th time: done!
+------ try cd rnn index query the 5th time
+waiting for server to shut down....2021-09-05 09:10:16.479 UTC [26202] LOG:  received fast shutdown request
+2021-09-05 09:10:16.505 UTC [26202] LOG:  aborting any active transactions
+2021-09-05 09:10:16.505 UTC [26202] LOG:  background worker "logical replication launcher" (PID 26209) exited with exit code 1
+2021-09-05 09:10:16.576 UTC [26204] LOG:  shutting down
+2021-09-05 09:10:17.238 UTC [26202] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 09:10:19.240 UTC [27018] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 09:10:19.255 UTC [27018] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 09:10:19.255 UTC [27018] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 09:10:19.307 UTC [27018] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 09:10:19.658 UTC [27019] LOG:  database system was shut down at 2021-09-05 09:10:16 UTC
+2021-09-05 09:10:19.742 UTC [27018] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try cd rnn index query the 5th time: done!
+buffer ------ 8276MB ### 9
+------ try cd rnn index query the 1th time
+waiting for server to shut down....2021-09-05 10:27:48.528 UTC [27018] LOG:  received fast shutdown request
+2021-09-05 10:27:48.568 UTC [27018] LOG:  aborting any active transactions
+2021-09-05 10:27:48.569 UTC [27018] LOG:  background worker "logical replication launcher" (PID 27025) exited with exit code 1
+2021-09-05 10:27:48.657 UTC [27020] LOG:  shutting down
+2021-09-05 10:27:49.305 UTC [27018] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 10:27:51.295 UTC [28711] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 10:27:51.344 UTC [28711] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 10:27:51.344 UTC [28711] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 10:27:51.419 UTC [28711] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 10:27:51.804 UTC [28712] LOG:  database system was shut down at 2021-09-05 10:27:48 UTC
+2021-09-05 10:27:51.880 UTC [28711] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try cd rnn index query the 1th time: done!
+------ try cd rnn index query the 2th time
+waiting for server to shut down....2021-09-05 11:18:09.831 UTC [28711] LOG:  received fast shutdown request
+2021-09-05 11:18:09.859 UTC [28711] LOG:  aborting any active transactions
+2021-09-05 11:18:09.860 UTC [28711] LOG:  background worker "logical replication launcher" (PID 28718) exited with exit code 1
+2021-09-05 11:18:09.897 UTC [28713] LOG:  shutting down
+2021-09-05 11:18:10.485 UTC [28711] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 11:18:12.394 UTC [29307] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 11:18:12.416 UTC [29307] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 11:18:12.416 UTC [29307] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 11:18:12.486 UTC [29307] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 11:18:12.837 UTC [29308] LOG:  database system was shut down at 2021-09-05 11:18:10 UTC
+2021-09-05 11:18:12.913 UTC [29307] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try cd rnn index query the 2th time: done!
+------ try cd rnn index query the 3th time
+waiting for server to shut down....2021-09-05 12:28:35.459 UTC [29307] LOG:  received fast shutdown request
+2021-09-05 12:28:35.493 UTC [29307] LOG:  aborting any active transactions
+2021-09-05 12:28:35.493 UTC [29307] LOG:  background worker "logical replication launcher" (PID 29314) exited with exit code 1
+2021-09-05 12:28:35.571 UTC [29309] LOG:  shutting down
+2021-09-05 12:28:36.287 UTC [29307] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 12:28:38.972 UTC [30731] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 12:28:38.987 UTC [30731] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 12:28:38.987 UTC [30731] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 12:28:39.055 UTC [30731] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 12:28:39.448 UTC [30732] LOG:  database system was shut down at 2021-09-05 12:28:35 UTC
+2021-09-05 12:28:39.524 UTC [30731] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try cd rnn index query the 3th time: done!
+------ try cd rnn index query the 4th time
+waiting for server to shut down....2021-09-05 13:39:15.873 UTC [30731] LOG:  received fast shutdown request
+2021-09-05 13:39:15.911 UTC [30731] LOG:  aborting any active transactions
+2021-09-05 13:39:15.912 UTC [30731] LOG:  background worker "logical replication launcher" (PID 30738) exited with exit code 1
+2021-09-05 13:39:16.002 UTC [30733] LOG:  shutting down
+2021-09-05 13:39:16.772 UTC [30731] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 13:39:18.797 UTC [31541] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 13:39:18.815 UTC [31541] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 13:39:18.816 UTC [31541] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 13:39:18.880 UTC [31541] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 13:39:19.240 UTC [31542] LOG:  database system was shut down at 2021-09-05 13:39:16 UTC
+2021-09-05 13:39:19.324 UTC [31541] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try cd rnn index query the 4th time: done!
+------ try cd rnn index query the 5th time
+waiting for server to shut down....2021-09-05 14:53:29.245 UTC [31541] LOG:  received fast shutdown request
+2021-09-05 14:53:29.281 UTC [31541] LOG:  aborting any active transactions
+2021-09-05 14:53:29.281 UTC [31541] LOG:  background worker "logical replication launcher" (PID 31548) exited with exit code 1
+2021-09-05 14:53:29.395 UTC [31543] LOG:  shutting down
+2021-09-05 14:53:30.240 UTC [31541] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 14:53:32.241 UTC [32472] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 14:53:32.267 UTC [32472] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 14:53:32.267 UTC [32472] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 14:53:32.333 UTC [32472] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 14:53:32.684 UTC [32473] LOG:  database system was shut down at 2021-09-05 14:53:29 UTC
+2021-09-05 14:53:32.760 UTC [32472] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try cd rnn index query the 5th time: done!
+buffer ------ 922MB ### 1
+------ try porto rnn index query the 1th time
+waiting for server to shut down....2021-09-05 16:10:09.984 UTC [32472] LOG:  received fast shutdown request
+2021-09-05 16:10:10.027 UTC [32472] LOG:  aborting any active transactions
+2021-09-05 16:10:10.028 UTC [32472] LOG:  background worker "logical replication launcher" (PID 32479) exited with exit code 1
+2021-09-05 16:10:10.053 UTC [32474] LOG:  shutting down
+2021-09-05 16:10:10.843 UTC [32472] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 16:10:12.904 UTC [33328] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 16:10:12.925 UTC [33328] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 16:10:12.925 UTC [33328] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 16:10:12.995 UTC [33328] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 16:10:13.222 UTC [33329] LOG:  database system was shut down at 2021-09-05 16:10:10 UTC
+2021-09-05 16:10:13.298 UTC [33328] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try porto rnn index query the 1th time: done!
+------ try porto rnn index query the 2th time
+waiting for server to shut down....2021-09-05 17:00:12.506 UTC [33328] LOG:  received fast shutdown request
+2021-09-05 17:00:12.545 UTC [33328] LOG:  aborting any active transactions
+2021-09-05 17:00:12.545 UTC [33328] LOG:  background worker "logical replication launcher" (PID 33335) exited with exit code 1
+2021-09-05 17:00:12.547 UTC [33330] LOG:  shutting down
+2021-09-05 17:00:12.789 UTC [33328] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 17:00:14.438 UTC [33925] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 17:00:14.473 UTC [33925] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 17:00:14.473 UTC [33925] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 17:00:14.555 UTC [33925] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 17:00:14.848 UTC [33926] LOG:  database system was shut down at 2021-09-05 17:00:12 UTC
+2021-09-05 17:00:14.923 UTC [33925] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try porto rnn index query the 2th time: done!
+------ try porto rnn index query the 3th time
+waiting for server to shut down....2021-09-05 18:06:37.507 UTC [33925] LOG:  received fast shutdown request
+2021-09-05 18:06:37.534 UTC [33925] LOG:  aborting any active transactions
+2021-09-05 18:06:37.535 UTC [33925] LOG:  background worker "logical replication launcher" (PID 33932) exited with exit code 1
+2021-09-05 18:06:37.536 UTC [33927] LOG:  shutting down
+2021-09-05 18:06:37.789 UTC [33925] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 18:06:39.660 UTC [34631] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 18:06:39.697 UTC [34631] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 18:06:39.697 UTC [34631] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 18:06:39.768 UTC [34631] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 18:06:40.087 UTC [34632] LOG:  database system was shut down at 2021-09-05 18:06:37 UTC
+2021-09-05 18:06:40.179 UTC [34631] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try porto rnn index query the 3th time: done!
+------ try porto rnn index query the 4th time
+waiting for server to shut down....2021-09-05 19:22:10.288 UTC [34631] LOG:  received fast shutdown request
+2021-09-05 19:22:10.319 UTC [34631] LOG:  aborting any active transactions
+2021-09-05 19:22:10.319 UTC [34631] LOG:  background worker "logical replication launcher" (PID 34638) exited with exit code 1
+2021-09-05 19:22:10.321 UTC [34633] LOG:  shutting down
+2021-09-05 19:22:10.574 UTC [34631] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 19:22:12.496 UTC [35479] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 19:22:12.531 UTC [35479] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 19:22:12.531 UTC [35479] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 19:22:12.637 UTC [35479] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 19:22:12.938 UTC [35480] LOG:  database system was shut down at 2021-09-05 19:22:10 UTC
+2021-09-05 19:22:13.014 UTC [35479] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try porto rnn index query the 4th time: done!
+------ try porto rnn index query the 5th time
+waiting for server to shut down....2021-09-05 20:45:00.965 UTC [35479] LOG:  received fast shutdown request
+2021-09-05 20:45:01.006 UTC [35479] LOG:  aborting any active transactions
+2021-09-05 20:45:01.007 UTC [35479] LOG:  background worker "logical replication launcher" (PID 35486) exited with exit code 1
+2021-09-05 20:45:01.008 UTC [35481] LOG:  shutting down
+2021-09-05 20:45:01.295 UTC [35479] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 20:45:03.474 UTC [36389] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 20:45:03.507 UTC [36389] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 20:45:03.507 UTC [36389] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 20:45:03.566 UTC [36389] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 20:45:03.834 UTC [36390] LOG:  database system was shut down at 2021-09-05 20:45:01 UTC
+2021-09-05 20:45:03.910 UTC [36389] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try porto rnn index query the 5th time: done!
+buffer ------ 2768MB ### 3
+------ try porto rnn index query the 1th time
+waiting for server to shut down....2021-09-05 22:16:58.199 UTC [36389] LOG:  received fast shutdown request
+2021-09-05 22:16:58.242 UTC [36389] LOG:  aborting any active transactions
+2021-09-05 22:16:58.243 UTC [36389] LOG:  background worker "logical replication launcher" (PID 36396) exited with exit code 1
+2021-09-05 22:16:58.244 UTC [36391] LOG:  shutting down
+2021-09-05 22:16:58.493 UTC [36389] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 22:17:00.410 UTC [37356] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 22:17:00.440 UTC [37356] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 22:17:00.440 UTC [37356] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 22:17:00.510 UTC [37356] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 22:17:00.820 UTC [37357] LOG:  database system was shut down at 2021-09-05 22:16:58 UTC
+2021-09-05 22:17:00.921 UTC [37356] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try porto rnn index query the 1th time: done!
+------ try porto rnn index query the 2th time
+waiting for server to shut down....2021-09-05 23:06:57.689 UTC [37356] LOG:  received fast shutdown request
+2021-09-05 23:06:57.731 UTC [37356] LOG:  aborting any active transactions
+2021-09-05 23:06:57.732 UTC [37356] LOG:  background worker "logical replication launcher" (PID 37363) exited with exit code 1
+2021-09-05 23:06:57.734 UTC [37358] LOG:  shutting down
+2021-09-05 23:06:58.106 UTC [37356] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-05 23:06:59.766 UTC [38063] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-05 23:06:59.799 UTC [38063] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-05 23:06:59.799 UTC [38063] LOG:  listening on IPv6 address "::", port 5432
+2021-09-05 23:06:59.874 UTC [38063] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-05 23:07:00.175 UTC [38064] LOG:  database system was shut down at 2021-09-05 23:06:57 UTC
+2021-09-05 23:07:00.260 UTC [38063] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try porto rnn index query the 2th time: done!
+------ try porto rnn index query the 3th time
+waiting for server to shut down....2021-09-06 00:12:13.789 UTC [38063] LOG:  received fast shutdown request
+2021-09-06 00:12:13.827 UTC [38063] LOG:  aborting any active transactions
+2021-09-06 00:12:13.828 UTC [38063] LOG:  background worker "logical replication launcher" (PID 38070) exited with exit code 1
+2021-09-06 00:12:13.829 UTC [38065] LOG:  shutting down
+2021-09-06 00:12:14.216 UTC [38063] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 00:12:16.246 UTC [38423] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 00:12:16.282 UTC [38423] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 00:12:16.282 UTC [38423] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 00:12:16.362 UTC [38423] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 00:12:16.681 UTC [38424] LOG:  database system was shut down at 2021-09-06 00:12:13 UTC
+2021-09-06 00:12:16.756 UTC [38423] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try porto rnn index query the 3th time: done!
+------ try porto rnn index query the 4th time
+waiting for server to shut down....2021-09-06 01:25:35.299 UTC [38423] LOG:  received fast shutdown request
+2021-09-06 01:25:35.338 UTC [38423] LOG:  aborting any active transactions
+2021-09-06 01:25:35.339 UTC [38423] LOG:  background worker "logical replication launcher" (PID 38430) exited with exit code 1
+2021-09-06 01:25:35.359 UTC [38425] LOG:  shutting down
+2021-09-06 01:25:35.743 UTC [38423] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 01:25:37.665 UTC [38782] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 01:25:37.683 UTC [38782] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 01:25:37.683 UTC [38782] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 01:25:37.756 UTC [38782] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 01:25:38.025 UTC [38783] LOG:  database system was shut down at 2021-09-06 01:25:35 UTC
+2021-09-06 01:25:38.101 UTC [38782] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try porto rnn index query the 4th time: done!
+------ try porto rnn index query the 5th time
+waiting for server to shut down....2021-09-06 02:44:06.403 UTC [38782] LOG:  received fast shutdown request
+2021-09-06 02:44:06.429 UTC [38782] LOG:  aborting any active transactions
+2021-09-06 02:44:06.430 UTC [38782] LOG:  background worker "logical replication launcher" (PID 38789) exited with exit code 1
+2021-09-06 02:44:06.464 UTC [38784] LOG:  shutting down
+2021-09-06 02:44:06.855 UTC [38782] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 02:44:08.823 UTC [39138] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 02:44:08.854 UTC [39138] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 02:44:08.854 UTC [39138] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 02:44:08.931 UTC [39138] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 02:44:09.216 UTC [39139] LOG:  database system was shut down at 2021-09-06 02:44:06 UTC
+2021-09-06 02:44:09.292 UTC [39138] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try porto rnn index query the 5th time: done!
+buffer ------ 4614MB ### 5
+------ try porto rnn index query the 1th time
+waiting for server to shut down....2021-09-06 04:08:44.999 UTC [39138] LOG:  received fast shutdown request
+2021-09-06 04:08:45.032 UTC [39138] LOG:  aborting any active transactions
+2021-09-06 04:08:45.033 UTC [39138] LOG:  background worker "logical replication launcher" (PID 39145) exited with exit code 1
+2021-09-06 04:08:45.035 UTC [39140] LOG:  shutting down
+2021-09-06 04:08:45.394 UTC [39138] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 04:08:47.201 UTC [39521] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 04:08:47.215 UTC [39521] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 04:08:47.215 UTC [39521] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 04:08:47.275 UTC [39521] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 04:08:47.560 UTC [39522] LOG:  database system was shut down at 2021-09-06 04:08:45 UTC
+2021-09-06 04:08:47.645 UTC [39521] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try porto rnn index query the 1th time: done!
+------ try porto rnn index query the 2th time
+waiting for server to shut down....2021-09-06 04:58:23.448 UTC [39521] LOG:  received fast shutdown request
+2021-09-06 04:58:23.489 UTC [39521] LOG:  aborting any active transactions
+2021-09-06 04:58:23.490 UTC [39521] LOG:  background worker "logical replication launcher" (PID 39528) exited with exit code 1
+2021-09-06 04:58:23.492 UTC [39523] LOG:  shutting down
+2021-09-06 04:58:24.005 UTC [39521] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 04:58:25.749 UTC [39801] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 04:58:25.782 UTC [39801] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 04:58:25.782 UTC [39801] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 04:58:25.849 UTC [39801] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 04:58:26.192 UTC [39802] LOG:  database system was shut down at 2021-09-06 04:58:23 UTC
+2021-09-06 04:58:26.276 UTC [39801] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try porto rnn index query the 2th time: done!
+------ try porto rnn index query the 3th time
+waiting for server to shut down....2021-09-06 06:03:14.690 UTC [39801] LOG:  received fast shutdown request
+2021-09-06 06:03:14.728 UTC [39801] LOG:  aborting any active transactions
+2021-09-06 06:03:14.729 UTC [39801] LOG:  background worker "logical replication launcher" (PID 39808) exited with exit code 1
+2021-09-06 06:03:14.747 UTC [39803] LOG:  shutting down
+2021-09-06 06:03:15.301 UTC [39801] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 06:03:17.263 UTC [40124] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 06:03:17.283 UTC [40124] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 06:03:17.283 UTC [40124] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 06:03:17.354 UTC [40124] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 06:03:17.689 UTC [40125] LOG:  database system was shut down at 2021-09-06 06:03:14 UTC
+2021-09-06 06:03:17.773 UTC [40124] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try porto rnn index query the 3th time: done!
+------ try porto rnn index query the 4th time
+waiting for server to shut down....2021-09-06 07:17:23.114 UTC [40124] LOG:  received fast shutdown request
+2021-09-06 07:17:23.151 UTC [40124] LOG:  aborting any active transactions
+2021-09-06 07:17:23.152 UTC [40124] LOG:  background worker "logical replication launcher" (PID 40131) exited with exit code 1
+2021-09-06 07:17:23.207 UTC [40126] LOG:  shutting down
+2021-09-06 07:17:23.704 UTC [40124] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 07:17:25.894 UTC [40759] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 07:17:25.920 UTC [40759] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 07:17:25.920 UTC [40759] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 07:17:25.994 UTC [40759] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 07:17:26.329 UTC [40760] LOG:  database system was shut down at 2021-09-06 07:17:23 UTC
+2021-09-06 07:17:26.413 UTC [40759] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try porto rnn index query the 4th time: done!
+------ try porto rnn index query the 5th time
+waiting for server to shut down....2021-09-06 08:34:35.837 UTC [40759] LOG:  received fast shutdown request
+2021-09-06 08:34:35.865 UTC [40759] LOG:  aborting any active transactions
+2021-09-06 08:34:35.866 UTC [40759] LOG:  background worker "logical replication launcher" (PID 40766) exited with exit code 1
+2021-09-06 08:34:36.001 UTC [40761] LOG:  shutting down
+2021-09-06 08:34:36.510 UTC [40759] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 08:34:38.600 UTC [2057] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 08:34:38.616 UTC [2057] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 08:34:38.616 UTC [2057] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 08:34:38.675 UTC [2057] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 08:34:38.960 UTC [2058] LOG:  database system was shut down at 2021-09-06 08:34:36 UTC
+2021-09-06 08:34:39.036 UTC [2057] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try porto rnn index query the 5th time: done!
+buffer ------ 6459MB ### 7
+------ try porto rnn index query the 1th time
+waiting for server to shut down....2021-09-06 09:57:35.442 UTC [2057] LOG:  received fast shutdown request
+2021-09-06 09:57:35.489 UTC [2057] LOG:  aborting any active transactions
+2021-09-06 09:57:35.489 UTC [2057] LOG:  background worker "logical replication launcher" (PID 2064) exited with exit code 1
+2021-09-06 09:57:35.509 UTC [2059] LOG:  shutting down
+2021-09-06 09:57:36.011 UTC [2057] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 09:57:38.024 UTC [3592] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 09:57:38.050 UTC [3592] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 09:57:38.050 UTC [3592] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 09:57:38.115 UTC [3592] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 09:57:38.475 UTC [3593] LOG:  database system was shut down at 2021-09-06 09:57:35 UTC
+2021-09-06 09:57:38.551 UTC [3592] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try porto rnn index query the 1th time: done!
+------ try porto rnn index query the 2th time
+waiting for server to shut down....2021-09-06 10:47:29.590 UTC [3592] LOG:  received fast shutdown request
+2021-09-06 10:47:29.616 UTC [3592] LOG:  aborting any active transactions
+2021-09-06 10:47:29.617 UTC [3592] LOG:  background worker "logical replication launcher" (PID 3599) exited with exit code 1
+2021-09-06 10:47:29.624 UTC [3594] LOG:  shutting down
+2021-09-06 10:47:30.215 UTC [3592] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 10:47:32.034 UTC [4174] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 10:47:32.066 UTC [4174] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 10:47:32.066 UTC [4174] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 10:47:32.126 UTC [4174] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 10:47:32.444 UTC [4175] LOG:  database system was shut down at 2021-09-06 10:47:29 UTC
+2021-09-06 10:47:32.520 UTC [4174] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try porto rnn index query the 2th time: done!
+------ try porto rnn index query the 3th time
+waiting for server to shut down....2021-09-06 11:52:45.192 UTC [4174] LOG:  received fast shutdown request
+2021-09-06 11:52:45.230 UTC [4174] LOG:  aborting any active transactions
+2021-09-06 11:52:45.231 UTC [4174] LOG:  background worker "logical replication launcher" (PID 4181) exited with exit code 1
+2021-09-06 11:52:45.295 UTC [4176] LOG:  shutting down
+2021-09-06 11:52:45.947 UTC [4174] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 11:52:47.873 UTC [4856] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 11:52:47.892 UTC [4856] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 11:52:47.892 UTC [4856] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 11:52:47.965 UTC [4856] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 11:52:48.333 UTC [4857] LOG:  database system was shut down at 2021-09-06 11:52:45 UTC
+2021-09-06 11:52:48.425 UTC [4856] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try porto rnn index query the 3th time: done!
+------ try porto rnn index query the 4th time
+waiting for server to shut down....2021-09-06 13:05:34.980 UTC [4856] LOG:  received fast shutdown request
+2021-09-06 13:05:35.016 UTC [4856] LOG:  aborting any active transactions
+2021-09-06 13:05:35.017 UTC [4856] LOG:  background worker "logical replication launcher" (PID 4863) exited with exit code 1
+2021-09-06 13:05:35.080 UTC [4858] LOG:  shutting down
+2021-09-06 13:05:35.745 UTC [4856] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 13:05:37.876 UTC [5619] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 13:05:37.906 UTC [5619] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 13:05:37.906 UTC [5619] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 13:05:37.976 UTC [5619] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 13:05:38.294 UTC [5620] LOG:  database system was shut down at 2021-09-06 13:05:35 UTC
+2021-09-06 13:05:38.370 UTC [5619] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try porto rnn index query the 4th time: done!
+------ try porto rnn index query the 5th time
+waiting for server to shut down....2021-09-06 14:22:45.924 UTC [5619] LOG:  received fast shutdown request
+2021-09-06 14:22:45.963 UTC [5619] LOG:  aborting any active transactions
+2021-09-06 14:22:45.963 UTC [5619] LOG:  background worker "logical replication launcher" (PID 5626) exited with exit code 1
+2021-09-06 14:22:46.049 UTC [5621] LOG:  shutting down
+2021-09-06 14:22:46.725 UTC [5619] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 14:22:48.648 UTC [6464] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 14:22:48.666 UTC [6464] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 14:22:48.667 UTC [6464] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 14:22:48.740 UTC [6464] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 14:22:49.066 UTC [6465] LOG:  database system was shut down at 2021-09-06 14:22:46 UTC
+2021-09-06 14:22:49.142 UTC [6464] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try porto rnn index query the 5th time: done!
+buffer ------ 8305MB ### 9
+------ try porto rnn index query the 1th time
+waiting for server to shut down....2021-09-06 15:45:44.377 UTC [6464] LOG:  received fast shutdown request
+2021-09-06 15:45:44.428 UTC [6464] LOG:  aborting any active transactions
+2021-09-06 15:45:44.428 UTC [6464] LOG:  background worker "logical replication launcher" (PID 6471) exited with exit code 1
+2021-09-06 15:45:44.433 UTC [6466] LOG:  shutting down
+2021-09-06 15:45:45.116 UTC [6464] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 15:45:47.122 UTC [7319] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 15:45:47.143 UTC [7319] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 15:45:47.143 UTC [7319] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 15:45:47.197 UTC [7319] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 15:45:47.573 UTC [7320] LOG:  database system was shut down at 2021-09-06 15:45:44 UTC
+2021-09-06 15:45:47.649 UTC [7319] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=600
+1 -- done ### distance=600
+2 -- done ### distance=600
+3 -- done ### distance=600
+4 -- done ### distance=600
+5 -- done ### distance=600
+6 -- done ### distance=600
+7 -- done ### distance=600
+8 -- done ### distance=600
+9 -- done ### distance=600
+10 -- done ### distance=600
+11 -- done ### distance=600
+12 -- done ### distance=600
+13 -- done ### distance=600
+14 -- done ### distance=600
+15 -- done ### distance=600
+16 -- done ### distance=600
+17 -- done ### distance=600
+18 -- done ### distance=600
+19 -- done ### distance=600
+------ try porto rnn index query the 1th time: done!
+------ try porto rnn index query the 2th time
+waiting for server to shut down....2021-09-06 16:35:40.227 UTC [7319] LOG:  received fast shutdown request
+2021-09-06 16:35:40.261 UTC [7319] LOG:  aborting any active transactions
+2021-09-06 16:35:40.262 UTC [7319] LOG:  background worker "logical replication launcher" (PID 7326) exited with exit code 1
+2021-09-06 16:35:40.267 UTC [7321] LOG:  shutting down
+2021-09-06 16:35:40.877 UTC [7319] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 16:35:42.671 UTC [7911] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 16:35:42.695 UTC [7911] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 16:35:42.695 UTC [7911] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 16:35:42.754 UTC [7911] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 16:35:43.139 UTC [7912] LOG:  database system was shut down at 2021-09-06 16:35:40 UTC
+2021-09-06 16:35:43.215 UTC [7911] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1200
+1 -- done ### distance=1200
+2 -- done ### distance=1200
+3 -- done ### distance=1200
+4 -- done ### distance=1200
+5 -- done ### distance=1200
+6 -- done ### distance=1200
+7 -- done ### distance=1200
+8 -- done ### distance=1200
+9 -- done ### distance=1200
+10 -- done ### distance=1200
+11 -- done ### distance=1200
+12 -- done ### distance=1200
+13 -- done ### distance=1200
+14 -- done ### distance=1200
+15 -- done ### distance=1200
+16 -- done ### distance=1200
+17 -- done ### distance=1200
+18 -- done ### distance=1200
+19 -- done ### distance=1200
+------ try porto rnn index query the 2th time: done!
+------ try porto rnn index query the 3th time
+waiting for server to shut down...2021-09-06 17:40:53.119 UTC [7911] LOG:  received fast shutdown request
+.2021-09-06 17:40:53.181 UTC [7911] LOG:  aborting any active transactions
+2021-09-06 17:40:53.182 UTC [7911] LOG:  background worker "logical replication launcher" (PID 7918) exited with exit code 1
+2021-09-06 17:40:53.234 UTC [7913] LOG:  shutting down
+2021-09-06 17:40:53.979 UTC [7911] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 17:40:56.008 UTC [8612] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 17:40:56.028 UTC [8612] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 17:40:56.028 UTC [8612] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 17:40:56.083 UTC [8612] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 17:40:56.493 UTC [8613] LOG:  database system was shut down at 2021-09-06 17:40:53 UTC
+2021-09-06 17:40:56.577 UTC [8612] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=1800
+1 -- done ### distance=1800
+2 -- done ### distance=1800
+3 -- done ### distance=1800
+4 -- done ### distance=1800
+5 -- done ### distance=1800
+6 -- done ### distance=1800
+7 -- done ### distance=1800
+8 -- done ### distance=1800
+9 -- done ### distance=1800
+10 -- done ### distance=1800
+11 -- done ### distance=1800
+12 -- done ### distance=1800
+13 -- done ### distance=1800
+14 -- done ### distance=1800
+15 -- done ### distance=1800
+16 -- done ### distance=1800
+17 -- done ### distance=1800
+18 -- done ### distance=1800
+19 -- done ### distance=1800
+------ try porto rnn index query the 3th time: done!
+------ try porto rnn index query the 4th time
+waiting for server to shut down....2021-09-06 18:53:36.237 UTC [8612] LOG:  received fast shutdown request
+2021-09-06 18:53:36.264 UTC [8612] LOG:  aborting any active transactions
+2021-09-06 18:53:36.265 UTC [8612] LOG:  background worker "logical replication launcher" (PID 8619) exited with exit code 1
+2021-09-06 18:53:36.375 UTC [8614] LOG:  shutting down
+.2021-09-06 18:53:37.262 UTC [8612] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 18:53:39.240 UTC [9457] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 18:53:39.267 UTC [9457] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 18:53:39.267 UTC [9457] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 18:53:39.341 UTC [9457] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 18:53:39.684 UTC [9458] LOG:  database system was shut down at 2021-09-06 18:53:36 UTC
+2021-09-06 18:53:39.760 UTC [9457] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=2400
+1 -- done ### distance=2400
+2 -- done ### distance=2400
+3 -- done ### distance=2400
+4 -- done ### distance=2400
+5 -- done ### distance=2400
+6 -- done ### distance=2400
+7 -- done ### distance=2400
+8 -- done ### distance=2400
+9 -- done ### distance=2400
+10 -- done ### distance=2400
+11 -- done ### distance=2400
+12 -- done ### distance=2400
+13 -- done ### distance=2400
+14 -- done ### distance=2400
+15 -- done ### distance=2400
+16 -- done ### distance=2400
+17 -- done ### distance=2400
+18 -- done ### distance=2400
+19 -- done ### distance=2400
+------ try porto rnn index query the 4th time: done!
+------ try porto rnn index query the 5th time
+waiting for server to shut down....2021-09-06 20:10:15.250 UTC [9457] LOG:  received fast shutdown request
+2021-09-06 20:10:15.286 UTC [9457] LOG:  aborting any active transactions
+2021-09-06 20:10:15.287 UTC [9457] LOG:  background worker "logical replication launcher" (PID 9464) exited with exit code 1
+2021-09-06 20:10:15.397 UTC [9459] LOG:  shutting down
+2021-09-06 20:10:16.213 UTC [9457] LOG:  database system is shut down
+ done
+server stopped
+waiting for server to start....2021-09-06 20:10:18.179 UTC [10264] LOG:  starting PostgreSQL 12.2 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit
+2021-09-06 20:10:18.193 UTC [10264] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2021-09-06 20:10:18.193 UTC [10264] LOG:  listening on IPv6 address "::", port 5432
+2021-09-06 20:10:18.262 UTC [10264] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-06 20:10:18.622 UTC [10265] LOG:  database system was shut down at 2021-09-06 20:10:15 UTC
+2021-09-06 20:10:18.698 UTC [10264] LOG:  database system is ready to accept connections
+ done
+server started
+0 -- done ### distance=3000
+1 -- done ### distance=3000
+2 -- done ### distance=3000
+3 -- done ### distance=3000
+4 -- done ### distance=3000
+5 -- done ### distance=3000
+6 -- done ### distance=3000
+7 -- done ### distance=3000
+8 -- done ### distance=3000
+9 -- done ### distance=3000
+10 -- done ### distance=3000
+11 -- done ### distance=3000
+12 -- done ### distance=3000
+13 -- done ### distance=3000
+14 -- done ### distance=3000
+15 -- done ### distance=3000
+16 -- done ### distance=3000
+17 -- done ### distance=3000
+18 -- done ### distance=3000
+19 -- done ### distance=3000
+------ try porto rnn index query the 5th time: done!
+
+-------------------------------------------
+
